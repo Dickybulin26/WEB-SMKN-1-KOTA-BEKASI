@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <nav>
+        <div class="title-logo">
+            <img src="../smkn-logo.png" alt=""> smkn 1 bekasi
+        </div>
+        <div class="nav-bar">
+            <div class="nav-link">
+                <a href="#">beranda</a>
+            </div>
+            <div class="nav-link">
+                <a href="#">profile</a>
+                <ul class="dropdown">
+                    <li class="drop-link">
+                        <a href="#">sekolah</a>
+                        <ul class="dropdown">
+                            <li class="drop-link">
+                                <a href="#">sekolah</a>
+                            </li>
+                            <li class="drop-link">
+                                <a href="#">sekolah</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="drop-link">
+                        <a href="#">sekolah</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-link">
+                <a href="#">program sekolah</a>
+                <ul class="dropdown">
+                    <li class="drop-link">
+                        <a href="#">beranda</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-link">
+                <a href="#">manajement sekolah</a>
+                <ul class="dropdown">
+                    <li class="drop-link">
+                        <a href="#">beranda</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-link">
+                <a href="#">akademik</a>
+                <ul class="dropdown">
+                    <li class="drop-link">
+                        <a href="#">beranda</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-link">
+                <a href="#">galery</a>
+            </div>
+            <div class="nav-link">
+                <a href="#">ppdb 2024</a>
+                <ul class="dropdown">
+                    <li class="drop-link">
+                        <a href="#">beranda</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-link">
+                <a href="#">blud</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <main>
+            <div class="tentang-sekolah category">
+                <div class="title">
+                    <div class="text">tentang sekolah</div>
+                </div>
+                <div class="info">
+                    <div class="img"></div>
+                    <div class="text">
+                        <div>
+                            <div class="number">100+</div>
+                            <div class="detail">Profesional Teachers</div>
+                        </div>
+                        <div>
+                            <div class="number">20+</div>
+                            <div class="detail">Since 20 years ago</div>
+                        </div>
+                        <div>
+                            <div class="number">10+</div>
+                            <div class="detail">Extraculicular program</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="desc"></div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        let hideScroll = window.pageYOffset;
+        let currentScrollPos = window.pageYOffset
+        let nav = document.querySelector("nav")
+        addEventListener('scroll',()=>{
+            if (hideScroll < window.pageYOffset && !nav.classList.contains('sembunyi')) {
+                nav.classList.add('sembunyi')
+            } 
+            else if (hideScroll > window.pageYOffset && nav.classList.contains('sembunyi')) {
+                nav.classList.remove('sembunyi')
+            }
+            currentScrollPos = window.pageYOffset
+            hideScroll = currentScrollPos;
+        })
+    </script>
+</body>
+</html>
