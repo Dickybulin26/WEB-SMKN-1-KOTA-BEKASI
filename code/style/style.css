@@ -87,11 +87,6 @@ header {
 .container.beranda {
     margin-top: 10rem;
 }
-
-nav + * {
-    margin-top: 2rem;
-    padding-top: 0;
-}
 /* hero */
 .hero {
     display: grid;
@@ -401,8 +396,6 @@ footer .contact .title{
         width: 100%;
     }
     .tenaga-kependidikan .contents {
-        /* grid-template-columns: repeat(2,1fr); 
-        */
         gap: 3rem; 
     }
 
@@ -485,7 +478,7 @@ footer .contact .title{
     display: grid;
     grid-template-columns: auto 6rem;
     text-align: center;
-    gap: 1rem;
+    gap: 5rem;
 }
 .tentang-sekolah .info .text{
     display: flex;
@@ -493,9 +486,10 @@ footer .contact .title{
     justify-content: space-evenly;
 }
 .tentang-sekolah .info .img{
-    background: gray;
+    background: rgb(203, 203, 203);
+    border-radius: 1rem;
     width: 100%;
-    height: 20rem;
+    height: 25rem;
 }
 .tentang-sekolah .info .number{
     font-size: 1.5rem;
