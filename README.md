@@ -1,8 +1,8 @@
 
 
-# <img src="/code/image/smkn-logo.png"/>WEB-SMKN-1-KOTA-BEKASI
+# <img src="/code/image/smkn-logo.png"/> SMKN 1 KOTA BEKASI
 
-# **Repository untuk WEB SMKN 1 Kota Bekasi**
+## **Repository untuk WEB SMKN 1 Kota Bekasi**
 
 ### Project Manager:
 * Bpk. Satria Ade Putra 
@@ -10,7 +10,7 @@
 * Fariz Dafansyah (absen 9)
 * Muhammad Hafidh Basri (absen 19)
 * Dicky Asqaelani (absen 8)
-# **Latar Belakang**
+## **Latar Belakang**
 
 <img src="code/image/bpk-boan.png" />
 
