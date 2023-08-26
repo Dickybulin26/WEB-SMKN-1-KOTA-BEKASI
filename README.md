@@ -3,9 +3,9 @@
 # **Repository untuk WEB SMKN 1 Kota Bekasi**
 
 ### WEB Developers:
-    * Fariz Dafansya (absen 9)
-    * Muhammad Hafidh Basri (absen 19)
-    * Dicky Asqaelani (absen 8)
+* Fariz Dafansya (absen 9)
+* Muhammad Hafidh Basri (absen 19)
+* Dicky Asqaelani (absen 8)
 # **Latar Belakang**
 
 <img src="code/image/bpk-boan.png" />
