@@ -6,7 +6,7 @@
     * Fariz Dafansya (absen 9)
     * Muhammad Hafidh Basri (absen 19)
     * Dicky Asqaelani (absen 8)
-# **Tujuan Utama**
+# **Latar Belakang**
 
 <img src="code/image/bpk-boan.png" />
 
