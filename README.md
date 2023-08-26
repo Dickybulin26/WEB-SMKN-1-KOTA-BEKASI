@@ -8,4 +8,4 @@
     * Dicky Asqaelani (absen 8)
 # **Tujuan Utama**
 
-Atas Perintah langsung dari Bpk. Drs. Boan M.Pd selaku kepala sekolah SMKN 1 Kota Bekasi untuk segera mengupdate web sekolah SMKN 1 Kota Bekasi Terutama pada Bagian Interface dan beberapa fitur
+Atas Perintah langsung dari Bpk. Drs. Boan M.Pd selaku kepala sekolah SMKN 1 Kota Bekasi untuk segera mengupdate web sekolah SMKN 1 Kota Bekasi Terutama pada Bagian Interface dan beberapa fitur agar tampak lebih modern dan informasi yang diberikan mudah dicerna oleh orang banyak.
