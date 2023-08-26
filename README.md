@@ -2,6 +2,8 @@
 
 # **Repository untuk WEB SMKN 1 Kota Bekasi**
 
+### Project Manager:
+* Bpk. Satria Ade Putra 
 ### WEB Developers:
 * Fariz Dafansya (absen 9)
 * Muhammad Hafidh Basri (absen 19)
