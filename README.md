@@ -1,5 +1,6 @@
-<img src="/code/image/smkn-logo.png"/>
-# WEB-SMKN-1-KOTA-BEKASI
+
+
+# <img src="/code/image/smkn-logo.png"/>WEB-SMKN-1-KOTA-BEKASI
 
 # **Repository untuk WEB SMKN 1 Kota Bekasi**
 
