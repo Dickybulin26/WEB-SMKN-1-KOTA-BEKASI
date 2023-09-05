@@ -67,12 +67,30 @@ main{
 .category .title .text {
     font-weight: 500;
     font-size: 2rem;
+    position: relative;
 }
 .category .view {
     border: 1px solid gray ;
     border-radius: 5rem;
     padding: .5rem 1rem;
     font-size: 1rem;
+}
+
+/* pernak pernik */
+
+.category .title .text .pernak-pernik.atas{
+    width: 20%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.category .title .text .pernak-pernik.garis-bawah{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 110%;
+    z-index: -1;
 }
 
 /* -----NAV-BAR----- */
@@ -169,6 +187,12 @@ header {
 .hero .text .title{
     font-size: 3rem;
 }
+.hero .text .title span{
+    background: #00FF10;
+    background: linear-gradient(to right, #00FF10 0%, #00FF00 33%, #C3E800 80%, #ffd900 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .hero .text .info {
     display: grid;
     grid-template-columns: 5rem 5rem 5rem;
@@ -190,12 +214,16 @@ header {
 .company-provile img{
     width: 30rem;
 }
+
 .logo-company{
     margin: 10rem 1rem 8rem;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.5rem;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    gap: 5rem;
+}
+.logo-company img{
+    width: 100%;
+    max-width: 6rem;
 }
 
 /* -----PENGUMUMAN-AND-AGENDA----- */
@@ -241,11 +269,11 @@ header {
 .pengumuman {
     padding-right: 0;
     border-right: 0;
-    padding-bottom: 3rem;
-    border-bottom: 1px solid var(--hitam);
+    padding-top: 3rem;
+    border-top: 1px solid var(--hitam);
 }
 .agenda {
-    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 /* -----ARTICLE----- */
@@ -760,15 +788,15 @@ footer .location .title img{
     max-width: 30rem;
     position: relative;
 }
-.kerjasama-hubin .contents .img .zoom{
+.kerjasama-hubin .contents .img.zoom{
     border-radius: 1rem;
     overflow: hidden;
 }
-.kerjasama-hubin .contents .img .zoom img{
+.kerjasama-hubin .contents .img.zoom img{
     width: 100%;
     transition: .8s ease;
 }
-.kerjasama-hubin .contents .img .zoom:hover img{
+.kerjasama-hubin .contents .img.zoom:hover img{
     transform: scale(1.1);
 }
 .kerjasama-hubin .contents .text{
