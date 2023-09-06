@@ -485,7 +485,7 @@ footer .contact .title{
     flex-direction: column;
     justify-content: space-evenly;
 }
-.tentang-sekolah .info .img{
+.tentang-sekolah .info img{
     background: rgb(203, 203, 203);
     /* background-image: url('../../img requirtment/gedung smkn1.png'); */
     border-radius: 1rem;
