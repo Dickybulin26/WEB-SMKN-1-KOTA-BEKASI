@@ -39,7 +39,10 @@ a {
     text-decoration: none;
     color: var(--hitam);
 }
-
+img{
+    object-fit: cover;
+    object-position: center;
+}
 .date {
     text-transform: capitalize;
 }
