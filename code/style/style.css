@@ -12,10 +12,22 @@ body {
 }
 
 :root{
+<<<<<<< Updated upstream
     --hitam: #151515;
     --putih: #F0EBEB;
     --hijau: #60db60;
     
+=======
+    --warna1-hitam: #252525;
+    --warna2-putih: #ffffff;
+    --warna3-hijau: #60db60;
+    --warna4-hijau-daun: #25803E;
+    --warna5-hijau-lemon: #0BA937;
+    --warna6-kuning: #E9C439;
+    --warna7-biru: #3d8eeb;
+    --warna8-merah: #A5341B;
+    --warna9-orange: #ff9b05;
+>>>>>>> Stashed changes
     --padding-container: 7rem;
 }
 
