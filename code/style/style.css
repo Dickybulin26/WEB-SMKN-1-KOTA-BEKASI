@@ -1,53 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap'); */
+
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
 }
 
 body {
     background: var(--putih);
 }
 
-:root{
-    --hitam: #252525;
-    --putih: #ffffff;
-    --hijau: #60db60;
-    
+:root {
+    --warna1-hitam: #252525;
+    --warna2-putih: #ffffff;
+    --warna3-hijau: #60db60;
+    --warna4-hijau-daun: #25803E;
+    --warna5-hijau-lemon: #0BA937;
+    --warna6-kuning: #E9C439;
+    --warna7-biru: #3d8eeb;
+    --warna8-merah: #A5341B;
+    --warna9-orange: #ff9b05;
     --padding-container: 7rem;
+} 
+
+/* DEFAULT */
+
+/* ul{list-style: none;}
+li{display: inline-block;position: relative;} */
+a {
+    text-decoration: none;
+    color: var(--hitam);
+}
+img{
+    object-fit: cover;
+    object-position: center;
+}
+.date {
+    text-transform: capitalize;
 }
 
-/* nav-bar */
+main {
+    padding: var(--padding-container);
+}
+
+.hitam {
+    background: var(--warna1-hitam);
+    color: var(--warna2-putih);
+}
+
+.yellow {
+    background: var(--warna6-kuning);
+}
+
+.biru {
+    /* background: #AFB6F4; */
+    background: var(--warna7-biru);
+    color: var(--warna2-putih);
+}
+
+.hitam a {
+    color: var(--putih);
+}
+
+.hijau-daun{
+    background-color: var(--warna4-hijau-daun);
+}
+
+/* CATEGORY */
+
+.category {
+    gap: 3rem;
+    display: grid;
+}
+
+.category .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.category .title.tengah {
+    flex-direction: column;
+    text-align: center;
+}
+
+.category .title.tengah .desc {
+    padding: 1rem;
+    max-width: 70%;
+    font-size: 1.3rem;
+}
+
+.category .title .text {
+    font-weight: 500;
+    font-size: 2rem;
+    position: relative;
+}
+
+.category .view {
+    border: 1px solid var(--warna1-hitam);
+    border-radius: 5rem;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    color: var(--warna2-putih);
+    background-color: var(--warna5-hijau-lemon);
+}
+
+/* pernak pernik */
+
+.category .title .text .partikel.atas {
+    width: 20%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.category .title .text .partikel .garis-bawah {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 110%;
+    z-index: -1;
+}
+
+/* -----NAV-BAR----- */
 
 nav {
     position: fixed;
     z-index: 1;
-
     display: flex;
-    justify-content: space-evenly;
-    /* background:var(--putih); */
-    backdrop-filter: blur(1rem);
-
+    justify-content: space-around;
+    align-items: center;
+    background: var(--warna2-putih);
     width: 100%;
     padding: 1.5rem 0;
-    top: 0;
-
+    top: -1%;
     transition: .4s;
 }
-ul{list-style: none;}
-li{display: inline-block;position: relative;}
 
-nav.sembunyi{
+nav.sembunyi {
     transition: 1s;
     top: -100%;
 }
-.nav-bar {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-nav a{
+
+nav a {
     white-space: nowrap;
     padding: .7rem 1rem;
     color: black;
@@ -55,134 +160,205 @@ nav a{
     text-transform: capitalize;
     transition: .3s ease-in-out;
 }
-nav .title-logo{
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav .title-logo img {
+    width: 3rem;
+}
+
+nav .title-logo {
     display: flex;
     gap: 1rem;
     align-items: center;
     text-transform: uppercase;
 }
-nav a:hover{
+
+nav a:hover {
     background: rgb(71, 202, 71);
     color: white;
     border-radius: 0;
 }
+
+.hamburger-menu-container {
+    display: none;
+}
+
+/* DROP-DOWN */
+
 .dropdown {
     display: none;
     position: relative;
 }
 
-.nav-link:has(.dropdown)::after{
+.nav-link:has(.dropdown)::after {
     content: '>';
     position: block;
     transition: .5s ease-in-out;
 }
-.nav-link:has(.dropdown):hover:after{
+
+.nav-link:has(.dropdown):hover:after {
     transform: rotate(90deg);
 }
+
+
+/* ======= PAGE BERANDA ======= */
 
 header {
     padding: 0 5rem;
 }
 
+/* kasih jarak ke navbar */
 .container.beranda {
     margin-top: 10rem;
 }
-/* hero */
+
+.container {
+    /* margin-top: 5rem; */
+}
+
+/* -----HERO----- */
+
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.hero .text{
+
+.hero .text {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-.hero .text .title{
+
+.hero .text .title {
     font-size: 3rem;
 }
+
+.hero .text .title span {
+    background: #00FF10;
+    background: linear-gradient(to right, #00FF10 0%, #00FF00 33%, #C3E800 80%, #ffd900 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .hero .text .info {
     display: grid;
     grid-template-columns: 5rem 5rem 5rem;
     gap: 3rem;
 }
-.hero .text .info .number{
+
+.hero .text .info .number {
     font-size: 2rem;
 }
-.hero img{
+
+.hero img {
     width: 10rem;
 }
+
+/* -----COMPANY----- */
+
 .company-provile {
     margin-top: -5rem;
     justify-self: right;
 }
-.company-provile img{
 
+.company-provile img {
     width: 30rem;
 }
-.logo-company{
+
+.logo-company {
     margin: 10rem 1rem 8rem;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.5rem;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    gap: 5rem;
+    align-items: center;
 }
 
-/* main */
-main{
-    padding: var(--padding-container);
+.logo-company img {
+    width: 100%;
+    max-width: 6rem;
 }
-.hitam {
-    background: var(--hitam);
-    color: var(--putih);
-}
-.category{
-    gap: 3rem;
-    display: grid;
-    /* max-width: 1440px; */
-}
-.category .title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.category .title .text {
-    font-size: 2rem;
-    text-transform: capitalize;
-}
-.category .view {
-    border: 1px solid gray ;
-    border-radius: 5rem;
-    padding: .5rem 1rem;
-    font-size: 1rem;
-}
-/* pengumuman dan agenda */
-main:has(.pengumuman, .agenda) {
+
+/* -----PENGUMUMAN-AND-AGENDA----- */
+
+/* main:has(.pengumuman, .agenda) {
     display: grid;
     grid-template-columns: 1.8fr 1fr;
     gap: 5rem;
-}
+} */
+
 .pengumuman {
-    padding-right: 5rem;
-    border-right: 1px solid gray;
+    /* display: grid; */
 }
+
+.pengumuman .contents {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+
+.pengumuman .content {
+    display: grid;
+    gap: 2rem;
+}
+
 .pengumuman .image {
     width: 100%;
-    height: 20rem;
+    height: 15rem;
     background: gray;
     border-radius: 1rem;
 }
-.pengumuman .text{
-    font-size: 1.5rem;
+
+.pengumuman .text {
+    font-size: 1.2rem;
 }
 
-/* article */
-.artikel .contents{
+.agenda .contents {
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));       */
-    grid-template-columns: repeat(2,1fr);      
+    gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.agenda .date {
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.pengumuman {
+    padding-right: 0;
+    border-right: 0;
+    padding-top: 3rem;
+    border-top: 1px solid var(--hitam);
+}
+
+.agenda {
+    margin-bottom: 3rem;
+}
+
+/* -----ARTICLE----- */
+
+.artikel .tags {
+    display: flex;
+}
+
+.artikel .tags .tag {
+    padding: .5rem 1rem;
+    border: 1px solid gray;
+    border-radius: 25rem;
+}
+
+.artikel .contents {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));*/
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
-.artikel .contents .content{
+
+.artikel .contents .content {
     display: grid;
     grid-template-columns: 10rem auto;
     grid-template-rows: 10rem auto;
@@ -191,7 +367,8 @@ main:has(.pengumuman, .agenda) {
     overflow: hidden;
     background: #ffffff00;
 }
-.artikel .contents .content::before{
+
+.artikel .contents .content::before {
     transition: .5s;
     box-shadow: 0 0 1rem green;
     content: '';
@@ -203,175 +380,297 @@ main:has(.pengumuman, .agenda) {
     transform: skew(-40deg);
     background-color: var(--putih);
 }
-.artikel .contents .content:hover{
+
+.artikel .contents .content:hover {
     transition: .5s;
     color: var(--putih);
 }
-.artikel .contents .content:hover:before{
+
+.artikel .contents .content:hover:before {
     background: green;
     width: 100%;
     border-radius: 0;
     transform: skew(0);
 }
-.artikel .contents .content .img{
+
+.artikel .contents .content .img {
     height: 100%;
     border-radius: .5rem;
     box-shadow: 0 .1rem .1rem #00000022;
     background: rgb(203, 203, 203);
 }
-.artikel .contents .content .text{
+
+.artikel .contents .content .text {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-left: 1rem;
 }
-.artikel .contents .content .text p{
+
+.artikel .contents .content .text p {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
-            line-clamp: 3;
+    line-clamp: 3;
     -webkit-box-orient: vertical;
 }
 
-/* sambutan */
-.sambutan .content{
+/* -----SAMBUTAN-KEPALA-SEKOLAH----- */
+.sambutan {
+    background-color: var(--warna4-hijau-daun);
+}
+
+.sambutan .content {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: 4rem;
     place-items: center;
 }
-.sambutan .content img{
+
+.sambutan .content img {
     width: 90%;
 }
-.sambutan .content .text p{
+
+.sambutan .content .text p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    color: var(--warna2-putih);
 }
 
-/* jurusan */
-.jurusan .title .text{
-    text-align: center;
-    margin: auto;
+.sambutan .text {
+    /* color: #F6BE2E; */
+    color: var(--warna6-kuning);
 }
+
+/* -----JURUSAN----- */
+
 .jurusan .contents {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 1rem;
 }
-.jurusan .contents .img{
+
+.jurusan .contents .img {
     width: 100%;
     height: 10rem;
     background: gray;
     border-radius: .5rem;
 }
 
-/* prestasi */
-.prestasi .contents{
-    gap: 1rem;
+/* -----PRESTASI----- */
+
+.prestasi .contents {
+    gap: 3rem 1rem;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
-.prestasi .contents .content{
+
+.prestasi .contents .content {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-.prestasi .contents .img{
+
+.prestasi .contents .text>* {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.prestasi .contents .text {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.prestasi .contents .juara {
+    font-size: 2.5rem;
+}
+
+.prestasi .contents .nama-lomba {
+    padding: .5rem;
+    background: #F6BE2E;
+    border-radius: .3rem;
+}
+
+.prestasi .contents .penyelenggara {
+    text-transform: uppercase;
+}
+
+.prestasi .contents .img {
+    position: relative;
     border-radius: .5rem;
     width: 100%;
-    height: 20rem;
-    background: gray;
+    height: 100%;
+}
+
+.prestasi .contents .peserta-lomba {
+    position: absolute;
+    color: var(--putih);
+    bottom: 0;
+    padding: .5rem;
+    border-radius: .3rem;
+    margin: 0 0 2rem 1rem;
+    background: #00000099;
+    backdrop-filter: blur(1rem);
+}
+
+.img img {
+    width: 100%;
+}
+
+/* -----TENAGA KEPENDIDIKAN----- */
+
+.tenaga-kependidikan .desc {
+    width: 70%;
 }
 
 .tenaga-kependidikan .contents {
-    gap: 10rem;
+    gap: 5rem;
     display: grid;
-    grid-template-columns: repeat(3,1fr); 
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     padding: 1rem;
 }
-.tenaga-kependidikan .contents .content{
+
+.tenaga-kependidikan .contents .content {
     display: flex;
+    position: relative;
     flex-direction: column;
     gap: 2rem;
 }
-.tenaga-kependidikan .contents .content .text{
-    text-align: center;
+
+.tenaga-kependidikan .contents .content .text {
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    color: var(--putih);
 }
-.tenaga-kependidikan .contents .img{
+
+.tenaga-kependidikan .contents .content .text .profesi {
+    font-size: .8rem;
+}
+
+.tenaga-kependidikan .contents .img {
     border-radius: .5rem;
     width: 100%;
     height: 20rem;
     background: gray;
     position: relative;
 }
-.tenaga-kependidikan .contents .img::before{
+
+.tenaga-kependidikan .contents .img::before,
+.tenaga-kependidikan .contents .img::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 20rem;
-    margin: -1rem 0 0 -1rem;
-    border: 2px solid black;
-    border-radius: .5rem;
-    z-index: -1;
-}
-.tenaga-kependidikan .contents .img::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 20rem;
-    margin: 1rem 0 0 1rem;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: .5rem;
     z-index: -1;
 }
 
+.tenaga-kependidikan .contents .img::before {
+    margin: -1rem 0 0 -1rem;
+}
+
+.tenaga-kependidikan .contents .img::after {
+    margin: 1rem 0 0 1rem;
+}
+
+/* -----FOOTER----- */
+
 footer {
     padding: var(--padding-container);
-    background: #151515;
     color: var(--putih);
     display: grid;
-    gap: 2rem;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 10rem;
 }
-footer .contact{
-    padding: 2rem;
+
+footer .location .desc,
+footer .contact .content,
+footer .location {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+}
+
+footer .maps {
+    width: 100%;
+    height: 100%;
+}
+
+footer .contact {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
 }
-footer iframe{
-    width: 100%;
-}
-footer .contact .title{
-    font-weight: bold;
-}
-/* transition */
 
-/* @media only screen and (min-width: 1440px) { */
+footer .contact .text>* {
+    padding: .5rem 0;
+}
+
+footer .text,
+footer a {
+    color: #ffffffaa !important;
+}
+
+footer a {
+    width: fit-content;
+}
+
+footer .location .title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer .text {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .location .title img {
+    width: 3rem;
+}
+
 @media only screen and (min-width: 929px) {
     :root {
         font-size: 1.1vw;
     }
 }
 
+/* PERANGKAT SEDANG */
+
 @media only screen and (max-width: 928px) {
-    :root{
+    :root {
         --padding-container: 3rem;
     }
-    .nav-bar{
+
+    .nav-bar {
         display: none;
     }
+
+    .hamburger-menu-container {
+        display: initial;
+    }
+
     header {
         padding: 0 3rem;
     }
+
     .hero {
         align-items: center;
         display: flex;
         flex-direction: column;
         gap: 5rem;
     }
-    main:has(.pengumuman, .agenda) {
+
+    .container {
+        margin-top: 5rem;
+    }
+
+    /* main:has(.pengumuman, .agenda) {
         grid-template-columns: 1fr;
         gap: 5rem;
     }
@@ -383,115 +682,279 @@ footer .contact .title{
     }
     .agenda {
         margin-left: 0;
+    } */
+    .artikel .contents {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .artikel .contents{
-        grid-template-columns: repeat(1,1fr);      
-    }
-    .sambutan .content{
+
+    .sambutan .content {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto .5fr;
     }
-    .sambutan .content img{
+
+    .sambutan .content img {
         width: 100%;
     }
+
+    .jurusan .contents {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+
     .tenaga-kependidikan .contents {
-        gap: 3rem; 
+        gap: 3rem;
+    }
+
+    footer .contact .content,
+    footer .location {
+        gap: 1rem;
     }
 
     footer {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr auto;
+        gap: 8rem;
     }
-    footer .title{
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-    }
-    footer .location{
-        display: grid;
-        gap: 1rem;
-    }
-    footer iframe{
-        width: 100%;
-        height: 20rem;
-    }
-    footer .contact .title{
+
+    footer .contact .title {
         font-weight: bold;
     }
 }
 
+/* PERANGKAT-ANDROID */
+
 @media only screen and (max-width: 560px) {
-    :root{
-        --padding-container:2rem;
+    :root {
+        --padding-container: 2rem;
         font-size: 3vw;
     }
-    .tenaga-kependidikan .contents {
-        grid-template-columns: repeat(2,1fr);
-    }
+
+    /* .container.beranda {
+        margin-top: 7rem;
+    } */
     header {
         padding: 0 2rem;
     }
-    .hero{
+
+    .hero {
         font-size: 1rem;
     }
+
     .category .title .text {
         font-size: 1.5rem;
-        font-weight: bold;
     }
+
     .pengumuman .image {
         width: 100%;
         height: 15rem;
         background: gray;
         border-radius: 1rem;
     }
+
     .jurusan .contents {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-    .prestasi .contents{
-        gap: 1rem;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    
-    .prestasi .contents {
-        gap: .5rem;
-    }
-    .prestasi .contents .img{
-        border-radius: .3rem;
-        height: 8rem;
-    }
+
     .tenaga-kependidikan .contents .img::before,
     .tenaga-kependidikan .contents .img::after,
-    .tenaga-kependidikan .contents .img{
+    .tenaga-kependidikan .contents .img {
         height: 15rem;
+    }
+
+    .tenaga-kependidikan .contents {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 
+/* ====== PAGE TENTANG SEKOLAH ======= */
 
-/* ====== tentang sekolah ======= */
 
+/* -----TENTANG-SEKOLAH---- */
 
-.tentang-sekolah .info{
+.tentang-sekolah .info {
     display: grid;
     grid-template-columns: auto 6rem;
     text-align: center;
     gap: 5rem;
 }
-.tentang-sekolah .info .text{
+
+.tentang-sekolah .info .text {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.tentang-sekolah .info img{
+
+.tentang-sekolah .info .img {
     background: rgb(203, 203, 203);
-    /* background-image: url('../../img requirtment/gedung smkn1.png'); */
     border-radius: 1rem;
     width: 100%;
     height: 25rem;
 }
-.tentang-sekolah .info .number{
+
+.tentang-sekolah .info .number {
     font-size: 1.5rem;
+}
+
+/* -----VISI-MISI----- */
+
+.visi-misi .contents {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 3rem;
+}
+
+.visi-misi .content {
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.visi-misi .content:hover {
+    background: var(--hijau);
+    color: var(--putih);
+}
+
+.visi-misi .contents .number {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+/* -----STRUKTUR-ORGANISASI-SEKOLAH----- */
+
+.struktur-organisasi-sekolah>.desc {
+    margin-top: -1rem;
+    max-width: 60%;
+    font-size: 1.1rem;
+    color: #ffffffdd;
+    font-weight: 200;
+}
+
+.struktur-organisasi-sekolah .contents {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 3rem;
+}
+
+.struktur-organisasi-sekolah .content {
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+}
+
+.struktur-organisasi-sekolah .content .desc {
+    font-size: .9rem;
+    font-weight: 200;
+    color: #F0EBEB;
+}
+
+.struktur-organisasi-sekolah .contents .img {
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    background: rgb(203, 203, 203);
+}
+
+/* -----RIWAYAT-KEPALA-SEKOLAH----- */
+
+.riwayat-kepala-sekolah .contents {
+    display: grid;
+    gap: 4rem;
+}
+
+.riwayat-kepala-sekolah .content .text {
+    padding: .7rem 1.7rem;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 5rem;
+    margin-bottom: 2rem;
+}
+
+
+@media only screen and (max-width: 560px) {
+    .tentang-sekolah .info {
+        grid-template-columns: auto;
+        text-align: initial;
+    }
+
+
+    .visi-misi .contents {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+}
+
+/* ======= PAGE PROGRAM INDONESIA PINTAR =======*/
+
+.program-sekolah {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.program-sekolah .content {
+    display: grid;
+    gap: 2rem;
+    padding-right: 5rem;
+    border-right: 1px solid gray;
+}
+
+.program-sekolah .content .desc {
+    font-size: 1.2rem;
+}
+
+.program-sekolah .content .img {
+    width: 100%;
+    height: 20rem;
+    border-radius: 1rem;
+    background: gray;
+}
+
+.program-sekolah .info {
+    display: grid;
+}
+
+.program-sekolah .info>* {
+    display: flex;
+    gap: 1rem;
+}
+
+.program-sekolah .info .number {
+    font-size: 2rem;
+    color: rgb(0, 81, 255);
+}
+
+.program-sekolah .info .detail {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.kerjasama-hubin .contents {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    display: grid;
+    gap: 2rem;
+}
+
+.kerjasama-hubin .contents .content {
+    max-width: 30rem;
+    position: relative;
+}
+
+.kerjasama-hubin .contents .img.zoom {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.kerjasama-hubin .contents .img.zoom img {
+    width: 100%;
+    transition: .8s ease;
+}
+
+.kerjasama-hubin .contents .img.zoom:hover img {
+    transform: scale(1.1);
+}
+
+.kerjasama-hubin .contents .text {
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
 }
