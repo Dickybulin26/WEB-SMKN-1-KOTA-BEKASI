@@ -119,7 +119,7 @@
             </div>
         </main>
 
-        <main class="hitam">
+        <main>
             <div class="kerjasama-hubin category">
                 <div class="title">
                     <div class="text">kerjasama hubungan industri</div>
@@ -183,7 +183,7 @@
         </main>
     </div>
     
-    <footer class="hitam">
+    <footer class="background-warna1">
         <div class="location">
             <div class="title"><img src="image/smkn-logo.png" alt=""> SMK NEGERI 1 KOTA BEKASI</div>
             <div class="desc">
@@ -223,21 +223,7 @@
         </div>
     </footer>
     
-    <script>
-        let hideScroll = window.pageYOffset;
-        let currentScrollPos = window.pageYOffset
-        let nav = document.querySelector("nav")
-        addEventListener('scroll',()=>{
-            if (hideScroll < window.pageYOffset && !nav.classList.contains('sembunyi')) {
-                nav.classList.add('sembunyi')
-            } 
-            else if (hideScroll > window.pageYOffset && nav.classList.contains('sembunyi')) {
-                nav.classList.remove('sembunyi')
-            }
-            currentScrollPos = window.pageYOffset
-            hideScroll = currentScrollPos;
-        })
-    </script>
-    
+    <script src="script/nav.js"></script>
+
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tenaga kependidikan</title>
+    <title>SMK Negeri 1 Bekasi</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -80,61 +80,13 @@
             </div>
         </div>
     </nav>
-    
-    <div class="container">
-        <main>
-            <div class="tenaga-kependidikan category">
-                <div class="title">
-                    <div class="text">Tenaga Kependidikan</div>
-                    <a href="#" class="view">view more</a>
-                </div>
-                <div class="desc">
-                    Tenaga Pendidikan di SMKN 1 Kota Bekasi adalah para pendidik yang berkomitmen memberikan bimbingan dan pengajaran berkualitas kepada para siswa. Dengan jumlah sekitar 100 tenaga, mereka adalah guru-guru yang berpengalaman dan berdedikasi, membantu merancang pengalaman belajar yang inspiratif,
-                </div>
-                <div class="contents">
-                    <a href="#" class="content">
-                        <div class="img"></div>
-                        <div class="text">pak agus wibowo</div>
-                    </a>
-                    <a href="#" class="content">
-                        <div class="img"></div>
-                        <div class="text">pak agus wibowo</div>
-                    </a>
-                    <a href="#" class="content">
-                        <div class="img"></div>
-                        <div class="text">pak agus wibowo</div>
-                    </a>
-                </div>
-                
-            <!-- </div>
-            <div class="tenaga-kependidikan category"> -->
 
-                <div class="title">
-                    <div class="text">Tenaga Kependidikan</div>
-                    <a href="#" class="view">view more</a>
-                </div>
-                <div class="desc">
-                    Tenaga Pendidikan di SMKN 1 Kota Bekasi adalah para pendidik yang berkomitmen memberikan bimbingan dan pengajaran berkualitas kepada para siswa. Dengan jumlah sekitar 100 tenaga, mereka adalah guru-guru yang berpengalaman dan berdedikasi, membantu merancang pengalaman belajar yang inspiratif,
-                </div>
-                <div class="contents">
-                    <a href="#" class="content">
-                        <div class="img"></div>
-                        <div class="text">pak agus wibowo</div>
-                    </a>
-                    <a href="#" class="content">
-                        <div class="img"></div>
-                        <div class="text">pak agus wibowo</div>
-                    </a>
-                    <a href="#" class="content">
-                        <div class="img"></div>
-                        <div class="text">pak agus wibowo</div>
-                    </a>
-                </div>
-                
-            </div>
-        </main>
+    <div class="container">
+        <div class="main">
+            
+        </div>
     </div>
-    
+
     <footer class="background-warna1">
         <div class="location">
             <div class="title"><img src="image/smkn-logo.png" alt=""> SMK NEGERI 1 KOTA BEKASI</div>
@@ -174,9 +126,21 @@
             </div>
         </div>
     </footer>
-    
-    <script src="script/nav.js"></script>
 
-    
+    <script>
+        let hideScroll = window.pageYOffset;
+        let currentScrollPos = window.pageYOffset
+        let nav = document.querySelector("nav")
+        addEventListener('scroll',()=>{
+            if (hideScroll < window.pageYOffset && !nav.classList.contains('sembunyi')) {
+                nav.classList.add('sembunyi')
+            } 
+            else if (hideScroll > window.pageYOffset && nav.classList.contains('sembunyi')) {
+                nav.classList.remove('sembunyi')
+            }
+            currentScrollPos = window.pageYOffset
+            hideScroll = currentScrollPos;
+        })
+    </script>
 </body>
 </html>
