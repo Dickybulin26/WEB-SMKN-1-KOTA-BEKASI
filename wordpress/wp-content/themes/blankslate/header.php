@@ -5,11 +5,12 @@
     <meta charset="<?php bloginfo('charset'); ?>" />
     <meta name="viewport" content="width=device-width" />
     <?php wp_head(); ?>
-    <link rel="icon" type="image/x-icon" href="">
+    <link rel="icon" type="image/x-icon" href="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/08/smkn-1-kota-bekasi.png">
 </head>
 <style src="<?php echo get_theme_file_uri('style.css'); ?>"></style>
+
 <body <?php body_class(); ?>>
-    <?php wp_body_open(); ?>    
+    <?php wp_body_open(); ?>
     <!-- <nav>
         <div class="hamburger-menu-container">
             <div class="hamburger-menu">
@@ -83,7 +84,7 @@
                 <a href="#">blud</a>
             </div>
         </div>
-   
+
     </nav> -->
 
     <nav>
@@ -184,7 +185,7 @@
                     </div>
                 </div>
                 <div class="company-provile">
-                    <img class="background" src="image/Hero Ilustration.png" alt="">
+                    <img class="background" src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/08/Hero-Ilustration-1.png" alt="">
                 </div>
             </div>
             <div class="logo-company">
@@ -199,59 +200,7 @@
         </header>
 
 
-        <main class="biru">
-            <div class="agenda category">
-                <div class="title">
-                    <div class="text">Agenda</div>
-                    <a href="#" class="view">View More</a>
-                </div>
-                <div class="contents">
-                    <a href="#" class="content">
-                        <div class="title">Penilaian Akhir Tahun akan dilaksanakan pada bulan september 2023</div>
-                        <div class="date">tuesday, 08 agustus 2023</div>
-                    </a>
-                    <a href="#" class="content">
-                        <div class="title">Penilaian Akhir Tahun akan dilaksanakan pada bulan september 2023</div>
-                        <div class="date">tuesday, 08 agustus 2023</div>
-                    </a>
-                    <a href="#" class="content">
-                        <div class="title">Penilaian Akhir Tahun akan dilaksanakan pada bulan september 2023</div>
-                        <div class="date">tuesday, 08 agustus 2023</div>
-                    </a>
-                    <a href="#" class="content">
-                        <div class="title">Penilaian Akhir Tahun akan dilaksanakan pada bulan september 2023</div>
-                        <div class="date">tuesday, 08 agustus 2023</div>
-                    </a>
-                    <a href="#" class="content">
-                        <div class="title">Penilaian Akhir Tahun akan dilaksanakan pada bulan september 2023</div>
-                        <div class="date">tuesday, 08 agustus 2023</div>
-                    </a>
-                </div>
-            </div>
-            <div class="pengumuman category">
-                <div class="title">
-                    <div class="text">Pengumuman</div>
-                    <a href="#" class="view">View More</a>
-                </div>
-                <div class="contents">
-                    <a href="#" class="content">
-                        <div class="image"></div>
-                        <p class="text">Sebanyak 1.037 siswa mengikuti UI/UX Designer yang di selenggarakan oleh
-                            dicoding.com.</p>
-                    </a>
-                    <a href="#" class="content">
-                        <div class="image"></div>
-                        <p class="text">Sebanyak 1.037 siswa mengikuti UI/UX Designer yang di selenggarakan oleh
-                            dicoding.com.</p>
-                    </a>
-                    <a href="#" class="content">
-                        <div class="image"></div>
-                        <p class="text">Sebanyak 1.037 siswa mengikuti UI/UX Designer yang di selenggarakan oleh
-                            dicoding.com.</p>
-                    </a>
-                </div>
-            </div>
-        </main>
+        
 
         <main>
             <div class="artikel category">
