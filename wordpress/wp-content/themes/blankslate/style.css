@@ -362,6 +362,12 @@ header {
     margin-bottom: 3rem;
 }
 
+.pengumuman .date {
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+
 /* -----ARTICLE----- */
 
 .artikel .tags {

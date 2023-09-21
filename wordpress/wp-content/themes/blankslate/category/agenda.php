@@ -1,18 +1,18 @@
 <?php
 
-$agenda = new WP_Query(array(
+$agenda = new WP_Query([
     'post_type' => 'post',
     'post_status' => 'publish',
     'category_name' => 'agenda',
     'posts_per_page' => 5,
-));
+]);
 
-$pengumuman = new WP_Query(array(
+$pengumuman = new WP_Query([
     'post_type' => 'post',
     'post_status' => 'publish',
     'category_name' => 'pengumuman',
     'posts_per_page' => 5,
-));
+]);
 ?>
 
 <main class="biru">
