@@ -37,6 +37,7 @@ main {
 }
 main > *,
 header > *,
+nav > *,
 footer > * {
   max-width: 1440px;
   width: 100%;
@@ -118,11 +119,15 @@ img {
   justify-content: space-between;
   text-transform: capitalize;
 }
+.category > .desc {
+  max-width: 65rem;
+  font-size: 1.2rem;
+}
 .category .title.tengah {
   flex-direction: column;
   text-align: center;
 }
-.category .title.tengah .desc {
+.category .title.tengah > .desc {
   padding: 1rem;
   max-width: 70%;
   font-size: 1.3rem;
@@ -163,24 +168,26 @@ img {
 /* -----NAV-BAR----- */
 
 nav {
-  position: fixed;
-  z-index: 999;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   background: #ddd;
   width: 100%;
-  padding: 1.5rem 0;
+  position: fixed;
+  z-index: 999;
   top: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
   transition: 0.4s;
 }
-nav.muncul {
+.nav.muncul {
   padding: 0;
 }
-nav.muncul a {
+.nav.muncul a {
   font-size: 0.9rem;
 }
-nav a {
+.nav a {
   white-space: nowrap;
   padding: 0.7rem 1rem;
   color: black;
@@ -193,16 +200,16 @@ nav a {
   align-items: center;
   gap: 1rem;
 }
-nav .title-logo img {
+.nav .title-logo img {
   width: 3rem;
 }
-nav .title-logo {
+.nav .title-logo {
   display: flex;
   gap: 1rem;
   align-items: center;
   text-transform: uppercase;
 }
-nav .nav-bar a:hover {
+.nav .nav-bar a:hover {
   background: rgb(71, 202, 71);
   color: white;
   border-radius: 0;
@@ -246,6 +253,7 @@ header {
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 3rem 0;
 }
 .hero .text {
   display: flex;
@@ -293,7 +301,7 @@ header {
   margin: 10rem auto 8rem;
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   gap: 5rem;
 }
 .logo-company img {
@@ -454,7 +462,7 @@ header {
 }
 .jurusan .contents .content .image {
   width: 100%;
-  height: 10rem;
+  height: 15rem;
   border-radius: 0.5rem;
 }
 
@@ -759,6 +767,10 @@ footer {
   .pengumuman .contents .content .image {
     height: 13rem;
   }
+
+  .jurusan .contents .content .image {
+    height: 10rem;
+  }
   .jurusan .contents {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -970,7 +982,7 @@ footer {
 }
 
 .kerjasama-hubin .contents {
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
   display: grid;
   gap: 2rem;
 }
@@ -978,21 +990,15 @@ footer {
   max-width: 30rem;
   position: relative;
 }
-.kerjasama-hubin .contents .img.zoom {
+
+.kerjasama-hubin .contents .content .image {
   border-radius: 1rem;
-  overflow: hidden;
-}
-.kerjasama-hubin .contents .img.zoom img {
-  width: 100%;
-  transition: 0.8s ease;
-}
-.kerjasama-hubin .contents .img.zoom:hover img {
-  transform: scale(1.1);
 }
 .kerjasama-hubin .contents .text {
   position: absolute;
   bottom: 0;
   padding: 2rem;
+  color: var(--putih);
 }
 
 /* ======= PROFIL-JURUSAN ======= */

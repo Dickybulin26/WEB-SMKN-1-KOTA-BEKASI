@@ -1,4 +1,4 @@
-const nav = document.querySelector('nav')
+const nav = document.querySelector('.nav')
 
 addEventListener('scroll',()=>{
     if(window.pageYOffset > 0 && !nav.classList.contains('muncul')){
