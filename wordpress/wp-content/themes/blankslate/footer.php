@@ -3,7 +3,7 @@
 </div>
 <footer class="hitam">
     <div class="location">
-        <div class="title"><img src="image/smkn-logo.png" alt=""> SMK NEGERI 1 KOTA BEKASI</div>
+        <div class="title"><img src="http://localhost/wordpress/wp-content/uploads/2023/08/smkn-1-kota-bekasi.png" alt="logo Sekolah"> SMK NEGERI 1 KOTA BEKASI</div>
         <div class="desc">
             <p class="text">Jl. Bintara VIII No.2, RT.005/RW.003, Bintara, Kec. Bekasi Barat, Kota Bks, Jawa Barat
                 17134.</p>

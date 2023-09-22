@@ -470,6 +470,7 @@ header {
 .sambutan .text {
   /* color: #F6BE2E; */
   color: var(--warna6-kuning);
+  text-align: justify;
 }
 
 /* -----JURUSAN----- */

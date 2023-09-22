@@ -1,4 +1,3 @@
-
 <!-- original code from blankslate -->
 
 <?php
@@ -38,10 +37,10 @@ get_header();
                 </div>
             </div>
             <div class="company-provile">
-                <img class="background" src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/08/Hero-Ilustration-1.png" alt="">
+                <img class="background" src="http://localhost/wordpress/wp-content/uploads/2023/08/Hero-Ilustration-1.png" alt="hero image">
             </div>
         </div>
-        <div class="logo-company">
+<!--         <div class="logo-company">
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/acer-logo-300x150-1.png" alt="logo acer" />
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/bank-btn-logo-1024x237-1.png" alt="logo bank btn" />
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/logo-bank-dki-1024x576-1.webp" alt="bank dki" />
@@ -49,6 +48,18 @@ get_header();
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/logo-astra-internasional.jpg" alt="astra Internasional" />
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/bmkg-150x150-1.png" alt="astra Internasional" />
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/bpn.png" alt="astra Internasional" />
+        </div> -->
+
+        <!-- versi dicky-->
+        <div class="logo-company">
+            <img src="http://localhost/wordpress/wp-content/uploads/2023/09/acer-logo-300x150-1.png" alt="logo acer" />
+            <img src="http://localhost/wordpress/wp-content/uploads/2023/09/bank-btn-logo-300x69-1.png" alt="logo bank btn" />
+            <img src="http://localhost/wordpress/wp-content/uploads/2023/08/logo-bank-dki.webp" alt="bank dki" />
+            <img src="http://localhost/wordpress/wp-content/uploads/2023/08/logo-toyota.jpg" alt="toyota" />
+            <img src="http://localhost/wordpress/wp-content/uploads/2023/08/logo-astra-internasional-1.jpg" alt="astra Internasional" />
+            <img src="http://localhost/wordpress/wp-content/uploads/2023/08/bmkg-1.png" alt="bmkg" />
+            <img src="http://localhost/wordpress/wp-content/uploads/2023/08/bpn-1.png" 
+            alt="bpn" />
         </div>
     </header>
 
@@ -210,7 +221,7 @@ get_header();
                     while ($artikel->have_posts()) :
                         $artikel->the_post();
                 ?>
-                        <a href="#" class="content">
+                        <a href="<?php the_permalink(); ?>" class="content">
                             <div class="img"><?php the_post_thumbnail(); ?></div>
                             <div class="text">
                                 <p class="text-category"><?php the_category(); ?></p>
@@ -239,7 +250,7 @@ get_header();
                 <a href="#" class="view">view more</a>
             </div>
             <div class="content">
-                <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/bpk-boan-277x300-1.png" alt="Drs. Boan Mp.d">
+                <img src="http://localhost/wordpress/wp-content/uploads/2023/09/bpk-boan-1.png" alt="Drs. Boan Mp.d">
                 <div class="text">
                     <p>Assalamualaikum wr. wb.</p>
                     <p>Kita panjatkan puji syukur ke hadirat Allah SWT beserta Nabi Muhammad SAW beserta
@@ -316,6 +327,48 @@ get_header();
         </div>
     </main>
 
+
+    <!-- prestasi -->
+
+    <?php
+
+    // fungsi juara 
+
+    function juara($peringkat)
+    {
+        if ($peringkat == 1) {
+            echo '1';
+        } elseif ($peringkat == 2) {
+            echo '2';
+        } elseif ($peringkat == 3) {
+            echo '3';
+        }
+    }
+
+
+    // fungsi lomba
+
+    // $list_lomba = array("lomba1"  => 'Lomba Kompetensi Siswa',
+    //                     "lomba2"  => 'O2SN',
+    //                     "lomba3"  => 'FLS2N');
+
+
+    // function lomba($kategori_lomba) {
+
+
+
+    // if ($kategori_lomba == 'lomba1') {
+    //     echo $list_lomba['lomba1'];
+    // } elseif ($kategori_lomba == $list_lomba['lomba1']) {
+    //     echo $list_lomba['lomba2'];
+
+    // } elseif ($kategori_lomba == 'lomba3') {
+    //     echo $list_lomba['lomba3'];
+    // } else { echo 'tidak ada lomba'; }
+
+    // }
+    ?>
+
     <main class="yellow">
         <div class="prestasi category">
             <div class="title">
@@ -324,6 +377,56 @@ get_header();
             </div>
             <div class="contents">
                 <a href="#" class="content">
+
+                    <?php
+
+                    // Loop melalui hasil query
+                    if ($agenda->have_posts()) :
+                        while ($agenda->have_posts()) :
+                            $agenda->the_post();
+                    ?>
+                            <!-- sample -->
+                            <a href="<?php the_permalink(); ?>" class="content">
+                                <div class="title"><?php the_title();
+                                                    the_post(); ?></div>
+                                <div class="date"><?php the_time("l, j F Y"); ?></div>
+                            </a>
+
+
+
+                            <a href="<?php the_permalink(); ?>" class="content">
+                                <div class="text">
+                                    <!--                         <div class="juara">juara <b>1</b></div>
+                        <div class="tahun-lomba">lomba kompetensi siswa <b>2023</b></div>
+                        <div class="nama-lomba"><b>web Technology ai engineering</b></div> -->
+
+
+
+
+                                    <div class="juara">juara <b><?php juara(1); ?></b></div>
+                                    <div class="tahun-lomba">Lomba Kompetisi Siswa<b><?php the_time('l, j F Y'); ?></b></div>
+                                    <div class="nama-lomba"><b><?php the_title(); ?></b></div>
+
+                                    <div class="penyelenggara">by <?php the_author(); ?></div>
+                                </div>
+                                <div class="img">
+                                    <img src="<?php the_post_thumbnail(); ?>" alt="image prestasi">
+                                    <div class="peserta-lomba"><?php the_author(); ?></div>
+                                </div>
+                            </a>
+
+                    <?php
+
+                        endwhile;
+                        wp_reset_postdata(); // Mengatur ulang data posting
+                    else :
+                        // Tidak ada posting yang sesuai dengan kategori yang ditemukan
+                        echo 'Tidak ada posting yang tersedia.';
+                    endif;
+                    ?>
+
+
+
                     <div class="text">
                         <div class="juara">juara <b>1</b></div>
                         <div class="tahun-lomba">lomba kompetensi siswa <b>2023</b></div>
@@ -335,18 +438,7 @@ get_header();
                         <div class="peserta-lomba">asep subardjo supriatman</div>
                     </div>
                 </a>
-                <a href="#" class="content">
-                    <div class="text">
-                        <div class="juara">juara <b>1</b></div>
-                        <div class="tahun-lomba">lomba kompetensi siswa <b>2023</b></div>
-                        <div class="nama-lomba"><b>web Technology ai engineering</b></div>
-                        <div class="penyelenggara">by kemendikbud jabar</div>
-                    </div>
-                    <div class="img">
-                        <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/Subtract.png" alt="">
-                        <div class="peserta-lomba">asep subardjo supriatman</div>
-                    </div>
-                </a>
+
                 <a href="#" class="content">
                     <div class="text">
                         <div class="juara">juara <b>1</b></div>
