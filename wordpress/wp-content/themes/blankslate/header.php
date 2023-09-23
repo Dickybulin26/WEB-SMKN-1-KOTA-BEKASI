@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width" />
     <?php wp_head(); ?>
     <link rel="icon" type="image/x-icon" href="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/08/smkn-1-kota-bekasi.png">
+    <link rel="icon" type="image/x-icon" href="http://localhost/wordpress/wp-content/uploads/2023/08/smkn-1-kota-bekasi.png">
 </head>
 <style src="<?php echo get_theme_file_uri('style.css'); ?>"></style>
 
@@ -94,12 +95,12 @@
             </div>
         </div>
 
-        <a href="beranda.html" class="title-logo">
-            <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/08/smkn-1-kota-bekasi.png" alt=""> smkn negeri 1<br>kota bekasi
+        <a href="http://localhost/wordpress" class="title-logo">
+            <img src="http://localhost/wordpress/wp-content/uploads/2023/08/smkn-1-kota-bekasi.png" alt=""> smkn negeri 1<br>kota bekasi
         </a>
         <div class="nav-bar">
             <div class="nav-link">
-                <a href="#">beranda</a>
+                <a href="http://localhost/wordpress">beranda</a>
             </div>
             <div class="nav-link">
                 <a href="#">profile <i class="fas fa-caret-down"></i></a>

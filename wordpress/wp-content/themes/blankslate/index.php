@@ -40,7 +40,7 @@ get_header();
                 <img class="background" src="http://localhost/wordpress/wp-content/uploads/2023/08/Hero-Ilustration-1.png" alt="hero image">
             </div>
         </div>
-<!--         <div class="logo-company">
+        <!--         <div class="logo-company">
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/acer-logo-300x150-1.png" alt="logo acer" />
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/bank-btn-logo-1024x237-1.png" alt="logo bank btn" />
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/logo-bank-dki-1024x576-1.webp" alt="bank dki" />
@@ -58,8 +58,7 @@ get_header();
             <img src="http://localhost/wordpress/wp-content/uploads/2023/08/logo-toyota.jpg" alt="toyota" />
             <img src="http://localhost/wordpress/wp-content/uploads/2023/08/logo-astra-internasional-1.jpg" alt="astra Internasional" />
             <img src="http://localhost/wordpress/wp-content/uploads/2023/08/bmkg-1.png" alt="bmkg" />
-            <img src="http://localhost/wordpress/wp-content/uploads/2023/08/bpn-1.png" 
-            alt="bpn" />
+            <img src="http://localhost/wordpress/wp-content/uploads/2023/08/bpn-1.png" alt="bpn" />
         </div>
     </header>
 
@@ -125,6 +124,26 @@ get_header();
     ));
     ?>
 
+    <?php
+    // Definisikan argumen query
+    $sambutan = new wp_Query(array(
+        'post_type' => 'post',          // Jenis posting
+        'post_status' => 'publish',    // Status posting
+        'category_name' => 'sambutan',  // Ganti 'nama-kategori' dengan nama kategori yang sesuai
+        'posts_per_page' => 1,        // Jumlah posting yang ingin ditampilkan (-1 untuk menampilkan semua)
+    ));
+    ?>
+
+    <?php
+    // Definisikan argumen query
+    $tenaga_kependidikan = new wp_Query(array(
+        'post_type' => 'post',          // Jenis posting
+        'post_status' => 'publish',    // Status posting
+        'category_name' => 'tenaga kependidikan',  // Ganti 'nama-kategori' dengan nama kategori yang sesuai
+        'posts_per_page' => 1,        // Jumlah posting yang ingin ditampilkan (-1 untuk menampilkan semua)
+    ));
+    ?>
+
 
     <!-- agenda -->
 
@@ -179,10 +198,8 @@ get_header();
                         <a href="<?php the_permalink(); ?>" class="content">
                             <div class="image"><?php the_post_thumbnail(); ?></div>
                             <div class="title"><?php the_title(); ?></div>
-                            <!-- // <p class="text"><?php the_post(); ?></p> -->
+                            <p class="text"><?php the_post(); ?></p>
                             <div class="date"><?php the_time("l, j F Y"); ?></div>
-                            <!-- <div class="date">kamis, 21 september 2023</div> -->
-
                         </a>
 
                 <?php
@@ -250,24 +267,34 @@ get_header();
                 <a href="#" class="view">view more</a>
             </div>
             <div class="content">
-                <img src="http://localhost/wordpress/wp-content/uploads/2023/09/bpk-boan-1.png" alt="Drs. Boan Mp.d">
-                <div class="text">
-                    <p>Assalamualaikum wr. wb.</p>
-                    <p>Kita panjatkan puji syukur ke hadirat Allah SWT beserta Nabi Muhammad SAW beserta
-                        sahabat-sahabatnya yang telah memberikan karunia dan kenikmatan yang tak terhitung
-                        banyaknya.Bersamaan dengan datangnya tahun ajaran 2022/2023, Website SMK Negeri 1 Kota
-                        Bekasi hadir dengan wajah yang baru.</p>
-                    <p>Pergantian web ini dirasa sangat penting artinya bagi SMK Negeri 1 Kota Bekasi, karena
-                        website adalah halaman muka dan sumber informasi dari sebuah institusi. Seiring perkembangan
-                        jaman dan kemajuan teknologi IT yang berkembang dengan cepat maka SMK Negeri 1 Kota Bekasi
-                        harus selalu mampu mengikutinya.</p>
-                    <p>Akhir kata tak lupa saya ucapkan terima kasih kepada pengelola web yang telah bekerja keras
-                        memperbaiki web sekolah, serta seluruh guru, karyawan dan siswa SMK Negeri 1 Kota Bekasi
-                        sehingga website sekolah menjadi lebih berguna dan bermanfaat.</p>
-                </div>
+                <?php
+
+                // Loop melalui hasil query
+                if ($sambutan->have_posts()) :
+                    while ($sambutan->have_posts()) :
+                        $sambutan->the_post();
+                ?>
+
+                        <img src="<?php //the_permalink(); 
+                                    ?>"><?php the_post_thumbnail(); ?></img>
+                        <div class="text">
+                            <p><?php the_content(); ?></p>
+                    <?php
+
+                    endwhile;
+                    wp_reset_postdata(); // Mengatur ulang data posting
+                else :
+                    // Tidak ada posting yang sesuai dengan kategori yang ditemukan
+                    echo 'Tidak ada posting yang tersedia.';
+                endif;
+                    ?>
+                        </div>
             </div>
         </div>
     </main>
+
+
+    <!-- jurusan -->
 
     <main>
         <div class="jurusan category">
@@ -275,54 +302,28 @@ get_header();
                 <div class="text">temukan perjalananmu <br>dengan program kompetensi kami.</div>
             </div>
             <div class="contents">
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="title">akuntansi dan keuangan lembaga</div>
-                    </div>
-                </a>
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="title">akuntansi dan keuangan lembaga</div>
-                    </div>
-                </a>
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="title">akuntansi dan keuangan lembaga</div>
-                    </div>
-                </a>
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="title">akuntansi dan keuangan lembaga</div>
-                    </div>
-                </a>
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="title">akuntansi dan keuangan lembaga</div>
-                    </div>
-                </a>
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="title">akuntansi dan keuangan lembaga</div>
-                    </div>
-                </a>
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="title">akuntansi dan keuangan lembaga</div>
-                    </div>
-                </a>
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="title">akuntansi dan keuangan lembaga</div>
-                    </div>
-                </a>
+                <?php
+
+                // Loop melalui hasil query
+                if ($jurusan->have_posts()) :
+                    while ($jurusan->have_posts()) :
+                        $jurusan->the_post();
+                ?>
+                        <a href="<?php the_permalink(); ?>" class="content">
+                            <div class="img"><?php the_post_thumbnail(); ?></div>
+                            <div class="text">
+                                <div class="title"><?php the_title(); ?></div>
+                            </div>
+                        </a>
+                <?php
+
+                    endwhile;
+                    wp_reset_postdata(); // Mengatur ulang data posting
+                else :
+                    // Tidak ada posting yang sesuai dengan kategori yang ditemukan
+                    echo 'Tidak ada posting yang tersedia.';
+                endif;
+                ?>
             </div>
         </div>
     </main>
@@ -376,158 +377,137 @@ get_header();
                 <a href="#" class="view">view more</a>
             </div>
             <div class="contents">
-                <a href="#" class="content">
 
-                    <?php
+                <?php
 
-                    // Loop melalui hasil query
-                    if ($agenda->have_posts()) :
-                        while ($agenda->have_posts()) :
-                            $agenda->the_post();
-                    ?>
-                            <!-- sample -->
-                            <a href="<?php the_permalink(); ?>" class="content">
-                                <div class="title"><?php the_title();
-                                                    the_post(); ?></div>
-                                <div class="date"><?php the_time("l, j F Y"); ?></div>
-                            </a>
+                // Loop melalui hasil query
+                if ($prestasi->have_posts()) :
+                    while ($prestasi->have_posts()) :
+                        $prestasi->the_post();
+                ?>
+                        <!-- sample -->
+                        <!--                             <a href="<?php //the_permalink(); 
+                                                                    ?>" class="content">
+                                <div class="title"><?php //the_title();
+                                                    //the_post(); 
+                                                    ?></div>
+                                <div class="date"><?php //the_time("l, j F Y"); 
+                                                    ?></div>
+                            </a> -->
 
 
-
-                            <a href="<?php the_permalink(); ?>" class="content">
-                                <div class="text">
-                                    <!--                         <div class="juara">juara <b>1</b></div>
+                        <!-- 
+                            <a href="<? //php the_permalink(); 
+                                        ?>" class="content">
+                                <div class="text"> -->
+                        <!--                         <div class="juara">juara <b>1</b></div>
                         <div class="tahun-lomba">lomba kompetensi siswa <b>2023</b></div>
                         <div class="nama-lomba"><b>web Technology ai engineering</b></div> -->
 
 
 
 
-                                    <div class="juara">juara <b><?php juara(1); ?></b></div>
-                                    <div class="tahun-lomba">Lomba Kompetisi Siswa<b><?php the_time('l, j F Y'); ?></b></div>
-                                    <div class="nama-lomba"><b><?php the_title(); ?></b></div>
+                        <a href="<?php the_permalink(); ?>" class="content">
+                            <div class="juara">juara <b><?php juara(1); ?></b></div>
+                            <div class="tahun-lomba">Lomba Kompetisi Siswa<b> <?php the_time('l, j F Y'); ?></b></div>
+                            <div class="nama-lomba"><b><?php the_title(); ?></b></div>
 
-                                    <div class="penyelenggara">by <?php the_author(); ?></div>
-                                </div>
-                                <div class="img">
-                                    <img src="<?php the_post_thumbnail(); ?>" alt="image prestasi">
-                                    <div class="peserta-lomba"><?php the_author(); ?></div>
-                                </div>
-                            </a>
-
-                    <?php
-
-                        endwhile;
-                        wp_reset_postdata(); // Mengatur ulang data posting
-                    else :
-                        // Tidak ada posting yang sesuai dengan kategori yang ditemukan
-                        echo 'Tidak ada posting yang tersedia.';
-                    endif;
-                    ?>
-
-
-
-                    <div class="text">
-                        <div class="juara">juara <b>1</b></div>
-                        <div class="tahun-lomba">lomba kompetensi siswa <b>2023</b></div>
-                        <div class="nama-lomba"><b>web Technology ai engineering robotic</b></div>
-                        <div class="penyelenggara">by kemendikbud jabar</div>
-                    </div>
-                    <div class="img">
-                        <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/Subtract.png" alt="">
-                        <div class="peserta-lomba">asep subardjo supriatman</div>
-                    </div>
-                </a>
-
-                <a href="#" class="content">
-                    <div class="text">
-                        <div class="juara">juara <b>1</b></div>
-                        <div class="tahun-lomba">lomba kompetensi siswa <b>2023</b></div>
-                        <div class="nama-lomba"><b>web Technology ai engineering</b></div>
-                        <div class="penyelenggara">by kemendikbud jabar</div>
-                    </div>
-                    <div class="img">
-                        <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/Subtract.png" alt="">
-                        <div class="peserta-lomba">asep subardjo supriatman</div>
-                    </div>
-                </a>
+                            <div class="penyelenggara">by <?php the_author(); ?></div>
             </div>
+            <div class="img">
+                <img src="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></img>
+                <div class="peserta-lomba"><?php the_author(); ?>
+                </div>
+            </div>
+            </a>
+
+    <?php
+
+                    endwhile;
+                    wp_reset_postdata(); // Mengatur ulang data posting
+                else :
+                    // Tidak ada posting yang sesuai dengan kategori yang ditemukan
+                    echo 'Tidak ada posting yang tersedia.';
+                endif;
+    ?>
+
         </div>
-    </main>
+</div>
+</main>
 
-    <main>
-        <div class="tenaga-kependidikan category">
-            <div class="title">
-                <div class="text">Tenaga Kependidikan</div>
-                <a href="#" class="view">view more</a>
-            </div>
-            <div class="contents">
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="nama">pak agus wibowo</div>
-                        <div class="profesi">RPL Teacher.</div>
-                    </div>
-                </a>
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="nama">pak agus wibowo</div>
-                        <div class="profesi">RPL Teacher.</div>
-                    </div>
-                </a>
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="nama">pak agus wibowo</div>
-                        <div class="profesi">RPL Teacher.</div>
-                    </div>
-                </a>
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="nama">pak agus wibowo</div>
-                        <div class="profesi">RPL Teacher.</div>
-                    </div>
-                </a>
-            </div>
+<!-- tenaga kependidikan dan karyawan-->
 
-            <div class="title">
-                <div class="text">Tenaga Kependidikan</div>
-                <a href="#" class="view">view more</a>
-            </div>
-            <div class="contents">
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="nama">pak agus wibowo</div>
-                        <div class="profesi">RPL Teacher.</div>
-                    </div>
-                </a>
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="nama">pak agus wibowo</div>
-                        <div class="profesi">RPL Teacher.</div>
-                    </div>
-                </a>
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="nama">pak agus wibowo</div>
-                        <div class="profesi">RPL Teacher.</div>
-                    </div>
-                </a>
-                <a href="#" class="content">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="nama">pak agus wibowo</div>
-                        <div class="profesi">RPL Teacher.</div>
-                    </div>
-                </a>
-            </div>
+<main>
+    <div class="tenaga-kependidikan category">
+        <div class="title">
+            <div class="text">Tenaga Kependidikan</div>
+            <a href="#" class="view">view more</a>
         </div>
-    </main>
+        <div class="contents">
+            <?php
+
+            // Loop melalui hasil query
+            if ($tenaga_kependidikan->have_posts()) :
+                while ($tenaga_kependidikan->have_posts()) :
+                    $tenaga_kependidikan->the_post();
+            ?>
+
+                    <a href="<?php the_permalink(); ?>" class="content">
+                        <div class="img"><?php the_post_thumbnail(); ?></div>
+                        <div class="text">
+                            <div class="nama"><?php the_title(); ?></div>
+                            <div class="profesi"><?php the_content(); ?></div>
+                            <!-- <div class="profesi">RPL Teacher.</div> -->
+                        </div>
+                    </a>
+
+            <?php
+
+                endwhile;
+                wp_reset_postdata(); // Mengatur ulang data posting
+            else :
+                // Tidak ada posting yang sesuai dengan kategori yang ditemukan
+                echo 'Tidak ada posting yang tersedia.';
+            endif;
+            ?>
+        </div>
+
+
+
+        <div class="title">
+            <div class="text">Tenaga Kependidikan</div>
+            <a href="#" class="view">view more</a>
+        </div>
+        <div class="contents">
+            <?php
+
+            // Loop melalui hasil query
+            if ($tenaga_kependidikan->have_posts()) :
+                while ($tenaga_kependidikan->have_posts()) :
+                    $tenaga_kependidikan->the_post();
+            ?>
+
+                    <a href="<?php the_permalink(); ?>" class="content">
+                        <div class="img"><?php the_post_thumbnail(); ?></div>
+                        <div class="text">
+                            <div class="nama"><?php the_title(); ?></div>
+                            <div class="profesi"><?php the_content(); ?></div>
+                            <!-- <div class="profesi">RPL Teacher.</div> -->
+                        </div>
+                    </a>
+
+            <?php
+
+                endwhile;
+                wp_reset_postdata(); // Mengatur ulang data posting
+            else :
+                // Tidak ada posting yang sesuai dengan kategori yang ditemukan
+                echo 'Tidak ada posting yang tersedia.';
+            endif;
+            ?>
+        </div>
+    </div>
+</main>
 
 </div>
 

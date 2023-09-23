@@ -14,7 +14,7 @@
         <div class="content">
             <div class="title">Pages</div>
             <div class="text">
-                <a href="#">Beranda</a>
+                <a href="http://localhost/wordpress">Beranda</a>
                 <a href="#">Profil</a>
                 <a href="#">Program Sekolah</a>
                 <a href="#">Manajemen Sekolah</a>
