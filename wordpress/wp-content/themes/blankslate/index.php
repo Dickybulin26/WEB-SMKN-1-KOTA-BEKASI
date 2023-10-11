@@ -1,16 +1,4 @@
-<!-- original code from blankslate -->
-
-<?php
-get_header();
-// if (have_posts()) : while (have_posts()) : the_post();
-//         get_template_part('entry');
-//         comments_template();
-//     endwhile;
-// endif;
-// get_template_part('nav', 'below');
-// get_footer();
-?>
-
+<?php get_header() ?>
 
 
 <div class="container beranda">
@@ -18,9 +6,7 @@ get_header();
         <div class="hero">
             <div class="text">
                 <h2 class="title">SMK Negeri 1 Kota Bekasi <span>Cerdas</span> Mengembangkan Teknologi!</h2>
-                <p>SMK Negeri 1 Kota Bekasi merupakan sekolah yang ditunjuk oleh Direktorat Pembinaan SMK (PSMK)
-                    sebagai Rintisan Sekolah Bertaraf Internasional untuk seluruh kompetensi keahlian sejak tahun
-                    2008.</p>
+                <p>SMK Negeri 1 Kota Bekasi merupakan sekolah yang ditunjuk oleh Direktorat Pembinaan SMK (PSMK) sebagai Rintisan Sekolah Bertaraf Internasional untuk seluruh kompetensi keahlian sejak tahun 2008.</p>
                 <div class="info">
                     <div>
                         <div class="number">8</div>
@@ -37,10 +23,10 @@ get_header();
                 </div>
             </div>
             <div class="company-provile">
-                <img class="background" src="http://localhost/wordpress/wp-content/uploads/2023/08/Hero-Ilustration-1.png" alt="hero image">
+                <img class="background" src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/Hero-Ilustration-1.png" alt="hero image">
             </div>
         </div>
-        <!--         <div class="logo-company">
+        <div class="logo-company">
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/acer-logo-300x150-1.png" alt="logo acer" />
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/bank-btn-logo-1024x237-1.png" alt="logo bank btn" />
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/logo-bank-dki-1024x576-1.webp" alt="bank dki" />
@@ -48,10 +34,10 @@ get_header();
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/logo-astra-internasional.jpg" alt="astra Internasional" />
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/bmkg-150x150-1.png" alt="astra Internasional" />
             <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/bpn.png" alt="astra Internasional" />
-        </div> -->
+        </div>
 
         <!-- versi dicky-->
-        <div class="logo-company">
+        <!-- <div class="logo-company">
             <img src="http://localhost/wordpress/wp-content/uploads/2023/09/acer-logo-300x150-1.png" alt="logo acer" />
             <img src="http://localhost/wordpress/wp-content/uploads/2023/09/bank-btn-logo-300x69-1.png" alt="logo bank btn" />
             <img src="http://localhost/wordpress/wp-content/uploads/2023/08/logo-bank-dki.webp" alt="bank dki" />
@@ -59,7 +45,7 @@ get_header();
             <img src="http://localhost/wordpress/wp-content/uploads/2023/08/logo-astra-internasional-1.jpg" alt="astra Internasional" />
             <img src="http://localhost/wordpress/wp-content/uploads/2023/08/bmkg-1.png" alt="bmkg" />
             <img src="http://localhost/wordpress/wp-content/uploads/2023/08/bpn-1.png" alt="bpn" />
-        </div>
+        </div> -->
     </header>
 
 
@@ -126,28 +112,22 @@ get_header();
 
     <?php
     // Definisikan argumen query
-    $sambutan = new wp_Query(array(
-        'post_type' => 'post',          // Jenis posting
-        'post_status' => 'publish',    // Status posting
-        'category_name' => 'sambutan',  // Ganti 'nama-kategori' dengan nama kategori yang sesuai
-        'posts_per_page' => 1,        // Jumlah posting yang ingin ditampilkan (-1 untuk menampilkan semua)
-    ));
-    ?>
-
-    <?php
-    // Definisikan argumen query
     $tenaga_kependidikan = new wp_Query(array(
         'post_type' => 'post',          // Jenis posting
         'post_status' => 'publish',    // Status posting
         'category_name' => 'tenaga kependidikan',  // Ganti 'nama-kategori' dengan nama kategori yang sesuai
-        'posts_per_page' => 1,        // Jumlah posting yang ingin ditampilkan (-1 untuk menampilkan semua)
+        'posts_per_page' => 3,        // Jumlah posting yang ingin ditampilkan (-1 untuk menampilkan semua)
     ));
     ?>
 
+    <?php
+    // $waktu = the_time("l, j F Y");
+    $no_post = 'Tidak ada postingan yang tersedia.'
+    ?>
 
-    <!-- agenda -->
+    <!-- category -->
 
-    <main class="biru">
+    <main class="background-warna3">
         <div class="agenda category">
             <div class="title">
                 <div class="text">Agenda</div>
@@ -155,7 +135,6 @@ get_header();
             </div>
             <div class="contents">
                 <?php
-
                 // Loop melalui hasil query
                 if ($agenda->have_posts()) :
                     while ($agenda->have_posts()) :
@@ -164,20 +143,18 @@ get_header();
                         <a href="<?php the_permalink(); ?>" class="content">
                             <div class="title"><?php the_title();
                                                 the_post(); ?></div>
-                            <div class="date"><?php the_time("l, j F Y"); ?></div>
+                            <div class="date"><?php the_time('l, j F Y'); ?></div>
                         </a>
                 <?php
-
                     endwhile;
                     wp_reset_postdata(); // Mengatur ulang data posting
                 else :
                     // Tidak ada posting yang sesuai dengan kategori yang ditemukan
-                    echo 'Tidak ada posting yang tersedia.';
+                    echo $no_post;
                 endif;
                 ?>
             </div>
         </div>
-
 
         <!-- pengumuman -->
 
@@ -199,7 +176,7 @@ get_header();
                             <div class="image"><?php the_post_thumbnail(); ?></div>
                             <div class="title"><?php the_title(); ?></div>
                             <p class="text"><?php the_post(); ?></p>
-                            <div class="date"><?php the_time("l, j F Y"); ?></div>
+                            <div class="date"><?php the_time('l, j F Y'); ?></div>
                         </a>
 
                 <?php
@@ -208,7 +185,7 @@ get_header();
                     wp_reset_postdata(); // Mengatur ulang data posting
                 else :
                     // Tidak ada posting yang sesuai dengan kategori yang ditemukan
-                    echo 'Tidak ada posting yang tersedia.';
+                    echo $no_post;
                 endif;
                 ?>
 
@@ -216,9 +193,7 @@ get_header();
         </div>
     </main>
 
-
     <!-- artikel -->
-
 
     <main>
         <div class="artikel category">
@@ -238,21 +213,23 @@ get_header();
                     while ($artikel->have_posts()) :
                         $artikel->the_post();
                 ?>
-                        <a href="<?php the_permalink(); ?>" class="content">
-                            <div class="img"><?php the_post_thumbnail(); ?></div>
+                        <div class="content">
+                            <div class="img"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a></div>
                             <div class="text">
                                 <p class="text-category"><?php the_category(); ?></p>
-                                <p class="desc"><?php the_title(); ?></p>
-                                <p class="date"><?php the_time(' l, j F Y'); ?></p>
+                                <a href="<?php the_permalink(); ?>">
+                                    <p class="desc"><?php the_title(); ?></p>
+                                </a>
+                                <p class="date"><?php the_time('l, j F Y'); ?></p>
                             </div>
-                        </a>
+                        </div>
                 <?php
 
                     endwhile;
                     wp_reset_postdata(); // Mengatur ulang data posting
                 else :
                     // Tidak ada posting yang sesuai dengan kategori yang ditemukan
-                    echo 'Tidak ada posting yang tersedia.';
+                    echo $no_post;
                 endif;
                 ?>
 
@@ -260,41 +237,44 @@ get_header();
         </div>
     </main>
 
-    <main class="hijau-daun">
+    <!-- sambutan -->
+
+    <main class="background-warna3">
         <div class="sambutan category">
             <div class="title">
-                <div class="text">sambutan <br>kepala sekolah</div>
+                <div class="text">sambutan <br />kepala sekolah</div>
                 <a href="#" class="view">view more</a>
             </div>
             <div class="content">
-                <?php
-
-                // Loop melalui hasil query
-                if ($sambutan->have_posts()) :
-                    while ($sambutan->have_posts()) :
-                        $sambutan->the_post();
-                ?>
-
-                        <img src="<?php //the_permalink(); 
-                                    ?>"><?php the_post_thumbnail(); ?></img>
-                        <div class="text">
-                            <p><?php the_content(); ?></p>
-                    <?php
-
-                    endwhile;
-                    wp_reset_postdata(); // Mengatur ulang data posting
-                else :
-                    // Tidak ada posting yang sesuai dengan kategori yang ditemukan
-                    echo 'Tidak ada posting yang tersedia.';
-                endif;
-                    ?>
-                        </div>
+                <img src="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/bpk-boan.png" alt="" />
+                <div class="text">
+                    <p class="title">Assalamualaikum wr. wb.</p>
+                    <p>
+                        Kita panjatkan puji syukur ke hadirat Allah SWT beserta Nabi
+                        Muhammad SAW beserta sahabat-sahabatnya yang telah memberikan
+                        karunia dan kenikmatan yang tak terhitung banyaknya.Bersamaan
+                        dengan datangnya tahun ajaran 2022/2023, Website SMK Negeri 1
+                        Kota Bekasi hadir dengan wajah yang baru.
+                    </p>
+                    <p>
+                        Pergantian web ini dirasa sangat penting artinya bagi SMK Negeri
+                        1 Kota Bekasi, karena website adalah halaman muka dan sumber
+                        informasi dari sebuah institusi. Seiring perkembangan jaman dan
+                        kemajuan teknologi IT yang berkembang dengan cepat maka SMK
+                        Negeri 1 Kota Bekasi harus selalu mampu mengikutinya.
+                    </p>
+                    <p>
+                        Akhir kata tak lupa saya ucapkan terima kasih kepada pengelola
+                        web yang telah bekerja keras memperbaiki web sekolah, serta
+                        seluruh guru, karyawan dan siswa SMK Negeri 1 Kota Bekasi
+                        sehingga website sekolah menjadi lebih berguna dan bermanfaat.
+                    </p>
+                </div>
             </div>
         </div>
     </main>
 
-
-    <!-- jurusan -->
+    <!-- jurusan category -->
 
     <main>
         <div class="jurusan category">
@@ -321,13 +301,12 @@ get_header();
                     wp_reset_postdata(); // Mengatur ulang data posting
                 else :
                     // Tidak ada posting yang sesuai dengan kategori yang ditemukan
-                    echo 'Tidak ada posting yang tersedia.';
+                    echo $no_post;
                 endif;
                 ?>
             </div>
         </div>
     </main>
-
 
     <!-- prestasi -->
 
@@ -349,28 +328,34 @@ get_header();
 
     // fungsi lomba
 
-    // $list_lomba = array("lomba1"  => 'Lomba Kompetensi Siswa',
-    //                     "lomba2"  => 'O2SN',
-    //                     "lomba3"  => 'FLS2N');
+    // $list_lomba = array(
+    //     "lomba1"  => 'Lomba Kompetensi Siswa',
+    //     "lomba2"  => 'O2SN',
+    //     "lomba3"  => 'FLS2N'
+    // );
 
 
-    // function lomba($kategori_lomba) {
+    // function lomba($kategori_lomba)
+    // {
 
 
 
-    // if ($kategori_lomba == 'lomba1') {
-    //     echo $list_lomba['lomba1'];
-    // } elseif ($kategori_lomba == $list_lomba['lomba1']) {
-    //     echo $list_lomba['lomba2'];
-
-    // } elseif ($kategori_lomba == 'lomba3') {
-    //     echo $list_lomba['lomba3'];
-    // } else { echo 'tidak ada lomba'; }
-
+    //     if ($kategori_lomba == 'lomba1') {
+    //         echo $list_lomba['lomba1'];
+    //     } elseif ($kategori_lomba == $list_lomba['lomba1']) {
+    //         echo $list_lomba['lomba2'];
+    //     } elseif ($kategori_lomba == 'lomba3') {
+    //         echo $list_lomba['lomba3'];
+    //     } else {
+    //         echo 'tidak ada lomba';
+    //     }
     // }
+    // 
     ?>
 
-    <main class="yellow">
+    <!-- prestasi -->
+
+    <main class="background-warna2">
         <div class="prestasi category">
             <div class="title">
                 <div class="text">Prestasi</div>
@@ -407,19 +392,19 @@ get_header();
 
 
 
-                        <a href="<?php the_permalink(); ?>" class="content">
-                            <div class="juara">juara <b><?php juara(1); ?></b></div>
-                            <div class="tahun-lomba">Lomba Kompetisi Siswa<b> <?php the_time('l, j F Y'); ?></b></div>
-                            <div class="nama-lomba"><b><?php the_title(); ?></b></div>
+        <a href="<?php the_permalink(); ?>" class="content">
+            <div class="juara">juara <b><?php juara(1); ?></b></div>
+            <div class="tahun-lomba">Lomba Kompetisi Siswa<b> <?php the_time('l, j F Y'); ?></b></div>
+            <div class="nama-lomba"><b><?php the_title(); ?></b></div>
 
-                            <div class="penyelenggara">by <?php the_author(); ?></div>
+            <div class="penyelenggara">by <?php the_author(); ?></div>
             </div>
             <div class="img">
                 <img src="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></img>
                 <div class="peserta-lomba"><?php the_author(); ?>
                 </div>
             </div>
-            </a>
+        </a>
 
     <?php
 
@@ -427,7 +412,7 @@ get_header();
                     wp_reset_postdata(); // Mengatur ulang data posting
                 else :
                     // Tidak ada posting yang sesuai dengan kategori yang ditemukan
-                    echo 'Tidak ada posting yang tersedia.';
+                    echo $no_post;
                 endif;
     ?>
 

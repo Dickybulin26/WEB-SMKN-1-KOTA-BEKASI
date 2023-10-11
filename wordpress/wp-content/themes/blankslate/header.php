@@ -5,159 +5,170 @@
     <meta charset="<?php bloginfo('charset'); ?>" />
     <meta name="viewport" content="width=device-width" />
     <?php wp_head(); ?>
-    <link rel="icon" type="image/x-icon" href="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/08/smkn-1-kota-bekasi.png">
+    <link rel="icon" type="image/x-icon" href="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/smkn-1-kota-bekasi.png">
     <link rel="icon" type="image/x-icon" href="http://localhost/wordpress/wp-content/uploads/2023/08/smkn-1-kota-bekasi.png">
 </head>
 <style src="<?php echo get_theme_file_uri('style.css'); ?>"></style>
 
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
-    <!-- <nav>
-        <div class="hamburger-menu-container">
-            <div class="hamburger-menu">
-                <div>=</div>
-            </div>
-        </div>
-
-        <a href="#" class="title-logo">
-            <img src="image/smkn-logo.png" alt=""> 
-            <h1>smkn negeri 1<br>kota bekasi</h1>
-        </a>
-        <div class="nav-bar">
-            <div class="nav-link">
-                <a href="#">beranda</a>
-            </div>
-            <div class="nav-link">
-                <a href="#">profile <i class="fas fa-caret-down"></i></a>
-                <ul class="dropdown">
-                    <li class="drop-link">
-                        <a href="#">sekolah<i class="fas fa-caret-down"></i></a>
-                        <ul class="dropdown">
-                            <li class="drop-link">
-                                <a href="#">sekolah</a>
-                            </li>
-                            <li class="drop-link">
-                                <a href="#">sekolah</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="drop-link">
-                        <a href="#">sekolah</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-link">
-                <a href="#">program sekolah</a>
-                <ul class="dropdown">
-                    <li class="drop-link">
-                        <a href="#">beranda</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-link">
-                <a href="#">manajement sekolah</a>
-                <ul class="dropdown">
-                    <li class="drop-link">
-                        <a href="#">beranda</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-link">
-                <a href="#">akademik</a>
-                <ul class="dropdown">
-                    <li class="drop-link">
-                        <a href="#">beranda</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-link">
-                <a href="#">galery</a>
-            </div>
-            <div class="nav-link">
-                <a href="#">ppdb 2024</a>
-                <ul class="dropdown">
-                    <li class="drop-link">
-                        <a href="#">beranda</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-link">
-                <a href="#">blud</a>
-            </div>
-        </div>
-
-    </nav> -->
-
     <nav>
-        <div class="hamburger-menu-container">
-            <div class="hamburger-menu">
-                <div>=</div>
+        <div class="nav">
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
             </div>
-        </div>
 
-        <a href="http://localhost/wordpress" class="title-logo">
-            <img src="http://localhost/wordpress/wp-content/uploads/2023/08/smkn-1-kota-bekasi.png" alt=""> smkn negeri 1<br>kota bekasi
-        </a>
-        <div class="nav-bar">
-            <div class="nav-link">
-                <a href="http://localhost/wordpress">beranda</a>
+            <div class="logo-container">
+                <a href="beranda.html" class="logo">
+                    <img src="image/smkn-logo.png" alt="" /> smkn negeri 1<br />kota
+                    bekasi
+                </a>
             </div>
-            <div class="nav-link">
-                <a href="#">profile <i class="fas fa-caret-down"></i></a>
-                <ul class="dropdown">
-                    <li class="drop-link">
-                        <a href="#">sekolah<i class="fas fa-caret-down"></i></a>
-                        <ul class="dropdown">
-                            <li class="drop-link">
-                                <a href="#">sekolah</a>
-                            </li>
-                            <li class="drop-link">
-                                <a href="#">sekolah</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="drop-link">
-                        <a href="#">sekolah</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-link">
-                <a href="program-sekolah.html">program sekolah</a>
-                <ul class="dropdown">
-                    <li class="drop-link">
-                        <a href="#">beranda</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-link">
-                <a href="#">manajement sekolah</a>
-                <ul class="dropdown">
-                    <li class="drop-link">
-                        <a href="#">beranda</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-link">
-                <a href="#">akademik</a>
-                <ul class="dropdown">
-                    <li class="drop-link">
-                        <a href="#">beranda</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-link">
-                <a href="#">galery</a>
-            </div>
-            <div class="nav-link">
-                <a href="#">ppdb 2024</a>
-                <ul class="dropdown">
-                    <li class="drop-link">
-                        <a href="#">beranda</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-link">
-                <a href="#">blud</a>
+
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link" style="--i: 0.6s">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="nav-link" style="--i: 0.85s">
+                            <a href="#">Menu<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 1</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 2</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 1</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 2</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 3</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
+                                                    <div class="dropdown second">
+                                                        <ul>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 1</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 2</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">More<i class="fas fa-caret-down"></i></a>
+                                                                <div class="dropdown second">
+                                                                    <ul>
+                                                                        <li class="dropdown-link">
+                                                                            <a href="#">Link 1</a>
+                                                                        </li>
+                                                                        <li class="dropdown-link">
+                                                                            <a href="#">Link 2</a>
+                                                                        </li>
+                                                                        <li class="dropdown-link">
+                                                                            <a href="#">Link 3</a>
+                                                                        </li>
+                                                                        <div class="arrow"></div>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <div class="arrow"></div>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 4</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Services<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 1</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 2</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 1</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 2</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 3</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
+                                                    <div class="dropdown second">
+                                                        <ul>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 1</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 2</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 3</a>
+                                                            </li>
+                                                            <div class="arrow"></div>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 4</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.35s">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="nav-link" style="--i: 1.35s">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="nav-link" style="--i: 1.35s">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="nav-link" style="--i: 1.35s">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="nav-link" style="--i: 1.35s">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="nav-link" style="--i: 1.35s">
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
