@@ -199,22 +199,16 @@ nav a{
   text-decoration: none;
 }
 
-nav.muncul, nav:hover {
-  background: var(--putih);
-}
-
-nav.muncul {
-  font-size: .97rem;
-}
 
 nav{
-  padding: 1.5rem 0;
-  font-size: 1rem;
+  padding: 1.5rem var(--padding-container);
+  font-size: .85rem;
   transition: .5s;
   position: fixed;
   top: 0px;
   width: 100%;
   z-index: 1000;
+  box-sizing: border-box;
 }
 
 nav .nav{
@@ -234,11 +228,19 @@ nav .nav-btn{
 
 nav.muncul .logo,
 nav:hover .logo{
-  font-size: 1.07rem;
+  font-size: .9rem;
 }
 
+nav.muncul, 
+nav:hover {
+  background: var(--putih);
+}
+nav.muncul{
+  font-size: .83rem;
+  padding: .6rem var(--padding-container);
+}
 nav .logo{
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   display: flex;
@@ -274,6 +276,7 @@ nav .nav-links > ul{
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: .2rem;
 }
 
 nav .nav-link{
@@ -282,17 +285,12 @@ nav .nav-link{
 
 nav .nav-link > a{
   line-height: 3rem;
-  padding: 0 .8rem;
-  letter-spacing: 1px;
+  padding: 0 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   transition: .5s;
   border-radius: .3rem;
-}
-  
-nav .nav-link > a > i{
-  margin-left: .2rem;
 }
 
 nav .nav-link:hover > a{
@@ -305,12 +303,13 @@ nav .dropdown{
   position: absolute;
   top: 100%;
   left: 0;
-  width: 10rem;
+  width: max-content;
+  max-width: 15rem;
   transform: translateY(10px);
   opacity: 0;
   pointer-events: none;
   transition: .5s;
-  background: var(--putih);
+  padding-top: .5rem;
 }
 nav .dropdown-link:hover > a {
   background: var(--primary2-background);
@@ -322,6 +321,9 @@ nav .dropdown .dropdown-link:hover > a {
 
 nav .dropdown ul{
   position: relative;
+  box-shadow: 0 0 1rem gray;
+  border-radius: .2rem;
+  background: var(--putih);
 }
 
 nav .dropdown-link > a{
@@ -340,9 +342,6 @@ nav .dropdown-link:not(:nth-last-child(2)){
   /* border-bottom: 1px solid #efefef; */
 }
 
-nav .dropdown-link i{
-  transform: rotate(-90deg);
-}
 
 nav .arrow{
   position: absolute;
@@ -369,11 +368,6 @@ nav .dropdown.second{
   padding-left: .8rem;
   cursor: pointer;
   transform: translateX(10px);
-}
-
-nav .dropdown.second .arrow{
-  top: 10px;
-  left: -5.5px;
 }
 
 nav .nav-link:hover > .dropdown,
@@ -436,6 +430,30 @@ nav.checked .hamburger-menu-container .hamburger-menu div:before{
 nav.checked .hamburger-menu-container .hamburger-menu div:after{
   transform: translateY(0) rotate(45deg);
 }
+.nav-link > a{
+  text-wrap: nowrap;
+}
+
+.nav-link:has(.dropdown) a{
+  padding-right: 2rem;
+  position: relative;
+}
+
+.dropdown-link:has(.dropdown) > a::after,
+.nav-link:has(.dropdown) > a::after {
+  content: ">";
+  position: absolute;
+  right: .8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.5s ease-in-out;
+  font-size: 1.2rem;
+}
+.dropdown-link:has(.dropdown):hover > a::after,
+.nav-link:has(.dropdown):hover > a::after {
+  transform: translateY(-50%) rotate(90deg);
+  color: white;
+}
 
 @keyframes animation{
   from{
@@ -448,20 +466,26 @@ nav.checked .hamburger-menu-container .hamburger-menu div:after{
   }
 }
 
-@media (max-width: 920px){
-  nav .hamburger-menu-container{
-    display: flex;
-    padding-left: var(--padding-container);
+@media only screen and (max-width: 600px){
+  nav .nav-btn{
+    width: 100% !important;
   }
-  nav .logo{
-    padding-right: var(--padding-container);
+}
+
+@media only screen and (max-width: 1280px) {
+  nav.muncul{
+    padding: 1.2rem var(--padding-container);
+  }
+
+  nav .hamburger-menu-container{
+    display: initial;
   }
   nav .nav-btn{
     position: fixed;
-    height: calc(100vh - 3rem);
+    height: calc(100vh - 2rem);
     top: 5rem;
-    right: 100%;
-    width: 100%;
+    left: -100%;
+    width: 20rem;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -470,9 +494,9 @@ nav.checked .hamburger-menu-container .hamburger-menu div:after{
     transition: .65s;
     background: var(--putih);
   }
-
+  
   nav.checked .nav-btn{
-    right: 0;
+    left: 0;
   }
 
   nav.checked .nav-btn .nav-link{
@@ -490,7 +514,6 @@ nav.checked .hamburger-menu-container .hamburger-menu div:after{
   nav .nav-link{
     width: 100%;
     opacity: 0;
-    transform: translateY(15px);
   }
 
   nav .nav-link > a{
@@ -501,6 +524,16 @@ nav.checked .hamburger-menu-container .hamburger-menu div:after{
 
   nav .nav-link:hover > a{
     transform: scale(1);
+  }
+  
+  nav .dropdown{
+    max-width: 100%;
+  }
+  nav .dropdown ul{
+    box-shadow: none;
+  }
+  nav .dropdown ul{
+    border-left: 1px solid black;
   }
 
   nav .dropdown, nav .dropdown.second{
@@ -520,11 +553,11 @@ nav.checked .hamburger-menu-container .hamburger-menu div:after{
     display: block;
   }
 
-  nav .nav-link:hover > a > i,
-  nav .dropdown-link:hover > a > i{
-    transform: rotate(360deg);
+  
+  .dropdown-link:has(.dropdown) > a::after,
+  .nav-link:has(.dropdown) > a::after {
+    right: var(--padding-container);
   }
-
   nav .dropdown-link > a{
     padding: 1.2rem 2rem;
     line-height: 1;
@@ -551,17 +584,6 @@ nav.checked .hamburger-menu-container .hamburger-menu div:after{
 
   nav .dropdown .dropdown .arrow{
     display: none;
-  }
-
-  nav .nav-link > a > i{
-    font-size: 1.2rem;
-    transform: rotate(-90deg);
-    transition: .7s;
-  }
-
-  nav .dropdown i{
-    font-size: 1rem;
-    transition: .7s;
   }
 }
 /* ======= PAGE BERANDA ======= */
@@ -1026,11 +1048,21 @@ footer {
   height: 2rem;
   display: flex;
   align-items: center;
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 .footer .kanan .contact .text {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+.footer .kanan .contact .text a{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.footer .kanan .contact .text img{
+  height: 2rem;
 }
 /* 
 .footer {
@@ -1087,9 +1119,6 @@ footer {
   :root {
     --padding-container: 3rem;
   }
-  .hamburger-menu-container {
-    display: initial;
-  }
   .hero {
     align-items: center;
     display: flex;
@@ -1099,6 +1128,14 @@ footer {
   .hero .text .title {
     font-size: 2rem;
   }
+  
+  .logo-company img{
+    height: 3rem;
+  }
+  .logo-company {
+    gap: 1rem;
+  }
+
   /* .container {
     margin-top: 5rem;
   } */
@@ -1231,10 +1268,6 @@ footer {
   .tenaga-kependidikan .contents .content .text .nama {
     font-size: .8rem;
   }
-  .logo-company {
-    gap: 5rem;
-  }
-  
 }
 
 /* ====== PAGE TENTANG SEKOLAH ======= */
