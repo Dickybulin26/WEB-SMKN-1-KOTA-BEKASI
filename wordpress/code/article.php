@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>article smkn 1 bekasi</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" type="image/x-icon" href="image/smkn-1-kota-bekasi.png" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav">
+        <div class="hamburger-menu-container">
+          <div class="hamburger-menu">
+            <div></div>
+          </div>
+        </div>
+
+        <div class="logo-container">
+          <a href="../index.html" class="logo">
+            <img src="image/smkn-logo.png" alt="" /> smkn negeri 1<br />kota
+            bekasi
+          </a>
+        </div>
+
+        <div class="nav-btn">
+          <div class="nav-links">
+            <ul>
+              <li class="nav-link">
+                <a href="../index.html">Beranda</a>
+              </li>
+              <li class="nav-link">
+                <a href="#">Profil</a>
+                <div class="dropdown">
+                  <ul>
+                    <li class="dropdown-link">
+                      <a href="#">Tentang Sekolah</a>
+                      <div class="dropdown second">
+                        <ul>
+                          <li class="dropdown-link">
+                            <a href="tentang-sekolah.html">Tentang Sekolah</a>
+                          </li>
+                          <li class="dropdown-link">
+                            <a
+                              href="tentang-sekolah.html#riwayat-kepala-sekolah"
+                              >Riwayat Kepala Sekolah</a
+                            >
+                          </li>
+                          <li class="dropdown-link">
+                            <a
+                              href="tentang-sekolah.html#struktur-organisasi-sekolah"
+                              >Struktur Organisasi</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="#">Kompetensi Keahlian</a>
+                      <div class="dropdown second">
+                        <ul>
+                          <li class="dropdown-link">
+                            <a
+                              href="jurusan-page/teknik-komputer-dan-jaringan.html"
+                              >Teknik Komputer Dan Jaringan</a
+                            >
+                          </li>
+                          <li class="dropdown-link">
+                            <a href="jurusan-page/desain-komunikasi-visual.html"
+                              >Desain Komunikasi Visual</a
+                            >
+                          </li>
+                          <li class="dropdown-link">
+                            <a
+                              href="jurusan-page/pengembangan-perangkat-lunak-dan-game.html"
+                              >Rekayasa Perangkat Lunak</a
+                            >
+                          </li>
+                          <li class="dropdown-link">
+                            <a
+                              href="jurusan-page/akuntansi-dan-keuangan-lembaga.html"
+                              >Akuntansi Dan Keuangan</a
+                            >
+                          </li>
+                          <li class="dropdown-link">
+                            <a
+                              href="jurusan-page/desain-dan-produksi-busana.html"
+                              >Busana Butik</a
+                            >
+                          </li>
+                          <li class="dropdown-link">
+                            <a href="jurusan-page/teknik-kendaraan-ringan.html"
+                              >Teknik Kendaraan Ringan</a
+                            >
+                          </li>
+                          <li class="dropdown-link">
+                            <a href="jurusan-page/teknik-pemesinan.html"
+                              >Teknik Permesinan</a
+                            >
+                          </li>
+                          <li class="dropdown-link">
+                            <a href="jurusan-page/teknik-pengelasan.html"
+                              >Teknik Pengelasan</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="#">Fasilitas Sekolah</a>
+                      <div class="dropdown second">
+                        <ul>
+                          <li class="dropdown-link">
+                            <a href="#">Fasilitas Kompetensi Keahlian</a>
+                            <div class="dropdown second">
+                              <ul>
+                                <li class="dropdown-link">
+                                  <a href="fasilitas-sekolah.html"
+                                    >Fasilitas Teknik Komputer Dan Jaringan</a
+                                  >
+                                </li>
+                                <li class="dropdown-link">
+                                  <a href="fasilitas-sekolah.html"
+                                    >Fasilitas Desain Komunikasi Visual</a
+                                  >
+                                </li>
+                                <li class="dropdown-link">
+                                  <a href="fasilitas-sekolah.html"
+                                    >Fasilitas Rekayasa Perangkat Lunak</a
+                                  >
+                                </li>
+                                <li class="dropdown-link">
+                                  <a href="fasilitas-sekolah.html"
+                                    >Fasilitas Akuntansi Dan Keuangan</a
+                                  >
+                                </li>
+                                <li class="dropdown-link">
+                                  <a href="fasilitas-sekolah.html"
+                                    >Fasilitas Busana Butik</a
+                                  >
+                                </li>
+                                <li class="dropdown-link">
+                                  <a href="fasilitas-sekolah.html"
+                                    >Fasilitas Teknik Kendaraan Ringan</a
+                                  >
+                                </li>
+                                <li class="dropdown-link">
+                                  <a href="fasilitas-sekolah.html"
+                                    >Fasilitas Teknik Permesinan</a
+                                  >
+                                </li>
+                                <li class="dropdown-link">
+                                  <a href="fasilitas-sekolah.html"
+                                    >Fasilitas Teknik Pengelasan</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li class="dropdown-link">
+                            <a href="#">Daerah Ruangan</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="#">Informasi Sekolah</a>
+                      <div class="dropdown second">
+                        <ul>
+                          <li class="dropdown-link">
+                            <a href="agenda-pengumuman.html"
+                              >Pengumuman & Agenda</a
+                            >
+                          </li>
+                          <li class="dropdown-link">
+                            <a href="article.html">Berita Sekolah</a>
+                          </li>
+                          <li class="dropdown-link">
+                            <a href="prestasi.html">Prestasi</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <div class="arrow"></div>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-link">
+                <a href="#">Progam Sekolah</a>
+                <div class="dropdown">
+                  <ul>
+                    <li class="dropdown-link">
+                      <a href="program-sekolah.html"
+                        >Program Indonesia Pintar</a
+                      >
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="program-sekolah.html#kerjasama hubin"
+                        >Kerjasama Hubungan Industri</a
+                      >
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="eskul.html">Ekstrakulikuler</a>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="#">Bursa Kerja Khusus</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-link">
+                <a href="#">Manajemen Sekolah</a>
+                <div class="dropdown">
+                  <ul>
+                    <li class="dropdown-link">
+                      <a href="tenaga-pendidikan.html">Tenaga Pendidik</a>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="tenaga-pendidikan.html">Tenaga Kependidikan</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-link">
+                <a href="#">Akademik</a>
+                <div class="dropdown">
+                  <ul>
+                    <li class="dropdown-link">
+                      <a href="#">Statistik Peserta Didik</a>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="#">Rombongan Belajar</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-link">
+                <a href="galery.html">Galery</a>
+              </li>
+              <li class="nav-link">
+                <a href="#">PPDB 2024</a>
+                <div class="dropdown">
+                  <ul>
+                    <li class="dropdown-link">
+                      <a href="https://ppdb.smkn1kotabekasi.sch.id/"
+                        >Portal Informasi PPDB</a
+                      >
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="https://ppdb.disdik.jabarprov.go.id/"
+                        >PPDB Disdik Jabar</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-link">
+                <a href="blud.html">Blud</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <main>
+        <div class="artikel category">
+          <div class="title">
+            <div class="text">Jelajahi semua <br />Artikel sekolah kami</div>
+          </div>
+          <div class="tags">
+            <div class="tag">any time</div>
+            <div class="tag">post 24 hours</div>
+            <div class="tag">post week</div>
+            <div class="tag">post month</div>
+          </div>
+          <div class="contents">
+            <a
+              href="detail-artikel/SMK Negeri 1 Kota Bekasi Merayakan Hari Santri Nasional 2023.html"
+              class="content"
+            >
+              <div class="image">
+                <img src="image/hari santri.jpg" alt="" />
+              </div>
+              <div class="text">
+                <p class="text-category">School News</p>
+                <p class="desc">
+                  SMK Negeri 1 Kota Bekasi Merayakan Hari Santri Nasional 2023
+                </p>
+                <p class="date">
+                  <i class="fa-regular fa-calendar-days"></i>22 October 2023
+                </p>
+              </div>
+            </a>
+            <a
+              href="detail-artikel/Sosialisasi Bantuan Pemerintah Program SMK Pusat Keunggulan Skema Reguler Baru Konsentrasi Keahlian Teknik Pemesinan.html"
+              class="content"
+            >
+              <div class="image">
+                <img src="image/SMK pusat keunggulan1.jpg" alt="" />
+              </div>
+              <div class="text">
+                <p class="text-category">School News</p>
+                <p class="desc">
+                  Sosialisasi Bantuan Pemerintah Program SMK Pusat Keunggulan
+                  Skema Reguler Baru Konsentrasi Keahlian Teknik Pemesinan
+                </p>
+                <p class="date">
+                  <i class="fa-regular fa-calendar-days"></i>9 October 2023
+                </p>
+              </div>
+            </a>
+            <a
+              href="detail-artikel/Sosialisasi Tes Psikotes oleh PT. Agriva Teknologi Nusantara Kepada Peserta Didik SMK Negeri 1 Kota Bekasi.html"
+              class="content"
+            >
+              <div class="image">
+                <img src="image/psikotes1.jpg" alt="" />
+              </div>
+              <div class="text">
+                <p class="text-category">School News</p>
+                <p class="desc">
+                  Sosialisasi Tes Psikotes oleh PT. Agriva Teknologi Nusantara
+                  Kepada Peserta Didik SMK Negeri 1 Kota Bekasi
+                </p>
+                <p class="date">
+                  <i class="fa-regular fa-calendar-days"></i>2 October 2023
+                </p>
+              </div>
+            </a>
+            <a
+              href="detail-artikel/Kegiatan Masa Pengenalan Lingkungan Sekolah Wali Murid Tahun Pelajaran 2023-2024.html"
+              class="content"
+            >
+              <div class="image">
+                <img src="image/mpls_ortu.jpg" alt="" />
+              </div>
+              <div class="text">
+                <p class="text-category">School News</p>
+                <p class="desc">
+                  Kegiatan Masa Pengenalan Lingkungan Sekolah Wali Murid Tahun
+                  Pelajaran 2023/2024
+                </p>
+                <p class="date">
+                  <i class="fa-regular fa-calendar-days"></i>Yesterday 2 October
+                  2023
+                </p>
+              </div>
+            </a>
+            <a
+              href="detail-artikel/Pelaksanaan Apel HUT Pramuka ke-62 Sumber Daya Manusia yang Profesional dan Proporsional.html"
+              class="content"
+            >
+              <div class="image">
+                <img src="image/hari pramuka1.jpg" alt="" />
+              </div>
+              <div class="text">
+                <p class="text-category">School News</p>
+                <p class="desc">
+                  Pelaksanaan Apel HUT Pramuka ke-62: Sumber Daya Manusia yang
+                  Profesional dan Proporsional
+                </p>
+                <p class="date">
+                  <i class="fa-regular fa-calendar-days"></i>Tuesday, 22 August
+                  2023
+                </p>
+              </div>
+            </a>
+            <a
+              href="detail-artikel/SMK Negeri 1 Kota Bekasi Melakukan Program Donor Darah Bersama PMI dan PMR.html"
+              class="content"
+            >
+              <div class="image">
+                <img src="image/donor darah1.jpg" alt="" />
+              </div>
+              <div class="text">
+                <p class="text-category">School News</p>
+                <p class="desc">
+                  SMK Negeri 1 Kota Bekasi Melakukan Program Donor Darah Bersama
+                  PMI dan PMR
+                </p>
+                <p class="date">
+                  <i class="fa-regular fa-calendar-days"></i>Friday, 6 October
+                  2023
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="background-warna1">
+      <div class="footer">
+        <div class="kiri">
+          <div class="title">
+            <img src="image/smkn-logo.png" alt="" /> SMK NEGERI 1 KOTA BEKASI
+          </div>
+          <p class="text">
+            Jl. Bintara VIII No.2, RT.005/RW.003, Bintara, Kec. Bekasi Barat,
+            Kota Bks, Jawa Barat 17134.
+          </p>
+          <iframe
+            class="maps"
+            title="maps"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.055237962928!2d106.9568943!3d-6.2289093!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c89a57526f1%3A0xa850dc0a366b403c!2sSMK%20NEGERI%201%20KOTA%20BEKASI!5e0!3m2!1sid!2sid!4v1692714733591!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="kanan">
+          <div class="contacts">
+            <div class="contact">
+              <div class="title">Pages</div>
+              <div class="text">
+                <a href="../index.html">Beranda</a>
+                <a href="tentang-sekolah.html">Profil</a>
+                <a href="program-sekolah.html">Program Sekolah</a>
+                <a href="tenaga-pendidikan.html">Manajemen Sekolah</a>
+                <a href="#">Akademik</a>
+                <a href="https://ppdb.smkn1kotabekasi.sch.id/">PPDB 2024</a>
+                <a href="blud.html">BLUD</a>
+              </div>
+            </div>
+            <div class="contact">
+              <div class="title">Social Media</div>
+              <div class="text">
+                <a
+                  href="https://www.facebook.com/smkn1kotabekasi?_rdc=2&_rdr"
+                  id="facebook"
+                  ><i class="fa-brands fa-square-facebook fa-xl"></i> SMKN 1
+                  KOTA BEKASI</a
+                >
+                <a href="https://www.instagram.com/smk1bks/" id="instagram"
+                  ><i class="fa-brands fa-instagram fa-xl"></i> @smkn1bks</a
+                >
+                <a
+                  href="https://www.youtube.com/channel/UCWCWUw8g2QlGkqDJnWAV1Aw"
+                  id="instagram"
+                >
+                  <i class="fa-brands fa-youtube fa-xl"></i>SMKN 1 KOTA
+                  BEKASI</a
+                >
+                <a
+                  href="https://www.youtube.com/@smknegeri1kotabekasi153"
+                  id="youtube"
+                  ><i class="fa-brands fa-linkedin fa-xl"></i> SMKN 1 BEKASI</a
+                >
+              </div>
+            </div>
+            <div class="contact">
+              <div class="title">Contact</div>
+              <div class="text">
+                <a id="phone">
+                  <i class="fa-solid fa-phone fa-xl"></i>
+                  (021) 88951151
+                </a>
+                <a
+                  href="https://smkn1kotabekasi.sch.id/"
+                  id="website"
+                  target="_blank"
+                  ><i class="fa-solid fa-envelope fa-xl"></i
+                  >info@smkn1kotabekasi.sch.id</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright background-warna1">
+      <a href="developer-page.html" class="developer-link">
+        @copyright 2023 by Rekayasa Perangkat Lunak SMKN 1 Kota Bekasi
+      </a>
+    </div>
+
+    <link rel="stylesheet" href="../assets/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="../assets/fontawesome/css/brands.css" />
+    <link rel="stylesheet" href="../assets/fontawesome/css/solid.css" />
+
+    <script src="script/nav.js"></script>
+  </body>
+</html>

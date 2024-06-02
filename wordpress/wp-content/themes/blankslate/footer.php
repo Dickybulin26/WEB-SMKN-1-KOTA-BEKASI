@@ -1,6 +1,4 @@
-</main>
 <?php get_sidebar(); ?>
-</div>
 <footer class="background-warna1">
     <div class="footer">
         <div class="kiri">
