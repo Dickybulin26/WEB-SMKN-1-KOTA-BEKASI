@@ -37,12 +37,12 @@ a {
   text-transform: capitalize;
 }
 
-main {
+#content main {
   display: grid;
   gap: 3rem;
   padding: var(--padding-container);
 }
-main > *,
+#content main > *,
 header > *,
 nav > *,
 footer > * {
@@ -673,6 +673,7 @@ header {
   flex-direction: column;
   gap: 2rem;
 }
+
 .hero .text .title {
   font-weight: 600;
   font-size: 2.5rem;
@@ -959,78 +960,79 @@ header {
 
 /* -----ARTICLE----- */
 
-.artikel .tags .tag {
-  padding: 0.5rem 1rem;
-  border: 1px solid gray;
-  border-radius: 25rem;
-  transition: 0.2s ease-in-out;
-  margin-right: 10px;
-}
-.artikel .tags .tag:hover {
-  background: var(--primary2-background);
-  color: var(--putih);
-}
-.artikel .contents {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-}
-.artikel .contents .content {
-  display: grid;
-  grid-template-columns: 10rem auto;
-  border-radius: 0.5rem;
-  position: relative;
-  overflow: hidden;
-}
-.artikel .contents .content .image {
-  width: 100%;
-  height: 10rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 0.1rem 0.1rem #00000022;
-}
-.artikel .contents .content .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding: 1rem;
-}
+  .artikel .tags .tag {
+    padding: 0.5rem 1rem;
+    border: 1px solid gray;
+    border-radius: 25rem;
+    transition: 0.2s ease-in-out;
+    margin-right: 10px;
+  }
+  .artikel .tags .tag:hover {
+    background: var(--primary2-background);
+    color: var(--putih);
+  }
+  .artikel .contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .artikel .contents .content {
+    display: grid;
+    grid-template-columns: 10rem auto;
+    border-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .artikel .contents .content .image {
+    width: 100%;
+    height: 10rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.1rem #00000022;
+    background: var(--putih);
+  }
+  .artikel .contents .content .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+  }
 
-.artikel .contents .content .text .text-category,
-.artikel .contents .content .text .date {
-  font-weight: 300;
-  font-size: 0.8rem;
-}
-.artikel .contents .content .text .desc {
-  font-weight: 600;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  -webkit-box-orient: vertical;
-}
+  .artikel .contents .content .text .text-category,
+  .artikel .contents .content .text .date {
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+  .artikel .contents .content .text .desc {
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
 
-/* artikel hover animasi */
-.artikel .contents .content::before {
-  content: "";
-  transition: 0.5s;
-  box-shadow: 0 0 1rem var(--primary1-background);
-  z-index: -1;
-  border-radius: 30rem;
-  position: absolute;
-  width: 0;
-  height: 100%;
-  transform: skew(-40deg);
-}
-.artikel .contents .content:hover {
-  color: var(--hitam);
-}
-.artikel .contents .content:hover:before {
-  background: var(--primary1-background);
-  width: 100%;
-  border-radius: 0;
-  transform: skew(0);
-}
+  /* artikel hover animasi */
+  .artikel .contents .content::before {
+    content: "";
+    transition: 0.5s;
+    box-shadow: 0 0 1rem var(--primary1-background);
+    z-index: -1;
+    border-radius: 30rem;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    transform: skew(-40deg);
+  }
+  .artikel .contents .content:hover {
+    color: var(--hitam);
+  }
+  .artikel .contents .content:hover:before {
+    background: var(--primary1-background);
+    width: 100%;
+    border-radius: 0;
+    transform: skew(0);
+  }
 
 /* -----SAMBUTAN-KEPALA-SEKOLAH----- */
 
@@ -2848,4 +2850,35 @@ footer {
     border-radius: 1rem;
   }
   
+}
+
+/* .page-content{
+  font-size: 1.1rem;
+  line-height: 2rem;
+  text-align: justify;
+  display: grid;
+  gap: 2rem;
+} */
+
+.post-template-default p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  text-align: justify;
+  display: grid;
+  gap: 2rem;
+  padding:1rem;
+}
+.post-template-default p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  text-align: justify;
+  display: grid;
+  gap: 2rem;
+  padding:1rem;
+}
+.post-template-default .page-content .wp-block-image{
+  margin-top: 4rem;
+}
+.post-template-default .page-content .wp-block-media-text__media{
+  margin-left: 2rem;
 }
