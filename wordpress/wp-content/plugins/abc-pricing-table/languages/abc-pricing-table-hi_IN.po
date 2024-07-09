@@ -1,0 +1,453 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-11-22 15:59+0530\n"
+"PO-Revision-Date: 2023-11-22 15:59+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _e;__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: class-tgm-plugin-activation.php\n"
+
+#: abc-pricing-table.php:32 include/add-new-pricing.php:89
+#: include/add-new-pricing.php:833
+msgid "Pricing"
+msgstr "प्राइसिंग़"
+
+#: abc-pricing-table.php:87
+msgid "Shortcode"
+msgstr "शॉर्टकोड"
+
+#: abc-pricing-table.php:123
+msgid "Our Plugins"
+msgstr "हमारे प्लगइन्स"
+
+#: abc-pricing-table.php:128 abc-pricing-table.php:129 abc-pricing-table.php:130
+#: abc-pricing-table.php:131 abc-pricing-table.php:145
+msgid "Pricing Table"
+msgstr "प्राइसिंग़ टेबल"
+
+#: abc-pricing-table.php:132 abc-pricing-table.php:133 abc-pricing-table.php:165
+#: include/add-new-pricing.php:31
+msgid "Add Pricing Table"
+msgstr "प्राइसिंग़ टेबल जोड़ें"
+
+#: abc-pricing-table.php:134
+msgid "New Pricing Table"
+msgstr "नई प्राइसिंग़ टेबल"
+
+#: abc-pricing-table.php:135
+msgid "Edit Pricing Table"
+msgstr "प्राइसिंग़ टेबल संपादित करें"
+
+#: abc-pricing-table.php:136
+msgid "View Pricing Table"
+msgstr "प्राइसिंग़ टेबल देखें"
+
+#: abc-pricing-table.php:137
+msgid "All Pricing Table"
+msgstr "सभी प्राइसिंग़ टेबल"
+
+#: abc-pricing-table.php:138
+msgid "Search Pricing Table"
+msgstr "प्राइसिंग़ टेबल खोजें"
+
+#: abc-pricing-table.php:139
+msgid "Parent Pricing Table"
+msgstr "अभिभावक प्राइसिंग़ टेबल"
+
+#: abc-pricing-table.php:140
+msgid "No Pricing Table"
+msgstr "कोई प्राइसिंग़ टेबल नहीं"
+
+#: abc-pricing-table.php:141
+msgid "No Pricing Table found in Trash"
+msgstr "ट्रैश में कोई प्राइसिंग़ टेबल नहीं मिली"
+
+#: abc-pricing-table.php:146
+msgid "Description"
+msgstr "विवरण"
+
+#: abc-pricing-table.php:166
+msgid "Upgrade Pricing Table Pro"
+msgstr "प्राइसिंग़ टेबल प्रो अपग्रेड करें"
+
+#: abc-pricing-table.php:167
+msgid "Rate Our Plugin"
+msgstr "हमारे प्लगइन को रेट करें"
+
+#: featured-plugins/featured-plugins.php:95
+#, php-format
+msgid "%s rating"
+msgstr "%s रेटिंग"
+
+#: featured-plugins/featured-plugins.php:110
+msgid "Get More Free WordPress Plugin From A WP Life"
+msgstr "A WP Life से अधिक मुफ्त वर्डप्रेस प्लगइन प्राप्त करें"
+
+#: featured-plugins/featured-plugins.php:161
+msgid "More Details"
+msgstr "अधिक जानकारी"
+
+#: featured-plugins/featured-plugins.php:169
+msgid "Install Now"
+msgstr "अभी स्थापित करें"
+
+#: featured-plugins/featured-plugins.php:175
+msgid "Update Now"
+msgstr "अभी नवीनतम करें"
+
+#: featured-plugins/featured-plugins.php:219
+msgid "By"
+msgstr "द्वारा"
+
+#: featured-plugins/featured-plugins.php:250
+msgid "Last Updated:"
+msgstr "आखरी अपडेट:"
+
+#: include/add-new-pricing.php:34
+msgid "Template Design"
+msgstr "प्राइसिंग़ टेबल टेम्पलेट डिजाइन का चयन करें"
+
+#: include/add-new-pricing.php:37
+msgid "Config"
+msgstr "कॉन्फ़िग"
+
+#: include/add-new-pricing.php:40 include/add-new-pricing.php:397
+msgid "Color Settings"
+msgstr "रंग व्यवस्था"
+
+#: include/add-new-pricing.php:43 include/add-new-pricing.php:537
+msgid "Featured Color Settings"
+msgstr "फीचर्ड व्यवस्था"
+
+#: include/add-new-pricing.php:46
+msgid "Custom CSS"
+msgstr "कस्टम सीएसएस"
+
+#: include/add-new-pricing.php:54
+msgid "Click On Add Column To Add New Table"
+msgstr "नई तालिका जोड़ने के लिए एड कॉलम पर क्लिक करें"
+
+#: include/add-new-pricing.php:55
+msgid "ADD COLUMN"
+msgstr "स्तंभ जोड़ें"
+
+#: include/add-new-pricing.php:56
+msgid "GET SHORTCODE"
+msgstr "शॉर्टकोड प्राप्त करें"
+
+#: include/add-new-pricing.php:58
+msgid "Note:[Features] Type cross for (cross) icon"
+msgstr "नोट: [फीचर्स] क्रॉस आइकॉन के लिए क्रॉस टाइप करें"
+
+#: include/add-new-pricing.php:58
+msgid "and type (right) for right icon! "
+msgstr "और सही आइकॉन के लिए (right) टाइप करें!"
+
+#: include/add-new-pricing.php:80 include/add-new-pricing.php:824
+msgid "Yes"
+msgstr "हाँ"
+
+#: include/add-new-pricing.php:82 include/add-new-pricing.php:826
+msgid "No"
+msgstr "नहीं"
+
+#: include/add-new-pricing.php:85 include/add-new-pricing.php:829
+msgid "Name"
+msgstr "नाम"
+
+#: include/add-new-pricing.php:92 include/add-new-pricing.php:836
+msgid "Pricing Plan"
+msgstr "प्राइसिंग़"
+
+#: include/add-new-pricing.php:95 include/add-new-pricing.php:839
+msgid "Pricing Features"
+msgstr "प्राइसिंग़ टेबल"
+
+#: include/add-new-pricing.php:97 include/add-new-pricing.php:842
+msgid "Button Text"
+msgstr "बटन पाठ रंग"
+
+#: include/add-new-pricing.php:100 include/add-new-pricing.php:845
+msgid "Button Url"
+msgstr "बटन रंग"
+
+#: include/add-new-pricing.php:113
+msgid "Select Template Design"
+msgstr " प्राइसिंग़ टेबल टेम्पलेट डिजाइन का चयन करें"
+
+#: include/add-new-pricing.php:176
+msgid "Template & Icon Settings"
+msgstr "आइकन सेटिंग्स"
+
+#: include/add-new-pricing.php:181 include/add-new-pricing.php:182
+msgid "Select Currency Icon."
+msgstr "3. आइकन का चयन करें"
+
+#: include/add-new-pricing.php:200
+msgid "United States dollar ( $ )"
+msgstr "यूनाइटेड स्टेट्स डॉलर ( $ )"
+
+#: include/add-new-pricing.php:206
+msgid "Euro ( € )"
+msgstr "यूरो ( € )"
+
+#: include/add-new-pricing.php:212
+msgid "Japanese yen ( ¥ )"
+msgstr "जापानी येन ( ¥ )"
+
+#: include/add-new-pricing.php:218
+msgid "Swiss franc ( Fr )"
+msgstr "स्विस फ्रैंक ( Fr )"
+
+#: include/add-new-pricing.php:224
+msgid "Indian rupee ( INR )"
+msgstr "भारतीय रुपया ( INR )"
+
+#: include/add-new-pricing.php:230
+msgid "Brazilian real ( R$ )"
+msgstr "ब्राज़ीलियाई रियाल ( R$ )"
+
+#: include/add-new-pricing.php:236
+msgid "Israeli new shekel ( NIS )"
+msgstr "इज़राइली न्यू शेकेल ( NIS )"
+
+#: include/add-new-pricing.php:242
+msgid "Czech koruna ( Kc )"
+msgstr "चेक कोरुना ( Kc )"
+
+#: include/add-new-pricing.php:248
+msgid "Malaysian ringgit ( RM )"
+msgstr "मलेशियाई रिंग्गित ( RM )"
+
+#: include/add-new-pricing.php:254
+msgid "Philippine peso ( PHP )"
+msgstr "फिलिपीन पेसो ( PHP )"
+
+#: include/add-new-pricing.php:260
+msgid "New Taiwan dollar ( NT$ )"
+msgstr "न्यू ताइवान डॉलर ( NT$ )"
+
+#: include/add-new-pricing.php:266
+msgid "Thai baht ( THB )"
+msgstr "थाई बाहत ( THB )"
+
+#: include/add-new-pricing.php:272
+msgid "Turkish lira ( t )"
+msgstr "तुर्की लीरा ( t )"
+
+#: include/add-new-pricing.php:278
+msgid "No Currency"
+msgstr "कोई मुद्रा नहीं"
+
+#: include/add-new-pricing.php:287
+msgid "Columns Settings"
+msgstr "स्तंभ व्यवस्था"
+
+#: include/add-new-pricing.php:288
+msgid "Pricing Columns Per Row."
+msgstr "प्रति पंक्ति प्राइसिंग़ टेबल कॉलम"
+
+#: include/add-new-pricing.php:306
+msgid "Columns 4"
+msgstr "स्तंभ 4"
+
+#: include/add-new-pricing.php:312
+msgid "Columns 3"
+msgstr "स्तंभ 3"
+
+#: include/add-new-pricing.php:318
+msgid "Columns 2"
+msgstr "स्तंभ 2"
+
+#: include/add-new-pricing.php:324
+msgid "Columns 1"
+msgstr "स्तंभ 1"
+
+#: include/add-new-pricing.php:333
+msgid "Heading Font Size"
+msgstr "शीर्षक फ़ॉन्ट आकार"
+
+#: include/add-new-pricing.php:334
+msgid "Pricing Heading Name Font Size."
+msgstr "मूल्य निर्धारण शीर्षक का फ़ॉन्ट आकार।"
+
+#: include/add-new-pricing.php:347
+msgid "Feature Font Size"
+msgstr "फीचर फ़ॉन्ट आकार"
+
+#: include/add-new-pricing.php:348
+msgid "Pricing Table [Features] Font Size."
+msgstr "प्राइसिंग़ टेबल टेक्स्ट फ़ॉन्ट आकार"
+
+#: include/add-new-pricing.php:361
+msgid "Button Text Font Size"
+msgstr "बटन टेक्स्ट फ़ॉन्ट आकार"
+
+#: include/add-new-pricing.php:362
+msgid "Pricing Button Text Font Size."
+msgstr "मूल्य निर्धारण बटन टेक्स्ट फ़ॉन्ट आकार।"
+
+#: include/add-new-pricing.php:376
+msgid "Icon Settings"
+msgstr "आइकन सेटिंग्स"
+
+#: include/add-new-pricing.php:377
+msgid "Select Pricing Header Icon "
+msgstr "प्राइसिंग़ टेबल टेम्पलेट डिजाइन का चयन करें"
+
+#: include/add-new-pricing.php:402 include/add-new-pricing.php:542
+msgid "Heading Text Color"
+msgstr "शीर्षक पाठ रंग"
+
+#: include/add-new-pricing.php:419 include/add-new-pricing.php:580
+msgid "Background Color"
+msgstr "पीछे का रंग"
+
+#: include/add-new-pricing.php:439 include/add-new-pricing.php:559
+msgid "Button Color"
+msgstr "बटन रंग"
+
+#: include/add-new-pricing.php:456 include/add-new-pricing.php:635
+msgid "Button Hover Color"
+msgstr "बटन होवर रंग"
+
+#: include/add-new-pricing.php:477 include/add-new-pricing.php:617
+msgid "Background Hover Color"
+msgstr "पृष्ठभूमि होवर रंग"
+
+#: include/add-new-pricing.php:494 include/add-new-pricing.php:597
+msgid "Button Text Color"
+msgstr "बटन पाठ रंग"
+
+#: include/add-new-pricing.php:513 include/add-new-pricing.php:655
+msgid "Features Text Color"
+msgstr "शीर्षक पाठ रंग"
+
+#: include/add-new-pricing.php:523 include/add-new-pricing.php:665
+msgid "Icon Color"
+msgstr "आइकन का रंग"
+
+#: include/add-new-pricing.php:676
+msgid "Custom Css"
+msgstr "कस्टम सीएसएस"
+
+#: include/add-new-pricing.php:681
+msgid "Apply own css on Pricing Table and dont use style tag"
+msgstr "मूल्य निर्धारण तालिका पर अपना css लागू करें और स्टाइल टैग का उपयोग न करें"
+
+#: include/add-new-pricing.php:707
+msgid ""
+"Copy the shortcode below and paste it wherever you want your pricing table to "
+"appear"
+msgstr ""
+"नीचे दिए गए शॉर्टकोड की प्रतिलिपि बनाएं और जहां भी आप अपनी प्राइसिंग़ टेबल  दिखाना चाहते हैं "
+"उसे पेस्ट करें"
+
+#: include/add-new-pricing.php:716
+msgid "Close"
+msgstr "बंद करे"
+
+#~ msgid "Template & s"
+#~ msgstr "टेम्पलेट और आइकन व्यवस्था"
+
+#, fuzzy
+#~| msgid "Our Plugins"
+#~ msgid "Install Required Plugins"
+#~ msgstr "हमारे प्लगइन्स"
+
+#, fuzzy
+#~| msgid "Our Plugins"
+#~ msgid "Install Plugins"
+#~ msgstr "हमारे प्लगइन्स"
+
+#, fuzzy, php-format
+#~| msgid "Our Plugins"
+#~ msgid "Installing Plugin: %s"
+#~ msgstr "हमारे प्लगइन्स"
+
+#, fuzzy
+#~| msgid "Install Now"
+#~ msgid "Not Installed"
+#~ msgstr "अभी स्थापित करें"
+
+#, fuzzy
+#~| msgid "Install Now"
+#~ msgid "Installed version:"
+#~ msgstr "अभी स्थापित करें"
+
+#, fuzzy
+#~| msgid "Install Now"
+#~ msgid "Available version:"
+#~ msgstr "अभी स्थापित करें"
+
+#, fuzzy
+#~| msgid "Our Plugins"
+#~ msgid "Plugin"
+#~ msgstr "हमारे प्लगइन्स"
+
+#, fuzzy, php-format
+#~| msgid "Install Now"
+#~ msgid "Install %2$s"
+#~ msgstr "अभी स्थापित करें"
+
+#, fuzzy, php-format
+#~| msgid "Update Now"
+#~ msgid "Update %2$s"
+#~ msgstr "अभी नवीनतम करें"
+
+#, fuzzy, php-format
+#~| msgid "Update Now"
+#~ msgid "Activate %2$s"
+#~ msgstr "अभी नवीनतम करें"
+
+#, fuzzy
+#~| msgid "Install Now"
+#~ msgid "Install"
+#~ msgstr "अभी स्थापित करें"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Update"
+#~ msgstr "अभी नवीनतम करें"
+
+#, fuzzy, php-format
+#~| msgid "Our Plugins"
+#~ msgid "Installing Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "हमारे प्लगइन्स"
+
+#~ msgid "Our Theme"
+#~ msgstr "हमारी थीम"
+
+#~ msgid "Add pricing table"
+#~ msgstr "प्राइसिंग़ टेबल जोड़ें"
+
+#~ msgid "CLICK ON"
+#~ msgstr "क्लिक करें"
+
+#~ msgid "ADD NEW BUTTON"
+#~ msgstr "नया बटन जोड़ें"
+
+#~ msgid "TO ADD NEW TABLE"
+#~ msgstr "नया टेबल जोड़ने के लिए"
+
+#~ msgid "Templet 1"
+#~ msgstr "1 टेम्पलेट्"
+
+#~ msgid "Templet 2"
+#~ msgstr "2 टेम्पलेट्"
+
+#~ msgid "Templet 3"
+#~ msgstr "3 टेम्पलेट्"
+
+#~ msgid "Templet 4"
+#~ msgstr "4 टेम्पलेट्"

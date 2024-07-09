@@ -1,0 +1,125 @@
+/* <!-- Team Setting Css --> */
+
+
+/* <!-- Add Team page Css --> */
+
+input[name=pricing_table_design] {
+	visibility: hidden;
+}
+
+.team_layout {
+box-shadow: 3px 4px 20px 0px #999;
+opacity: 0.9;
+display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+}
+
+.team_layout:after {
+content: "\f00c";
+position: absolute;
+opacity: 1;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+color: #28a745;
+font-size: 45px;
+font-family: 'Font Awesome 5 Free';
+ font-weight: 900;
+}
+
+.team-image-size img {
+height: 230px;
+}
+
+.team-style {
+margin-bottom: 30px;
+}
+.team-style-two {
+margin-bottom: 30px;
+}
+.team-panel-class {
+padding: 25px;
+box-shadow: 3px 4px 20px 0px #999;
+}
+
+.team-panel-body {
+padding: 10px;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+float: left;
+}
+.text {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+.inside {
+	overflow:hidden;
+}
+.pri_main_div {
+	background-color: #F6F6F6;
+	margin-bottom: 12px;
+	margin-left: 12px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	width: 300px !important;
+	margin-top: 12px;
+}
+.pri_head_hr {
+	height: 2px;
+}
+.fa-stack {
+	left: -20px;
+	margin-top: -3px;
+	cursor: pointer;
+}
+.time {
+	color: #fff !important;
+	border-color: #304152;
+	background: #304152;
+	background-color: #304152;
+	float: right;
+	margin-right: -3px;
+	margin-top: 10px;
+}
+.pri_head {
+	margin-top: -15px;
+}
+
+.aad-btn {
+	margin-top: 30px;
+	text-align: right;
+	margin-bottom: 30px;
+}
+.center {
+	text-align: center;
+}
+
+#pri_delete{
+  cursor: pointer;
+}
+.wp-color-result {
+	margin-left: 40px !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+.wp-picker-container .iris-picker {
+	margin-left: 40px;
+}
+.wp-picker-container input.wp-color-picker[type="text"] {
+	width: 68px;
+	margin-top: 9px !important;
+}
+.wp-picker-container .button {
+	margin-left: 6px;
+	margin-top: 9px !important;
+}
+#comment-link-box, #edit-slug-box {
+	display: none;
+}
+
+/* <!-- Add Team page Css --> */

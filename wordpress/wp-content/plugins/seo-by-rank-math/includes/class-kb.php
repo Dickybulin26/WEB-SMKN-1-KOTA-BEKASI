@@ -12,8 +12,6 @@
 
 namespace RankMath;
 
-use MyThemeShop\Helpers\Arr;
-
 defined( 'ABSPATH' ) || exit;
 
 /**
@@ -38,10 +36,12 @@ class KB {
 		'help-affiliate'                  => 'https://rankmath.com/affiliates/',
 		'content-ai'                      => 'https://rankmath.com/content-ai/',
 		'content-ai-pricing-tables'       => 'https://rankmath.com/content-ai/?#pricing-tables',
+		'content-ai-restore-credits'      => 'https://rankmath.com/kb/how-to-restore-missing-content-ai-credits/',
 		'free-vs-pro'                     => 'https://rankmath.com/free-vs-pro/',
 		'google-updates'                  => 'https://rankmath.com/google-updates/',
 		'usage-policy'                    => 'https://rankmath.com/usage-tracking/',
 		'logo'                            => 'https://rankmath.com/wordpress/plugin/seo-suite/',
+		'offer'                           => 'https://rankmath.com/offer/',
 
 		// Knowledgebase.
 		'knowledgebase'                   => 'https://rankmath.com/kb/',
@@ -111,7 +111,7 @@ class KB {
 		'content-ai-settings'             => 'https://rankmath.com/kb/how-to-use-content-ai/',
 		'content-ai-links'                => 'https://rankmath.com/kb/how-to-use-content-ai/?#links',
 		'content-ai-keywords'             => 'https://rankmath.com/kb/how-to-use-content-ai/?#keywords',
-		'content-ai-credits-usage'        => 'https://rankmath.com/kb/how-to-use-content-ai/?#credits-usage',
+		'content-ai-credits-usage'        => 'https://rankmath.com/kb/content-ai-plans-and-credits/',
 		'free-account-benefits'           => 'https://rankmath.com/kb/free-account-benefits/',
 		'import-export-settings'          => 'https://rankmath.com/kb/import-export-settings/',
 		'location-data-shortcode'         => 'https://rankmath.com/kb/location-data-shortcode/',

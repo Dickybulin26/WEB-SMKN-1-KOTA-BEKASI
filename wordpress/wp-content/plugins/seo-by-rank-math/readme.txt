@@ -1,15 +1,15 @@
-=== Rank Math SEO ===
+=== Rank Math SEO – AI SEO Tools to Dominate SEO Rankings ===
 Contributors: rankmath
 Plugin link: https://rankmath.com/?utm_source=LP&utm_campaign=WP
 Tags: seo, sitemap, google search console, schema, redirection, WordPress SEO
-Tested up to: 6.3
-Requires at least: 5.6
+Tested up to: 6.5
+Requires at least: 6.3
 Requires PHP: 7.4
-Stable tag: 1.0.122
+Stable tag: 1.0.222
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
-Rank Math SEO is the Best WordPress SEO plugin combines the features of many SEO tools in a single package & helps you multiply your SEO traffic.
+Rank Math SEO is the Best WordPress SEO plugin with the features of many SEO and AI SEO tools in a single package to help multiply your SEO traffic.
 
 == Description ==
 
@@ -17,7 +17,7 @@ Rank Math SEO is the Best WordPress SEO plugin combines the features of many SEO
 **1st WordPress SEO Plugin to use AI (Artificial Intelligence)** 🦾
 ★★★★★<br>
 
-**SEO is the most consistent source of traffic for any website.** We created <a href="https://rankmath.com/wordpress/plugin/seo-suite/?utm_source=LP&utm_campaign=WP" target="_blank">**Rank Math, a WordPress SEO plugin**</a>, to help every website owner get access to the SEO tools they need to improve their SEO and attract more traffic to their website.
+**SEO is the most consistent source of traffic for any website.** We created <a href="https://rankmath.com/wordpress/plugin/seo-suite/?utm_source=LP&utm_campaign=WP" target="_blank">**Rank Math, a WordPress SEO plugin**</a> with AI SEO features better than ChatGPT, to help every website owner get access to the SEO tools they need to improve their SEO and attract more traffic to their website.
 ## <a href="https://demo.rankmath.com/wp-admin/admin.php?page=rank-math-wizard" target="_blank">Try The FREE Demo of Rank Math</a> ##
 
 [youtube https://www.youtube.com/watch?v=NgeaqIy2OB0]
@@ -26,13 +26,13 @@ Rank Math SEO is the Best WordPress SEO plugin combines the features of many SEO
 
 SEO might be the best and most **consistent source of traffic** for one's website, but it's not without its quirks. The constant process of optimizing your posts can sometimes take more time than actually writing the content. **If you always feel that you can do more on the SEO** front for your website but don't have the time, **then Rank Math is what you're looking for.**
 
-Its host of **intelligent features** brings top SEO capabilities in your hands that were previously out of reach. The **smart automation** features give you the **power of an entire SEO team** with just a few clicks. A **well thought out design, powerful features, and years of development** by the MyThemeShop squad make Rank Math a game-changing SEO plugin that will level the SEO playing field in your favor to help increase traffic.
+Its host of **intelligent features** brings top SEO capabilities in your hands that were previously out of reach. The **smart automation** features give you the **power of an entire SEO team** with just a few clicks. A **well-thought-out design, powerful features, and years of development** make Rank Math a game-changing SEO plugin that will level the SEO playing field in your favor to help increase traffic.
 
 ### Exclusive Content AI. Write Highly Optimized SEO Content ###
 
 [youtube https://www.youtube.com/watch?v=tm_dhgbIWow]
 
-➜ Use Artificial Intelligence to write SEO optimized content
+➜ Use AI SEO to write better than ChatGPT
 ➜ Dynamic Suggestions
 ➜ Intelligent Recommendations
 ➜ Dynamic Keywords
@@ -583,12 +583,12 @@ Please drop us an email at support@rankmath.com and we would be more than happy 
 
 == Changelog ==
 
-= 1.0.122 [Aug 23, 2023] =
-- Added: New option in [Webmaster Tools](https://rankmath.com/kb/general-settings/#webmaster-tools) to add additional verification tags
-- Added: [New filter](https://rankmath.com/kb/filters-hooks-api-developer/#modify-link-counter-content) to modify the content passed to the [Link Counter](https://rankmath.com/kb/link-counter/)
-- Fixed: PHP Warning with WP CLI command `wp rankmath sitemap generate`
-- Fixed: Setup Wizard was not updating [Person/Organization Name](https://rankmath.com/kb/how-to-setup/#your-site)
-- Fixed: PHP warnings on the [Redirections](https://rankmath.com/kb/setting-up-redirections/) page in PHP 8.1, occurring when no Redirections are present on the site
+= 1.0.222 [June 26, 2024] =
+- Added: Support for AVIF images in [Open Graph](https://rankmath.com/kb/open-graph-meta-tags/) meta tags
+- Fixed: [Content AI](https://rankmath.com/kb/how-to-use-content-ai-tools/) displayed a white screen when the Schema module was disabled
+- Fixed: Issue with [Highlight Long Paragraphs](https://rankmath.com/kb/fix-long-paragraph-test/) feature in the Classic Editor
+- Fixed: Content AI error popup in the [Research tab](https://rankmath.com/kb/how-to-use-content-ai/#research-keywords) was blocking other metaboxes in the Classic Editor
+- Fixed: Issue with Show/Hide columns option in the [Index Status table](https://rankmath.com/kb/analytics/#index-status-of-posts)
 
 
 Full changelog can be found here - **[Rank Math changelog](https://rankmath.com/changelog/?utm_source=Plugin&utm_medium=Changelog&utm_campaign=WP)**

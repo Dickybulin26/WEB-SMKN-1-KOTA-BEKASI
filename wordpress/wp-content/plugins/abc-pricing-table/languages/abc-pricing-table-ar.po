@@ -1,0 +1,356 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: abc-pricing-table\n"
+"POT-Creation-Date: 2023-11-22 16:53+0530\n"
+"PO-Revision-Date: 2023-11-22 16:53+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: class-tgm-plugin-activation.php\n"
+
+#: abc-pricing-table.php:32 include/add-new-pricing.php:89
+#: include/add-new-pricing.php:833
+msgid "Pricing"
+msgstr "التسعير"
+
+#: abc-pricing-table.php:87
+msgid "Shortcode"
+msgstr "الرمز القصير"
+
+#: abc-pricing-table.php:123
+msgid "Our Plugins"
+msgstr "إضافاتنا"
+
+#: abc-pricing-table.php:128 abc-pricing-table.php:129
+#: abc-pricing-table.php:130 abc-pricing-table.php:131
+#: abc-pricing-table.php:145
+msgid "Pricing Table"
+msgstr "جدول التسعير"
+
+#: abc-pricing-table.php:132 abc-pricing-table.php:133
+#: abc-pricing-table.php:165 include/add-new-pricing.php:31
+msgid "Add Pricing Table"
+msgstr "إضافة جدول التسعير"
+
+#: abc-pricing-table.php:134
+msgid "New Pricing Table"
+msgstr "جدول تسعير جديد"
+
+#: abc-pricing-table.php:135
+msgid "Edit Pricing Table"
+msgstr "تعديل جدول التسعير"
+
+#: abc-pricing-table.php:136
+msgid "View Pricing Table"
+msgstr "عرض جدول التسعير"
+
+#: abc-pricing-table.php:137
+msgid "All Pricing Table"
+msgstr "كل جداول التسعير"
+
+#: abc-pricing-table.php:138
+msgid "Search Pricing Table"
+msgstr "بحث في جدول التسعير"
+
+#: abc-pricing-table.php:139
+msgid "Parent Pricing Table"
+msgstr "جدول التسعير الرئيسي"
+
+#: abc-pricing-table.php:140
+msgid "No Pricing Table"
+msgstr "لا يوجد جدول تسعير"
+
+#: abc-pricing-table.php:141
+msgid "No Pricing Table found in Trash"
+msgstr "لم يتم العثور على جداول تسعير في سلة المهملات"
+
+#: abc-pricing-table.php:146
+msgid "Description"
+msgstr "الوصف"
+
+#: abc-pricing-table.php:166
+msgid "Upgrade Pricing Table Pro"
+msgstr "ترقية جدول التسعير برو"
+
+#: abc-pricing-table.php:167
+msgid "Rate Our Plugin"
+msgstr "قيم إضافتنا"
+
+#: featured-plugins/featured-plugins.php:95
+#, php-format
+msgid "%s rating"
+msgstr "تقييم %s"
+
+#: featured-plugins/featured-plugins.php:110
+msgid "Get More Free WordPress Plugin From A WP Life"
+msgstr "احصل على المزيد من إضافات ووردبريس المجانية من A WP Life"
+
+#: featured-plugins/featured-plugins.php:161
+msgid "More Details"
+msgstr "المزيد من التفاصيل"
+
+#: featured-plugins/featured-plugins.php:169
+msgid "Install Now"
+msgstr "تثبيت الآن"
+
+#: featured-plugins/featured-plugins.php:175
+msgid "Update Now"
+msgstr "تحديث الآن"
+
+#: featured-plugins/featured-plugins.php:219
+msgid "By"
+msgstr "بواسطة"
+
+#: featured-plugins/featured-plugins.php:250
+msgid "Last Updated:"
+msgstr "آخر تحديث:"
+
+#: include/add-new-pricing.php:34
+msgid "Template Design"
+msgstr "تصميم القالب"
+
+#: include/add-new-pricing.php:37
+msgid "Config"
+msgstr "التكوين"
+
+#: include/add-new-pricing.php:40 include/add-new-pricing.php:397
+msgid "Color Settings"
+msgstr "إعدادات اللون"
+
+#: include/add-new-pricing.php:43 include/add-new-pricing.php:537
+msgid "Featured Color Settings"
+msgstr "إعدادات الألوان المميزة"
+
+#: include/add-new-pricing.php:46
+msgid "Custom CSS"
+msgstr "CSS مخصص"
+
+#: include/add-new-pricing.php:54
+msgid "Click On Add Column To Add New Table"
+msgstr "انقر على إضافة عمود لإضافة جدول جديد"
+
+#: include/add-new-pricing.php:55
+msgid "ADD COLUMN"
+msgstr "إضافة عمود"
+
+#: include/add-new-pricing.php:56
+msgid "GET SHORTCODE"
+msgstr "الحصول على الرمز القصير"
+
+#: include/add-new-pricing.php:58
+msgid "Note:[Features] Type cross for (cross) icon"
+msgstr "ملاحظة: [الميزات] اكتب علامة (×) لأيقونة الصليب"
+
+#: include/add-new-pricing.php:58
+msgid "and type (right) for right icon! "
+msgstr "واكتب (صح) لأيقونة الصح!"
+
+#: include/add-new-pricing.php:80 include/add-new-pricing.php:824
+msgid "Yes"
+msgstr "نعم"
+
+#: include/add-new-pricing.php:82 include/add-new-pricing.php:826
+msgid "No"
+msgstr "لا"
+
+#: include/add-new-pricing.php:85 include/add-new-pricing.php:829
+msgid "Name"
+msgstr "الاسم"
+
+#: include/add-new-pricing.php:92 include/add-new-pricing.php:836
+msgid "Pricing Plan"
+msgstr "خطة التسعير"
+
+#: include/add-new-pricing.php:95 include/add-new-pricing.php:839
+msgid "Pricing Features"
+msgstr "ميزات التسعير"
+
+#: include/add-new-pricing.php:97 include/add-new-pricing.php:842
+msgid "Button Text"
+msgstr "نص الزر"
+
+#: include/add-new-pricing.php:100 include/add-new-pricing.php:845
+msgid "Button Url"
+msgstr "رابط الزر"
+
+#: include/add-new-pricing.php:113
+msgid "Select Template Design"
+msgstr "اختر تصميم القالب"
+
+#: include/add-new-pricing.php:176
+msgid "Template & Icon Settings"
+msgstr "إعدادات القالب والأيقونة"
+
+#: include/add-new-pricing.php:181 include/add-new-pricing.php:182
+msgid "Select Currency Icon."
+msgstr "اختر أيقونة العملة."
+
+#: include/add-new-pricing.php:200
+msgid "United States dollar ( $ )"
+msgstr "دولار الولايات المتحدة ( $ )"
+
+#: include/add-new-pricing.php:206
+msgid "Euro ( € )"
+msgstr "يورو ( € )"
+
+#: include/add-new-pricing.php:212
+msgid "Japanese yen ( ¥ )"
+msgstr "ين ياباني ( ¥ )"
+
+#: include/add-new-pricing.php:218
+msgid "Swiss franc ( Fr )"
+msgstr "فرنك سويسري ( Fr )"
+
+#: include/add-new-pricing.php:224
+msgid "Indian rupee ( INR )"
+msgstr "روبية هندية ( INR )"
+
+#: include/add-new-pricing.php:230
+msgid "Brazilian real ( R$ )"
+msgstr "ريال برازيلي ( R$ )"
+
+#: include/add-new-pricing.php:236
+msgid "Israeli new shekel ( NIS )"
+msgstr "شيكل إسرائيلي جديد ( NIS )"
+
+#: include/add-new-pricing.php:242
+msgid "Czech koruna ( Kc )"
+msgstr "كرونة تشيكية ( Kc )"
+
+#: include/add-new-pricing.php:248
+msgid "Malaysian ringgit ( RM )"
+msgstr "رينغيت ماليزي ( RM )"
+
+#: include/add-new-pricing.php:254
+msgid "Philippine peso ( PHP )"
+msgstr "بيزو فلبيني ( PHP )"
+
+#: include/add-new-pricing.php:260
+msgid "New Taiwan dollar ( NT$ )"
+msgstr "دولار تايوان الجديد ( NT$ )"
+
+#: include/add-new-pricing.php:266
+msgid "Thai baht ( THB )"
+msgstr "بات تايلاندي ( THB )"
+
+#: include/add-new-pricing.php:272
+msgid "Turkish lira ( t )"
+msgstr "ليرة تركية ( t )"
+
+#: include/add-new-pricing.php:278
+msgid "No Currency"
+msgstr "لا يوجد عملة"
+
+#: include/add-new-pricing.php:287
+msgid "Columns Settings"
+msgstr "إعدادات الأعمدة"
+
+#: include/add-new-pricing.php:288
+msgid "Pricing Columns Per Row."
+msgstr "أعمدة التسعير لكل صف."
+
+#: include/add-new-pricing.php:306
+msgid "Columns 4"
+msgstr "4 أعمدة"
+
+#: include/add-new-pricing.php:312
+msgid "Columns 3"
+msgstr "3 أعمدة"
+
+#: include/add-new-pricing.php:318
+msgid "Columns 2"
+msgstr "عمودان"
+
+#: include/add-new-pricing.php:324
+msgid "Columns 1"
+msgstr "عمود واحد"
+
+#: include/add-new-pricing.php:333
+msgid "Heading Font Size"
+msgstr "حجم خط العنوان"
+
+#: include/add-new-pricing.php:334
+msgid "Pricing Heading Name Font Size."
+msgstr "حجم خط اسم عنوان التسعير."
+
+#: include/add-new-pricing.php:347
+msgid "Feature Font Size"
+msgstr "حجم خط الميزة"
+
+#: include/add-new-pricing.php:348
+msgid "Pricing Table [Features] Font Size."
+msgstr "حجم خط [الميزات] في جدول التسعير."
+
+#: include/add-new-pricing.php:361
+msgid "Button Text Font Size"
+msgstr "حجم خط نص الزر"
+
+#: include/add-new-pricing.php:362
+msgid "Pricing Button Text Font Size."
+msgstr "حجم خط نص زر التسعير."
+
+#: include/add-new-pricing.php:376
+msgid "Icon Settings"
+msgstr "إعدادات الأيقونة"
+
+#: include/add-new-pricing.php:377
+msgid "Select Pricing Header Icon "
+msgstr "اختر أيقونة رأس التسعير"
+
+#: include/add-new-pricing.php:402 include/add-new-pricing.php:542
+msgid "Heading Text Color"
+msgstr "لون نص العنوان"
+
+#: include/add-new-pricing.php:419 include/add-new-pricing.php:580
+msgid "Background Color"
+msgstr "لون الخلفية"
+
+#: include/add-new-pricing.php:439 include/add-new-pricing.php:559
+msgid "Button Color"
+msgstr "لون الزر"
+
+#: include/add-new-pricing.php:456 include/add-new-pricing.php:635
+msgid "Button Hover Color"
+msgstr "لون الزر عند التحويم"
+
+#: include/add-new-pricing.php:477 include/add-new-pricing.php:617
+msgid "Background Hover Color"
+msgstr "لون الخلفية عند التحويم"
+
+#: include/add-new-pricing.php:494 include/add-new-pricing.php:597
+msgid "Button Text Color"
+msgstr "لون نص الزر"
+
+#: include/add-new-pricing.php:513 include/add-new-pricing.php:655
+msgid "Features Text Color"
+msgstr "لون نص الميزات"
+
+#: include/add-new-pricing.php:523 include/add-new-pricing.php:665
+msgid "Icon Color"
+msgstr "لون الأيقونة"
+
+#: include/add-new-pricing.php:676
+msgid "Custom Css"
+msgstr "CSS مخصص"
+
+#: include/add-new-pricing.php:681
+msgid "Apply own css on Pricing Table and dont use style tag"
+msgstr "طبق CSS الخاص على جدول التسعير ولا تستخدم علامة الأنماط"
+
+#: include/add-new-pricing.php:707
+msgid ""
+"Copy the shortcode below and paste it wherever you want your pricing table "
+"to appear"
+msgstr "انسخ الرمز القصير أدناه والصقه حيث تريد ظهور جدول التسعير الخاص بك"
+
+#: include/add-new-pricing.php:716
+msgid "Close"
+msgstr "إغلاق"

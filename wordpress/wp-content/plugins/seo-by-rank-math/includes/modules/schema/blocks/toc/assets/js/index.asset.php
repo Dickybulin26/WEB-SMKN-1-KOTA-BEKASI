@@ -1,4 +1,12 @@
 <?php
+/**
+ * Block script dependencies.
+ *
+ * @package    RankMath
+ * @subpackage RankMath\Schema
+ * @author     Rank Math <support@rankmath.com>
+ */
+
 return [
 	'dependencies' => [
 		'wp-blocks',
@@ -10,6 +18,8 @@ return [
 		'wp-url',
 		'wp-i18n',
 		'lodash',
+		'wp-primitives',
+		'wp-reusable-blocks',
 	],
 	'version'      => rank_math()->version,
 ];

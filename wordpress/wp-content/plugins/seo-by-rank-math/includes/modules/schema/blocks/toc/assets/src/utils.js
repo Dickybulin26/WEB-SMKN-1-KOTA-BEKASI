@@ -9,7 +9,6 @@ import { isEmpty, isUndefined, isString, kebabCase, includes, forEach, isEqual, 
 import { store as blockEditorStore } from '@wordpress/block-editor'
 import { __unstableStripHTML as stripHTML } from '@wordpress/dom'
 import { useSelect, useDispatch } from '@wordpress/data'
-import { store as reusableBlocksStore } from '@wordpress/reusable-blocks'
 
 /**
  * Get the headings from the content.
@@ -18,7 +17,6 @@ import { store as reusableBlocksStore } from '@wordpress/reusable-blocks'
  * @param {Array} excludeHeadings Heading levels to exclude
  */
 export function GetLatestHeadings( headings, excludeHeadings ) {
-	const { __experimentalConvertBlockToStatic: convertBlockToStatic } = useDispatch( reusableBlocksStore )
 	return useSelect(
 		( select ) => {
 			const {
@@ -26,6 +24,7 @@ export function GetLatestHeadings( headings, excludeHeadings ) {
 				getBlockName,
 				getClientIdsWithDescendants,
 			} = select( blockEditorStore )
+			const { __experimentalConvertBlockToStatic: convertBlockToStatic } = useDispatch( 'core/reusable-blocks' )
 
 			// Get the client ids of all blocks in the editor.
 			const allBlockClientIds = getClientIdsWithDescendants()
@@ -111,8 +110,9 @@ export function GetLatestHeadings( headings, excludeHeadings ) {
 					const isGeneratedLink = ! isUndefined( currentHeading.isGeneratedLink ) && currentHeading.isGeneratedLink
 
 					let anchor = headingAttributes.anchor
+					const headingText = ! isEmpty( headingAttributes.content.text ) ? headingAttributes.content.text : headingAttributes.content
 					if ( isEmpty( headingAttributes.anchor ) || isGeneratedLink ) {
-						anchor = kebabCase( stripHTML( headingAttributes.content ) )
+						anchor = kebabCase( stripHTML( headingText ) )
 					}
 
 					if ( includes( anchors, anchor ) ) {
@@ -122,8 +122,8 @@ export function GetLatestHeadings( headings, excludeHeadings ) {
 
 					anchors.push( anchor )
 					headingAttributes.anchor = anchor
-					const headingContent = isString( headingAttributes.content ) ? stripHTML(
-						headingAttributes.content.replace(
+					const headingContent = isString( headingText ) ? stripHTML(
+						headingText.replace(
 							/(<br *\/?>)+/g,
 							' '
 						)

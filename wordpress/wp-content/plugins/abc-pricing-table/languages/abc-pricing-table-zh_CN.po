@@ -1,0 +1,356 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-11-22 16:55+0530\n"
+"PO-Revision-Date: 2023-11-22 17:20+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: class-tgm-plugin-activation.php\n"
+
+#: abc-pricing-table.php:32 include/add-new-pricing.php:89
+#: include/add-new-pricing.php:833
+msgid "Pricing"
+msgstr "定价"
+
+#: abc-pricing-table.php:87
+msgid "Shortcode"
+msgstr "短代码"
+
+#: abc-pricing-table.php:123
+msgid "Our Plugins"
+msgstr "我们的插件"
+
+#: abc-pricing-table.php:128 abc-pricing-table.php:129
+#: abc-pricing-table.php:130 abc-pricing-table.php:131
+#: abc-pricing-table.php:145
+msgid "Pricing Table"
+msgstr "定价表"
+
+#: abc-pricing-table.php:132 abc-pricing-table.php:133
+#: abc-pricing-table.php:165 include/add-new-pricing.php:31
+msgid "Add Pricing Table"
+msgstr "添加定价表"
+
+#: abc-pricing-table.php:134
+msgid "New Pricing Table"
+msgstr "新定价表"
+
+#: abc-pricing-table.php:135
+msgid "Edit Pricing Table"
+msgstr "编辑定价表"
+
+#: abc-pricing-table.php:136
+msgid "View Pricing Table"
+msgstr "查看定价表"
+
+#: abc-pricing-table.php:137
+msgid "All Pricing Table"
+msgstr "所有定价表"
+
+#: abc-pricing-table.php:138
+msgid "Search Pricing Table"
+msgstr "搜索定价表"
+
+#: abc-pricing-table.php:139
+msgid "Parent Pricing Table"
+msgstr "父级定价表"
+
+#: abc-pricing-table.php:140
+msgid "No Pricing Table"
+msgstr "无定价表"
+
+#: abc-pricing-table.php:141
+msgid "No Pricing Table found in Trash"
+msgstr "回收站中未找到定价表"
+
+#: abc-pricing-table.php:146
+msgid "Description"
+msgstr "描述"
+
+#: abc-pricing-table.php:166
+msgid "Upgrade Pricing Table Pro"
+msgstr "升级定价表专业版"
+
+#: abc-pricing-table.php:167
+msgid "Rate Our Plugin"
+msgstr "评价我们的插件"
+
+#: featured-plugins/featured-plugins.php:95
+#, php-format
+msgid "%s rating"
+msgstr "%s 评分"
+
+#: featured-plugins/featured-plugins.php:110
+msgid "Get More Free WordPress Plugin From A WP Life"
+msgstr "从 A WP Life 获取更多免费 WordPress 插件"
+
+#: featured-plugins/featured-plugins.php:161
+msgid "More Details"
+msgstr "更多详情"
+
+#: featured-plugins/featured-plugins.php:169
+msgid "Install Now"
+msgstr "立即安装"
+
+#: featured-plugins/featured-plugins.php:175
+msgid "Update Now"
+msgstr "立即更新"
+
+#: featured-plugins/featured-plugins.php:219
+msgid "By"
+msgstr "由"
+
+#: featured-plugins/featured-plugins.php:250
+msgid "Last Updated:"
+msgstr "最后更新："
+
+#: include/add-new-pricing.php:34
+msgid "Template Design"
+msgstr "模板设计"
+
+#: include/add-new-pricing.php:37
+msgid "Config"
+msgstr "配置"
+
+#: include/add-new-pricing.php:40 include/add-new-pricing.php:397
+msgid "Color Settings"
+msgstr "颜色设置"
+
+#: include/add-new-pricing.php:43 include/add-new-pricing.php:537
+msgid "Featured Color Settings"
+msgstr "特色颜色设置"
+
+#: include/add-new-pricing.php:46
+msgid "Custom CSS"
+msgstr "自定义 CSS"
+
+#: include/add-new-pricing.php:54
+msgid "Click On Add Column To Add New Table"
+msgstr "点击添加列以添加新表"
+
+#: include/add-new-pricing.php:55
+msgid "ADD COLUMN"
+msgstr "添加列"
+
+#: include/add-new-pricing.php:56
+msgid "GET SHORTCODE"
+msgstr "获取短代码"
+
+#: include/add-new-pricing.php:58
+msgid "Note:[Features] Type cross for (cross) icon"
+msgstr "注意：[特性] 输入 cross 表示（叉）图标"
+
+#: include/add-new-pricing.php:58
+msgid "and type (right) for right icon! "
+msgstr "输入 (right) 表示正确图标！"
+
+#: include/add-new-pricing.php:80 include/add-new-pricing.php:824
+msgid "Yes"
+msgstr "是"
+
+#: include/add-new-pricing.php:82 include/add-new-pricing.php:826
+msgid "No"
+msgstr "否"
+
+#: include/add-new-pricing.php:85 include/add-new-pricing.php:829
+msgid "Name"
+msgstr "名称"
+
+#: include/add-new-pricing.php:92 include/add-new-pricing.php:836
+msgid "Pricing Plan"
+msgstr "定价计划"
+
+#: include/add-new-pricing.php:95 include/add-new-pricing.php:839
+msgid "Pricing Features"
+msgstr "定价特点"
+
+#: include/add-new-pricing.php:97 include/add-new-pricing.php:842
+msgid "Button Text"
+msgstr "按钮文本"
+
+#: include/add-new-pricing.php:100 include/add-new-pricing.php:845
+msgid "Button Url"
+msgstr "按钮链接"
+
+#: include/add-new-pricing.php:113
+msgid "Select Template Design"
+msgstr "选择模板设计"
+
+#: include/add-new-pricing.php:176
+msgid "Template & Icon Settings"
+msgstr "模板和图标设置"
+
+#: include/add-new-pricing.php:181 include/add-new-pricing.php:182
+msgid "Select Currency Icon."
+msgstr "选择货币图标。"
+
+#: include/add-new-pricing.php:200
+msgid "United States dollar ( $ )"
+msgstr "美元（$）"
+
+#: include/add-new-pricing.php:206
+msgid "Euro ( € )"
+msgstr "欧元（€）"
+
+#: include/add-new-pricing.php:212
+msgid "Japanese yen ( ¥ )"
+msgstr "日元（¥）"
+
+#: include/add-new-pricing.php:218
+msgid "Swiss franc ( Fr )"
+msgstr "瑞士法郎（Fr）"
+
+#: include/add-new-pricing.php:224
+msgid "Indian rupee ( INR )"
+msgstr "印度卢比（INR）"
+
+#: include/add-new-pricing.php:230
+msgid "Brazilian real ( R$ )"
+msgstr "巴西雷亚尔（R$）"
+
+#: include/add-new-pricing.php:236
+msgid "Israeli new shekel ( NIS )"
+msgstr "以色列新谢克尔（NIS）"
+
+#: include/add-new-pricing.php:242
+msgid "Czech koruna ( Kc )"
+msgstr "捷克克朗（Kc）"
+
+#: include/add-new-pricing.php:248
+msgid "Malaysian ringgit ( RM )"
+msgstr "马来西亚林吉特（RM）"
+
+#: include/add-new-pricing.php:254
+msgid "Philippine peso ( PHP )"
+msgstr "菲律宾比索（PHP）"
+
+#: include/add-new-pricing.php:260
+msgid "New Taiwan dollar ( NT$ )"
+msgstr "新台币（NT$）"
+
+#: include/add-new-pricing.php:266
+msgid "Thai baht ( THB )"
+msgstr "泰铢（THB）"
+
+#: include/add-new-pricing.php:272
+msgid "Turkish lira ( t )"
+msgstr "土耳其里拉（t）"
+
+#: include/add-new-pricing.php:278
+msgid "No Currency"
+msgstr "无货币"
+
+#: include/add-new-pricing.php:287
+msgid "Columns Settings"
+msgstr "列设置"
+
+#: include/add-new-pricing.php:288
+msgid "Pricing Columns Per Row."
+msgstr "每行定价列。"
+
+#: include/add-new-pricing.php:306
+msgid "Columns 4"
+msgstr "4 列"
+
+#: include/add-new-pricing.php:312
+msgid "Columns 3"
+msgstr "3 列"
+
+#: include/add-new-pricing.php:318
+msgid "Columns 2"
+msgstr "2 列"
+
+#: include/add-new-pricing.php:324
+msgid "Columns 1"
+msgstr "1 列"
+
+#: include/add-new-pricing.php:333
+msgid "Heading Font Size"
+msgstr "标题字体大小"
+
+#: include/add-new-pricing.php:334
+msgid "Pricing Heading Name Font Size."
+msgstr "定价标题名称字体大小。"
+
+#: include/add-new-pricing.php:347
+msgid "Feature Font Size"
+msgstr "特性字体大小"
+
+#: include/add-new-pricing.php:348
+msgid "Pricing Table [Features] Font Size."
+msgstr "定价表[特性]字体大小。"
+
+#: include/add-new-pricing.php:361
+msgid "Button Text Font Size"
+msgstr "按钮文本字体大小"
+
+#: include/add-new-pricing.php:362
+msgid "Pricing Button Text Font Size."
+msgstr "定价按钮文本字体大小。"
+
+#: include/add-new-pricing.php:376
+msgid "Icon Settings"
+msgstr "图标设置"
+
+#: include/add-new-pricing.php:377
+msgid "Select Pricing Header Icon "
+msgstr "选择定价表头图标"
+
+#: include/add-new-pricing.php:402 include/add-new-pricing.php:542
+msgid "Heading Text Color"
+msgstr "标题文本颜色"
+
+#: include/add-new-pricing.php:419 include/add-new-pricing.php:580
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: include/add-new-pricing.php:439 include/add-new-pricing.php:559
+msgid "Button Color"
+msgstr "按钮颜色"
+
+#: include/add-new-pricing.php:456 include/add-new-pricing.php:635
+msgid "Button Hover Color"
+msgstr "按钮悬停颜色"
+
+#: include/add-new-pricing.php:477 include/add-new-pricing.php:617
+msgid "Background Hover Color"
+msgstr "背景悬停颜色"
+
+#: include/add-new-pricing.php:494 include/add-new-pricing.php:597
+msgid "Button Text Color"
+msgstr "按钮文本颜色"
+
+#: include/add-new-pricing.php:513 include/add-new-pricing.php:655
+msgid "Features Text Color"
+msgstr "特性文本颜色"
+
+#: include/add-new-pricing.php:523 include/add-new-pricing.php:665
+msgid "Icon Color"
+msgstr "图标颜色"
+
+#: include/add-new-pricing.php:676
+msgid "Custom Css"
+msgstr "自定义 Css"
+
+#: include/add-new-pricing.php:681
+msgid "Apply own css on Pricing Table and dont use style tag"
+msgstr "在定价表上应用自己的 css，不要使用样式标签"
+
+#: include/add-new-pricing.php:707
+msgid ""
+"Copy the shortcode below and paste it wherever you want your pricing table "
+"to appear"
+msgstr "复制以下短代码并粘贴到您希望定价表出现的任何地方"
+
+#: include/add-new-pricing.php:716
+msgid "Close"
+msgstr "关闭"

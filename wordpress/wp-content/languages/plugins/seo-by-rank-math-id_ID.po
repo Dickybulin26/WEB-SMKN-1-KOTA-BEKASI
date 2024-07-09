@@ -1,26 +1,66 @@
-# Translation of Plugins - Rank Math SEO - Stable (latest release) in Indonesian
-# This file is distributed under the same license as the Plugins - Rank Math SEO - Stable (latest release) package.
+# Translation of Plugins - Rank Math SEO with AI SEO Tools - Stable (latest release) in Indonesian
+# This file is distributed under the same license as the Plugins - Rank Math SEO with AI SEO Tools - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-04 13:13:00+0000\n"
+"PO-Revision-Date: 2023-11-15 09:14:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: id\n"
-"Project-Id-Version: Plugins - Rank Math SEO - Stable (latest release)\n"
+"Project-Id-Version: Plugins - Rank Math SEO with AI SEO Tools - Stable (latest release)\n"
+
+#: includes/modules/content-ai/blocks/command/assets/src/block.json
+msgctxt "block keyword"
+msgid "seo"
+msgstr "seo"
+
+#: includes/modules/content-ai/blocks/command/assets/src/block.json
+msgctxt "block keyword"
+msgid "rankmath"
+msgstr "rankmath"
+
+#: includes/modules/content-ai/blocks/command/assets/src/block.json
+msgctxt "block keyword"
+msgid "rank math"
+msgstr "rank math"
+
+#: includes/modules/content-ai/blocks/command/assets/src/block.json
+msgctxt "block keyword"
+msgid "content"
+msgstr "konten"
+
+#: includes/modules/content-ai/blocks/command/assets/src/block.json
+msgctxt "block keyword"
+msgid "ai"
+msgstr "ai"
+
+#: includes/modules/content-ai/blocks/command/assets/src/block.json
+msgctxt "block title"
+msgid "AI Assistant [Content AI]"
+msgstr "Asisten AI [AI Konten]"
+
+#: includes/modules/content-ai/blocks/command/assets/src/block.json
+msgctxt "block description"
+msgid "Generate content without any hassle, powered by Rank Math's Content AI."
+msgstr "Hasilkan konten tanpa kerumitan apa pun, didukung oleh AI Konten Rank Math."
+
+#: includes/modules/content-ai/blocks/command/assets/src/block.json
+msgctxt "block keyword"
+msgid "content ai"
+msgstr "ai konten"
 
 #: includes/settings/titles/social.php:87
 msgid "Additional Profiles"
 msgstr "Profil Tambahan"
 
-#: includes/admin/class-admin.php:74
+#: includes/admin/class-admin.php:78
 msgid "Additional profile URLs"
 msgstr "URL profil tambahan"
 
 #. translators: Link to social setting KB article
-#: includes/admin/class-option-center.php:155
+#: includes/admin/class-option-center.php:154
 msgid "Add social account information to your website's Schema and Open Graph. %s."
 msgstr "Tambahkan informasi akun sosial ke Schema dan Open Graph situs web Anda. %s."
 
@@ -41,12 +81,12 @@ msgstr "Lihat Kendala"
 msgid "(No Description)"
 msgstr "(Tanpa Deskripsi)"
 
-#: includes/modules/seo-analysis/class-admin-tabs.php:98
+#: includes/modules/seo-analysis/class-admin-tabs.php:97
 #: includes/modules/seo-analysis/views/competitor-analysis.php:210
 msgid "Competitor Analyzer"
 msgstr "Penganalisa Pesaing"
 
-#: includes/modules/seo-analysis/class-admin.php:115
+#: includes/modules/seo-analysis/class-admin.php:116
 msgid "Print"
 msgstr "Cetak"
 
@@ -83,7 +123,7 @@ msgstr "Judul H1"
 msgid "Table of Contents Title"
 msgstr "Judul Daftar Isi"
 
-#: includes/modules/database-tools/class-database-tools.php:399
+#: includes/modules/database-tools/class-database-tools.php:379
 msgid "AIOSEO Block Converter"
 msgstr "Konverter Blok AIOSEO"
 
@@ -117,13 +157,13 @@ msgstr "Pilih halaman"
 msgid "SEO Titles"
 msgstr "Judul SEO"
 
-#: includes/admin/importers/class-aioseo.php:477
+#: includes/admin/importers/class-aioseo.php:476
 #: includes/modules/sitemap/class-admin.php:93
 #: includes/modules/sitemap/settings/html-sitemap.php:17
 msgid "HTML Sitemap"
 msgstr "Sitemap HTML"
 
-#: includes/admin/class-admin.php:415
+#: includes/admin/class-admin.php:436
 msgid "Exclusive Offer!"
 msgstr "Penawaran Eksklusif!"
 
@@ -172,7 +212,15 @@ msgstr "Nama Alternatif Situs"
 msgid "An alternate version of your site name (for example, an acronym or shorter name)."
 msgstr "Versi alternatif nama situs Anda (contohnya, akronim atau singkatan)."
 
-#: includes/modules/database-tools/class-database-tools.php:435
+#: includes/replace-variables/class-post-variables.php:225
+msgid "Output list of terms from the primary taxonomy associated to the current post."
+msgstr "Daftar keluaran istilah dari taksonomi utama yang terkait dengan postingan saat ini."
+
+#: includes/replace-variables/class-post-variables.php:223
+msgid "Primary Terms"
+msgstr "Syarat Utama"
+
+#: includes/modules/database-tools/class-database-tools.php:406
 msgid "Update SEO Scores"
 msgstr "Perbarui Skor SEO"
 
@@ -189,36 +237,36 @@ msgstr "Hitung Skor SEO"
 msgid "Recalculating scores for posts %1$s - %2$s... "
 msgstr "Menghitung ulang skor untuk artikel %1$s - %2$s... "
 
-#: includes/modules/database-tools/class-update-score.php:289
+#: includes/modules/database-tools/class-update-score.php:290
 msgid "The SEO Scores have been recalculated successfully!"
 msgstr "Skor SEO telah berhasil dihitung ulang!"
 
-#: includes/modules/database-tools/class-update-score.php:281
+#: includes/modules/database-tools/class-update-score.php:282
 msgid "Calculated:"
 msgstr "Dihitung:"
 
-#: includes/modules/database-tools/class-update-score.php:277
+#: includes/modules/database-tools/class-update-score.php:278
 msgid "This process may take a while. Please keep this window open until the process is complete."
 msgstr "Proses ini mungkin memakan waktu cukup lama. Harap biarkan halaman ini tetap terbuka sampai proses selesai."
 
-#: includes/modules/database-tools/class-update-score.php:276
+#: includes/modules/database-tools/class-update-score.php:277
 msgid "Recalculating SEO Scores"
 msgstr "Menghitung Ulang Skor SEO"
 
-#: includes/modules/database-tools/class-database-tools.php:437
+#: includes/modules/database-tools/class-database-tools.php:408
 msgid "Recalculate Scores"
 msgstr "Hitung Ulang Skor"
 
-#: includes/modules/database-tools/class-database-tools.php:436
+#: includes/modules/database-tools/class-database-tools.php:407
 msgid "This tool will calculate the SEO score for the posts/pages that have a Focus Keyword set. Note: This process may take some time and the browser tab must be kept open while it is running."
 msgstr "Alat ini akan menghitung nilai SEO untuk artikel/halaman yang memiliki Fokus Kata Kunci yang sudah diatur. Catatan: Proses ini mungkin memakan waktu dan jendela browser harus tetap dibuka ketika proses berlangsung."
 
-#: includes/modules/local-seo/views/titles-options.php:65
+#: includes/modules/local-seo/views/titles-options.php:75
 #: includes/settings/titles/local.php:59
 msgid "<strong>Min Size: 112Χ112px</strong>.<br /> A squared image is preferred by the search engines."
 msgstr "<strong>Ukuran Minimal: 112Χ112px</strong>.<br /> Gambar persegi lebih disukai mesin pencari."
 
-#: includes/module/class-manager.php:427
+#: includes/module/class-manager.php:432
 msgid "PRO options are enabled."
 msgstr "Pilihan PRO diaktifkan."
 
@@ -230,7 +278,7 @@ msgstr "Podcast"
 msgid "Make your podcasts discoverable via Google Podcasts, Apple Podcasts, and similar services with Podcast RSS feed and Schema Markup generated by Rank Math."
 msgstr "Buat podcast Anda mudah ditemukan melalui Google Podcasts, Apple Podcasts, dan layanan sejenis dengan  RSS feed Podcast dan Schema Markup yang dibuat Rank Math."
 
-#: includes/module/class-manager.php:422
+#: includes/module/class-manager.php:427
 msgid "More powerful options are available in the PRO version."
 msgstr "Pilihan lebih ampuh tersedia di versi PRO."
 
@@ -251,33 +299,303 @@ msgstr "Buat Peta Situs Berita untuk konten berita Anda. Anda hanya membutuhkan 
 msgid "News Sitemap"
 msgstr "Sitemap Berita"
 
-#: includes/admin/class-admin-helper.php:452
+#: includes/module/class-manager.php:195
+msgid "Video Sitemap"
+msgstr "Sitemap Video"
+
+#: includes/module/class-manager.php:196
+msgid "For your video content, a Video Sitemap is a recommended step for better rankings and inclusion in the Video search."
+msgstr "Untuk konten video Anda, menambahkan Sitemap Video adalah langkah yang direkomendasikan untuk mendapat peringkat lebih baik dan agar tercakup di pencarian video."
+
+#. translators: Link to kb article
+#: includes/modules/content-ai/class-admin.php:90
+msgid "Get sophisticated AI suggestions for related Keywords, Questions & Links to include in the SEO meta & Content Area. %s."
+msgstr "Dapatkan saran AI canggih untuk Kata Kunci, Pertanyaan, dan Tautan yang berhubungan untuk dimasukkan ke dalam meta SEO & Area Konten %s."
+
+#: includes/modules/redirections/views/debugging.php:57
+msgid "Served from cache"
+msgstr "Ditampilkan dari cache"
+
+#: includes/admin/class-admin-helper.php:461
 msgid "WordPress General Settings"
 msgstr "Pengaturan Umum WordPress"
 
-#: includes/admin/class-admin-helper.php:451
+#: includes/admin/class-admin-helper.php:460
 msgid "Site Address (URL)"
 msgstr "Alamat Situs (URL)"
 
 #. Translators: 1 is "WordPress Address (URL)", 2 is "Site Address (URL)", 3 is
 #. a link to the General Settings, with "WordPress General Settings" as anchor
 #. text.
-#: includes/admin/class-admin-helper.php:450
+#: includes/admin/class-admin-helper.php:459
 msgid "WordPress Address (URL)"
 msgstr "Alamat WordPress (URL)"
 
-#: includes/admin/class-admin-helper.php:170
+#. Translators: 1 is "WordPress Address (URL)", 2 is "Site Address (URL)", 3 is
+#. a link to the General Settings, with "WordPress General Settings" as anchor
+#. text.
+#: includes/admin/class-admin-helper.php:458
+msgid "Rank Math cannot be connected because your site URL doesn't appear to be a valid URL. If the domain name contains special characters, please make sure to use the encoded version in the %1$s &amp; %2$s fields on the %3$s page."
+msgstr "Rank Math tidak dapat terhubung karena URL situs Anda tidak tampak sebagai URL valid. Jika nama domain mengandung karakter khusus, mohon pastikan Anda menggunakan versi encode di %1$s &amp; %2$s ruas pada halaman %3$s."
+
+#: includes/admin/class-admin-helper.php:172
 msgid "Click here to reconnect."
 msgstr "Klik di sini untuk menghubungkan kembali."
 
-#: includes/admin/class-admin-helper.php:157
+#. Translators: %s is the plugin name.
+#: includes/admin/class-import-export.php:151
+msgid "Select data to import."
+msgstr "Pilih data untuk diimpor."
+
+#: includes/admin/class-admin-helper.php:172
+msgid "Seems like your site URL has changed since you connected to Rank Math."
+msgstr "Nampaknya URL situs Anda telah berubah sejak Anda terhubung ke Rank Math."
+
+#. Translators: %s is the plugin name.
+#: includes/admin/class-import-export.php:150
+msgid "Are you sure you want to import data from %s?"
+msgstr "Apakah Anda yakin ingin mengimpor data dari %s?"
+
+#. Translators: %s is the plugin name.
+#: includes/admin/class-import-export.php:156
+msgid "Are you sure you want erase all traces of %s?"
+msgstr "Apakah Anda yakin ingin menghapus semua jejak dari %s?"
+
+#. Translators: %s is "Article" inside a <code> tag.
+#: includes/settings/titles/post-types.php:163
+msgctxt "Schema type name in a field description"
+msgid "Article"
+msgstr "Artikel"
+
+#: includes/admin/class-admin-helper.php:154
+msgid "Unable to validate Rank Math SEO registration data."
+msgstr "Tidak dapat melakukan validasi data registrasi Rank Math SEO."
+
+#: includes/admin/class-admin-helper.php:159
 msgid "[3. Unable to Encrypt]"
 msgstr "[3. Tidak dapat mengenkripsi]"
 
-#: includes/admin/class-pro-notice.php:215
-#: includes/admin/class-pro-notice.php:234
+#. translators: KB Link
+#: includes/admin/class-admin-helper.php:158
+msgid "If the issue persists, please try the solution described in our Knowledge Base article: %s"
+msgstr "Jika kendala tidak hilang, mohon coba solusi yang dijelaskan di artikel Panduan Dasar kami: %s"
+
+#: includes/admin/class-admin-helper.php:155
+msgid "Please try reconnecting."
+msgstr "Mohon coba hubungkan kembali."
+
+#. translators: The settings page link
+#: includes/modules/sitemap/settings/post-types.php:24
+#: includes/settings/titles/post-types.php:22
+msgid "disable redirect attachments"
+msgstr "nonaktifkan pengalihan lampiran"
+
+#: includes/admin/wizard/class-compatibility.php:56
+msgid "Note"
+msgstr "Catatan"
+
+#: includes/admin/wizard/class-compatibility.php:56
+msgid "You can easily switch between modes at any point."
+msgstr "Anda dapat beralih di antara mode dengan mudah kapan pun."
+
+#: includes/admin/wizard/views/search-console-ui.php:200
+msgid "Ready to switch to Google Analytics 4? %s"
+msgstr "Siap beralih ke Google Analytics 4? %s"
+
+#: includes/admin/wizard/views/search-console-ui.php:201
+msgid "Click here to know how"
+msgstr "Klik di sini untuk tahu caranya"
+
+#: includes/helpers/class-choices.php:77
+msgid "Prevents images on a page from being indexed by Google and other search engines"
+msgstr "Cegah gambar di halama diindeks Google dan mesin pencari lainnya"
+
+#: includes/modules/database-tools/class-database-tools.php:361
+msgid "In some cases, the Analytics database tables or columns don't match with each other, which can cause database errors. This tool can fix that issue."
+msgstr "Terkadang, tabel atau kolom basis data Analytics tidak sesuai satu sama lain, yang dapat menyebabkan eror pada basis data. Alat ini dapat mengatasi kendala tersebut."
+
+#: includes/admin/class-dashboard-widget.php:78
+msgid "Error: the Rank Math blog feed could not be downloaded."
+msgstr "Error: feed blog Rank Math tidak dapat diunduh."
+
+#: includes/modules/instant-indexing/views/options.php:30
+msgid "The IndexNow API key proves the ownership of the site. It is generated automatically. You can change the key if it becomes known to third parties."
+msgstr "Kunci API IndexNow membuktikan kepemilikan situs. Ini dibuat secara otomatis. Anda dapat mengubah kuncinya jika diketahui oleh pihak ketiga."
+
+#: includes/modules/instant-indexing/views/options.php:29
+msgid "API Key"
+msgstr "Kunci API"
+
+#: includes/modules/instant-indexing/views/options.php:32
+msgid "Change Key"
+msgstr "Ubah Kunci"
+
+#: includes/modules/instant-indexing/views/options.php:42
+msgid "Check Key"
+msgstr "Periksa Kunci"
+
+#: includes/modules/instant-indexing/views/options.php:41
+msgid "API Key Location"
+msgstr "Lokasi Kunci API"
+
+#: includes/admin/wizard/views/compatibility.php:98
+msgid "PHP GD or Imagick Extension missing"
+msgstr "PHP GD atau Ekstensi Imagick hilang"
+
+#: includes/admin/wizard/views/compatibility.php:98
+msgid "PHP GD or Imagick Extension installed"
+msgstr "PHP GD atau Ekstensi Imagick terinstal"
+
+#. Translators: %s is the words "Check Key".
+#: includes/modules/instant-indexing/views/options.php:45
+msgid "Use the %1$s button to verify that the key is accessible for search engines. Clicking on it should open the key file in your browser and show the API key."
+msgstr "Guanakan tombol %1$s untuk memverifikasi jika kunci dapat diakses mesin pencari. Mengklik tombol akan membuka berkas kunci di browser Anda dan menunjukkan kunci API."
+
+#: includes/admin/class-pro-notice.php:222
+#: includes/admin/class-pro-notice.php:241
+msgid "and Many More…"
+msgstr "dan banyak lagi..."
+
+#: includes/admin/class-pro-notice.php:220
+#: includes/admin/class-pro-notice.php:239
+msgid "24x7 Premium Support"
+msgstr "Bantuan Premium 24x7"
+
+#: includes/admin/class-pro-notice.php:221
+#: includes/admin/class-pro-notice.php:240
+msgid "SEO Email Reports"
+msgstr "Laporan E-mail SEO"
+
+#: includes/admin/class-pro-notice.php:216
+#: includes/admin/class-pro-notice.php:235
 msgid "Unlimited Websites"
 msgstr "Situs Web Tidak Terbatas"
+
+#: includes/modules/instant-indexing/views/history.php:37
+msgid "Too Many Requests"
+msgstr "Terlalu Banyak Permintaan"
+
+#: includes/modules/instant-indexing/views/history.php:35
+msgid "The key was invalid (e.g. key not found, file found but key not in the file)."
+msgstr "Kunci tidak valid (contoh: kunci tidak ditemukan, berkas ditemukan tapi kunci tidak ada di berkas)."
+
+#: includes/modules/instant-indexing/views/history.php:35
+msgid "Forbidden"
+msgstr "Dilarang"
+
+#: includes/modules/instant-indexing/views/history.php:34
+msgid "The request was invalid."
+msgstr "Permintaan tidak valid."
+
+#: includes/modules/instant-indexing/views/history.php:32
+msgid "The URL was successfully submitted to the IndexNow API."
+msgstr "URL sukses dikirim ke API IndexNow."
+
+#. Translators: %s is the number of URLs submitted.
+#: includes/modules/instant-indexing/class-rest.php:129
+msgid "Successfully submitted %s URL."
+msgid_plural "Successfully submitted %s URLs."
+msgstr[0] "Sukses mengirim URL %s."
+msgstr[1] "Sukses mengirim URL %s."
+
+#: includes/modules/instant-indexing/class-rest.php:120
+msgid "Failed to submit URLs. See details in the History tab."
+msgstr "Gagal mengirim URL. Lihat detail di jendela Riwayat."
+
+#: includes/modules/instant-indexing/class-instant-indexing.php:372
+msgid "No submissions yet."
+msgstr "Belum ada kiriman."
+
+#: includes/modules/instant-indexing/class-instant-indexing.php:371
+msgid "Error: could not get history."
+msgstr "Eror: tidak bisa mengakses riwayat."
+
+#: includes/modules/instant-indexing/class-instant-indexing.php:370
+msgid "Error: could not clear history."
+msgstr "Eror: tidak bisa menghapus riwayat."
+
+#: includes/modules/instant-indexing/class-instant-indexing.php:369
+msgid "An error occurred while submitting the URL."
+msgstr "Terjadi kesalahan saat mengirim URL."
+
+#: includes/modules/instant-indexing/class-instant-indexing.php:228
+msgid "The last 100 IndexNow API requests."
+msgstr "100 permohonan API IndexNow terakhir."
+
+#: includes/modules/content-ai/class-content-ai-page.php:167
+#: includes/modules/instant-indexing/class-instant-indexing.php:227
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
+msgid "History"
+msgstr "Riwayat"
+
+#: includes/modules/instant-indexing/class-instant-indexing.php:214
+msgid "Send URLs directly to the IndexNow API."
+msgstr "Kirim URL langsung ke API IndexNow"
+
+#: includes/modules/instant-indexing/views/history.php:37
+msgid "Too Many Requests (potential Spam)."
+msgstr "Terlalu Banyak Permintaan (potensi Spam)."
+
+#: includes/modules/instant-indexing/views/console.php:15
+msgid "Insert URLs to send to the IndexNow API (one per line, up to 10,000):"
+msgstr "Masukkan URL untuk mengirim ke API IndexNow (satu per bari, hingga 10.000):"
+
+#. Translators: placeholder is human-readable time, e.g. "1 hour".
+#: includes/modules/instant-indexing/class-rest.php:155
+msgid "%s ago"
+msgstr "%s lalu"
+
+#: includes/modules/instant-indexing/class-rest.php:108
+msgid "No URLs provided."
+msgstr "Tidak ada URL tersedia."
+
+#: includes/modules/instant-indexing/class-instant-indexing.php:451
+msgid "Error submitting page to IndexNow."
+msgstr "Eror ketika mengirim halaman ke IndexNow."
+
+#: includes/modules/instant-indexing/class-api.php:357
+msgid "Invalid request."
+msgstr "Permintaan tidak valid."
+
+#: includes/modules/instant-indexing/class-api.php:355
+msgid "Unknown error."
+msgstr "Eror tidak diketahui."
+
+#. Translators: placeholder is "IndexNow API".
+#: includes/module/class-manager.php:169
+msgid "IndexNow API"
+msgstr "IndexNow API"
+
+#. Translators: placeholder is "IndexNow API".
+#: includes/module/class-manager.php:169
+msgid "Directly notify search engines like Bing & Yandex using the %s when pages are added, updated and removed, or submit URLs manually."
+msgstr "Langsung laporkan mesin pencari seperti Bing & Yandex lewat %s ketika ada halaman ditambahkan, diperbarui, dan dihapus, atau kirimkan URL manual."
+
+#: includes/modules/instant-indexing/views/history.php:12
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
+msgid "Clear History"
+msgstr "Hapus Riwayat"
+
+#. translators: %s: Number of pages submitted.
+#: includes/modules/instant-indexing/class-instant-indexing.php:457
+msgid "%s page submitted to IndexNow."
+msgid_plural "%s pages submitted to IndexNow."
+msgstr[0] "%s halaman dikirimkan ke IndexNow"
+msgstr[1] "%s halaman dikirimkan ke IndexNow"
+
+#: includes/modules/instant-indexing/class-api.php:359
+msgid "Invalid URL."
+msgstr "URL Tidak Valid."
+
+#: includes/modules/instant-indexing/class-api.php:358
+msgid "Invalid API key."
+msgstr "Kunci API tidak valid."
+
+#: includes/modules/instant-indexing/views/history.php:33
+msgid "Accepted"
+msgstr "Telah Diterima"
 
 #: includes/modules/instant-indexing/views/history.php:13
 msgid "Auto"
@@ -303,29 +621,37 @@ msgstr "Permintaan Salah"
 msgid "Reasons"
 msgstr "Alasan"
 
-#: includes/module/class-manager.php:535
+#: includes/modules/instant-indexing/class-instant-indexing.php:144
+msgid "Instant Indexing: Submit Page"
+msgstr "Pengindeksan Instan: Kirim Halaman"
+
+#: includes/modules/instant-indexing/class-instant-indexing.php:108
+msgid "Instant Indexing: Submit Pages"
+msgstr "Pengindeksan Instan: Kirim Halaman"
+
+#: includes/module/class-manager.php:540
 msgid "Buy"
 msgstr "Beli"
 
-#: includes/module/class-manager.php:531
+#: includes/module/class-manager.php:536
 msgid "24/7 Support"
 msgstr "Dukungan 24/7"
 
-#: includes/admin/class-pro-notice.php:218
-#: includes/admin/class-pro-notice.php:237
-#: includes/module/class-manager.php:530
+#: includes/admin/class-pro-notice.php:219
+#: includes/admin/class-pro-notice.php:238
+#: includes/module/class-manager.php:535
 msgid "Powerful Schema Generator"
 msgstr "Generator Skema yang Kuat"
 
-#: includes/module/class-manager.php:529
+#: includes/module/class-manager.php:534
 msgid "Track 500 Keywords"
 msgstr "Lacak 500 Kata Kunci"
 
-#: includes/module/class-manager.php:527
+#: includes/module/class-manager.php:532
 msgid "Unlimited personal websites"
 msgstr "Situs web pribadi tanpa batas"
 
-#: includes/module/class-manager.php:525
+#: includes/module/class-manager.php:530
 msgid "Take SEO to the Next Level!"
 msgstr "Bawa SEO ke Tingkat Selanjutnya!"
 
@@ -341,7 +667,7 @@ msgstr "Dapatkan Rank Math PRO!"
 msgid "Take your SEO to the Next Level!"
 msgstr "Bawa SEO Anda ke Tingkat Selanjutnya!"
 
-#: includes/module/class-manager.php:528
+#: includes/module/class-manager.php:533
 msgid "Free 15 Content AI Credits"
 msgstr "Gratis 15 Kredit Konten AI"
 
@@ -397,11 +723,11 @@ msgstr "Kecualikan lampiran ini dari peta situs"
 msgid "Headless CMS Support"
 msgstr "Dukungan CMS Headless"
 
-#: includes/rest/class-headless.php:57
+#: includes/rest/class-headless.php:62
 msgid "URL to get HTML tags for."
 msgstr "URL untuk mendapatkan tag HTML."
 
-#: includes/modules/content-ai/views/options.php:44
+#: includes/modules/content-ai/views/options.php:213
 #: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Click to refresh the available credits."
 msgstr "Klik untuk menyegarkan kredit yang tersedia."
@@ -411,59 +737,211 @@ msgstr "Klik untuk menyegarkan kredit yang tersedia."
 msgid "Enable this option to register a REST API endpoint that returns the HTML meta tags for a given URL. %s"
 msgstr "Aktifkan opsi ini untuk mendaftarkan endpoints REST API yang mengembalikan meta tag HTML untuk URL tertentu. %s"
 
+#: includes/modules/content-ai/class-content-ai-page.php:88
 #: includes/modules/seo-analysis/class-admin.php:82
 #: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "New!"
 msgstr "Baru!"
 
-#: includes/modules/content-ai/views/options.php:33
+#: includes/modules/content-ai/views/options.php:202
 msgid "Select Post Type"
 msgstr "Pilih Jenis Postingan"
 
-#: includes/modules/content-ai/class-rest.php:257
+#: includes/modules/content-ai/class-rest.php:572
 msgid "You have used all the free credits which are allowed to this domain."
 msgstr "Anda telah menggunakan semua kredit gratis yang diizinkan untuk domain ini."
 
-#: includes/helpers/class-choices.php:717
+#: includes/helpers/class-choices.php:737
 msgid "Sri Lanka"
 msgstr "Sri Lanka"
 
-#: includes/helpers/class-choices.php:714
+#: includes/helpers/class-choices.php:734
 msgid "Slovenia"
 msgstr "Slovenia"
 
-#: includes/helpers/class-choices.php:713
+#: includes/helpers/class-choices.php:733
 msgid "Slovakia"
 msgstr "Slovakia"
 
-#: includes/helpers/class-choices.php:708
+#: includes/helpers/class-choices.php:728
 msgid "Russian Federation"
 msgstr "Federasi Rusia"
 
-#. translators: 1. Credits left 2. Buy more credits link
-#: includes/modules/content-ai/views/options.php:52
-msgid "%1$s credits left. Upgrade to get more credits from %2$s."
-msgstr "%1$s kredit tersisa. Upgrade untuk mendapatkan lebih banyak kredit dari %2$s."
-
-#: includes/modules/content-ai/views/options.php:34
-msgid "Select the post type you use for Content AI."
-msgstr "Pilih jenis artikel yang Anda gunakan untuk Content AI."
-
-#: includes/modules/content-ai/views/options.php:18
+#: includes/modules/content-ai/views/options.php:47
 msgid "Default Country"
 msgstr "Negara Standar"
 
-#: includes/helpers/class-choices.php:729
+#: includes/modules/content-ai/class-rest.php:566
+msgid "This feature is not available on the localhost."
+msgstr "Fitur ini tidak tersedia di localhost."
+
+#: includes/helpers/class-choices.php:712
+msgid "Malta"
+msgstr "Malta"
+
+#: includes/helpers/class-choices.php:714
+msgid "Morocco"
+msgstr "Maroko"
+
+#: includes/helpers/class-choices.php:718
+msgid "Nicaragua"
+msgstr "Nikaragua"
+
+#: includes/helpers/class-choices.php:715
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: includes/helpers/class-choices.php:730
+msgid "Senegal"
+msgstr "Senegal"
+
+#: includes/helpers/class-choices.php:731
+msgid "Serbia"
+msgstr "Serbia"
+
+#: includes/helpers/class-choices.php:745
+msgid "United Arab Emirates"
+msgstr "Uni Emirat Arab"
+
+#: includes/helpers/class-choices.php:748
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: includes/helpers/class-choices.php:747
+msgid "United States Of America"
+msgstr "Amerika Serikat"
+
+#: includes/helpers/class-choices.php:742
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#: includes/helpers/class-choices.php:723
+msgid "Peru"
+msgstr "Peru"
+
+#: includes/helpers/class-choices.php:722
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: includes/helpers/class-choices.php:721
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: includes/helpers/class-choices.php:664
+msgid "Algeria"
+msgstr "Aljazair"
+
+#: includes/helpers/class-choices.php:666
+msgid "Armenia"
+msgstr "Armenia"
+
+#: includes/helpers/class-choices.php:669
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: includes/helpers/class-choices.php:670
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: includes/helpers/class-choices.php:676
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: includes/helpers/class-choices.php:677
+msgid "Cambodia"
+msgstr "Kamboja"
+
+#: includes/helpers/class-choices.php:672
+msgid "Belarus"
+msgstr "Belarus"
+
+#: includes/helpers/class-choices.php:671
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: includes/modules/content-ai/class-rest.php:238
+msgid "Content AI is not enabled on this Post type."
+msgstr "Content AI tidak diaktifkan di tipe Artikel ini."
+
+#: includes/helpers/class-choices.php:705
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: includes/helpers/class-choices.php:704
+msgid "Jordan"
+msgstr "Yordania"
+
+#: includes/helpers/class-choices.php:695
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: includes/helpers/class-choices.php:693
+msgid "Ghana"
+msgstr "Ghana"
+
+#: includes/helpers/class-choices.php:689
+msgid "Estonia"
+msgstr "Estonia"
+
+#: includes/helpers/class-choices.php:688
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: includes/helpers/class-choices.php:686
+msgid "Ecuador"
+msgstr "Ekuador"
+
+#: includes/helpers/class-choices.php:683
+msgid "Cyprus"
+msgstr "Siprus"
+
+#: includes/helpers/class-choices.php:681
+msgid "Costa Rica"
+msgstr "Kosta Rika"
+
+#: includes/helpers/class-choices.php:682
+msgid "Croatia"
+msgstr "Kroasia"
+
+#: includes/helpers/class-choices.php:674
+msgid "Bolivia, Plurinational State Of"
+msgstr "Bolivia"
+
+#: includes/module/class-manager.php:418
+msgid "NEW!"
+msgstr "BARU!"
+
+#: includes/module/class-manager.php:380
+msgid "You cant access this page."
+msgstr "Anda tidak dapat mengakses halaman ini."
+
+#: includes/helpers/class-choices.php:750
+msgid "Viet Nam"
+msgstr "Vietnam"
+
+#: includes/module/class-manager.php:177
+msgid "Get sophisticated AI suggestions for related Keywords, Questions & Links to include in the SEO meta & Content Area. Supports 80+ Countries."
+msgstr "Dapatkan rekomendasi AI canggih untuk Kata Kunci terkait, Pertanyaan & Tautan untuk dimasukkan ke dalam meta SEO & Area Konten. Tersedia di 80+ negara."
+
+#: includes/helpers/class-choices.php:709
+msgid "Lithuania"
+msgstr "Lithuania"
+
+#: includes/helpers/class-choices.php:708
+msgid "Latvia"
+msgstr "Latvia"
+
+#: includes/helpers/class-choices.php:749
 msgid "Venezuela, Bolivarian Republic Of"
 msgstr "Venezuela, Republik Bolivarian"
 
-#: includes/modules/content-ai/class-content-ai.php:128
-msgid "Rank Math Content AI"
-msgstr "AI Konten Rank Math"
-
 #: includes/module/class-manager.php:176
-#: includes/modules/content-ai/class-content-ai.php:104
+#: includes/modules/content-ai/class-admin.php:88
+#: includes/modules/content-ai/class-admin.php:112
+#: includes/modules/content-ai/class-content-ai-page.php:96
+#: includes/modules/content-ai/class-content-ai-page.php:141
 #: includes/modules/role-manager/class-capability-manager.php:70
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Content AI"
 msgstr "Konten AI"
@@ -506,13 +984,41 @@ msgstr "Jika Anda baru mengenal Rank Math, %s untuk mempelajari lebih lanjut."
 msgid "When a featured image or an OpenGraph Image is not set for individual posts/pages/CPTs, this image will be used as a fallback thumbnail when your post is shared on Facebook. <strong>The recommended image size is 1200 x 630 pixels.</strong>"
 msgstr "Ketika gambar unggulan atau Gambar OpenGraph tidak disetel untuk masing-masing postingan/halaman/CPT, gambar ini akan digunakan sebagai thumbnail saat postingan Anda dibagikan di Facebook. <strong>Ukuran gambar yang disarankan adalah 1200 x 630 piksel.</strong>"
 
-#: includes/admin/class-import-export.php:353
+#: includes/admin/class-import-export.php:352
 msgid "Uploaded file could not be read."
 msgstr "File yang diunggah tidak dapat dibaca."
 
-#: includes/admin/class-pro-notice.php:243
+#: includes/helpers/class-choices.php:736
+msgid "Spain"
+msgstr "Spanyol"
+
+#: includes/modules/seo-analysis/seo-analysis-tests.php:318
+msgid "Could not check Focus Keywords in posts - the post meta table exceeds the size limit."
+msgstr "Tidak dapat memeriksa Kata Kunci Fokus di artikel ini - tabel artikel meta melebihi batasan ukuran."
+
+#. Translators: placeholder is the number of modified posts.
+#: includes/modules/database-tools/class-aioseo-blocks.php:78
+#: includes/modules/database-tools/class-yoast-blocks.php:99
+msgid "Blocks successfully converted in %d post."
+msgid_plural "Blocks successfully converted in %d posts."
+msgstr[0] "Blok berhasil diubah di %d artikel."
+msgstr[1] "Blok berhasil diubah di %d artikel."
+
+#: includes/admin/class-pro-notice.php:244
 msgid "Yes, I want better SEO"
 msgstr "Ya, saya ingin SEO yang lebih baik"
+
+#: includes/admin/class-pro-notice.php:244
+msgid "I already purchased"
+msgstr "Saya sudah membeli"
+
+#: includes/admin/importers/class-aioseo.php:77
+msgid "Import all the redirections you have already set up in AIO SEO Premium."
+msgstr "Impor semua pengalihan yang sudah Anda buat di AIO SEO Premium."
+
+#: includes/admin/importers/class-aioseo.php:81
+msgid "Import Locations Settings."
+msgstr "Impor Pengaturan Lokasi"
 
 #: includes/settings/titles/author.php:137
 #: includes/settings/titles/post-types.php:354
@@ -520,15 +1026,19 @@ msgstr "Ya, saya ingin SEO yang lebih baik"
 msgid "Add SEO Controls"
 msgstr "Tambahkan Kontrol SEO"
 
-#: includes/admin/class-pro-notice.php:224
+#: includes/rest/class-rest-helper.php:160
+msgid "Sorry, you are not allowed to edit this term."
+msgstr "Maaf, Anda tidak diizinkan untuk menyunting istilah ini."
+
+#: includes/admin/class-pro-notice.php:225
 msgid "I already upgraded"
 msgstr "Saya sudah mengupgrade"
 
-#: includes/admin/class-pro-notice.php:224
+#: includes/admin/class-pro-notice.php:225
 msgid "No, I don't want it"
 msgstr "Tidak, saya tidak menginginkannya"
 
-#: includes/admin/class-pro-notice.php:224
+#: includes/admin/class-pro-notice.php:225
 msgid "Yes, I want to learn more"
 msgstr "Ya, saya ingin belajar lebih banyak"
 
@@ -536,38 +1046,13 @@ msgstr "Ya, saya ingin belajar lebih banyak"
 msgid "Know more about the PRO version"
 msgstr "Tahu lebih banyak tentang versi PRO"
 
-#: rank-math.php:466
+#: rank-math.php:470
 msgid "This action is IRREVERSIBLE."
 msgstr "Tindakan ini TIDAK DAPAT DIBATALKAN."
 
-#: rank-math.php:465
+#: rank-math.php:469
 msgid "CAUTION:"
 msgstr "PERINGATAN:"
-
-#: includes/modules/database-tools/class-database-tools.php:428
-msgid "Are you sure you want to delete the old schema data? This action is irreversible."
-msgstr "Yakin ingin menghapus data skema lama? Tindakan ini tidak dapat dibatalkan."
-
-#: includes/modules/database-tools/class-database-tools.php:427
-msgid "Delete the schema data from the old format (<1.0.48). Note: This process is irreversible and will delete all the metadata prefixed with rank_math_snippet."
-msgstr "Hapus data skema dari format lama (<1.0.48). Catatan: Proses ini tidak dapat dibatalkan dan akan menghapus semua metadata yang diawali dengan rank_math_snippet."
-
-#: includes/modules/database-tools/class-database-tools.php:426
-msgid "Delete Old Schema Data"
-msgstr "Hapus Data Skema Lama"
-
-#: includes/modules/database-tools/class-database-tools.php:320
-msgid "Deletion started. A success message will be shown here once the process completes. You can close this page."
-msgstr "Penghapusan dimulai. Pesan sukses akan ditampilkan di sini setelah proses selesai. Anda dapat menutup halaman ini."
-
-#: includes/modules/database-tools/class-database-tools.php:314
-msgid "No data found to delete."
-msgstr "Tidak ada data yang ditemukan untuk dihapus."
-
-#. Translators: placeholders are the opening and closing anchor tags.
-#: includes/updates/update-1.0.65.php:47
-msgid "Rank Math: Introducing SEO Performance Reports via Email. %1$sClick here to enable it%2$s."
-msgstr "Rank Math: Memperkenalkan Laporan Kinerja SEO melalui Email. %1$sKlik di sini untuk mengaktifkannya%2$s."
 
 #. Translators: placeholder is the site URL.
 #: includes/modules/analytics/class-email-reports.php:288
@@ -622,7 +1107,7 @@ msgid "Every 30 days"
 msgstr "Tiap 30 hari"
 
 #. Translators: placeholder is the post type name.
-#: includes/modules/sitemap/class-sitemap.php:139
+#: includes/modules/sitemap/class-sitemap.php:138
 msgid "Rank Math has detected a new post type: %1$s. You may want to check the settings of the <a href=\"%2$s\">Titles &amp; Meta page</a> and <a href=\"%3$s\">the Sitemap</a>."
 msgstr "Rank Math telah mendeteksi jenis postingan baru: %1$s. Anda mungkin ingin memeriksa setelan <a href=\"%2$s\">Judul &amp; Meta halaman</a> dan <a href=\"%3$s\">Peta Situs</a>."
 
@@ -658,17 +1143,59 @@ msgstr "Pelajari lebih lanjut tentang Laporan E-mail."
 msgid "Receive Analytics reports periodically in email."
 msgstr "Terima laporan Analytics secara berkala di e-mail."
 
+#: includes/admin/importers/abstract-importer.php:152
+msgid "Import all the redirections you have already set up in Yoast Premium."
+msgstr "Impor semua pengalihan yang sudah Anda siapkan di Yoast Premium."
+
+#: includes/modules/seo-analysis/class-seo-analyzer.php:435
+msgid "Rank Math SEO Analyzer error: "
+msgstr "Eror Rank Math SEO Analyzer: "
+
+#. Translators: the placeholder is for the sitemap base url.
+#: includes/modules/sitemap/class-admin.php:339
+msgid "Since you are using an NGINX server, you may need to add the following code to your %s <strong>if your Sitemap pages are not loading</strong>. If you are unsure how to do it, please contact your hosting provider."
+msgstr "Berhubung Anda menggunakan server NGINX, Anda mungkin perlu menambahkan kode berikut ke %s <strong>jika halaman Peta Situs Anda tidak termuat</strong>. Jika Anda tidak yakin bagaimana cara melakukannya, mohon hubungi penyedia hosting Anda."
+
+#: includes/admin/wizard/views/ready.php:51
+msgid "Subscribe to Our YouTube Channel"
+msgstr "Subscribe ke Kanal YouTube Kami"
+
+#: includes/admin/views/dashboard-help.php:115
+msgid "Affiliate Program"
+msgstr "Program Afiliasi"
+
+#: includes/admin/views/dashboard-help.php:41
+#: includes/modules/analytics/assets/js/admin-bar.js:1
+msgid "Upgrade to PRO"
+msgstr "Upgrade ke PRO"
+
+#: includes/replace-variables/class-advanced-variables.php:56
+msgid "Focus Keywords of the current post"
+msgstr "Fokus Kata Kunci di artikel saat ini"
+
+#: includes/modules/analytics/class-analytics.php:304
+msgid "Are you sure you want to do this?"
+msgstr "Anda yakin ingin melakukan ini?"
+
 #: includes/admin/views/dashboard-help.php:42
 msgid "Advanced Schema, Analytics and much more..."
 msgstr "Skema Tingkat Lanjut, Analitik, dan banyak lagi..."
 
-#: includes/modules/analytics/class-analytics.php:308
+#: includes/modules/analytics/class-analytics.php:307
 msgid "Are you sure you want to disconnect Google services from your site?"
 msgstr "Apakah Anda yakin ingin memutuskan sambungan layanan Google dari situs Anda?"
 
-#: includes/modules/analytics/class-analytics.php:309
+#: includes/modules/analytics/class-analytics.php:308
 msgid "Cache deleted."
 msgstr "Cache dihapus."
+
+#: includes/modules/database-tools/class-database-tools.php:123
+msgid "SEO Analyzer data has already been cleared."
+msgstr "Data SEO Analyzer sudah dihapus."
+
+#: includes/modules/status/class-system-status.php:144
+msgid "Active modules"
+msgstr "Modul aktif"
 
 #: includes/modules/status/class-system-status.php:145
 msgid "(none)"
@@ -732,7 +1259,7 @@ msgid "I already did"
 msgstr "Saya telah melakukannya"
 
 #: includes/admin/class-ask-review.php:178
-#: includes/admin/class-pro-notice.php:243
+#: includes/admin/class-pro-notice.php:244
 msgid "No, maybe later"
 msgstr "Tidak, mungkin nanti"
 
@@ -771,11 +1298,12 @@ msgstr "Saat pembaruan otomatis dimatikan, Anda bisa mengaktifkan pemberitahuan 
 msgid "NEW"
 msgstr "BARU"
 
-#: includes/modules/analytics/google/class-permissions.php:126
+#. translators: %s is the reconnect link.
+#: includes/modules/analytics/google/class-permissions.php:132
 msgid "You have not given the permission to fetch this data. Please <a href=\"%s\">reconnect</a> with all required permissions."
 msgstr "Anda belum memberikan izin untuk mengambil data ini. Harap <a href=\"%s\"> hubungkan kembali </a> dengan semua izin yang diperlukan."
 
-#: includes/modules/analytics/google/class-permissions.php:126
+#: includes/modules/analytics/google/class-permissions.php:128
 msgid "Warning:"
 msgstr "Peringatan:"
 
@@ -787,11 +1315,11 @@ msgstr "Tidak Diberikan"
 msgid "Given"
 msgstr "Diberikan"
 
-#: includes/modules/analytics/class-analytics.php:203
+#: includes/modules/analytics/class-analytics.php:202
 msgid "Cancel Fetch"
 msgstr "Batalkan Pengambilan"
 
-#: includes/modules/instant-indexing/class-instant-indexing.php:209
+#: includes/modules/instant-indexing/class-instant-indexing.php:213
 #: includes/modules/instant-indexing/views/console.php:28
 msgid "Submit URLs"
 msgstr "Kirimkan URL"
@@ -800,19 +1328,31 @@ msgstr "Kirimkan URL"
 msgid "Google Permission"
 msgstr "Perizinan Google"
 
+#: includes/module/class-manager.php:167
+#: includes/modules/instant-indexing/class-instant-indexing.php:249
+#: includes/modules/instant-indexing/class-instant-indexing.php:250
+msgid "Instant Indexing"
+msgstr "Pengindeksan Instan"
+
 #: includes/replace-variables/class-basic-variables.php:240
 msgid "Organization URL added in Local SEO Settings."
 msgstr "URL Organisasi ditambahkan di Pengaturan SEO Lokal."
 
-#: includes/modules/role-manager/views/main.php:41
-msgid "Reset"
-msgstr "Atur ulang"
-
-#: includes/modules/database-tools/class-database-tools.php:374
+#: includes/modules/database-tools/class-database-tools.php:354
 msgid "Check if required tables exist and create them if not."
 msgstr "Periksa apakah ada tabel yang diperlukan dan buatlah jika tidak ada."
 
-#: includes/modules/database-tools/class-database-tools.php:375
+#. translators: Auth URL
+#: includes/modules/analytics/class-analytics.php:140
+msgid "It seems like the connection with your Google account & Rank Math needs to be made again. <a href=\"%s\" class=\"rank-math-reconnect-google\">Please click here.</a>"
+msgstr "Sepertinya koneksi akun Google Anda & Rank Math perlu dibuat lagi. <a href=\"%s\" class=\"rank-math-reconnect-google\">Klik di sini.</a>"
+
+#. translators: reconnect link
+#: includes/modules/analytics/google/class-request.php:182
+msgid "There is a problem with the Google auth token. Please <a href=\"%1$s\" class=\"button button-link rank-math-reconnect-google\">reconnect your app</a>"
+msgstr "Ada masalah dengan token otentikasi Google. Mohon <a href=\"%1$s\" class=\"button button-link rank-math-reconnect-google\">hubungkan kembali aplikasi Anda</a>"
+
+#: includes/modules/database-tools/class-database-tools.php:355
 msgid "Re-create Tables"
 msgstr "Buat ulang Tabel"
 
@@ -864,7 +1404,9 @@ msgstr "Token tersedia"
 msgid "No token"
 msgstr "Tidak ada token"
 
+#: includes/module/class-manager.php:412
 #: includes/modules/status/class-system-status.php:141
+#: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Free"
 msgstr "Gratis"
 
@@ -889,7 +1431,7 @@ msgid "Days"
 msgstr "Hari"
 
 #. Translators: placeholder is a link to the Pro version
-#: includes/modules/local-seo/views/titles-options.php:291
+#: includes/modules/local-seo/views/titles-options.php:334
 msgid "Multiple Locations are available in the %s."
 msgstr "Multilokasi tersedia di %s."
 
@@ -921,6 +1463,8 @@ msgid "(opens in a new window)"
 msgstr "(buka di jendela baru)"
 
 #: includes/admin/class-dashboard-widget.php:174
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Blog"
 msgstr "Blog"
 
@@ -932,27 +1476,27 @@ msgstr "Artikel Blog Terbaru dari Rank Math"
 msgid "Rank Math Overview"
 msgstr "Tinjauan Rank Math"
 
-#: includes/modules/redirections/class-redirections.php:82
+#: includes/modules/redirections/class-redirections.php:81
 msgid "Total number of hits received by all the Redirections."
 msgstr "Jumlah total klik yang diterima oleh semua Pengalihan."
 
-#: includes/modules/redirections/class-redirections.php:75
+#: includes/modules/redirections/class-redirections.php:74
 msgid "Total number of Redirections created in the Rank Math."
 msgstr "Jumlah total Pengalihan yang dibuat di Rank Math."
 
-#: includes/modules/404-monitor/class-monitor.php:81
+#: includes/modules/404-monitor/class-monitor.php:80
 msgid "Total number visits received on all the 404 pages."
 msgstr "Jumlah total kunjungan yang diterima di semua laman 404."
 
-#: includes/modules/404-monitor/class-monitor.php:80
+#: includes/modules/404-monitor/class-monitor.php:79
 msgid "URL Hits"
 msgstr "Kunjungan URL"
 
-#: includes/modules/404-monitor/class-monitor.php:74
+#: includes/modules/404-monitor/class-monitor.php:73
 msgid "Total number of 404 pages opened by the users."
 msgstr "Jumlah total laman 404 yang dibuka oleh pengguna."
 
-#: includes/modules/404-monitor/class-monitor.php:73
+#: includes/modules/404-monitor/class-monitor.php:72
 msgid "Log Count"
 msgstr "Jumlah Log"
 
@@ -961,9 +1505,9 @@ msgstr "Jumlah Log"
 msgid "Total number of keywords your site ranking below 100 position."
 msgstr "Jumlah kata kunci situs Anda dengan peringkat di bawah posisi 100."
 
-#: includes/modules/404-monitor/class-monitor.php:68
+#: includes/modules/404-monitor/class-monitor.php:67
 #: includes/modules/analytics/class-analytics-common.php:74
-#: includes/modules/redirections/class-redirections.php:69
+#: includes/modules/redirections/class-redirections.php:68
 msgid "View Report"
 msgstr "Lihat Laporan"
 
@@ -971,13 +1515,25 @@ msgstr "Lihat Laporan"
 msgid "Last 30 Days"
 msgstr "30 hari terakhir"
 
-#: includes/frontend/class-head.php:385
+#: includes/frontend/class-head.php:414
 msgid "Search Engine Optimization by Rank Math PRO - https://rankmath.com/"
 msgstr "Optimasi Mesin Pencari oleh Rank Math PRO - https://rankmath.com/"
+
+#: includes/admin/wizard/views/search-console-ui.php:378
+msgid "Google AdSense support is only available in Rank Math Pro's Advanced Analytics module."
+msgstr "Bantuan Google AdSense hanya tersedia di modul Analytics Tingkat Lanjut dari Rank Math Pro."
 
 #: includes/admin/wizard/views/search-console-ui.php:81
 msgid "Reconnect"
 msgstr "Hubungkan kembali"
+
+#: includes/admin/wizard/views/search-console-ui.php:260
+msgid "Enable this option only if you are not using any other plugin/theme to install Google Analytics code."
+msgstr "Aktifkan pilihan ini jikan Anda tidak menggunakan plugin/tema lain untuk menginstal kode Google Analytics."
+
+#: includes/modules/analytics/class-posts.php:40
+msgid "Sorry, no post found for given id."
+msgstr "Maaf, tidak menemukan artikel dengan id yang diberikan."
 
 #: includes/modules/analytics/views/email-reports/sections/positions.php:44
 msgid "11-50 Positions"
@@ -1002,14 +1558,19 @@ msgstr "3 Posisi Teratas"
 msgid "Upgrade"
 msgstr "Upgrade"
 
-#. Translators: placeholders are the opening and closing anchor tags.
-#: includes/updates/update-1.0.49.php:61
-msgid "Thank you for updating Rank Math! We've completely revamped our Analytics module with Google Analytics & Google Search Console integrations. For a seamless experience, please re-authenticate your Google account. %1$sClick here to Connect%2$s"
-msgstr "Terima kasih telah memperbarui Rank Math! Kami telah sepenuhnya mengubah modul Analytics kami dengan integrasi Google Analytics & Google Search Console. Untuk pengalaman yang lancar, harap autentikasi ulang akun Google Anda. %1$s Klik di sini untuk Menghubungkan %2$s"
-
 #: includes/modules/analytics/class-analytics-common.php:300
 msgid "Search Traffic"
 msgstr "Aktivitas Pencarian"
+
+#: includes/modules/analytics/class-analytics-common.php:307
+#: includes/modules/analytics/assets/js/stats.js:1
+msgid "How many times your site showed up in the search results."
+msgstr "Banyaknya situs Anda tampil di hasil pencarian."
+
+#: includes/opengraph/class-slack.php:361
+#: includes/modules/analytics/assets/js/stats.js:1
+msgid "Posts"
+msgstr "Artikel"
 
 #: includes/admin/importers/abstract-importer.php:155
 msgid "Import News Settings"
@@ -1042,7 +1603,7 @@ msgstr "Kecualikan pengguna yang sudah masuk"
 #: includes/admin/wizard/views/search-console-ui.php:278
 #: includes/admin/wizard/views/search-console-ui.php:303
 #: includes/admin/wizard/views/search-console-ui.php:378
-#: includes/module/class-manager.php:415
+#: includes/module/class-manager.php:420
 #: includes/modules/analytics/views/options.php:149
 msgid "PRO"
 msgstr "PRO"
@@ -1075,187 +1636,198 @@ msgstr "Situs"
 msgid "Created"
 msgstr "Dibuat"
 
-#: includes/helpers/class-choices.php:726
+#: includes/admin/wizard/views/search-console-ui.php:86
+msgid "Disconnect"
+msgstr "Putuskan sambungan"
+
+#. Translators: placeholder is the KB link.
+#: includes/admin/wizard/views/google-connect.php:37
+#: includes/admin/wizard/views/rank-math-connect.php:48
+#: includes/admin/wizard/views/search-console-ui.php:389
+msgid "We do not store any of the data from your Google account on our servers, everything is processed & stored on your server. We take your privacy extremely seriously and ensure it is never misused. %s"
+msgstr "Kami tidak menyimpan data apa pun dari akun Google Anda ke server kami, semua data diproses dan disimpan di server Anda. Kami menganggap serius privasi Anda dan memastikan bahwa data Anda tidak pernah disalahgunakan. %s"
+
+#: includes/helpers/class-choices.php:746
 msgid "United Kingdom"
 msgstr "United Kingdom"
 
-#: includes/helpers/class-choices.php:724
+#: includes/helpers/class-choices.php:744
 msgid "Ukraine"
 msgstr "Ukraina"
 
-#: includes/helpers/class-choices.php:723
+#: includes/helpers/class-choices.php:743
 msgid "Turkey"
 msgstr "Turki"
 
-#: includes/helpers/class-choices.php:721
+#: includes/helpers/class-choices.php:741
 msgid "Thailand"
 msgstr "Thailand"
 
-#: includes/helpers/class-choices.php:720
+#: includes/helpers/class-choices.php:740
 msgid "Taiwan"
 msgstr "Taiwan"
 
-#: includes/helpers/class-choices.php:719
+#: includes/helpers/class-choices.php:739
 msgid "Switzerland"
 msgstr "Swiss"
 
-#: includes/helpers/class-choices.php:718
+#: includes/helpers/class-choices.php:738
 msgid "Sweden"
 msgstr "Sweden"
 
-#: includes/helpers/class-choices.php:715
+#: includes/helpers/class-choices.php:735
 msgid "South Africa"
 msgstr "Afrika Selatan"
 
-#: includes/helpers/class-choices.php:712
+#: includes/helpers/class-choices.php:732
 msgid "Singapore"
 msgstr "Singapura"
 
-#: includes/helpers/class-choices.php:709
+#: includes/helpers/class-choices.php:729
 msgid "Saudi Arabia"
 msgstr "Arab Saudi"
 
-#: includes/helpers/class-choices.php:707
+#: includes/helpers/class-choices.php:727
 msgid "Romania"
 msgstr "Rumania"
 
-#: includes/helpers/class-choices.php:678
+#: includes/helpers/class-choices.php:698
 msgid "India"
 msgstr "India"
 
-#: includes/helpers/class-choices.php:677
+#: includes/helpers/class-choices.php:697
 msgid "Hungary"
 msgstr "Hungaria"
 
-#: includes/helpers/class-choices.php:676
+#: includes/helpers/class-choices.php:696
 msgid "Hong Kong"
 msgstr "Hong Kong"
 
-#: includes/helpers/class-choices.php:674
+#: includes/helpers/class-choices.php:694
 msgid "Greece"
 msgstr "Yunani"
 
-#: includes/helpers/class-choices.php:672
+#: includes/helpers/class-choices.php:692
 msgid "Germany"
 msgstr "Jerman"
 
-#: includes/helpers/class-choices.php:671
+#: includes/helpers/class-choices.php:691
 msgid "France"
 msgstr "Prancis"
 
-#: includes/helpers/class-choices.php:670
+#: includes/helpers/class-choices.php:690
 msgid "Finland"
 msgstr "Finlandia"
 
-#: includes/helpers/class-choices.php:667
+#: includes/helpers/class-choices.php:687
 msgid "Egypt"
 msgstr "Mesir"
 
-#: includes/helpers/class-choices.php:665
+#: includes/helpers/class-choices.php:685
 msgid "Denmark"
 msgstr "Denmark"
 
-#: includes/helpers/class-choices.php:664
+#: includes/helpers/class-choices.php:684
 msgid "Czechia"
 msgstr "Republik Ceko"
 
-#: includes/helpers/class-choices.php:660
+#: includes/helpers/class-choices.php:680
 msgid "Colombia"
 msgstr "Kolombia"
 
-#: includes/helpers/class-choices.php:659
+#: includes/helpers/class-choices.php:679
 msgid "Chile"
 msgstr "Chili"
 
-#: includes/helpers/class-choices.php:658
+#: includes/helpers/class-choices.php:678
 msgid "Canada"
 msgstr "Kanada"
 
-#: includes/helpers/class-choices.php:655
+#: includes/helpers/class-choices.php:675
 msgid "Brazil"
 msgstr "Brazil"
 
-#: includes/helpers/class-choices.php:653
+#: includes/helpers/class-choices.php:673
 msgid "Belgium"
 msgstr "Belgia"
 
-#: includes/modules/analytics/class-analytics.php:530
+#: includes/modules/analytics/class-analytics.php:531
 msgid "Rebuild Index"
 msgstr "Buat Ulang Indeks"
 
-#: includes/modules/analytics/class-analytics.php:529
+#: includes/modules/analytics/class-analytics.php:530
 msgid "Missing some posts/pages in the Analytics data? Clear the index and build a new one for more accurate stats."
 msgstr "Kehilangan beberapa postingan / halaman dalam data Analytics? Hapus indeks dan buat yang baru untuk statistik yang lebih akurat."
 
-#: includes/modules/analytics/class-analytics.php:528
+#: includes/modules/analytics/class-analytics.php:529
 msgid "Rebuild Index for Analytics"
 msgstr "Buat Ulang Indeks untuk Analytics"
 
-#: includes/modules/analytics/class-analytics.php:525
+#: includes/modules/analytics/class-analytics.php:526
 msgid "Clear Cache"
 msgstr "Hapus Cache"
 
-#: includes/modules/analytics/class-analytics.php:524
+#: includes/modules/analytics/class-analytics.php:525
 msgid "Clear analytics cache to re-calculate all the stats again."
 msgstr "Hapus cache analitik untuk menghitung ulang semua statistik lagi."
 
-#: includes/modules/analytics/class-analytics.php:523
+#: includes/modules/analytics/class-analytics.php:524
 msgid "Purge Analytics Cache"
 msgstr "Hapus Cache Analytics"
 
 #. translators: Link to kb article
-#: includes/modules/analytics/class-analytics.php:501
+#: includes/modules/analytics/class-analytics.php:502
 msgid "See your Google Search Console, Analytics and AdSense data without leaving your WP dashboard. %s."
 msgstr "Lihat data Google Search Console, Analytics, dan AdSense Anda tanpa meninggalkan dasbor WP Anda. %s."
 
-#: includes/modules/analytics/class-analytics.php:271
+#: includes/modules/analytics/class-analytics.php:270
 msgid "Now!"
 msgstr "Sekarang"
 
 #. translators: %s: amount of time
-#: includes/modules/analytics/class-analytics.php:266
+#: includes/modules/analytics/class-analytics.php:265
 msgid "%s second"
 msgid_plural "%s seconds"
 msgstr[0] "%s detik"
 msgstr[1] "%s detik"
 
 #. translators: %s: amount of time
-#: includes/modules/analytics/class-analytics.php:261
+#: includes/modules/analytics/class-analytics.php:260
 msgid "%s minute"
 msgid_plural "%s minutes"
 msgstr[0] "%s menit"
 msgstr[1] "%s menit"
 
 #. translators: %s: amount of time
-#: includes/modules/analytics/class-analytics.php:256
+#: includes/modules/analytics/class-analytics.php:255
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s jam"
 msgstr[1] "%s jam"
 
 #. translators: %s: amount of time
-#: includes/modules/analytics/class-analytics.php:251
+#: includes/modules/analytics/class-analytics.php:250
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s hari"
 msgstr[1] "%s hari"
 
 #. translators: %s: amount of time
-#: includes/modules/analytics/class-analytics.php:246
+#: includes/modules/analytics/class-analytics.php:245
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s minggu"
 msgstr[1] "%s minggu"
 
 #. translators: %s: amount of time
-#: includes/modules/analytics/class-analytics.php:241
+#: includes/modules/analytics/class-analytics.php:240
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s bulan"
 msgstr[1] "%s bulan"
 
 #. translators: %s: amount of time
-#: includes/modules/analytics/class-analytics.php:236
+#: includes/modules/analytics/class-analytics.php:235
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s tahun"
@@ -1290,10 +1862,12 @@ msgid "Verify site ownership on Google Search Console in a single click"
 msgstr "Verifikasi kepemilikan situs di Google Search Console dengan sekali klik"
 
 #: includes/admin/wizard/views/rank-math-connect.php:29
+#: includes/modules/content-ai/views/options.php:28
 msgid "Benefits of Connecting Rank Math Account"
 msgstr "Manfaat Menghubungkan Akun Rank Math"
 
 #: includes/admin/wizard/views/rank-math-connect.php:25
+#: includes/modules/content-ai/views/options.php:23
 msgid "Connect Your Rank Math Account"
 msgstr "Hubungkan Akun Rank Math Anda"
 
@@ -1306,31 +1880,102 @@ msgstr "Rank Math mengotomatiskan semuanya, gunakan tombol di bawah ini untuk me
 msgid "Connect Google&trade; Services"
 msgstr "Hubungkan Layanan Google&trade;"
 
-#: includes/helpers/class-choices.php:706
+#: includes/helpers/class-choices.php:726
 msgid "Portugal"
 msgstr "Portugal"
 
-#: includes/helpers/class-choices.php:705
+#: includes/helpers/class-choices.php:725
 msgid "Poland"
 msgstr "Polandia"
 
-#: includes/helpers/class-choices.php:704
+#: includes/helpers/class-choices.php:724
 msgid "Philippines"
 msgstr "Filipina"
 
-#: includes/helpers/class-choices.php:700
+#: includes/helpers/class-choices.php:720
 msgid "Norway"
 msgstr "Norwegia"
 
-#: includes/helpers/class-choices.php:699
+#: includes/helpers/class-choices.php:719
 msgid "Nigeria"
 msgstr "Nigeria"
 
-#: includes/modules/analytics/class-analytics.php:202
+#: includes/modules/analytics/class-analytics.php:201
 msgid "Rank Math is importing latest data from connected Google Services, %1$s remaining."
 msgstr "Rank Math sedang mengimpor data terbaru dari Layanan Google yang terhubung, %1$s tersisa."
 
-#: includes/helpers/class-choices.php:643
+#: includes/admin/wizard/views/google-connect.php:29
+#: includes/admin/wizard/views/rank-math-connect.php:37
+msgid "Learn more about the benefits of connecting your account here."
+msgstr "Pelajari lebih lanjut keuntungan dari menyambungkan akun Anda di sini."
+
+#: includes/helpers/class-choices.php:717
+msgid "New Zealand"
+msgstr "Selandia Baru"
+
+#: includes/helpers/class-choices.php:716
+msgid "Netherlands"
+msgstr "Belanda"
+
+#: includes/helpers/class-choices.php:668
+msgid "Austria"
+msgstr "Austria"
+
+#: includes/helpers/class-choices.php:665
+msgid "Argentina"
+msgstr "Argentina"
+
+#: includes/modules/analytics/views/options.php:79
+msgid "Delete data"
+msgstr "Hapus data"
+
+#. Translators: placeholder is a link to rankmath.com, with "free version" as
+#. the anchor text.
+#: includes/modules/analytics/views/options.php:86
+msgid "free version"
+msgstr "versi gratis"
+
+#: includes/modules/analytics/rest/class-rest.php:145
+msgid "Sorry, no post id found."
+msgstr "Maaf, tidak ada id artikel ditemukan."
+
+#: includes/helpers/class-choices.php:713
+msgid "Mexico"
+msgstr "Meksiko"
+
+#: includes/helpers/class-choices.php:711
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: includes/helpers/class-choices.php:706
+msgid "Kenya"
+msgstr "Kenya"
+
+#: includes/helpers/class-choices.php:703
+msgid "Japan"
+msgstr "Jepang"
+
+#: includes/helpers/class-choices.php:702
+msgid "Italy"
+msgstr "Italia"
+
+#: includes/helpers/class-choices.php:701
+msgid "Israel"
+msgstr "Israel"
+
+#: includes/helpers/class-choices.php:700
+msgid "Ireland"
+msgstr "Irlandia"
+
+#: includes/helpers/class-choices.php:699
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: includes/helpers/class-choices.php:667
+msgid "Australia"
+msgstr "Australia"
+
+#: includes/helpers/class-choices.php:663
 msgid "Worldwide"
 msgstr "Di seluruh dunia"
 
@@ -1342,13 +1987,97 @@ msgstr "Basis Data Analitik"
 msgid "Analytics cache cleared."
 msgstr "Cache analisis dihapus."
 
+#: includes/modules/content-ai/views/options.php:136
+#: includes/modules/content-ai/views/options.php:183
+msgid "Russian"
+msgstr "Rusia"
+
+#: includes/replace-variables/class-basic-variables.php:229
+msgid "Organization Logo added in Local SEO Settings."
+msgstr "Logo Organisasi ditambahkan di Pengaturan SEO Lokal."
+
+#: includes/replace-variables/class-basic-variables.php:218
+msgid "The Organization Name added in Local SEO Settings."
+msgstr "Nama Organaisasi ditambahkan di Pengaturan SEO Lokal."
+
+#: includes/replace-variables/class-basic-variables.php:217
+msgid "Organization Name"
+msgstr "Nama Organisasi"
+
+#: includes/replace-variables/class-post-variables.php:105
+msgid "Post URL"
+msgstr "URL Artikel"
+
+#: includes/admin/views/dashboard-help.php:70
+msgid "Improve SEO Score"
+msgstr "Tingkatkan Skor SEO"
+
+#: includes/admin/views/dashboard-help.php:60
+msgid "Import Data"
+msgstr "Impor Data"
+
+#: includes/modules/404-monitor/views/help-tab-overview.php:36
+msgid "Fix 404 Errors"
+msgstr "Perbaiki Eror 404"
+
+#: includes/modules/sitemap/settings/html-sitemap.php:100
+#: includes/modules/schema/assets/js/schema-gutenberg.js:1
+#: includes/modules/schema/assets/js/schema-template.js:1
+msgid "Published Date"
+msgstr "Tanggal Publikasi"
+
+#: includes/modules/sitemap/settings/html-sitemap.php:101
+#: includes/modules/schema/assets/js/schema-gutenberg.js:1
+#: includes/modules/schema/assets/js/schema-template.js:1
+msgid "Modified Date"
+msgstr "Tanggal Modifikasi"
+
+#: includes/frontend/class-shortcodes.php:314
+msgid "Telephone"
+msgstr "Telepon"
+
+#: includes/frontend/class-shortcodes.php:373
+msgid "Email:"
+msgstr "Email:"
+
 #: includes/modules/404-monitor/views/help-tab-overview.php:31
 msgid "404 Monitor Settings"
 msgstr "Pengaturan Monitor 404"
 
-#: includes/replace-variables/class-post-variables.php:107
+#: includes/replace-variables/class-post-variables.php:106
 msgid "URL of the current post/page"
 msgstr "URL artikel/halaman saat ini"
+
+#. translators: WordPress Version
+#: rank-math.php:201
+msgid "You are using the outdated WordPress, please update it to version %s or higher."
+msgstr "Anda menggunakan WordPress lawas, mohon perbarui ke versi %s atau lebih tinggi."
+
+#. translators: Link to learn about import export panel KB article
+#: includes/admin/views/import-export/plugins-panel.php:25
+msgid "If you were using another plugin to add important SEO information to your website before switching to Rank Math SEO, you can import the settings and data here. %s"
+msgstr "Jika Anda menggunakan plugin lain untuk menambah informasi penting SEO ke situs Anda sebelum beralih ke Rank Math SEO, Anda dapat mengimpor pengaturan dan data di sini. %s"
+
+#: includes/admin/views/import-export/backup-panel.php:15
+msgid "Settings Backup"
+msgstr "Pengaturan Pencadangan"
+
+#: includes/admin/views/import-export/plugins-panel.php:20
+msgid "Other Plugins"
+msgstr "Plugin Lain"
+
+#: includes/admin/views/import-export/import-export-panel.php:14
+msgid "Plugin Settings"
+msgstr "Pengaturan Plugin"
+
+#: includes/modules/seo-analysis/class-seo-analyzer.php:557
+msgid "Unexpected API response."
+msgstr "Respons API tidak terduga."
+
+#. translators: Link to learn about import export panel KB article
+#: includes/admin/views/import-export/import-export-panel.php:19
+msgid "Import or export your Rank Math settings, This option is useful for replicating Rank Math settings across multiple websites. %s"
+msgstr "Impor atau ekspor pengaturan Rank Math Anda, pilihan ini berguna ketika menggunakan pengaturan yang sama ke beberapa situs sekalis. %s"
 
 #: includes/admin/wizard/views/compatibility.php:110
 msgid "PHP OpenSSL Extension missing"
@@ -1358,11 +2087,11 @@ msgstr "Ekstensi PHP OpenSSL hilang"
 msgid "SEO Score: Ok"
 msgstr "Skor SEO: Oke"
 
-#: includes/module/class-manager.php:356
+#: includes/module/class-manager.php:357
 msgid "Please activate Web Stories plugin to use this module."
 msgstr "Silakan aktifkan plugin Web Stories untuk menggunakan modul ini."
 
-#: includes/module/class-manager.php:351
+#: includes/module/class-manager.php:352
 msgid "Google Web Stories"
 msgstr "Google Web Stories"
 
@@ -1375,7 +2104,7 @@ msgstr "Analisa situs anda dengan %1$s menautkan akun Rank Math anda %2$s"
 msgid "PHP OpenSSL Extension installed"
 msgstr "Ekstensi PHP OpenSSL diinstal"
 
-#: includes/module/class-manager.php:352
+#: includes/module/class-manager.php:353
 msgid "Make any Story created with the Web Stories WordPress plugin SEO-Ready with automatic support for Schema and Meta tags."
 msgstr "Jadikan Story apa pun yang dibuat dengan plugin WordPress Web Stories menjadi Siap-SEO dengan dukungan otomatis untuk Tag Schema dan Meta."
 
@@ -1384,8 +2113,12 @@ msgstr "Jadikan Story apa pun yang dibuat dengan plugin WordPress Web Stories me
 msgid "Disconnect Account"
 msgstr "Putuskan Sambungan Akun"
 
-#: includes/admin/views/plugin-activation.php:42
+#: includes/admin/views/plugin-activation.php:42 assets/admin/js/post-list.js:1
+#: includes/modules/content-ai/assets/js/content-ai-media.js:1
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
+#: includes/modules/content-ai/blocks/command/assets/js/index.js:1
+#: includes/modules/content-ai/blocks/command/assets/src/edit.js:24
 msgid "Connect Now"
 msgstr "Sambungkan Sekarang"
 
@@ -1411,15 +2144,9 @@ msgstr "Ekstensi PHP MBstring hilang"
 msgid "PHP MBstring Extension installed"
 msgstr "Ekstensi PHP MBstring diinstal"
 
-#. translators: Link to Free Account Benefits KB article
-#: includes/admin/class-registration.php:303
+#: includes/admin/class-registration.php:305
 msgid "Read more by following this link."
 msgstr "Baca lebih lanjut dengan mengikuti tautan ini."
-
-#. translators: Link to Free Account Benefits KB article
-#: includes/admin/class-registration.php:303
-msgid "By connecting your free account, you get keyword suggestions directly from Google when entering the focus keywords. Not only that, get access to our revolutionary SEO Analyzer inside WordPress that scans your website for SEO errors and suggest improvements. %s"
-msgstr "Dengan menghubungkan akun gratis Anda, Anda mendapatkan saran kata kunci langsung dari Google ketika memasukkan kata kunci fokus. Tidak hanya itu, dapatkan akses ke Penganalisis SEO revolusioner kami di dalam WordPress yang memindai situs web Anda untuk kesalahan SEO dan menyarankan perbaikan. %s"
 
 #. translators: variables used to wrap the text in the strong tag.
 #: includes/admin/views/plugin-activation.php:40
@@ -1450,41 +2177,41 @@ msgstr "Mode Khusus %s"
 msgid "For the advanced users who want to control every SEO aspect of the website. You are offered options to change everything and have full control over the website’s SEO."
 msgstr "Untuk pengguna tingkat lanjut yang ingin mengontrol tiap aspek SEO situs web. Anda diberi pilihan untuk mengubah semuanya dan mempunyai kontrol penuh terhadap SEO situs web."
 
-#: includes/admin/class-cmb2-fields.php:225
+#: includes/admin/class-cmb2-fields.php:226
 msgid "Image Preview"
 msgstr "Pratinjau Gambar"
 
-#: includes/admin/class-cmb2-fields.php:224
+#: includes/admin/class-cmb2-fields.php:225
 msgid "Video Preview"
 msgstr "Pratinjau Video"
 
-#: includes/admin/class-cmb2-fields.php:223
+#: includes/admin/class-cmb2-fields.php:224
 msgid "Snippet"
 msgstr "Snippet"
 
 #. translators: 1. post type name 2. link
 #. translators: 1. taxonomy name 2. link
-#: includes/admin/class-option-center.php:241
-#: includes/admin/class-option-center.php:295
+#: includes/admin/class-option-center.php:240
+#: includes/admin/class-option-center.php:294
 msgid "Change Global SEO, Schema, and other settings for %1$s. %2$s"
 msgstr "Ubah SEO Global, Skema, dan pengaturan lain untuk %1$s. %2$s"
 
 #. translators: Link to KB article
-#: includes/admin/class-option-center.php:176
+#: includes/admin/class-option-center.php:175
 msgid "Customize SEO meta settings of pages like search results, 404s, etc. %s."
 msgstr "Sesuaikan pengaturan meta SEO dari halaman seperti hasil pencarian, 404, dll. %s."
 
 #. translators: Link to KB article
-#: includes/admin/class-option-center.php:170
+#: includes/admin/class-option-center.php:169
 msgid "Change SEO options related to the author archives. %s."
 msgstr "Ubah pilihan SEO yang terkait dengan arsip penulis. %s."
 
 #. translators: Link to KB article
-#: includes/admin/class-option-center.php:162
+#: includes/admin/class-option-center.php:161
 msgid "Add SEO meta and OpenGraph details to your homepage. %s."
 msgstr "Tambahkan meta SEO dan detail OpenGraph ke halaman awal Anda. %s."
 
-#: includes/admin/class-option-center.php:149
+#: includes/admin/class-option-center.php:148
 msgid "Use the <code>[rank_math_contact_info]</code> shortcode to display contact information in a nicely formatted way. You should also claim your business on Google if you have not already."
 msgstr "Gunakan shortcode <code>[rank_math_contact_info]</code> untuk menampilkan informasi kontak dengan cara yang diformat dengan baik. Anda juga harus mengklaim bisnis Anda di Google jika Anda belum melakukannya."
 
@@ -1504,35 +2231,30 @@ msgid "For websites where you only want to change the basics and let Rank Math d
 msgstr "Untuk situs web di mana anda hanya ingin mengubah bagian dasar saja dan membiarkan Rank Math melakukan sebagian besar tugas berat. Sebagian besar  pengaturan diatur ke standar sebagaimana sesuai dengan praktik terbaik industri. Pengguna hanya perlu mengatur sekali dan tinggalkan."
 
 #. translators: Link to kb article
-#: includes/admin/class-option-center.php:88
+#: includes/admin/class-option-center.php:87
 msgid "Edit the contents of your .htaccess file easily. %s."
 msgstr "Edit konten berkas .htaccess Anda dengan mudah. %s."
 
 #. translators: Link to KB article
-#: includes/admin/class-option-center.php:142
+#: includes/admin/class-option-center.php:141
 msgid "Change Global meta settings that take effect across your website. %s."
 msgstr "Ubah pengaturan meta global yang berpengaruh di seluruh situs web anda. %s."
 
 #. translators: Link to kb article
-#: includes/admin/class-option-center.php:75
+#: includes/admin/class-option-center.php:74
 msgid "Change some uncommon but essential settings here. %s."
 msgstr "Ubah beberapa pengaturan tak biasa tapi penting di sini. %s."
 
 #. translators: Link to kb article
-#: includes/admin/class-option-center.php:69
+#: includes/admin/class-option-center.php:68
 msgid "Enter verification codes for third-party webmaster tools. %s"
 msgstr "Masukkan kode verifikasi untuk alat webmaster pihak ketiga. %s"
 
-#: includes/admin/class-serp-preview.php:432
-#: includes/admin/class-serp-preview.php:450
-msgid "Out of stock"
-msgstr "Stok habis"
-
-#: includes/admin/class-admin-header.php:107
+#: includes/admin/class-admin-header.php:109
 msgid "Advanced Mode"
 msgstr "Mode Tingkat Lanjut"
 
-#: includes/admin/class-admin-header.php:106
+#: includes/admin/class-admin-header.php:108
 msgid "Easy Mode"
 msgstr "Mode Mudah"
 
@@ -1553,39 +2275,39 @@ msgstr "baca di sini"
 msgid "Rank Math generates the default Sitemaps only and WPML takes care of the rest. When a search engine bot visits any post/page, it is shown hreflang tag that helps it crawl the translated pages. This is one of the recommended methods by Google. Please %s"
 msgstr "Rank Math hanya menciptakan peta situs standar dan WPML mengurus selebihnya.  Ketika bot mesin pencari mengunjungi sembarang artikel/halaman, akan ditampilkan tag hreflang yang membantu untuk perayapan halaman yang diterjemahkan. Ini merupakan salah satu metode rekomendasi Google.  Mohon %s"
 
-#: includes/modules/status/class-error-log.php:156
+#: includes/modules/status/class-error-log.php:155
 msgid "The error log cannot be retrieved: Error log file is too large."
 msgstr "Log eror tidak dapat diambil:  Berkas log eror terlalu besar."
 
-#: includes/modules/status/class-error-log.php:145
+#: includes/modules/status/class-error-log.php:144
 msgid "The error log cannot be retrieved."
 msgstr "Log eror tidak dapat diambil."
 
-#: includes/modules/status/class-error-log.php:77
+#: includes/modules/status/class-error-log.php:76
 msgid "Copy Log to Clipboard"
 msgstr "Menyalin Log ke Clipboard"
 
 #. Translators: placeholder is a link to WP_DEBUG documentation.
-#: includes/modules/status/class-error-log.php:52
+#: includes/modules/status/class-error-log.php:51
 msgid "If you have %s enabled, errors will be stored in a log file. Here you can find the last 100 lines in reversed order so that you or the Rank Math support team can view it easily. The file cannot be edited here."
 msgstr "Jika anda telah mengaktifkan %s, eror akan disimpan di berkas log.  Di sini anda bisa menemukan setidaknya 100 baris dalam susunan terbalik sehingga anda atau tim bantuan Rank Math bisa melihat dengan mudah.  Berkas tidak bisa diedit di sini."
 
 #. translators: Redirection page url
-#: includes/admin/class-option-center.php:148
+#: includes/admin/class-option-center.php:147
 msgid "Optimize for local searches and Knowledge Graph using these settings. %s."
 msgstr "Mengoptimalkan untuk pencarian lokal dan Knowledge Graph menggunakan pengaturan ini. %s."
 
-#: includes/admin/class-option-center.php:63
+#: includes/admin/class-option-center.php:62
 msgid "Use the following code in your theme template files to display breadcrumbs."
 msgstr "Gunakan kode berikut di berkas template tema Anda untuk menampilkan breadcrumb:"
 
 #. translators: Link to kb article
-#: includes/admin/class-option-center.php:62
+#: includes/admin/class-option-center.php:61
 msgid "Here you can set up the breadcrumbs function. %s"
 msgstr "Di sini Anda dapat mengatur fungsi breadcrumb. %s"
 
 #. translators: Link to kb article
-#: includes/admin/class-option-center.php:55
+#: includes/admin/class-option-center.php:54
 msgid "Change how some of the links open and operate on your website. %s."
 msgstr "Ubah cara beberapa tautan membuka dan beroperasi di situs web Anda. %s."
 
@@ -1595,7 +2317,7 @@ msgid "Install %s to make Rank Math work with Accelerated Mobile Pages. Rank Mat
 msgstr "Instal %s untuk menjadikan Rank Math berfungsi dengan Accelerated Mobile Pages.  Rank Math secara otomatis menambahkan meta tag wajib di seluruh halaman AMP."
 
 #. translators: Link to kb article
-#: includes/admin/wizard/class-role.php:61
+#: includes/admin/wizard/class-role.php:60
 #: includes/module/class-manager.php:226
 msgid "The Role Manager allows you to use WordPress roles to control which of your site users can have edit or view access to Rank Math's settings."
 msgstr "Manajer Peran memungkinkan anda menggunakan peran WordPress untuk mengontrol  pengguna mana di situs Anda yang bisa mengedit atau mengakses pengaturan Rank Math."
@@ -1623,17 +2345,17 @@ msgid "Change Sitemap settings of %1$s. %2$s."
 msgstr "Ubah pengaturan peta situs untuk %1$s. %2$s."
 
 #. translators: Link to kb article
-#: includes/modules/redirections/class-admin.php:229
+#: includes/modules/redirections/class-admin.php:227
 msgid "Easily create redirects without fiddling with tedious code. %s."
 msgstr "Membuat pengalihan dengan mudah tanpa mengotak-atik kode. %s."
 
 #. translators: 1. Link to KB article 2. Link to redirection setting scree
-#: includes/modules/404-monitor/class-admin.php:200
+#: includes/modules/404-monitor/class-admin.php:199
 msgid "Monitor broken pages that ruin user-experience and affect SEO. %s."
 msgstr "Memonitor halaman rusak yang mengganggu pengalaman pengguna dan memengaruhi SEO. %s."
 
-#: includes/modules/database-tools/class-database-tools.php:282
-#: includes/modules/database-tools/class-database-tools.php:301
+#: includes/modules/database-tools/class-database-tools.php:281
+#: includes/modules/database-tools/class-database-tools.php:300
 msgid "Conversion started. A success message will be shown here once the process completes. You can close this page."
 msgstr "Konversi dimulai. Pesan sukses akan tampil di sini ketika proses selesai. Anda dapat menutup halaman ini."
 
@@ -1656,7 +2378,7 @@ msgid "Dominate the search results for the local audiences by optimizing your we
 msgstr "Dominasi hasil pencarian untuk audiens lokal dengan mengoptimalkan situs Anda untuk SEO Lokal dan juga membantu Anda mendapatkan Knowledge Graph."
 
 #. translators: Link to kb article
-#: includes/modules/robots-txt/class-robots-txt.php:70
+#: includes/modules/robots-txt/class-robots-txt.php:69
 msgid "Edit your robots.txt file to control what bots see. %s."
 msgstr "Edit berkat robots.txt anda to mengontrol apa yang dilihat bot. %s."
 
@@ -1664,7 +2386,7 @@ msgstr "Edit berkat robots.txt anda to mengontrol apa yang dilihat bot. %s."
 msgid "Edit Page: "
 msgstr "Edit Halaman:"
 
-#: includes/modules/status/class-error-log.php:45
+#: includes/modules/status/class-error-log.php:44
 msgid "Error Log"
 msgstr "Log Eror"
 
@@ -1687,6 +2409,11 @@ msgstr "Maaf, Anda tak dizinkan menonaktifkan plugin untuk situs ini."
 #: includes/settings/general/others.php:90
 msgid "filter"
 msgstr "Penyaring"
+
+#. translators: 1. Example text 2. Example text
+#: includes/modules/woocommerce/views/options-general.php:20
+msgid "Remove prefix like %1$s from product URL chosen at %2$s"
+msgstr "Hapus awalan seperti %1$s dari URL produk yang dipilih di %2$s"
 
 #. Translators: placeholder is an activate button.
 #: includes/modules/seo-analysis/seo-analysis-tests.php:196
@@ -1719,14 +2446,26 @@ msgstr "Maaf, Anda tidak diizinkan menyunting artikel ini."
 msgid "Sorry, you are not allowed to edit this post type."
 msgstr "Maaf, Anda tidak diperbolehkan untuk menyunting jenis artikel ini."
 
+#: includes/modules/sitemap/class-admin.php:340
+msgid "configuration file"
+msgstr "berkas konfigurasi"
+
+#: includes/modules/sitemap/class-admin.php:345
+msgid "Click here to see the code."
+msgstr "Klik di sini untuk melihat kode."
+
+#: includes/rest/class-rest-helper.php:50
+msgid "Sorry, you are not allowed to create/update redirection."
+msgstr "Maaf, Anda tidak diperbolehkan membuat atau memperbarui pengalihan."
+
 #. translators: placeholders are units of time, e.g. '1 hour and 30 minutes'
-#: includes/modules/schema/blocks/class-block-howto.php:491
+#: includes/modules/schema/blocks/class-block-howto.php:495
 msgid "%1$s and %2$s"
 msgstr "%1$s dan %2$s"
 
 #. translators: %d is the number of minutes.
 #. translators: %d: minutes
-#: includes/modules/schema/blocks/class-block-howto.php:484
+#: includes/modules/schema/blocks/class-block-howto.php:488
 #: includes/opengraph/class-slack.php:311
 msgid "%d minute"
 msgid_plural "%d minutes"
@@ -1734,14 +2473,14 @@ msgstr[0] "%d menit"
 msgstr[1] "%d menit"
 
 #. translators: %d is the number of hours.
-#: includes/modules/schema/blocks/class-block-howto.php:479
+#: includes/modules/schema/blocks/class-block-howto.php:483
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d jam"
 msgstr[1] "%d jam"
 
 #. translators: %d is the number of days.
-#: includes/modules/schema/blocks/class-block-howto.php:474
+#: includes/modules/schema/blocks/class-block-howto.php:478
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d hari"
@@ -1749,11 +2488,11 @@ msgstr[1] "%d hari"
 
 #. translators: placeholders are units of time, e.g. '1 day, 8 hours and 30
 #. minutes'
-#: includes/modules/schema/blocks/class-block-howto.php:493
+#: includes/modules/schema/blocks/class-block-howto.php:497
 msgid "%1$s, %2$s and %3$s"
 msgstr "%1$s, %2$s, dan %3$s"
 
-#: includes/modules/schema/blocks/class-block-howto.php:499
+#: includes/modules/schema/blocks/class-block-howto.php:503
 msgid "Total Time:"
 msgstr "Total Waktu:"
 
@@ -1762,12 +2501,12 @@ msgstr "Total Waktu:"
 msgid "Your sitemap index can be found here: %s"
 msgstr "Indeks peta situs Anda dapat ditemukan di sini: %s"
 
-#: includes/modules/database-tools/class-database-tools.php:389
+#: includes/modules/database-tools/class-database-tools.php:369
 msgid "Yoast Block Converter"
 msgstr "Konverter Blok Yoast"
 
-#: includes/modules/database-tools/class-database-tools.php:392
-#: includes/modules/database-tools/class-database-tools.php:402
+#: includes/modules/database-tools/class-database-tools.php:372
+#: includes/modules/database-tools/class-database-tools.php:382
 msgid "Convert Blocks"
 msgstr "Ubah Blok"
 
@@ -1783,13 +2522,13 @@ msgid "Warning: "
 msgstr "Peringatan: "
 
 #: includes/module/class-manager.php:272
-#: includes/modules/version-control/class-version-control.php:246
-#: includes/modules/version-control/class-version-control.php:262
+#: includes/modules/version-control/class-version-control.php:245
+#: includes/modules/version-control/class-version-control.php:261
 msgid "Version Control"
 msgstr "Kontrol Versi"
 
 #. translators: Placeholder is version number.
-#: includes/modules/version-control/class-version-control.php:168
+#: includes/modules/version-control/class-version-control.php:167
 msgid "Are you sure you want to install version %s?"
 msgstr "Apakah Anda yakin ingin menginstal versi %s?"
 
@@ -1802,7 +2541,7 @@ msgid "Beta Tester"
 msgstr "Penguji Beta"
 
 #: includes/module/class-manager.php:278
-#: includes/modules/database-tools/class-database-tools.php:334
+#: includes/modules/database-tools/class-database-tools.php:314
 msgid "Database Tools"
 msgstr "Alat Basis data"
 
@@ -1823,19 +2562,22 @@ msgstr "Info Sistem"
 msgid "Copy System Info to Clipboard"
 msgstr "Salin Info Sistem ke Papan klip"
 
-#: includes/modules/status/class-error-log.php:79
+#: includes/modules/status/class-error-log.php:78
 #: includes/modules/status/class-system-status.php:57
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Copied!"
 msgstr "Disalin!"
 
-#: includes/admin/class-option-center.php:238
+#: includes/admin/class-option-center.php:237
 #: includes/modules/sitemap/class-admin.php:161
 msgid "Attachments"
 msgstr "Lampiran"
 
-#: includes/replace-variables/class-post-variables.php:94
+#: includes/replace-variables/class-post-variables.php:93
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "SEO Description"
 msgstr "Deskripsi SEO"
@@ -1864,40 +2606,75 @@ msgstr "Tidak dapat menyambungkan Rank Math."
 msgid "Rank Math plugin could not be connected."
 msgstr "Plugin Rank Math tidak dapat disambungkan."
 
-#: includes/modules/database-tools/class-database-tools.php:365
-#: includes/modules/database-tools/class-database-tools.php:368
+#: includes/modules/database-tools/class-update-score.php:292
+#: assets/admin/js/rank-math-app.js:1
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
+#: includes/modules/schema/assets/js/schema-gutenberg.js:1
+#: includes/modules/schema/assets/js/schema-template.js:1
+msgid "Close"
+msgstr "Tutup"
+
+#: includes/modules/woocommerce/views/options-general.php:69
+msgid "Remove Schema Markup Data from WooCommerce Shop archive pages."
+msgstr "Hapus Data Markup Skema dari halaman arsip WooCommerce Shop."
+
+#: includes/modules/woocommerce/views/options-general.php:68
+msgid "Remove Schema Markup on Shop Archives"
+msgstr "Hapus Markup Skeman di Arsip Toko"
+
+#: includes/modules/redirections/class-metabox.php:111
+msgid "Redirection updated successfully."
+msgstr "Pengalihan berhasil diperbarui."
+
+#: includes/modules/redirections/class-metabox.php:89
+msgid "Can't update redirection."
+msgstr "Tidak dapat memperbarui pengalihan."
+
+#: includes/module/class-manager.php:324
+msgid "Enable the BuddyPress module for Rank Math SEO to make your BuddyPress forum SEO friendly by adding proper meta tags to all forum pages."
+msgstr "Aktifkan modul BuddyPress ke Rank Math SEO untuk membuat forum BuddyPress Anda ramah SEO lewat penambahan meta tag yang sesuai di semua halaman forum."
+
+#. Translators: placeholder is a link to "Read more".
+#: includes/modules/seo-analysis/class-result.php:98
+#: includes/settings/general/others.php:20 assets/admin/js/rank-math-app.js:1
+msgid "Read more"
+msgstr "Baca lebih lanjut"
+
+#: includes/modules/database-tools/class-database-tools.php:345
+#: includes/modules/database-tools/class-database-tools.php:348
 msgid "Clear 404 Log"
 msgstr "Bersihkan Log 404"
 
-#: includes/modules/database-tools/class-database-tools.php:366
+#: includes/modules/database-tools/class-database-tools.php:346
 msgid "Is the 404 error log getting out of hand? Use this option to clear ALL 404 logs generated by your website in the Rank Math 404 Monitor."
 msgstr "Apakah log kesalahan 404 sulit dikontrol? Gunakan opsi ini untuk menghapus SEMUA log 404 yang dihasilkan oleh situs web Anda di Monitor 404 Rank Math."
 
-#: includes/modules/database-tools/class-database-tools.php:418
+#: includes/modules/database-tools/class-database-tools.php:398
 msgid "Getting a redirection loop or need a fresh start? Delete all the redirections using this tool. Note: This process is irreversible and will delete ALL your redirection rules."
 msgstr "Mendapat loop pengalihan atau butuh awal yang baru? Hapus semua pengalihan menggunakan alat ini. Catatan: Proses ini tidak dapat dipulihkan dan akan menghapus SEMUA aturan pengalihan Anda."
 
-#: includes/modules/database-tools/class-database-tools.php:409
+#: includes/modules/database-tools/class-database-tools.php:389
 msgid "In some instances, the internal links data might show an inflated number or no number at all. Deleting the internal links data might fix the issue."
 msgstr "Dalam beberapa kasus, data tautan internal mungkin menunjukkan angka yang meningkat atau tidak ada angka sama sekali. Menghapus data tautan internal dapat memperbaiki masalah ini."
 
-#: includes/modules/database-tools/class-database-tools.php:360
+#: includes/modules/database-tools/class-database-tools.php:340
 msgid "Remove transients"
 msgstr "Hapus transien"
 
-#: includes/modules/database-tools/class-database-tools.php:359
+#: includes/modules/database-tools/class-database-tools.php:339
 msgid "If you see any issue while using Rank Math or one of its options - clearing the Rank Math transients fixes the problem in most cases. Deleting transients does not delete ANY data added using Rank Math."
 msgstr "Jika Anda melihat masalah apa pun saat menggunakan Rank Math atau salah satu pilihannya - menghapus transien Rank Math dapat memperbaiki masalahnya dalam banyak kasus. Menghapus transien tidak menghapus data APAPUN yang ditambahkan menggunakan Rank Math."
 
-#: includes/modules/database-tools/class-database-tools.php:358
+#: includes/modules/database-tools/class-database-tools.php:338
 msgid "Remove Rank Math Transients"
 msgstr "Hapus Transien Rank Math"
 
-#: includes/modules/database-tools/class-database-tools.php:351
+#: includes/modules/database-tools/class-database-tools.php:331
 msgid "Flush SEO Analyzer Data"
 msgstr "Bersihkan Data Analisis SEO"
 
-#: includes/modules/database-tools/class-database-tools.php:352
+#: includes/modules/database-tools/class-database-tools.php:332
 msgid "Need a clean slate or not able to run the SEO Analyzer tool? Flushing the analysis data might fix the issue. Flushing SEO Analyzer data is entirely safe and doesn't remove any critical data from your website."
 msgstr "Perlu pembersihan total atau tidak dapat menjalankan alat Analisis SEO? Membersihkan data analisis mungkin dapat memperbaiki masalah ini. Membersihkan Data Analisis SEO sepenuhnya aman dan tidak menghapus data penting dari situs web Anda."
 
@@ -1909,15 +2686,15 @@ msgstr "Contoh Judul Posting"
 msgid "Example"
 msgstr "Contoh"
 
-#: includes/admin/class-cmb2-fields.php:225
+#: includes/admin/class-cmb2-fields.php:226
 msgid "Specify a maximum size of image preview to be shown for images on this page."
 msgstr "Tentukan ukuran maksimum pratinjau gambar yang akan ditampilkan untuk gambar pada halaman ini."
 
-#: includes/admin/class-cmb2-fields.php:224
+#: includes/admin/class-cmb2-fields.php:225
 msgid "Specify a maximum duration in seconds of an animated video preview."
 msgstr "Tentukan durasi maksimum dalam detik dari pratinjau video animasi."
 
-#: includes/admin/class-cmb2-fields.php:223
+#: includes/admin/class-cmb2-fields.php:224
 msgid "Specify a maximum text-length, in characters, of a snippet for your page."
 msgstr "Tentukan panjang teks maksimum, dalam karakter, dari cuplikan untuk halaman Anda."
 
@@ -1925,16 +2702,16 @@ msgstr "Tentukan panjang teks maksimum, dalam karakter, dari cuplikan untuk hala
 msgid "Group Advanced Robots Meta"
 msgstr "Grup Meta Robot Tingkat Lanjut"
 
-#: includes/admin/class-cmb2-fields.php:279 assets/admin/js/rank-math-app.js:1
+#: includes/admin/class-cmb2-fields.php:295 assets/admin/js/rank-math-app.js:1
 msgid "Large"
 msgstr "Besar"
 
 #. translators: 1. Credits left 2. Buy more credits link
-#: includes/modules/content-ai/views/options.php:52
+#: includes/modules/content-ai/views/options.php:222
 msgid "here"
 msgstr "di sini"
 
-#: includes/admin/class-cmb2-fields.php:280 assets/admin/js/rank-math-app.js:1
+#: includes/admin/class-cmb2-fields.php:296 assets/admin/js/rank-math-app.js:1
 msgid "Standard"
 msgstr "Standar"
 
@@ -1968,7 +2745,7 @@ msgstr "Tampilkan Halaman Blog di Breadcrumb."
 msgid "Advanced Robots Meta"
 msgstr "Meta Robot Tingkat Lanjut"
 
-#: includes/replace-variables/class-post-variables.php:73
+#: includes/replace-variables/class-post-variables.php:72
 msgid "Post Excerpt Only"
 msgstr "Hanya Kutipan Posting"
 
@@ -2003,78 +2780,78 @@ msgstr "Robot Tingkat Lanjut Tanggal"
 msgid "Author Advanced Robots"
 msgstr "Robot Tingkat Lanjut Penulis"
 
-#: includes/modules/status/class-status.php:140
+#: includes/modules/status/class-status.php:141
 msgid "System Status"
 msgstr "Status sistem"
 
-#: includes/modules/status/class-status.php:79
+#: includes/modules/status/class-status.php:78
 msgid "Status & Tools"
 msgstr "Status & Alat"
 
-#: includes/modules/database-tools/class-database-tools.php:190
+#: includes/modules/database-tools/class-database-tools.php:189
 msgid "Redirection rules successfully deleted."
 msgstr "Aturan Pengalihan berhasil dihapus."
 
-#: includes/modules/database-tools/class-database-tools.php:170
+#: includes/modules/database-tools/class-database-tools.php:169
 msgid "404 Log successfully deleted."
 msgstr "Log 404 berhasil dihapus."
 
-#: includes/modules/database-tools/class-database-tools.php:151
+#: includes/modules/database-tools/class-database-tools.php:150
 msgid "Internal Links successfully deleted."
 msgstr "Tautan Internal berhasil dihapus."
 
-#: includes/modules/database-tools/class-database-tools.php:367
+#: includes/modules/database-tools/class-database-tools.php:347
 msgid "Are you sure you want to delete the 404 log? This action is irreversible."
 msgstr "Anda yakin ingin menghapus log 404? Tindakan ini tidak dapat dipulihkan kembali."
 
-#: includes/modules/database-tools/class-database-tools.php:420
+#: includes/modules/database-tools/class-database-tools.php:400
 msgid "Delete Redirections"
 msgstr "Hapus Pengalihan"
 
-#: includes/modules/database-tools/class-database-tools.php:419
+#: includes/modules/database-tools/class-database-tools.php:399
 msgid "Are you sure you want to delete all the Redirection Rules? This action is irreversible."
 msgstr "Apakah Anda yakin ingin menghapus semua Aturan Pengalihan? Tindakan ini tidak dapat dipulihkan kembali."
 
-#: includes/modules/database-tools/class-database-tools.php:411
+#: includes/modules/database-tools/class-database-tools.php:391
 msgid "Delete Internal Links"
 msgstr "Hapus Tautan Internal"
 
-#: includes/modules/database-tools/class-database-tools.php:410
+#: includes/modules/database-tools/class-database-tools.php:390
 msgid "Are you sure you want to delete Internal Links Data? This action is irreversible."
 msgstr "Anda yakin ingin menghapus Data Tautan Internal? Tindakan ini tidak dapat dipulihkan kembali."
 
-#: includes/module/class-manager.php:347
+#: includes/module/class-manager.php:348
 msgid "Please activate ACF plugin to use this module."
 msgstr "Silakan aktifkan plugin ACF untuk menggunakan modul ini."
 
-#: includes/module/class-manager.php:343
+#: includes/module/class-manager.php:344
 msgid "ACF support helps Rank Math SEO read and analyze content written in the Advanced Custom Fields. If your theme uses ACF, you should enable this option."
 msgstr "Dukungan ACF membantu Rank Math SEO membaca dan menganalisis konten yang ditulis di Bidang Kustom Tingkat Lanjut. Jika tema Anda menggunakan ACF, Anda sebaiknya mengaktifkan opsi ini."
 
-#: includes/module/class-manager.php:342
+#: includes/module/class-manager.php:343
 msgid "ACF"
 msgstr "ACF"
 
-#: includes/modules/database-tools/class-database-tools.php:417
+#: includes/modules/database-tools/class-database-tools.php:397
 msgid "Delete Redirections Rules"
 msgstr "Hapus Aturan Pengalihan"
 
-#: includes/modules/database-tools/class-database-tools.php:408
+#: includes/modules/database-tools/class-database-tools.php:388
 msgid "Delete Internal Links Data"
 msgstr "Hapus Data Tautan Internal"
 
 #. Translators: placeholder is the number of transients deleted.
-#: includes/modules/database-tools/class-database-tools.php:113
+#: includes/modules/database-tools/class-database-tools.php:112
 msgid "%d Rank Math transient cleared."
 msgid_plural "%d Rank Math transients cleared."
 msgstr[0] "%d Transien Rank Math dihapus."
 msgstr[1] "%d Transien Rank Math dihapus."
 
-#: includes/modules/database-tools/class-database-tools.php:131
+#: includes/modules/database-tools/class-database-tools.php:130
 msgid "SEO Analyzer data successfully deleted."
 msgstr "Data Analisis SEO berhasil dihapus."
 
-#: includes/modules/database-tools/class-database-tools.php:353
+#: includes/modules/database-tools/class-database-tools.php:333
 msgid "Clear SEO Analyzer"
 msgstr "Hapus Analisis SEO"
 
@@ -2175,19 +2952,19 @@ msgstr "Setel Ulang Opsi"
 msgid "Save Changes"
 msgstr "Simpan perubahan"
 
-#: includes/admin/class-admin-bar-menu.php:395
+#: includes/admin/class-admin-bar-menu.php:389
 msgid "Google Rich Results (Mobile)"
 msgstr "Google Rich Results (Seluler)"
 
-#: includes/admin/class-admin-bar-menu.php:403
+#: includes/admin/class-admin-bar-menu.php:397
 msgid "Google Rich Results Test - Googlebot Desktop"
 msgstr "Tes Google Rich Results - Googlebot Desktop"
 
-#: includes/admin/class-admin-bar-menu.php:401
+#: includes/admin/class-admin-bar-menu.php:395
 msgid "Google Rich Results (Desktop)"
 msgstr "Google Rich Results (Desktop)"
 
-#: includes/admin/class-admin-bar-menu.php:397
+#: includes/admin/class-admin-bar-menu.php:391
 msgid "Google Rich Results Test - Googlebot Smartphone"
 msgstr "Tes Google Rich Results - Googlebot Ponsel cerdas"
 
@@ -2203,19 +2980,19 @@ msgstr "Pembaruan Otomatis"
 msgid "Enables or disables Author Archives. If disabled, the Author Archives are redirected to your homepage. To avoid duplicate content issues, noindex author archives if you keep them enabled."
 msgstr "Mengaktifkan atau menonaktifkan Arsip Penulis. Jika dinonaktifkan, Arsip Penulis diarahkan ke beranda Anda. Untuk menghindari masalah duplikat konten, noindex arsip penulis jika Anda tetap mengaktifkannya."
 
-#: includes/replace-variables/class-term-variables.php:69
+#: includes/replace-variables/class-term-variables.php:70
 msgid "Custom Term description"
 msgstr "Deskripsi Istilah Khusus"
 
-#: includes/replace-variables/class-term-variables.php:61
+#: includes/replace-variables/class-term-variables.php:62
 msgid "Custom term value"
 msgstr "Nilai Istilah Khusus"
 
-#: includes/replace-variables/class-term-variables.php:59
+#: includes/replace-variables/class-term-variables.php:60
 msgid "Custom term value."
 msgstr "Nilai Istilah Khusus."
 
-#: includes/replace-variables/class-term-variables.php:58
+#: includes/replace-variables/class-term-variables.php:59
 msgid "Custom Term (advanced)"
 msgstr "Istilah Khusus (tingkat lanjut)"
 
@@ -2233,8 +3010,8 @@ msgid "Enable or disable the date archives (e.g: %s). If this option is disabled
 msgstr "Mengaktifkan atau menonaktifkan arsip tanggal (misal: %s). Jika opsi ini dinonaktifkan, arsip tanggal akan dialihkan ke beranda."
 
 #: includes/replace-variables/class-manager.php:302
-#: includes/replace-variables/class-term-variables.php:70
-#: includes/replace-variables/class-term-variables.php:72
+#: includes/replace-variables/class-term-variables.php:71
+#: includes/replace-variables/class-term-variables.php:73
 msgid "Custom Term description."
 msgstr "Deskripsi Istilah Khusus."
 
@@ -2261,7 +3038,7 @@ msgid "Site disconnected successfully."
 msgstr "Situs berhasil diputus."
 
 #. translators: %s is a Rank Math link.
-#: includes/class-frontend-seo-score.php:162
+#: includes/class-frontend-seo-score.php:163
 msgid "Powered by %s"
 msgstr "Didukung oleh %s"
 
@@ -2348,7 +3125,7 @@ msgstr "Silakan masukkan alamat email yang valid."
 msgid "Please use the correct format."
 msgstr "Silakan gunakan format yang benar."
 
-#: includes/admin/class-import-export.php:398
+#: includes/admin/class-import-export.php:397
 msgid "Settings could not be imported: Upload failed."
 msgstr "Pengaturan tidak dapat diimpor: Pengunggahan gagal."
 
@@ -2360,6 +3137,8 @@ msgid "Shortcode"
 msgstr "Kode pendek"
 
 #: includes/modules/schema/shortcode/person.php:41
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Job Title"
 msgstr "Judul pekerjaan"
 
@@ -2406,6 +3185,8 @@ msgid "Course Provider Name"
 msgstr "Nama Penyedia Kursus"
 
 #: includes/modules/schema/shortcode/book.php:41
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Format"
 msgstr "Format"
 
@@ -2460,22 +3241,22 @@ msgid "Review analytics and sitemaps"
 msgstr "Tinjau analitik dan peta situs"
 
 #. translators: 1 is plugin name
-#: includes/admin/wizard/class-import.php:190
+#: includes/admin/wizard/class-import.php:193
 msgid " %1$s plugin will be disabled automatically moving forward to avoid conflicts. <strong>It is thus recommended to import the data you need now.</strong>"
 msgstr " Plugin %1$s akan dinonaktifkan secara otomatis untuk bergerak maju guna menghindari konflik. <strong>Karena itu disarankan untuk mengimpor data yang Anda butuhkan sekarang.</strong>"
 
 #. translators: 2 is link to Knowledge Base article
-#: includes/admin/wizard/class-import.php:186
+#: includes/admin/wizard/class-import.php:189
 msgid "The process may take a few minutes if you have a large number of posts or pages <a href=\"%2$s\" target=\"_blank\">Learn more about the import process here.</a>"
 msgstr "Prosesnya mungkin memakan waktu beberapa menit jika Anda memiliki banyak posting atau halaman <a href=\"%2$s\" target=\"_blank\">Pelajari lebih lanjut tentang proses impor di sini.</a>"
 
 #. translators: 1 is plugin name
-#: includes/admin/wizard/class-import.php:183
+#: includes/admin/wizard/class-import.php:186
 msgid "Import settings and meta data from the %1$s plugin."
 msgstr "Impor pengaturan dan meta data dari plugin %1$s."
 
 #. translators: 1 is plugin name
-#: includes/admin/wizard/class-import.php:183
+#: includes/admin/wizard/class-import.php:186
 msgid "Import meta data from the %1$s plugin."
 msgstr "Impor meta data dari plugin %1$s."
 
@@ -2521,7 +3302,7 @@ msgstr "Peta Situs XML"
 msgid "or"
 msgstr "atau"
 
-#: includes/frontend/class-head.php:383
+#: includes/frontend/class-head.php:412
 msgid "Search Engine Optimization by Rank Math - https://rankmath.com/"
 msgstr "Optimasi Mesin Pencari oleh Rank Math - https://rankmath.com/"
 
@@ -2543,7 +3324,7 @@ msgstr "Thumbnail untuk Facebook"
 msgid "Sorry, field is empty which is not allowed."
 msgstr "Maaf, bidang kosong yang tidak diizinkan."
 
-#: includes/rest/class-admin.php:167
+#: includes/rest/class-admin.php:313
 msgid "Module state either on or off"
 msgstr "Status modul antara hidup atau mati"
 
@@ -2568,7 +3349,7 @@ msgstr "Tautan yang akan digunakan untuk beranda (item pertama) di breadcrumb."
 msgid "Homepage Link"
 msgstr "Tautan Beranda"
 
-#: includes/rest/class-admin.php:161
+#: includes/rest/class-admin.php:307
 msgid "Module slug"
 msgstr "Slug Modul"
 
@@ -2626,7 +3407,7 @@ msgstr "Harga Berlaku Hingga"
 msgid "Page %s"
 msgstr "Halaman %s"
 
-#: includes/admin/class-post-columns.php:260
+#: includes/admin/class-post-columns.php:235
 msgid "Is Pillar"
 msgstr "Adalah Pilar"
 
@@ -2636,7 +3417,7 @@ msgstr "Adalah Pilar"
 msgid "Performer"
 msgstr "Pemain"
 
-#: includes/admin/class-post-columns.php:267
+#: includes/admin/class-post-columns.php:242
 msgid "Not Set"
 msgstr "Tidak diatur"
 
@@ -2705,10 +3486,6 @@ msgstr "Masukkan URL halaman Facebook lengkap Anda di sini. misalnya:"
 #: includes/settings/titles/social.php:68
 msgid "Facebook Page URL"
 msgstr "URL Halaman Facebook"
-
-#. Description of the plugin
-msgid "Rank Math is a revolutionary SEO product that combines the features of many SEO tools and lets you multiply your traffic in the easiest way possible."
-msgstr "Rank Math adalah produk SEO revolusioner yang menggabungkan fitur dari banyak alat SEO dan memungkinkan Anda melipatgandakan lalu lintas Anda dengan cara termudah yang memungkinkan."
 
 #. translators: PHP Version
 #: rank-math.php:207
@@ -2839,10 +3616,6 @@ msgstr "Cegah halaman & posting yang dilindungi kata sandi agar tidak diindeks o
 msgid "Noindex Password Protected Pages"
 msgstr "Noindex Halaman Dilindungi Kata Sandi"
 
-#: includes/settings/titles/misc.php:131
-msgid "Prevent all paginated pages from getting indexed by search engines."
-msgstr "Cegah semua laman paginasi agar tidak diindeks oleh mesin pencari."
-
 #: includes/settings/titles/misc.php:120
 msgid "Prevent search results pages from getting indexed by search engines. Search results could be considered to be thin content and prone to duplicate content issues."
 msgstr "Cegah halaman hasil pencarian agar tidak diindeks oleh mesin pencari. Hasil pencarian dapat dianggap sebagai konten tipis dan cenderung menduplikasi masalah konten."
@@ -2864,6 +3637,10 @@ msgstr "Tambahkan Kontrol SEO pada layar editor term untuk menyesuaikan opsi SEO
 msgid "Add SEO controls for the editor screen to customize SEO options for posts in this post type."
 msgstr "Tambahkan Kontrol SEO pada layar editor untuk menyesuaikan opsi SEO untuk posting dalam jenis posting ini."
 
+#: includes/settings/titles/misc.php:131
+msgid "Prevent all paginated pages from getting indexed by search engines."
+msgstr "Cegah semua laman paginasi agar tidak diindeks oleh mesin pencari."
+
 #: includes/modules/buddypress/views/options-titles.php:47
 #: includes/settings/titles/author.php:48
 #: includes/settings/titles/homepage.php:70
@@ -2873,8 +3650,9 @@ msgid "Default"
 msgstr "Bawaan"
 
 #: includes/modules/404-monitor/views/options.php:58
-#: includes/modules/local-seo/views/titles-options.php:157
-#: includes/modules/local-seo/views/titles-options.php:199
+#: includes/modules/local-seo/views/titles-options.php:167
+#: includes/modules/local-seo/views/titles-options.php:209
+#: includes/modules/local-seo/views/titles-options.php:253
 #: includes/modules/redirections/class-form.php:89
 msgid "Remove"
 msgstr "Buang"
@@ -2884,7 +3662,7 @@ msgid "Import plugin settings, global meta, sitemap settings, etc."
 msgstr "Impor pengaturan plugin, meta global, pengaturan peta situs, dll."
 
 #: includes/admin/importers/abstract-importer.php:148
-#: includes/admin/importers/class-aioseo.php:68
+#: includes/admin/importers/class-aioseo.php:67
 #: includes/admin/importers/class-wp-schema-pro.php:600
 #: includes/admin/views/import-export/import-export-panel.php:27
 msgid "Import Settings"
@@ -2917,6 +3695,8 @@ msgid "Import"
 msgstr "Impor"
 
 #: includes/admin/class-setup-wizard.php:106
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Requirements"
 msgstr "Persyaratan"
 
@@ -2931,7 +3711,7 @@ msgid "Blog Post"
 msgstr "Posting Blog"
 
 #: includes/admin/wizard/class-schema-markup.php:82
-#: includes/helpers/class-choices.php:436 includes/helpers/class-schema.php:85
+#: includes/helpers/class-choices.php:436 includes/helpers/class-schema.php:86
 #: includes/settings/titles/post-types.php:167
 #: includes/settings/titles/post-types.php:214
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
@@ -2959,7 +3739,7 @@ msgstr "Tidak Ada (Klik di sini untuk mengaturnya)"
 
 #: includes/admin/wizard/class-schema-markup.php:162
 #: includes/helpers/class-choices.php:442
-#: includes/replace-variables/class-advanced-variables.php:126
+#: includes/replace-variables/class-advanced-variables.php:127
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Product"
@@ -3000,10 +3780,10 @@ msgstr "Tetapkan nilai standar untuk modul pengalihan dari sini."
 #: includes/admin/wizard/class-monitor-redirection.php:76
 #: includes/admin/wizard/class-monitor-redirection.php:84
 #: includes/module/class-manager.php:125
-#: includes/modules/redirections/class-admin.php:168
-#: includes/modules/redirections/class-admin.php:227
-#: includes/modules/redirections/class-redirections.php:68
-#: includes/modules/redirections/class-redirections.php:131
+#: includes/modules/redirections/class-admin.php:166
+#: includes/modules/redirections/class-admin.php:225
+#: includes/modules/redirections/class-redirections.php:67
+#: includes/modules/redirections/class-redirections.php:130
 #: includes/modules/role-manager/class-capability-manager.php:61
 msgid "Redirections"
 msgstr "Pengalihan"
@@ -3020,34 +3800,35 @@ msgstr "Tetapkan nilai standar untuk monitor kesalahan 404 di sini."
 #: includes/admin/wizard/class-monitor-redirection.php:55
 #: includes/admin/wizard/class-monitor-redirection.php:64
 #: includes/module/class-manager.php:107
-#: includes/modules/404-monitor/class-admin.php:144
-#: includes/modules/404-monitor/class-admin.php:198
-#: includes/modules/404-monitor/class-monitor.php:67
-#: includes/modules/404-monitor/class-monitor.php:98
+#: includes/modules/404-monitor/class-admin.php:143
+#: includes/modules/404-monitor/class-admin.php:197
+#: includes/modules/404-monitor/class-monitor.php:66
+#: includes/modules/404-monitor/class-monitor.php:97
 #: includes/modules/404-monitor/views/help-tab-overview.php:26
 msgid "404 Monitor"
 msgstr "Monitor 404"
 
 #: includes/admin/wizard/class-monitor-redirection.php:36
 #: includes/admin/wizard/class-optimization.php:46
-#: includes/admin/wizard/class-role.php:42
+#: includes/admin/wizard/class-role.php:41
 #: includes/admin/wizard/class-schema-markup.php:41
 #: includes/admin/wizard/class-search-console.php:47
-#: includes/admin/wizard/class-sitemap.php:46
+#: includes/admin/wizard/class-sitemap.php:49
 #: includes/admin/wizard/views/your-site.php:65
 msgid "Save and Continue"
 msgstr "Simpan dan Lanjutkan"
 
-#: includes/admin/wizard/class-role.php:35
+#: includes/admin/wizard/class-role.php:34
 msgid "Set capabilities here."
 msgstr "Tetapkan kemampuan di sini."
 
 #: includes/admin/class-setup-wizard.php:140
-#: includes/admin/wizard/class-role.php:34
-#: includes/admin/wizard/class-role.php:59
+#: includes/admin/wizard/class-role.php:33
+#: includes/admin/wizard/class-role.php:58
 #: includes/module/class-manager.php:225
 #: includes/modules/role-manager/class-capability-manager.php:62
-#: includes/modules/role-manager/class-role-manager.php:70
+#: includes/modules/role-manager/class-role-manager.php:60
+#: includes/modules/role-manager/assets/js/role-manager.js:1
 msgid "Role Manager"
 msgstr "Manajer Peran"
 
@@ -3595,6 +4376,9 @@ msgid "Warning"
 msgstr "Peringatan"
 
 #: includes/modules/seo-analysis/class-result.php:177
+#: includes/modules/content-ai/assets/js/content-ai-media.js:1
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Failed"
 msgstr "Gagal"
 
@@ -3610,10 +4394,6 @@ msgstr "Baris Data: %s"
 #: includes/modules/analytics/class-ajax.php:333
 msgid "Google oAuth is not authorized."
 msgstr "Google oAuth tidak diotorisasi."
-
-#: includes/modules/role-manager/views/main.php:42
-msgid "Update Capabilities"
-msgstr "Kemampuan Memperbarui"
 
 #: includes/modules/schema/shortcode/service.php:20
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
@@ -3642,6 +4422,12 @@ msgstr "Harga Mata Uang"
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Gender"
 msgstr "Jenis kelamin"
+
+#: includes/modules/schema/shortcode/course.php:69 assets/admin/js/blocks.js:1
+#: includes/modules/schema/assets/js/schema-gutenberg.js:1
+#: includes/modules/schema/assets/js/schema-template.js:1
+msgid "Duration"
+msgstr "Durasi"
 
 #: includes/modules/schema/shortcode/restaurant.php:57
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
@@ -3703,8 +4489,8 @@ msgstr "Dari"
 msgid "No redirections found in Trash."
 msgstr "Tidak ada pengalihan yang ditemukan di Tempat Sampah."
 
-#: includes/modules/redirections/class-redirections.php:151
-#: includes/modules/redirections/class-redirections.php:153
+#: includes/modules/redirections/class-redirections.php:150
+#: includes/modules/redirections/class-redirections.php:152
 msgid "Redirection Settings"
 msgstr "Pengaturan Pengalihan"
 
@@ -3714,38 +4500,38 @@ msgstr "Pengaturan Pengalihan"
 msgid "Activate"
 msgstr "Aktifkan"
 
-#: includes/modules/redirections/class-admin.php:127
+#: includes/modules/redirections/class-admin.php:125
 msgid "Maintenance Code"
 msgstr "Kode Pemeliharaan"
 
-#: includes/modules/local-seo/views/titles-options.php:247
+#: includes/modules/local-seo/views/titles-options.php:290
 msgid "About Page"
 msgstr "Halaman Tentang"
 
-#: includes/modules/local-seo/views/titles-options.php:230
+#: includes/modules/local-seo/views/titles-options.php:240
 msgid "The price range of the business, for example $$$."
 msgstr "Kisaran harga bisnis, misalnya $$$."
 
-#: includes/modules/local-seo/views/titles-options.php:229
+#: includes/modules/local-seo/views/titles-options.php:239
 #: includes/modules/schema/shortcode/restaurant.php:41
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Price Range"
 msgstr "Kisaran harga"
 
-#: includes/modules/local-seo/views/titles-options.php:195
+#: includes/modules/local-seo/views/titles-options.php:205
 #: includes/modules/schema/shortcode/restaurant.php:34
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Phone Number"
 msgstr "Nomor telepon"
 
-#: includes/modules/local-seo/views/titles-options.php:156
+#: includes/modules/local-seo/views/titles-options.php:166
 msgid "Add time"
 msgstr "Tambahkan waktu"
 
 #: includes/modules/instant-indexing/views/history.php:15
-#: includes/modules/local-seo/views/titles-options.php:74
+#: includes/modules/local-seo/views/titles-options.php:84
 #: includes/modules/schema/shortcode/book.php:20
 #: includes/modules/schema/shortcode/music.php:20
 #: includes/modules/sitemap/sitemap-xsl.php:308
@@ -3776,13 +4562,13 @@ msgstr "Tautan: "
 msgid "Clear Log"
 msgstr "Bersihkan Log"
 
-#: includes/modules/404-monitor/class-admin.php:164
-#: includes/modules/redirections/class-admin.php:188
+#: includes/modules/404-monitor/class-admin.php:163
+#: includes/modules/redirections/class-admin.php:186
 msgid "Bulk Actions"
 msgstr "Aksi Massal"
 
-#: includes/modules/404-monitor/class-admin.php:152
-#: includes/modules/redirections/class-admin.php:176
+#: includes/modules/404-monitor/class-admin.php:151
+#: includes/modules/redirections/class-admin.php:174
 msgid "Overview"
 msgstr "Gambaran"
 
@@ -3790,7 +4576,7 @@ msgstr "Gambaran"
 msgid "404 Monitor Log"
 msgstr "Monitor Log 404"
 
-#: includes/admin/class-admin-helper.php:346
+#: includes/admin/class-admin-helper.php:355
 msgid "Share"
 msgstr "Bagikan"
 
@@ -3818,27 +4604,27 @@ msgstr "Apa saja"
 msgid "No Follow"
 msgstr "Tidak Mengikuti"
 
-#: includes/frontend/class-shortcodes.php:179
+#: includes/frontend/class-shortcodes.php:184
 msgid "Address:"
 msgstr "Alamat:"
 
-#: includes/admin/class-option-center.php:106
+#: includes/admin/class-option-center.php:105
 msgid "SEO Settings"
 msgstr "Pengaturan SEO"
 
-#: includes/admin/class-option-center.php:73
+#: includes/admin/class-option-center.php:72
 msgid "Others"
 msgstr "Lainnya"
 
-#: includes/modules/robots-txt/class-robots-txt.php:68
+#: includes/modules/robots-txt/class-robots-txt.php:67
 msgid "Edit robots.txt"
 msgstr "Edit robots.txt"
 
-#: includes/admin/class-option-center.php:67
+#: includes/admin/class-option-center.php:66
 msgid "Webmaster Tools"
 msgstr "Alat Webmaster"
 
-#: includes/admin/class-option-center.php:59
+#: includes/admin/class-option-center.php:58
 msgid "Breadcrumbs"
 msgstr "Breadcrumb"
 
@@ -3848,18 +4634,18 @@ msgstr "Breadcrumb"
 msgid "Images"
 msgstr "Gambar"
 
-#: includes/admin/class-option-center.php:53
+#: includes/admin/class-option-center.php:52
 #: includes/modules/analytics/assets/js/stats.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Links"
 msgstr "Tautan"
 
-#: includes/admin/class-option-center.php:228
+#: includes/admin/class-option-center.php:227
 #: includes/modules/sitemap/class-admin.php:146
 msgid "Post Types:"
 msgstr "Jenis Posting:"
 
-#: includes/admin/class-option-center.php:191
+#: includes/admin/class-option-center.php:190
 msgid "Titles &amp; Meta"
 msgstr "Judul &amp; Meta"
 
@@ -3867,7 +4653,7 @@ msgstr "Judul &amp; Meta"
 msgid "Starts at 1 and increments by 1."
 msgstr "Mulai dari 1 dan bertambah 1."
 
-#: includes/replace-variables/class-advanced-variables.php:137
+#: includes/replace-variables/class-advanced-variables.php:138
 msgid "Products"
 msgstr "Produk"
 
@@ -3883,9 +4669,10 @@ msgstr "Tahun ini"
 msgid "Focus Keyword of the current post"
 msgstr "Fokus Kata Kunci dari posting saat ini"
 
-#: includes/admin/class-post-columns.php:264
+#: includes/admin/class-post-columns.php:239
 #: includes/replace-variables/class-advanced-variables.php:44
 #: assets/admin/js/rank-math-app.js:1
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Focus Keyword"
 msgstr "Kata Kunci Fokus"
@@ -3908,19 +4695,19 @@ msgstr "Nama File lampiran"
 msgid "example search"
 msgstr "contoh pencarian"
 
-#: includes/replace-variables/class-term-variables.php:50
+#: includes/replace-variables/class-term-variables.php:51
 msgid "Example Term Description"
 msgstr "Contoh Deskripsi Istilah"
 
-#: includes/replace-variables/class-term-variables.php:48
+#: includes/replace-variables/class-term-variables.php:49
 msgid "Current term description"
 msgstr "Deskripsi istilah saat ini"
 
-#: includes/replace-variables/class-term-variables.php:47
+#: includes/replace-variables/class-term-variables.php:48
 msgid "Term Description"
 msgstr "Deskripsi Istilah"
 
-#: includes/replace-variables/class-post-variables.php:191
+#: includes/replace-variables/class-post-variables.php:190
 msgid "Post Category"
 msgstr "Kategori Posting"
 
@@ -3932,15 +4719,17 @@ msgstr "Deskripsi situs"
 msgid "Title of the site"
 msgstr "Judul situs"
 
-#: includes/replace-variables/class-post-variables.php:47
+#: includes/replace-variables/class-post-variables.php:46
 msgid "Post Title of parent page"
 msgstr "Posting Judul halaman induk"
 
-#: includes/replace-variables/class-post-variables.php:35
+#: includes/replace-variables/class-post-variables.php:34
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Post Title"
 msgstr "Judul Posting"
 
-#: rank-math.php:485
+#: rank-math.php:489
 msgid "Documentation"
 msgstr "Dokumentasi"
 
@@ -3949,9 +4738,9 @@ msgid "Active"
 msgstr "Aktif"
 
 #: includes/module/class-module.php:96
-#: includes/modules/404-monitor/class-admin.php:220
-#: includes/modules/instant-indexing/class-instant-indexing.php:216
-#: includes/modules/redirections/class-admin.php:359 rank-math.php:426
+#: includes/modules/404-monitor/class-admin.php:219
+#: includes/modules/instant-indexing/class-instant-indexing.php:220
+#: includes/modules/redirections/class-admin.php:357 rank-math.php:430
 #: assets/admin/js/rank-math-app.js:1
 #: includes/modules/schema/blocks/toc/assets/js/index.js:1
 #: includes/modules/schema/blocks/toc/assets/src/inspectControls.js:20
@@ -3962,12 +4751,12 @@ msgstr "Pengaturan"
 msgid "AMP plugin"
 msgstr "Plugin AMP"
 
-#: includes/class-installer.php:344
+#: includes/class-installer.php:345
 #: includes/settings/general/breadcrumbs.php:121
 msgid "404 Error: page not found"
 msgstr "Kesalahan 404: halaman tidak ditemukan"
 
-#: includes/frontend/class-head.php:391
+#: includes/frontend/class-head.php:420
 msgid "Rank Math WordPress SEO plugin"
 msgstr "Plugin WordPress Rank Math SEO"
 
@@ -4000,42 +4789,41 @@ msgstr "Peta Situs"
 #. translators: Link to KB article
 #. translators: Redirection page url
 #. translators: 1. Link to KB article 2. Link to redirection setting scree
-#. translators: %s is a Learn More link to the documentation.
 #. translators: Learn more link.
 #. translators: %1$s: thing, %2$s: Learn more link.
-#: includes/admin/class-option-center.php:62
-#: includes/admin/class-option-center.php:69
-#: includes/admin/class-option-center.php:75
-#: includes/admin/class-option-center.php:88
-#: includes/admin/class-option-center.php:142
-#: includes/admin/class-option-center.php:148
-#: includes/admin/class-option-center.php:163
-#: includes/admin/class-option-center.php:170
-#: includes/admin/class-option-center.php:176
+#: includes/admin/class-option-center.php:61
+#: includes/admin/class-option-center.php:68
+#: includes/admin/class-option-center.php:74
+#: includes/admin/class-option-center.php:87
+#: includes/admin/class-option-center.php:141
+#: includes/admin/class-option-center.php:147
+#: includes/admin/class-option-center.php:162
+#: includes/admin/class-option-center.php:169
+#: includes/admin/class-option-center.php:175
+#: includes/admin/class-option-center.php:213
 #: includes/admin/class-option-center.php:214
 #: includes/admin/class-option-center.php:215
 #: includes/admin/class-option-center.php:216
-#: includes/admin/class-option-center.php:217
+#: includes/admin/class-option-center.php:266
 #: includes/admin/class-option-center.php:267
 #: includes/admin/class-option-center.php:268
 #: includes/admin/class-option-center.php:269
-#: includes/admin/class-option-center.php:270
 #: includes/admin/wizard/views/ready.php:45
-#: includes/modules/404-monitor/class-admin.php:200
-#: includes/modules/analytics/class-analytics.php:501
-#: includes/modules/content-ai/class-content-ai.php:106
+#: includes/modules/404-monitor/class-admin.php:199
+#: includes/modules/analytics/class-analytics.php:502
+#: includes/modules/content-ai/class-admin.php:90
 #: includes/modules/image-seo/class-admin.php:47
-#: includes/modules/instant-indexing/class-instant-indexing.php:210
-#: includes/modules/instant-indexing/class-instant-indexing.php:218
-#: includes/modules/redirections/class-admin.php:229
-#: includes/modules/robots-txt/class-robots-txt.php:70
-#: includes/modules/role-manager/views/main.php:28
+#: includes/modules/instant-indexing/class-instant-indexing.php:214
+#: includes/modules/instant-indexing/class-instant-indexing.php:222
+#: includes/modules/redirections/class-admin.php:227
+#: includes/modules/robots-txt/class-robots-txt.php:69
 #: includes/modules/sitemap/class-admin.php:85
 #: includes/modules/sitemap/class-admin.php:95
 #: includes/modules/sitemap/class-admin.php:104
 #: includes/modules/sitemap/class-admin.php:164
 #: includes/modules/sitemap/class-admin.php:230
 #: includes/modules/woocommerce/class-admin.php:76
+#: includes/modules/role-manager/assets/js/role-manager.js:1
 msgid "Learn more"
 msgstr "Pelajari lebih lanjut"
 
@@ -4046,17 +4834,21 @@ msgstr "Situs Anda sudah siap!"
 #. translators: Link to kb article
 #. translators: Link to social setting KB article
 #. translators: Link to How to Optimization KB article
-#: includes/admin/class-option-center.php:55
-#: includes/admin/class-option-center.php:63
-#: includes/admin/class-option-center.php:155
+#: includes/admin/class-option-center.php:54
+#: includes/admin/class-option-center.php:62
+#: includes/admin/class-option-center.php:154
 #: includes/admin/wizard/class-optimization.php:37
-#: includes/modules/404-monitor/class-admin.php:225
-#: includes/modules/redirections/class-admin.php:354
+#: includes/modules/404-monitor/class-admin.php:224
+#: includes/modules/redirections/class-admin.php:352
+#: assets/admin/js/post-list.js:1
 #: includes/modules/analytics/assets/js/admin-bar.js:1
+#: includes/modules/content-ai/assets/js/content-ai-media.js:1
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Learn More"
 msgstr "Pelajari lebih lanjut"
 
-#: includes/admin/wizard/views/navigation.php:17 rank-math.php:484
+#: includes/admin/wizard/views/navigation.php:17 rank-math.php:488
 msgid "Getting Started"
 msgstr "Mulai"
 
@@ -4088,7 +4880,7 @@ msgstr "Pulihkan"
 msgid "Create Backup"
 msgstr "Buat Cadangan"
 
-#: includes/admin/class-option-center.php:146
+#: includes/admin/class-option-center.php:145
 #: includes/module/class-manager.php:116
 msgid "Local SEO"
 msgstr "SEO lokal"
@@ -4212,19 +5004,11 @@ msgstr "Masukkan nama bidang (pos meta) kustom yang berisi URL gambar untuk mema
 msgid "Include this post type in the XML sitemap."
 msgstr "Sertakan jenis posting ini dalam peta situs XML."
 
-#: includes/modules/sitemap/settings/authors.php:28
+#: includes/modules/sitemap/settings/authors.php:27
 #: includes/modules/sitemap/settings/post-types.php:34
 #: includes/modules/sitemap/settings/taxonomies.php:21
 msgid "Include in Sitemap"
 msgstr "Sertakan dalam Peta Situs"
-
-#: includes/modules/sitemap/settings/general.php:84
-msgid "Automatically notify Google when a sitemap gets updated."
-msgstr "Beri tahu Google secara otomatis ketika peta situs diperbarui."
-
-#: includes/modules/sitemap/settings/general.php:83
-msgid "Ping Search Engines"
-msgstr "Ping Mesin Pencari"
 
 #: includes/modules/sitemap/settings/general.php:74
 msgid "Add term IDs, separated by comma. This option is applied for all taxonomies."
@@ -4262,20 +5046,20 @@ msgstr "Jumlah maksimum tautan di setiap halaman peta situs."
 msgid "Links Per Sitemap"
 msgstr "Tautan Per Peta Situs"
 
-#: includes/modules/sitemap/settings/authors.php:66
+#: includes/modules/sitemap/settings/authors.php:65
 msgid "Add user IDs, separated by commas, to exclude them from the sitemap."
 msgstr "Tambahkan ID pengguna, dipisahkan dengan koma, untuk mengeluarkannya dari peta situs."
 
-#: includes/modules/sitemap/settings/authors.php:65
+#: includes/modules/sitemap/settings/authors.php:64
 msgid "Exclude Users"
 msgstr "Kecualikan Pengguna"
 
-#: includes/modules/sitemap/settings/authors.php:52
+#: includes/modules/sitemap/settings/authors.php:51
 msgid "Exclude User Roles"
 msgstr "Kecualikan Peran Pengguna"
 
 #. Translators: placeholder is the post type names separated with commas.
-#: includes/modules/sitemap/class-sitemap.php:143
+#: includes/modules/sitemap/class-sitemap.php:142
 msgid "Rank Math has detected new post types: %1$s. You may want to check the settings of the <a href=\"%2$s\">Titles &amp; Meta page</a> and <a href=\"%3$s\">the Sitemap</a>."
 msgstr "Kami mendeteksi jenis posting baru (%1$s), dan Anda sebaiknya memeriksa pengaturan <a href=\"%2$s\">Halaman Judul &amp; Meta</a> dan <a href=\"%3$s\">peta situs</a>."
 
@@ -4369,6 +5153,14 @@ msgstr "Tagline Situs Anda disetel ke nilai kustom."
 msgid "Your Site Tagline is set to the default value <em>Just another WordPress site</em>."
 msgstr "Tagline Situs Anda disetel ke nilai standar <em>Hanya situs WordPress yang lain</em>."
 
+#: includes/modules/seo-analysis/seo-analysis-tests.php:135
+msgid "If you don't have an XML sitemap, the best option is to install a plugin that creates sitemaps for you. That way you'll know the sitemap will always be up-to-date. Plugins can also automatically ping the search engines when the XML file is updated. The Rank Math WordPress plugin gives you complete control over your site's XML sitemaps. You can control the settings for each page as you write or edit it, and Rank Math will ping Google as soon as you submit your edits. This results in fast crawls and indexing."
+msgstr "Jika Anda tidak memiliki peta situs XML, opsi terbaik adalah menginstal plugin yang membuat peta situs untuk Anda. Dengan begitu Anda akan tahu bahwa peta situs akan selalu terbaru. Plugin juga dapat secara otomatis melakukan ping ke mesin pencari ketika file XML diperbarui. Plugin Rank Math WordPress memberi Anda kendali penuh atas peta situs XML situs Anda. Anda dapat mengontrol pengaturan untuk setiap halaman saat Anda menulis atau mengeditnya, dan Rank Math akan melakukan ping ke Google segera setelah Anda mengirim suntingan Anda. Ini menghasilkan perayapan dan pengindeksan cepat."
+
+#: includes/modules/seo-analysis/seo-analysis-tests.php:134
+msgid "XML sitemaps are a special type of text file that tells search engines about the structure of your site. They're a list of all the resources (pages and files) you would like the search engine to index. You can assign different priorities, so certain pages will be crawled first. Before XML sitemaps, search engines were limited to indexing the content they could find by following links. That's still an important feature for search engine spiders, but XML sitemaps have made it easier for content creators and search engines to collaborate."
+msgstr "Peta Situs XML adalah file teks jenis khusus yang memberi tahu mesin pencari tentang struktur situs Anda. Mereka adalah daftar semua sumber daya (halaman dan file) yang Anda ingin untuk diindeks mesin pencari. Anda dapat menetapkan prioritas yang berbeda, sehingga laman tertentu akan dirayapi lebih dulu. Sebelum peta situs XML, mesin pencari dibatasi untuk mengindeks konten yang dapat mereka temukan dengan mengikuti tautan. Itu masih merupakan fitur penting bagi spider mesin pencari, tetapi peta situs XML telah membuatnya lebih mudah bagi pembuat konten dan mesin pencari untuk berkolaborasi."
+
 #. translators: Link to Search Console KB article
 #: includes/modules/seo-analysis/seo-analysis-tests.php:125
 msgid "Read <a href=\"%1$s\" target=\"_blank\">this article</a> for detailed instructions on setting up your Google Webmaster account and getting Rank Math to work with the Google Search Console."
@@ -4382,14 +5174,6 @@ msgstr "Anda dapat mengintegrasikan Google Search Console dengan Rank Math di <a
 #: includes/modules/seo-analysis/seo-analysis-tests.php:121
 msgid "Google's Search Console is a vital source of information concerning your rankings and click-through rates.  Rank Math can import this data, so you don't have to log into your Google account to get the data you need."
 msgstr "Google's Search Console adalah sumber informasi vital mengenai peringkat Anda dan rasio klik-tayang. Rank Math dapat mengimpor data ini, jadi Anda tidak perlu masuk ke akun Google Anda untuk mendapatkan data yang Anda butuhkan."
-
-#: includes/modules/seo-analysis/seo-analysis-tests.php:135
-msgid "If you don't have an XML sitemap, the best option is to install a plugin that creates sitemaps for you. That way you'll know the sitemap will always be up-to-date. Plugins can also automatically ping the search engines when the XML file is updated. The Rank Math WordPress plugin gives you complete control over your site's XML sitemaps. You can control the settings for each page as you write or edit it, and Rank Math will ping Google as soon as you submit your edits. This results in fast crawls and indexing."
-msgstr "Jika Anda tidak memiliki peta situs XML, opsi terbaik adalah menginstal plugin yang membuat peta situs untuk Anda. Dengan begitu Anda akan tahu bahwa peta situs akan selalu terbaru. Plugin juga dapat secara otomatis melakukan ping ke mesin pencari ketika file XML diperbarui. Plugin Rank Math WordPress memberi Anda kendali penuh atas peta situs XML situs Anda. Anda dapat mengontrol pengaturan untuk setiap halaman saat Anda menulis atau mengeditnya, dan Rank Math akan melakukan ping ke Google segera setelah Anda mengirim suntingan Anda. Ini menghasilkan perayapan dan pengindeksan cepat."
-
-#: includes/modules/seo-analysis/seo-analysis-tests.php:134
-msgid "XML sitemaps are a special type of text file that tells search engines about the structure of your site. They're a list of all the resources (pages and files) you would like the search engine to index. You can assign different priorities, so certain pages will be crawled first. Before XML sitemaps, search engines were limited to indexing the content they could find by following links. That's still an important feature for search engine spiders, but XML sitemaps have made it easier for content creators and search engines to collaborate."
-msgstr "Peta Situs XML adalah file teks jenis khusus yang memberi tahu mesin pencari tentang struktur situs Anda. Mereka adalah daftar semua sumber daya (halaman dan file) yang Anda ingin untuk diindeks mesin pencari. Anda dapat menetapkan prioritas yang berbeda, sehingga laman tertentu akan dirayapi lebih dulu. Sebelum peta situs XML, mesin pencari dibatasi untuk mengindeks konten yang dapat mereka temukan dengan mengikuti tautan. Itu masih merupakan fitur penting bagi spider mesin pencari, tetapi peta situs XML telah membuatnya lebih mudah bagi pembuat konten dan mesin pencari untuk berkolaborasi."
 
 #. translators: link to plugin setting screen
 #: includes/modules/seo-analysis/seo-analysis-tests.php:117
@@ -4512,22 +5296,22 @@ msgstr "Tes Gagal"
 msgid "Passed Tests"
 msgstr "Tes Lulus"
 
-#: includes/class-frontend-seo-score.php:171
+#: includes/class-frontend-seo-score.php:173
 #: includes/modules/seo-analysis/views/graphs.php:31
 #: includes/modules/analytics/assets/js/admin-bar.js:1
 #: includes/modules/analytics/assets/js/stats.js:1
 msgid "SEO Score"
 msgstr "Skor SEO"
 
-#: includes/modules/seo-analysis/class-seo-analysis.php:77
+#: includes/modules/seo-analysis/class-seo-analysis.php:76
 msgid "SEO Analysis for this page"
 msgstr "Analisis SEO untuk halaman ini"
 
-#: includes/modules/seo-analysis/class-seo-analysis.php:75
+#: includes/modules/seo-analysis/class-seo-analysis.php:74
 msgid "Analyze this Page"
 msgstr "Analisis Halaman ini"
 
-#: includes/modules/seo-analysis/class-seo-analysis.php:64
+#: includes/modules/seo-analysis/class-seo-analysis.php:63
 msgid "Site-wide analysis"
 msgstr "Analisis seluruh situs"
 
@@ -4575,8 +5359,8 @@ msgstr "Total Klik"
 msgid "Total Keywords"
 msgstr "Total Kata Kunci"
 
-#: includes/modules/analytics/google/class-request.php:282
-#: includes/modules/analytics/google/class-request.php:340
+#: includes/modules/analytics/google/class-request.php:288
+#: includes/modules/analytics/google/class-request.php:346
 msgid "Bad request. Please check the code."
 msgstr "Permintaan yang buruk. Silakan periksa kodenya."
 
@@ -4584,9 +5368,7 @@ msgstr "Permintaan yang buruk. Silakan periksa kodenya."
 msgid "Pages"
 msgstr "Halaman"
 
-#: includes/admin/class-admin.php:348
-#: includes/modules/role-manager/class-role-manager.php:132
-#: includes/traits/class-ajax.php:59
+#: includes/admin/class-admin.php:369 includes/traits/class-ajax.php:59
 msgid "You are not authorized to perform this action."
 msgstr "Anda tidak berwenang untuk melakukan tindakan ini."
 
@@ -4644,6 +5426,8 @@ msgid "Keywords"
 msgstr "Kata Kunci"
 
 #: includes/modules/schema/shortcode/recipe.php:27
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Cuisine"
@@ -4727,12 +5511,14 @@ msgstr "Harga masuk"
 msgid "Ticket URL"
 msgstr "URL tiket"
 
+#: includes/modules/schema/shortcode/course.php:62
 #: includes/modules/schema/shortcode/event.php:108
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "End Date"
 msgstr "Tanggal Berakhir"
 
+#: includes/modules/schema/shortcode/course.php:55
 #: includes/modules/schema/shortcode/event.php:100
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
@@ -4829,7 +5615,7 @@ msgstr "Ekspor ke file konfigurasi Nginx"
 msgid "Export to .htaccess"
 msgstr "Ekspor ke .htaccess"
 
-#: includes/modules/redirections/class-admin.php:344
+#: includes/modules/redirections/class-admin.php:342
 msgid "Add New"
 msgstr "Tambah baru"
 
@@ -4904,6 +5690,8 @@ msgstr "Kosongkan Tempat Sampah"
 #: includes/modules/redirections/class-table.php:327
 #: includes/modules/seo-analysis/class-seo-analyzer.php:144
 #: assets/admin/js/rank-math-app.js:1
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "All"
 msgstr "Semua"
 
@@ -4950,20 +5738,20 @@ msgstr "Tunjukkan lebih banyak"
 msgid "No redirections added yet. <a href=\"#\" class=\"rank-math-add-new-redirection\">Add New Redirection</a>"
 msgstr "Belum ada pengalihan yang ditambahkan. <a href=\"#\" class=\"rank-math-add-new-redirection\">Tambahkan Pengalihan Baru</a>"
 
-#: includes/modules/redirections/class-redirections.php:164
+#: includes/modules/redirections/class-redirections.php:163
 msgid "Redirect the current URL"
 msgstr "Alihkan URL saat ini"
 
-#: includes/modules/redirections/class-redirections.php:162
+#: includes/modules/redirections/class-redirections.php:161
 msgid "&raquo; Redirect this page"
 msgstr "&raquo; Alihkan halaman ini"
 
-#: includes/modules/redirections/class-redirections.php:141
+#: includes/modules/redirections/class-redirections.php:140
 msgid "Manage Redirections"
 msgstr "Kelola Pengalihan"
 
-#: includes/modules/redirections/class-redirections.php:133
-#: includes/modules/redirections/class-redirections.php:143
+#: includes/modules/redirections/class-redirections.php:132
+#: includes/modules/redirections/class-redirections.php:142
 msgid "Create and edit redirections"
 msgstr "Buat dan edit pengalihan"
 
@@ -4978,7 +5766,7 @@ msgid "Redirection successfully deleted."
 msgstr "Pengalihan berhasil dihapus."
 
 #. translators: source pattern
-#: includes/modules/redirections/class-redirection.php:393
+#: includes/modules/redirections/class-redirection.php:392
 msgid "Invalid regex pattern: %s"
 msgstr "Pola regex tidak valid: %s"
 
@@ -5021,88 +5809,89 @@ msgstr "Tambah Pengalihan"
 msgid "Update Redirection"
 msgstr "Memperbarui Pengalihan"
 
+#: includes/modules/local-seo/views/titles-options.php:252
 #: includes/modules/redirections/class-form.php:41
 msgid "Add"
 msgstr "Tambahkan"
 
 #. translators: delete counter
-#: includes/modules/redirections/class-admin.php:326
+#: includes/modules/redirections/class-admin.php:324
 msgid "%d redirection(s) successfully deleted."
 msgstr "%d Pengalihan berhasil dihapus."
 
-#: includes/modules/redirections/class-admin.php:314
+#: includes/modules/redirections/class-admin.php:312
 msgid "Redirection successfully restored."
 msgstr "Pengalihan berhasil dipulihkan."
 
-#: includes/modules/redirections/class-admin.php:313
+#: includes/modules/redirections/class-admin.php:311
 msgid "Redirection successfully moved to Trash."
 msgstr "Pengalihan berhasil dipindahkan ke Tempat Sampah."
 
-#: includes/modules/redirections/class-admin.php:312
+#: includes/modules/redirections/class-admin.php:310
 msgid "Redirection successfully deactivated."
 msgstr "Pengalihan berhasil dinonaktifkan."
 
-#: includes/modules/redirections/class-admin.php:311
+#: includes/modules/redirections/class-admin.php:309
 msgid "Redirection successfully activated."
 msgstr "Pengalihan berhasil diaktifkan."
 
-#: includes/modules/redirections/class-admin.php:293
+#: includes/modules/redirections/class-admin.php:291
 msgid "No valid action found."
 msgstr "Tidak ada tindakan valid yang ditemukan."
 
-#: includes/modules/redirections/class-redirections.php:81
+#: includes/modules/redirections/class-redirections.php:80
 msgid "Redirection Hits"
 msgstr "Menemui Pengalihan"
 
-#: includes/modules/redirections/class-redirections.php:74
+#: includes/modules/redirections/class-redirections.php:73
 msgid "Redirection Count"
 msgstr "Jumlah Pengalihan"
 
-#: includes/modules/redirections/class-admin.php:128
+#: includes/modules/redirections/class-admin.php:126
 msgid "This field must not be empty."
 msgstr "Bidang ini tidak boleh kosong."
 
-#: includes/modules/local-seo/views/titles-options.php:288
+#: includes/modules/local-seo/views/titles-options.php:331
 msgid "Latitude and longitude values separated by comma."
 msgstr "Nilai lintang dan bujur dipisahkan oleh koma."
 
-#: includes/modules/local-seo/views/titles-options.php:287
+#: includes/modules/local-seo/views/titles-options.php:330
 #: includes/modules/schema/shortcode/restaurant.php:27
 msgid "Geo Coordinates"
 msgstr "Koordinat Geo"
 
 #. translators: %s expands to "Google Maps Embed API"
 #. https://developers.google.com/maps/documentation/embed
-#: includes/modules/local-seo/views/titles-options.php:277
+#: includes/modules/local-seo/views/titles-options.php:320
 msgid "Google Maps Embed API"
 msgstr "Google Maps Embed API"
 
 #. translators: %s expands to "Google Maps Embed API"
 #. https://developers.google.com/maps/documentation/embed
-#: includes/modules/local-seo/views/titles-options.php:277
+#: includes/modules/local-seo/views/titles-options.php:320
 msgid "An API Key is required to display embedded Google Maps on your site. Get it here: %s"
 msgstr "Diperlukan Kunci API untuk menampilkan Google Maps ter-embed di situs Anda. Dapatkan di sini: %s"
 
-#: includes/modules/local-seo/views/titles-options.php:275
+#: includes/modules/local-seo/views/titles-options.php:318
 msgid "Google Maps API Key"
 msgstr "Kunci API Google Maps"
 
-#: includes/modules/local-seo/views/titles-options.php:265
+#: includes/modules/local-seo/views/titles-options.php:308
 msgid "Contact Page"
 msgstr "Halaman Kontak"
 
-#: includes/modules/local-seo/views/titles-options.php:248
-#: includes/modules/local-seo/views/titles-options.php:266
+#: includes/modules/local-seo/views/titles-options.php:291
+#: includes/modules/local-seo/views/titles-options.php:309
 msgid "Select a page on your site where you want to show the LocalBusiness meta data."
 msgstr "Pilih halaman di situs Anda di mana Anda ingin menunjukkan meta data LocalBusiness."
 
-#: includes/modules/local-seo/views/titles-options.php:236
-#: includes/modules/local-seo/views/titles-options.php:254
+#: includes/modules/local-seo/views/titles-options.php:279
+#: includes/modules/local-seo/views/titles-options.php:297
 #: includes/modules/sitemap/settings/html-sitemap.php:58
 msgid "Select Page"
 msgstr "Pilih Halaman"
 
-#: includes/modules/local-seo/views/titles-options.php:221
+#: includes/modules/local-seo/views/titles-options.php:231
 msgid "Format: +1-401-555-1212"
 msgstr "Format: +1-401-555-1212"
 
@@ -5150,68 +5939,68 @@ msgstr "Dukungan teknis"
 msgid "Customer Service"
 msgstr "Pelayanan pelanggan"
 
-#: includes/modules/local-seo/views/titles-options.php:198
+#: includes/modules/local-seo/views/titles-options.php:208
 msgid "Add number"
 msgstr "Tambahkan nomor"
 
-#: includes/modules/local-seo/views/titles-options.php:143
+#: includes/modules/local-seo/views/titles-options.php:153
 msgid "Time format used in the contact shortcode."
 msgstr "Format waktu yang digunakan dalam kode pendek kontak."
 
-#: includes/modules/local-seo/views/titles-options.php:138
+#: includes/modules/local-seo/views/titles-options.php:148
 msgid "Opening Hours Format"
 msgstr "Format Jam Buka"
 
-#: includes/modules/local-seo/views/titles-options.php:186
+#: includes/modules/local-seo/views/titles-options.php:196
 msgid "e.g. 09:00-17:00"
 msgstr "missal. 09:00-17:00"
 
-#: includes/modules/local-seo/views/titles-options.php:176
+#: includes/modules/local-seo/views/titles-options.php:186
 msgid "Sunday"
 msgstr "Minggu"
 
-#: includes/modules/local-seo/views/titles-options.php:175
+#: includes/modules/local-seo/views/titles-options.php:185
 msgid "Saturday"
 msgstr "Sabtu"
 
-#: includes/modules/local-seo/views/titles-options.php:174
+#: includes/modules/local-seo/views/titles-options.php:184
 msgid "Friday"
 msgstr "Jumat"
 
-#: includes/modules/local-seo/views/titles-options.php:173
+#: includes/modules/local-seo/views/titles-options.php:183
 msgid "Thursday"
 msgstr "Kamis"
 
-#: includes/modules/local-seo/views/titles-options.php:172
+#: includes/modules/local-seo/views/titles-options.php:182
 msgid "Wednesday"
 msgstr "Rabu"
 
-#: includes/modules/local-seo/views/titles-options.php:171
+#: includes/modules/local-seo/views/titles-options.php:181
 msgid "Tuesday"
 msgstr "Selasa"
 
-#: includes/modules/local-seo/views/titles-options.php:170
+#: includes/modules/local-seo/views/titles-options.php:180
 msgid "Monday"
 msgstr "Senin"
 
-#: includes/modules/local-seo/views/titles-options.php:154
+#: includes/modules/local-seo/views/titles-options.php:164
 msgid "Select opening hours. You can add multiple sets if you have different opening or closing hours on some days or if you have a mid-day break. Times are specified using 24:00 time."
 msgstr "Pilih jam buka. Anda dapat menambahkan beberapa set jika Anda memiliki jam buka atau tutup yang berbeda pada beberapa hari atau jika Anda memiliki istirahat tengah hari. Waktu ditentukan menggunakan waktu 24:00."
 
-#: includes/modules/local-seo/views/titles-options.php:153
+#: includes/modules/local-seo/views/titles-options.php:163
 #: includes/modules/schema/class-snippet-shortcode.php:246
 msgid "Opening Hours"
 msgstr "Jam Buka"
 
-#: includes/modules/local-seo/views/titles-options.php:112
+#: includes/modules/local-seo/views/titles-options.php:122
 msgid "Format used when the address is displayed using the <code>[rank_math_contact_info]</code> shortcode.<br><strong>Available Tags: {address}, {locality}, {region}, {postalcode}, {country}, {gps}</strong>"
 msgstr "Format yang digunakan ketika alamat ditampilkan menggunakan kode pendek <code>[rank_math_contact_info]</code>. <br><strong>Tag yang Tersedia: {address}, {locality}, {region}, {postalcode}, {country}, {gps}</strong>"
 
-#: includes/modules/local-seo/views/titles-options.php:111
+#: includes/modules/local-seo/views/titles-options.php:121
 msgid "Address Format"
 msgstr "Format Alamat"
 
-#: includes/modules/local-seo/views/titles-options.php:103
+#: includes/modules/local-seo/views/titles-options.php:113
 #: includes/modules/schema/shortcode/event.php:62
 #: includes/modules/schema/shortcode/person.php:27
 #: includes/modules/schema/shortcode/restaurant.php:20
@@ -5221,32 +6010,29 @@ msgstr "Format Alamat"
 msgid "Address"
 msgstr "Alamat"
 
-#: includes/modules/local-seo/views/titles-options.php:94
-#: includes/modules/local-seo/views/titles-options.php:196
+#: includes/modules/local-seo/views/titles-options.php:104
+#: includes/modules/local-seo/views/titles-options.php:206
 msgid "Search engines may prominently display your contact phone number for mobile users."
 msgstr "Mesin pencari dapat secara jelas menampilkan nomor telepon kontak Anda untuk pengguna seluler."
 
-#: includes/modules/local-seo/views/titles-options.php:93
+#: includes/modules/local-seo/views/titles-options.php:103
 msgid "Phone"
 msgstr "Telepon"
 
-#: includes/modules/local-seo/views/titles-options.php:85
-msgid "Search engines display your email address."
-msgstr "Mesin pencari menampilkan alamat email Anda."
-
-#: includes/modules/local-seo/views/titles-options.php:84
+#: includes/modules/local-seo/views/titles-options.php:94
 #: includes/modules/schema/shortcode/person.php:20
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Email"
 msgstr "Email"
 
-#: includes/modules/local-seo/views/titles-options.php:75
 #: includes/settings/titles/local.php:69
 msgid "URL of the item."
 msgstr "URL item."
 
-#: includes/modules/local-seo/views/titles-options.php:64
+#: includes/modules/local-seo/views/titles-options.php:74
 #: includes/settings/titles/local.php:58
 msgid "Logo"
 msgstr "Logo"
@@ -5383,6 +6169,7 @@ msgstr "Perujuk"
 msgid "URI"
 msgstr "URI"
 
+#: includes/admin/class-bulk-actions.php:89
 #: includes/modules/404-monitor/class-table.php:212
 #: includes/modules/404-monitor/class-table.php:275
 #: assets/admin/js/rank-math-app.js:1
@@ -5397,39 +6184,39 @@ msgstr "Lihat Pengalihan"
 msgid "The 404 error log is empty."
 msgstr "Log 404 kosong."
 
-#: includes/modules/404-monitor/class-monitor.php:121
+#: includes/modules/404-monitor/class-monitor.php:120
 msgid "Log item successfully deleted."
 msgstr "Log berhasil dihapus."
 
-#: includes/modules/404-monitor/class-monitor.php:117
+#: includes/modules/404-monitor/class-monitor.php:116
 msgid "No valid id found."
 msgstr "Tidak ditemukan id yang valid."
 
-#: includes/modules/404-monitor/class-monitor.php:100
+#: includes/modules/404-monitor/class-monitor.php:99
 msgid "Review 404 errors on your site"
 msgstr "Tinjau kesalahan 404 di situs Anda"
 
-#: includes/modules/404-monitor/class-admin.php:179
+#: includes/modules/404-monitor/class-admin.php:178
 msgid "Are you sure you wish to delete all 404 error logs?"
 msgstr "Apakah Anda yakin ingin menghapus semua log kesalahan 404?"
 
-#: includes/modules/404-monitor/class-admin.php:160
-#: includes/modules/redirections/class-admin.php:184
+#: includes/modules/404-monitor/class-admin.php:159
+#: includes/modules/redirections/class-admin.php:182
 msgid "Available Actions"
 msgstr "Tindakan yang Tersedia"
 
-#: includes/modules/404-monitor/class-admin.php:156
-#: includes/modules/redirections/class-admin.php:180
+#: includes/modules/404-monitor/class-admin.php:155
+#: includes/modules/redirections/class-admin.php:178
 msgid "Screen Content"
 msgstr "Konten Layar"
 
 #. translators: delete counter
-#: includes/modules/404-monitor/class-admin.php:129
+#: includes/modules/404-monitor/class-admin.php:128
 msgid "Log cleared - %d items deleted."
 msgstr "Log dihapus - %d item dihapus."
 
 #. translators: delete counter
-#: includes/modules/404-monitor/class-admin.php:113
+#: includes/modules/404-monitor/class-admin.php:112
 msgid "%d log(s) deleted."
 msgstr "%d log dihapus."
 
@@ -5477,21 +6264,23 @@ msgstr "Pembuat Tautan"
 msgid "Titles & Meta Settings"
 msgstr "Pengaturan Judul & Meta"
 
-#: includes/admin/class-admin-helper.php:343
+#: includes/admin/class-admin-helper.php:352
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Tweet"
 msgstr "Tweet"
 
-#: includes/admin/class-admin-helper.php:336
+#: includes/admin/class-admin-helper.php:345
 msgid "SEO by Rank Math"
 msgstr "SEO oleh Rank Math"
 
 #. translators: sitename
-#: includes/admin/class-admin-helper.php:322
+#: includes/admin/class-admin-helper.php:331
 msgid "I just installed Rank Math SEO WordPress Plugin. It looks promising!"
 msgstr "Saya baru saja menginstal Plugin SEO WordPress Rank Math. Itu terlihat menjanjikan!"
 
 #. translators: sitename
-#: includes/admin/class-admin-helper.php:320
+#: includes/admin/class-admin-helper.php:329
 msgid "I just installed @RankMathSEO #WordPress Plugin. It looks great! %s"
 msgstr "Saya baru saja menginstal Plugin @RankMathSEO #WordPress. Itu terlihat menjanjikan! %s"
 
@@ -5527,7 +6316,7 @@ msgstr "302 Dipindah Sementara"
 msgid "301 Permanent Move"
 msgstr "301 Dipindah Permanen"
 
-#: includes/helpers/class-choices.php:448 includes/helpers/class-schema.php:105
+#: includes/helpers/class-choices.php:448 includes/helpers/class-schema.php:106
 msgid "Software Application"
 msgstr "Aplikasi Software"
 
@@ -5537,7 +6326,7 @@ msgstr "Aplikasi Software"
 msgid "Service"
 msgstr "Layanan"
 
-#: includes/helpers/class-choices.php:445 includes/helpers/class-schema.php:97
+#: includes/helpers/class-choices.php:445 includes/helpers/class-schema.php:98
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Video"
@@ -5550,18 +6339,20 @@ msgid "Restaurant"
 msgstr "Restoran"
 
 #: includes/helpers/class-choices.php:443
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Recipe"
 msgstr "Resep"
 
-#: includes/helpers/class-choices.php:441 includes/helpers/class-schema.php:109
+#: includes/helpers/class-choices.php:441 includes/helpers/class-schema.php:110
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Music"
 msgstr "Musik"
 
-#: includes/helpers/class-choices.php:440 includes/helpers/class-schema.php:101
+#: includes/helpers/class-choices.php:440 includes/helpers/class-schema.php:102
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Job Posting"
@@ -5613,7 +6404,7 @@ msgstr "Mencegah mesin pencari dari mengikuti tautan di halaman"
 msgid "Prevents pages from being indexed and displayed in search engine result pages"
 msgstr "Mencegah halaman agar tidak diindeks dan ditampilkan di halaman hasil mesin pencari"
 
-#: includes/admin/class-post-columns.php:243
+#: includes/admin/class-post-columns.php:218
 #: includes/helpers/class-choices.php:74 assets/admin/js/rank-math-app.js:1
 msgid "No Index"
 msgstr "Tanpa Indeks"
@@ -5626,23 +6417,23 @@ msgstr "Ikon GIF"
 msgid "Play icon"
 msgstr "Ikon Putar"
 
-#: includes/frontend/class-shortcodes.php:209
+#: includes/frontend/class-shortcodes.php:214
 msgid "Hours:"
 msgstr "Jam:"
 
-#: includes/admin/class-option-center.php:385
+#: includes/admin/class-option-center.php:384
 msgid ".htaccess file updated successfully."
 msgstr "File .htaccess berhasil diperbarui."
 
-#: includes/admin/class-option-center.php:379
+#: includes/admin/class-option-center.php:378
 msgid "Failed to update .htaccess file. Please check file permissions."
 msgstr "Gagal memperbarui file .htaccess. Silakan periksa izin file."
 
-#: includes/admin/class-option-center.php:372
+#: includes/admin/class-option-center.php:371
 msgid "Failed to backup .htaccess file. Please check file permissions."
 msgstr "Gagal mencadangkan file .htaccess. Silakan periksa izin file."
 
-#: includes/admin/class-option-center.php:86
+#: includes/admin/class-option-center.php:85
 #: includes/modules/role-manager/class-members.php:61
 msgid "Edit .htaccess"
 msgstr "Edit .htaccess"
@@ -5652,37 +6443,38 @@ msgstr "Edit .htaccess"
 msgid "SEO options related to featured images and media appearing in your post content. %s."
 msgstr "Opsi SEO yang terkait dengan gambar dan media yang ditampilkan muncul dalam konten posting Anda. %s."
 
-#: includes/admin/class-option-center.php:306
+#: includes/admin/class-option-center.php:305
 msgid "Post Formats Archive"
 msgstr "Arsip Format Posting"
 
-#: includes/admin/class-option-center.php:305
+#: includes/admin/class-option-center.php:304
 msgid "Post Formats"
 msgstr "Format Posting"
 
-#: includes/admin/class-option-center.php:190
+#: includes/admin/class-option-center.php:189
 msgid "SEO Titles &amp; Meta"
 msgstr "Judul SEO &amp; Meta"
 
-#: includes/admin/class-option-center.php:174
+#: includes/admin/class-option-center.php:173
 msgid "Misc Pages"
 msgstr "Halaman Lain-Lain"
 
-#: includes/admin/class-option-center.php:168
+#: includes/admin/class-option-center.php:167
+#: includes/modules/content-ai/views/options.php:102
 #: includes/modules/sitemap/class-admin.php:102
 #: includes/modules/sitemap/html-sitemap/class-authors.php:115
 msgid "Authors"
 msgstr "Penulis"
 
-#: includes/admin/class-option-center.php:159
+#: includes/admin/class-option-center.php:158
 msgid "Homepage"
 msgstr "Beranda"
 
-#: includes/admin/class-option-center.php:153
+#: includes/admin/class-option-center.php:152
 msgid "Social Meta"
 msgstr "Meta Sosial"
 
-#: includes/admin/class-option-center.php:140
+#: includes/admin/class-option-center.php:139
 msgid "Global Meta"
 msgstr "Meta Global"
 
@@ -5690,23 +6482,23 @@ msgstr "Meta Global"
 msgid "Counter"
 msgstr "Penghitung"
 
-#: includes/replace-variables/class-post-variables.php:269
+#: includes/replace-variables/class-post-variables.php:268
 msgid "Example Tag 1 | Example Tag 2"
 msgstr "Tag Contoh 1 | Tag Contoh 2"
 
-#: includes/replace-variables/class-post-variables.php:267
+#: includes/replace-variables/class-post-variables.php:266
 msgid "Output list of tags associated to the current post, with customization options."
 msgstr "Daftar keluaran tag yang terkait dengan posting saat ini, dengan opsi kustomisasi."
 
-#: includes/replace-variables/class-post-variables.php:266
+#: includes/replace-variables/class-post-variables.php:265
 msgid "Tags (advanced)"
 msgstr "Tag (Tingkat Lanjut)"
 
-#: includes/replace-variables/class-post-variables.php:214
+#: includes/replace-variables/class-post-variables.php:213
 msgid "Output list of categories associated to the current post, with customization options."
 msgstr "Daftar keluaran kategori yang terkait dengan posting saat ini, dengan opsi kustomisasi."
 
-#: includes/replace-variables/class-post-variables.php:213
+#: includes/replace-variables/class-post-variables.php:212
 msgid "Categories (advanced)"
 msgstr "Kategori (Tingkat Lanjut)"
 
@@ -5718,35 +6510,35 @@ msgstr "Waktu server saat ini dengan pola pemformatan kustom."
 msgid "Current Time (advanced)"
 msgstr "Waktu Saat Ini (Tingkat Lanjut)"
 
-#: includes/replace-variables/class-post-variables.php:174
+#: includes/replace-variables/class-post-variables.php:173
 msgid "Modified date with custom formatting pattern."
 msgstr "Tanggal yang dimodifikasi dengan pola pemformatan kustom."
 
-#: includes/replace-variables/class-post-variables.php:173
+#: includes/replace-variables/class-post-variables.php:172
 msgid "Date Modified (advanced)"
 msgstr "Tanggal yang dimodifikasi (tingkat lanjut)"
 
-#: includes/replace-variables/class-post-variables.php:163
+#: includes/replace-variables/class-post-variables.php:162
 msgid "Publish date with custom formatting pattern."
 msgstr "Tanggal Publikasi dengan pola pemformatan kustom."
 
-#: includes/replace-variables/class-post-variables.php:162
+#: includes/replace-variables/class-post-variables.php:161
 msgid "Date Published (advanced)"
 msgstr "Tanggal Diterbitkan (tingkat lanjut)"
 
-#: includes/replace-variables/class-advanced-variables.php:135
+#: includes/replace-variables/class-advanced-variables.php:136
 msgid "Name of current post type (plural)"
 msgstr "Nama jenis posting saat ini (jamak)"
 
-#: includes/replace-variables/class-advanced-variables.php:134
+#: includes/replace-variables/class-advanced-variables.php:135
 msgid "Post Type Name Plural"
 msgstr "Jenis Posting Nama Jamak"
 
-#: includes/replace-variables/class-advanced-variables.php:124
+#: includes/replace-variables/class-advanced-variables.php:125
 msgid "Name of current post type (singular)"
 msgstr "Nama jenis posting saat ini (tunggal)"
 
-#: includes/replace-variables/class-advanced-variables.php:123
+#: includes/replace-variables/class-advanced-variables.php:124
 msgid "Post Type Name Singular"
 msgstr "Jenis Posting Nama Tunggal"
 
@@ -5782,29 +6574,29 @@ msgstr "Waktu server saat ini"
 msgid "Current Time"
 msgstr "Waktu saat ini"
 
-#: includes/replace-variables/class-advanced-variables.php:97
+#: includes/replace-variables/class-advanced-variables.php:98
 msgid "Current page number"
 msgstr "Nomor halaman saat ini"
 
-#: includes/replace-variables/class-advanced-variables.php:96
+#: includes/replace-variables/class-advanced-variables.php:97
 msgid "Page Number"
 msgstr "Nomor halaman"
 
-#: includes/replace-variables/class-advanced-variables.php:108
+#: includes/replace-variables/class-advanced-variables.php:109
 msgid "Max pages number"
 msgstr "Nomor halaman maksimal"
 
-#: includes/replace-variables/class-advanced-variables.php:107
+#: includes/replace-variables/class-advanced-variables.php:108
 msgid "Max Pages"
 msgstr "Halaman Maksimal"
 
-#: includes/replace-variables/class-advanced-variables.php:86
+#: includes/replace-variables/class-advanced-variables.php:87
 msgid "Page number with context (i.e. page 2 of 4). Only displayed on page 2 and above."
 msgstr "Nomor halaman dengan konteks (mis. Halaman 2 dari 4). Hanya ditampilkan di halaman 2 dan di atas."
 
 #: includes/modules/sitemap/settings/html-sitemap.php:31
 #: includes/modules/sitemap/settings/html-sitemap.php:76
-#: includes/replace-variables/class-advanced-variables.php:85
+#: includes/replace-variables/class-advanced-variables.php:86
 msgid "Page"
 msgstr "Halaman"
 
@@ -5846,90 +6638,90 @@ msgstr "Permintaan pencarian (hanya tersedia di halaman hasil pencarian)"
 msgid "Search Query"
 msgstr "Permintaan Pencarian"
 
-#: includes/replace-variables/class-term-variables.php:38
+#: includes/replace-variables/class-term-variables.php:39
 msgid "Example Term"
 msgstr "Contoh Istilah"
 
-#: includes/replace-variables/class-term-variables.php:36
+#: includes/replace-variables/class-term-variables.php:37
 msgid "Current term name"
 msgstr "Nama istilah saat ini"
 
-#: includes/replace-variables/class-term-variables.php:35
+#: includes/replace-variables/class-term-variables.php:36
 msgid "Current Term"
 msgstr "Istilah saat ini"
 
-#: includes/replace-variables/class-post-variables.php:205
-#: includes/replace-variables/class-post-variables.php:216
+#: includes/replace-variables/class-post-variables.php:204
+#: includes/replace-variables/class-post-variables.php:215
 msgid "Example Category 1, Example Category 2"
 msgstr "Contoh Kategori 1, Kategori Contoh 2"
 
-#: includes/replace-variables/class-post-variables.php:203
+#: includes/replace-variables/class-post-variables.php:202
 msgid "Comma-separated list of categories associated to the current post"
 msgstr "Daftar kategori yang dipisahkan koma yang terkait dengan pos saat ini"
 
-#: includes/replace-variables/class-post-variables.php:202
+#: includes/replace-variables/class-post-variables.php:201
 msgid "Post Categories"
 msgstr "Kategori Posting"
 
-#: includes/replace-variables/class-post-variables.php:194
+#: includes/replace-variables/class-post-variables.php:193
 msgid "Example Category"
 msgstr "Kategori Contoh"
 
-#: includes/replace-variables/class-post-variables.php:192
+#: includes/replace-variables/class-post-variables.php:191
 msgid "First category (alphabetically) associated to the current post <strong>OR</strong> current category on category archives"
 msgstr "Kategori pertama (berdasarkan abjad) yang terkait dengan pos saat ini <strong>ATAU</strong> kategori saat ini di arsip kategori"
 
-#: includes/replace-variables/class-post-variables.php:257
+#: includes/replace-variables/class-post-variables.php:256
 msgid "Example Tag 1, Example Tag 2"
 msgstr "Tag Contoh 1, Tag Contoh 2"
 
-#: includes/replace-variables/class-post-variables.php:255
+#: includes/replace-variables/class-post-variables.php:254
 msgid "Comma-separated list of tags associated to the current post"
 msgstr "Daftar tag yang dipisahkan koma yang terkait dengan pos saat ini"
 
-#: includes/replace-variables/class-post-variables.php:254
+#: includes/replace-variables/class-post-variables.php:253
 msgid "Post Tags"
 msgstr "Tag Posting"
 
-#: includes/replace-variables/class-post-variables.php:245
+#: includes/replace-variables/class-post-variables.php:244
 msgid "Example Tag"
 msgstr "Tag Contoh"
 
-#: includes/replace-variables/class-post-variables.php:243
+#: includes/replace-variables/class-post-variables.php:242
 msgid "First tag (alphabetically) associated to the current post <strong>OR</strong> current tag on tag archives"
 msgstr "Tag pertama (sesuai abjad) yang terkait dengan pos saat ini <strong>ATAU</strong> tag saat ini di arsip tag"
 
-#: includes/replace-variables/class-post-variables.php:242
+#: includes/replace-variables/class-post-variables.php:241
 msgid "Post Tag"
 msgstr "Tag Posting"
 
-#: includes/replace-variables/class-post-variables.php:71
+#: includes/replace-variables/class-post-variables.php:70
 msgid "Excerpt of the current post (without auto-generation)"
 msgstr "Kutipan dari posting saat ini (tanpa pembuatan otomatis)"
 
-#: includes/replace-variables/class-post-variables.php:59
+#: includes/replace-variables/class-post-variables.php:58
 msgid "Excerpt of the current post (or auto-generated if it does not exist)"
 msgstr "Kutipan dari posting saat ini (atau dibuat secara otomatis jika tidak ada)"
 
-#: includes/replace-variables/class-post-variables.php:58
-#: includes/replace-variables/class-post-variables.php:70
+#: includes/replace-variables/class-post-variables.php:57
+#: includes/replace-variables/class-post-variables.php:69
 msgid "Post Excerpt"
 msgstr "Kutipan Posting"
 
-#: includes/replace-variables/class-post-variables.php:151
+#: includes/replace-variables/class-post-variables.php:150
 msgid "Last modification date of the current post/page"
 msgstr "Tanggal modifikasi terakhir dari posting/halaman saat ini"
 
-#: includes/replace-variables/class-post-variables.php:150
+#: includes/replace-variables/class-post-variables.php:149
 msgid "Date Modified"
 msgstr "Tanggal Dimodifikasi"
 
-#: includes/replace-variables/class-post-variables.php:139
+#: includes/replace-variables/class-post-variables.php:138
 msgid "Publication date of the current post/page <strong>OR</strong> specified date on date archives"
 msgstr "Tanggal publikasi posting/halaman saat ini <strong>ATAU</strong> tanggal yang ditentukan pada arsip tanggal"
 
 #: includes/modules/schema/shortcode/book.php:40
-#: includes/replace-variables/class-post-variables.php:138
+#: includes/replace-variables/class-post-variables.php:137
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Date Published"
@@ -5953,20 +6745,20 @@ msgstr "Karakter pemisah, sebagaimana diatur dalam Pengaturan Judul"
 msgid "Separator Character"
 msgstr "Karakter pemisah"
 
-#: includes/replace-variables/class-post-variables.php:48
+#: includes/replace-variables/class-post-variables.php:47
 msgid "Title of the parent page of the current post/page"
 msgstr "Judul halaman induk dari posting/halaman saat ini"
 
-#: includes/replace-variables/class-post-variables.php:36
+#: includes/replace-variables/class-post-variables.php:35
 msgid "Title of the current post/page"
 msgstr "Judul posting/halaman saat ini"
 
 #. translators: %1$d: current page number, %2$d: max pages.
-#: includes/replace-variables/class-advanced-variables.php:209
+#: includes/replace-variables/class-advanced-variables.php:210
 msgid "Page %1$d of %2$d"
 msgstr "Halaman %1$d dari %2$d"
 
-#: rank-math.php:537
+#: rank-math.php:541
 msgid "Once Weekly"
 msgstr "Sekali Seminggu"
 
@@ -6001,19 +6793,19 @@ msgstr "Rekam URL tempat pengunjung & mesin pencari mengalami Kesalahan 404. And
 
 #. translators: Search query term
 #. translators: placeholder
-#: includes/class-installer.php:343
+#: includes/class-installer.php:344
 #: includes/settings/general/breadcrumbs.php:110
 msgid "Results for %s"
 msgstr "Hasil untuk %s"
 
 #. translators: Archive title
 #. translators: placeholder
-#: includes/class-installer.php:341
+#: includes/class-installer.php:342
 #: includes/settings/general/breadcrumbs.php:98
 msgid "Archives for %s"
 msgstr "Arsip untuk %s"
 
-#: includes/class-installer.php:339
+#: includes/class-installer.php:340
 #: includes/settings/general/breadcrumbs.php:65
 msgid "Home"
 msgstr "Beranda"
@@ -6024,19 +6816,19 @@ msgstr "Beranda"
 msgid "Page not found"
 msgstr "Halaman tidak ditemukan"
 
-#: includes/admin/class-admin-bar-menu.php:415
+#: includes/admin/class-admin-bar-menu.php:409
 msgid "Facebook Sharing Debugger"
 msgstr "Debug Penyebar Facebook"
 
-#: includes/admin/class-admin-bar-menu.php:413
+#: includes/admin/class-admin-bar-menu.php:407
 msgid "Facebook Debugger"
 msgstr "Debug Facebook"
 
-#: includes/admin/class-admin-bar-menu.php:409
+#: includes/admin/class-admin-bar-menu.php:403
 msgid "See Google's cached version of your site"
 msgstr "Lihat versi cache Google situs Anda"
 
-#: includes/admin/class-admin-bar-menu.php:407
+#: includes/admin/class-admin-bar-menu.php:401
 msgid "Google Cache"
 msgstr "Cache Google"
 
@@ -6134,10 +6926,10 @@ msgstr "Tutorial Pengaturan"
 msgid "Let us know a few things about your site&hellip;"
 msgstr "Beri tahu kami beberapa hal tentang situs Anda&hellip;"
 
-#. translators: Link to How to Setup Sitemap KB article
-#: includes/admin/wizard/class-sitemap.php:37
+#. Translators: placeholder is the KB link.
+#: includes/admin/wizard/class-sitemap.php:39
 #: includes/admin/wizard/views/google-connect.php:37
-#: includes/admin/wizard/views/rank-math-connect.php:45
+#: includes/admin/wizard/views/rank-math-connect.php:48
 #: includes/admin/wizard/views/search-console-ui.php:160
 #: includes/admin/wizard/views/search-console-ui.php:389
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
@@ -6145,7 +6937,7 @@ msgid "Learn more."
 msgstr "Pelajari lebih lanjut."
 
 #. translators: Link to How to Setup Sitemap KB article
-#: includes/admin/wizard/class-sitemap.php:37
+#: includes/admin/wizard/class-sitemap.php:38
 msgid "Choose your Sitemap configuration and select which type of posts or pages you want to include in your Sitemaps. %s"
 msgstr "Pilih konfigurasi Peta Situs Anda dan pilih jenis posting atau halaman mana yang ingin Anda sertakan dalam Peta Situs Anda. %s"
 
@@ -6174,7 +6966,7 @@ msgstr "Lanjutkan ke Halaman Bantuan"
 msgid "Get 24x7 Support"
 msgstr "Dapatkan Dukungan 24x7"
 
-#: includes/admin/class-admin-header.php:50
+#: includes/admin/class-admin-header.php:52
 #: includes/admin/wizard/views/ready.php:58
 msgid "Rank Math Knowledge Base"
 msgstr "Basis Pengetahuan Rank Math"
@@ -6332,7 +7124,6 @@ msgstr "Tidak ada cadangan."
 #: includes/admin/views/import-export/backup-panel.php:43
 #: includes/modules/404-monitor/class-table.php:156
 #: includes/modules/404-monitor/class-table.php:276
-#: includes/modules/database-tools/class-database-tools.php:429
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Delete"
@@ -6374,11 +7165,11 @@ msgstr "Cara Benar Mengatur Rank Math"
 msgid "Plugin settings and site-wide meta data."
 msgstr "Pengaturan plugin dan data meta seluruh situs."
 
-#: includes/admin/importers/class-aioseo.php:69
+#: includes/admin/importers/class-aioseo.php:68
 msgid "Import meta information of your posts/pages like the titles, descriptions, robots meta, OpenGraph info, etc."
 msgstr "Impor informasi meta dari posting/halaman Anda seperti judul, deskripsi, meta robot, info OpenGraph, dll."
 
-#: includes/admin/importers/class-aioseo.php:68
+#: includes/admin/importers/class-aioseo.php:67
 msgid "Import AIO SEO plugin settings, global meta, sitemap settings, etc."
 msgstr "Impor pengaturan plugin AIO SEO, meta global, pengaturan sitemap, dll."
 
@@ -6427,7 +7218,7 @@ msgid "Unable to perform action this time."
 msgstr "Tidak dapat melakukan tindakan saat ini."
 
 #: includes/admin/importers/abstract-importer.php:152
-#: includes/admin/importers/class-aioseo.php:78
+#: includes/admin/importers/class-aioseo.php:77
 msgid "Import Redirections"
 msgstr "Impor Pengalihan"
 
@@ -6436,7 +7227,7 @@ msgid "Import meta information like titles, descriptions, focus keyword, robots 
 msgstr "Impor informasi meta seperti judul, deskripsi, kata kunci fokus, meta robot, dll., Dari halaman arsip penulis Anda."
 
 #: includes/admin/importers/abstract-importer.php:151
-#: includes/admin/importers/class-aioseo.php:70
+#: includes/admin/importers/class-aioseo.php:69
 msgid "Import Author Meta"
 msgstr "Impor Meta Penulis"
 
@@ -6445,7 +7236,7 @@ msgid "Import data like category, tag, and CPT meta data from SEO."
 msgstr "Mengimpor data seperti kategori, tag, dan data meta CPT dari SEO."
 
 #: includes/admin/importers/abstract-importer.php:150
-#: includes/admin/importers/class-aioseo.php:74
+#: includes/admin/importers/class-aioseo.php:73
 msgid "Import Term Meta"
 msgstr "Impor Meta Istilah"
 
@@ -6454,7 +7245,7 @@ msgid "Import meta information of your posts/pages like the focus keyword, title
 msgstr "Impor informasi meta dari posting / halaman Anda seperti kata kunci fokus, judul, deskripsi, meta robot, info OpenGraph, dll."
 
 #: includes/admin/importers/abstract-importer.php:149
-#: includes/admin/importers/class-aioseo.php:69
+#: includes/admin/importers/class-aioseo.php:68
 msgid "Import Post Meta"
 msgstr "Impor Meta Posting"
 
@@ -6463,36 +7254,36 @@ msgstr "Impor Meta Posting"
 msgid "Noindex Empty Category and Tag Archives"
 msgstr "Noindex Kategori Kosong dan Arsip Tag"
 
-#: includes/admin/wizard/class-sitemap.php:103
+#: includes/admin/wizard/class-sitemap.php:106
 msgid "Select taxonomies to enable SEO options for them and include them in the sitemap."
 msgstr "Pilih taksonomi untuk mengaktifkan opsi SEO untuk mereka dan memasukkannya ke dalam peta situs."
 
-#: includes/admin/wizard/class-sitemap.php:102
+#: includes/admin/wizard/class-sitemap.php:105
 msgid "Public Taxonomies"
 msgstr "Taksonomi Publik"
 
-#: includes/admin/wizard/class-sitemap.php:88
+#: includes/admin/wizard/class-sitemap.php:91
 msgid "Select post types to enable SEO options for them and include them in the sitemap."
 msgstr "Pilih jenis posting untuk mengaktifkan opsi SEO untuk mereka dan memasukkannya ke dalam peta situs."
 
-#: includes/admin/wizard/class-sitemap.php:87
+#: includes/admin/wizard/class-sitemap.php:90
 msgid "Public Post Types"
 msgstr "Jenis Posting Publik"
 
-#: includes/admin/wizard/class-sitemap.php:74
+#: includes/admin/wizard/class-sitemap.php:77
 msgid "Include reference to images from the post content in sitemaps. This helps search engines index your images better."
 msgstr "Sertakan referensi ke gambar dari konten posting di peta situs. Ini membantu mesin pencari mengindeks gambar Anda dengan lebih baik."
 
-#: includes/admin/wizard/class-sitemap.php:73
+#: includes/admin/wizard/class-sitemap.php:76
 msgid "Include Images"
 msgstr "Sertakan Gambar"
 
-#: includes/admin/wizard/class-sitemap.php:64
+#: includes/admin/wizard/class-sitemap.php:67
 msgid "XML Sitemaps help search engines index your website&#039;s content more effectively."
 msgstr "Peta Situs XML membantu mesin pencari mengindeks konten situs web Anda dengan lebih efektif."
 
 #: includes/admin/class-setup-wizard.php:124
-#: includes/admin/wizard/class-sitemap.php:63
+#: includes/admin/wizard/class-sitemap.php:66
 #: includes/modules/seo-analysis/seo-analysis-tests.php:133
 msgid "Sitemaps"
 msgstr "Peta Situs"
@@ -6500,11 +7291,6 @@ msgstr "Peta Situs"
 #: includes/admin/wizard/class-your-site.php:116
 msgid "Default Social Share Image"
 msgstr "Gambar Berbagi Sosial Standar"
-
-#. translators: %s is a Learn More link to the documentation.
-#: includes/modules/role-manager/views/main.php:28
-msgid "Control which user has access to which options of Rank Math. %s"
-msgstr "Kontrol pengguna mana yang memiliki akses ke opsi Rank Math yang mana. %s"
 
 #. translators: Learn more link.
 #: includes/modules/sitemap/class-admin.php:104
@@ -6547,14 +7333,6 @@ msgstr "Nilai bidang khusus."
 msgid "Custom Field (advanced)"
 msgstr "Bidang Khusus (tingkat lanjut)"
 
-#: includes/admin/class-admin-bar-menu.php:391
-msgid "Google Mobile-Friendly Test"
-msgstr "Google Seluler-Tes Ramah"
-
-#: includes/admin/class-admin-bar-menu.php:389
-msgid "Google Mobile-Friendly"
-msgstr "Google Seluler-Ramah"
-
 #. translators: %s: product tag
 #: includes/frontend/class-breadcrumbs.php:350
 msgid "Products tagged &ldquo;%s&rdquo;"
@@ -6578,9 +7356,9 @@ msgstr "Anda telah berhasil mengaktifkan Rank Math. Jika Anda merasa plugin ini 
 #: includes/module/class-manager.php:234
 #: includes/modules/analytics/class-analytics-common.php:72
 #: includes/modules/analytics/class-analytics-common.php:143
-#: includes/modules/analytics/class-analytics.php:76
-#: includes/modules/analytics/class-analytics.php:466
-#: includes/modules/analytics/class-analytics.php:499
+#: includes/modules/analytics/class-analytics.php:75
+#: includes/modules/analytics/class-analytics.php:467
+#: includes/modules/analytics/class-analytics.php:500
 #: includes/modules/role-manager/class-capability-manager.php:63
 #: includes/modules/analytics/assets/js/stats.js:1
 msgid "Analytics"
@@ -6594,7 +7372,7 @@ msgstr "Berkas Pengaturan"
 msgid "This tab contains General settings related to the XML sitemaps."
 msgstr "Tab ini berisi Pengaturan umum yang terkait dengan peta situs XML."
 
-#: includes/modules/robots-txt/class-robots-txt.php:73
+#: includes/modules/robots-txt/class-robots-txt.php:72
 msgid "Leave the field empty to let WordPress handle the contents dynamically. If an actual robots.txt file is present in the root folder of your site, this option won't take effect and you have to edit the file directly, or delete it and then edit from here."
 msgstr "Biarkan bidang tetap kosong untuk membiarkan WordPress menangani konten secara dinamis. Jika berkas robots.txt yang sebenarnya ada di folder root situs Anda, opsi ini tidak akan berpengaruh dan Anda harus mengedit berkas secara langsung, atau menghapusnya dan kemudian mengeditnya dari sini."
 
@@ -6603,7 +7381,7 @@ msgid "Enable support for the structured data, which adds Schema code in your we
 msgstr "Aktifkan dukungan untuk data terstruktur, yang menambahkan kode Skema di situs Anda, menghasilkan hasil penelusuran yang kaya, CTR yang lebih baik, dan lebih banyak aktivitas."
 
 #. translators: 1. url to new screen, 2. old trashed post permalink
-#: includes/modules/redirections/class-watcher.php:359
+#: includes/modules/redirections/class-watcher.php:360
 msgid "<strong>SEO Notice:</strong> A previously published %1$s has been moved to trash. You may redirect <code>%2$s</code> to <a href=\"%3$s\">a new url</a>."
 msgstr "<strong>Pemberitahuan SEO:</strong> %1$s yang sebelumnya diterbitkan telah dipindahkan ke sampah. Anda dapat mengalihkan <code>%2$s</code> ke <a href=\"%3$s\">url baru</a>."
 
@@ -6645,6 +7423,10 @@ msgstr "Plugin ini kompatibel dengan versi PHP Anda, tetapi kami sarankan memper
 msgid "Rank Math is compatible with your PHP version but we recommend updating to PHP 7.4 for increased speed and security."
 msgstr "Rank Math kompatibel dengan versi PHP Anda, tetapi kami sarankan memperbarui ke PHP 7.4 untuk meningkatkan kecepatan dan keamanan."
 
+#: includes/modules/schema/shortcode/book.php:37
+msgid "Url"
+msgstr "URL"
+
 #: includes/modules/instant-indexing/views/history.php:31
 msgid "Response Code"
 msgstr "Kode Respon"
@@ -6683,6 +7465,7 @@ msgid "Let Rank Math analyze your website and your website's content using 28+ d
 msgstr "Biarkan Rank Math menganalisis situs web Anda dan konten situs web Anda menggunakan 28+ tes berbeda untuk memberikan Analisis SEO yang dibuat khusus untuk Anda."
 
 #: includes/admin/metabox/class-taxonomy-screen.php:130
+#: includes/modules/local-seo/views/titles-options.php:64
 #: includes/settings/general/rss-vars-table.php:20
 #: includes/settings/titles/post-types.php:191
 #: assets/admin/js/rank-math-app.js:1
@@ -6691,10 +7474,10 @@ msgstr "Biarkan Rank Math menganalisis situs web Anda dan konten situs web Anda 
 msgid "Description"
 msgstr "Deskripsi"
 
-#: includes/admin/class-admin-helper.php:97
-#: includes/admin/class-cmb2-fields.php:281
+#: includes/admin/class-admin-helper.php:96
+#: includes/admin/class-cmb2-fields.php:297
 #: includes/admin/wizard/class-schema-markup.php:161
-#: includes/helpers/class-taxonomy.php:152
+#: includes/helpers/class-taxonomy.php:151
 #: includes/modules/schema/blocks/views/options-general.php:31
 #: includes/settings/titles/post-types.php:135
 #: includes/settings/titles/post-types.php:166 assets/admin/js/blocks.js:1
@@ -6709,46 +7492,46 @@ msgstr "Nihil"
 msgid "Next"
 msgstr "Selanjutnya"
 
-#: includes/admin/class-post-columns.php:203
-#: includes/admin/class-post-columns.php:224
-#: includes/admin/class-post-columns.php:275
-#: includes/admin/class-post-columns.php:295
-#: includes/admin/class-post-columns.php:308
+#: includes/admin/class-post-columns.php:178
+#: includes/admin/class-post-columns.php:199
+#: includes/admin/class-post-columns.php:250
+#: includes/admin/class-post-columns.php:270
+#: includes/admin/class-post-columns.php:283
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Save"
 msgstr "Simpan"
 
 #: includes/admin/wizard/class-your-site.php:59
-#: includes/modules/local-seo/views/titles-options.php:127
+#: includes/modules/local-seo/views/titles-options.php:137
 msgid "Business Type"
 msgstr "Jenis Bisnis"
 
-#: includes/admin/wizard/class-your-site.php:348
+#: includes/admin/wizard/class-your-site.php:347
 msgid "Other Business Website"
 msgstr "Situs Web Bisnis Lainnya"
 
-#: includes/admin/wizard/class-your-site.php:347
+#: includes/admin/wizard/class-your-site.php:346
 msgid "Other Personal Website"
 msgstr "Situs Pribadi Lainnya"
 
-#: includes/admin/wizard/class-your-site.php:346
+#: includes/admin/wizard/class-your-site.php:345
 msgid "Webshop"
 msgstr "Toko web"
 
-#: includes/admin/wizard/class-your-site.php:345
+#: includes/admin/wizard/class-your-site.php:344
 msgid "Small Business Site"
 msgstr "Situs Usaha Kecil"
 
-#: includes/admin/wizard/class-your-site.php:344
+#: includes/admin/wizard/class-your-site.php:343
 msgid "Personal Portfolio"
 msgstr "Portofolio Pribadi"
 
-#: includes/admin/wizard/class-your-site.php:343
+#: includes/admin/wizard/class-your-site.php:342
 msgid "Community Blog/News Site"
 msgstr "Blog Komunitas/Situs Berita"
 
-#: includes/admin/wizard/class-your-site.php:342
+#: includes/admin/wizard/class-your-site.php:341
 msgid "Personal Blog"
 msgstr "Blog pribadi"
 
@@ -6760,41 +7543,16 @@ msgstr "Input Data Dari:"
 msgid "Deactivated"
 msgstr "Dinonaktifkan"
 
-#: includes/admin/class-serp-preview.php:329
-#: includes/modules/schema/assets/js/schema-gutenberg.js:1
-#: includes/modules/schema/assets/js/schema-template.js:1
-msgid "Rating"
-msgstr "Rating"
-
-#: includes/admin/class-serp-preview.php:322
 #: includes/modules/schema/shortcode/jobposting.php:90
 msgid "Location"
 msgstr "Lokasi"
 
-#: includes/admin/class-serp-preview.php:321
-msgid "Date"
-msgstr "Tanggal"
-
-#: includes/admin/class-serp-preview.php:320
-msgid "In Stock"
-msgstr "Ada Persediaan"
-
-#: includes/admin/class-serp-preview.php:319
 #: includes/modules/schema/shortcode/recipe.php:48
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Calories"
 msgstr "Kalori"
 
-#: includes/admin/class-serp-preview.php:318
-msgid "Cooking time"
-msgstr "Waktu memasak"
-
-#: includes/admin/class-serp-preview.php:317
-msgid "Price range"
-msgstr "Kisaran harga"
-
-#: includes/admin/class-serp-preview.php:316
 #: includes/modules/schema/shortcode/service.php:27
 #: includes/modules/schema/shortcode/softwareapplication.php:20
 #: includes/opengraph/class-slack.php:194
@@ -6804,50 +7562,9 @@ msgstr "Kisaran harga"
 msgid "Price"
 msgstr "Harga"
 
-#. translators: total reviews
-#: includes/admin/class-serp-preview.php:277
-msgid "Rating: %s"
-msgstr "Rating: %s"
-
-#: includes/admin/class-serp-preview.php:432
-#: includes/admin/class-serp-preview.php:450
 #: includes/opengraph/class-slack.php:227
 msgid "In stock"
 msgstr "Ada Persediaan"
-
-#: includes/admin/class-serp-preview.php:107 assets/admin/js/rank-math-app.js:1
-msgid "This page will not appear in search results. You can disable noindex in the Advanced tab."
-msgstr "Halaman ini tidak akan muncul di hasil pencarian. Anda dapat menonaktifkan noindex di tab Advanced."
-
-#: includes/admin/class-serp-preview.php:106 assets/admin/js/rank-math-app.js:1
-msgid "Noindex robots meta is enabled"
-msgstr "Meta robot noindex diaktifkan"
-
-#: includes/admin/class-serp-preview.php:89
-msgid "Click to enter custom meta description"
-msgstr "Klik untuk memasukkan deskripsi meta kustom"
-
-#: includes/admin/class-serp-preview.php:85
-msgid "Click to enter permalink"
-msgstr "Klik untuk memasukkan permalink"
-
-#: includes/admin/class-serp-preview.php:87
-msgid "Click to enter custom title"
-msgstr "Klik untuk memasukkan judul kustom"
-
-#: includes/admin/class-serp-preview.php:47 assets/admin/js/rank-math-app.js:1
-msgid "Mobile Preview"
-msgstr "Pratinjau Seluler"
-
-#: includes/admin/class-serp-preview.php:47 assets/admin/js/rank-math-app.js:1
-msgid "Desktop Preview"
-msgstr "Pratinjau Desktop"
-
-#: includes/admin/class-serp-preview.php:47 assets/admin/js/rank-math-app.js:1
-#: includes/modules/schema/assets/js/schema-gutenberg.js:1
-#: includes/modules/schema/assets/js/schema-template.js:1
-msgid "Preview"
-msgstr "Pratinjau"
 
 #: includes/modules/seo-analysis/class-seo-analyzer.php:638
 #: assets/admin/js/rank-math-app.js:1
@@ -6873,11 +7590,11 @@ msgstr "Bagian ini diperlukan."
 msgid "Skip Now"
 msgstr "Lewati Sekarang"
 
-#: includes/admin/class-registration.php:312
+#: includes/admin/class-registration.php:315
 msgid "You have successfully activated Rank Math."
 msgstr "Anda telah berhasil mengaktifkan Rank Math."
 
-#: includes/admin/class-registration.php:311
+#: includes/admin/class-registration.php:314
 msgid "Account Successfully Connected"
 msgstr "Akun Berhasil Terhubung"
 
@@ -6889,28 +7606,29 @@ msgstr "Hubungkan Akun GRATIS"
 msgid "Pillar Content"
 msgstr "Konten Pilar"
 
-#: includes/admin/class-post-columns.php:170 assets/admin/js/rank-math-app.js:1
+#: includes/admin/class-post-columns.php:145 assets/admin/js/rank-math-app.js:1
 #: includes/modules/analytics/assets/js/stats.js:1
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Title"
 msgstr "Judul"
 
-#: includes/admin/class-post-columns.php:266
+#: includes/admin/class-post-columns.php:241
 msgid "Keyword"
 msgstr "Kata kunci"
 
-#: includes/admin/class-post-columns.php:143
+#: includes/admin/class-post-columns.php:118
 msgid "SEO Desc"
 msgstr "Deskripsi SEO"
 
-#: includes/admin/class-post-columns.php:142
-#: includes/replace-variables/class-post-variables.php:82
+#: includes/admin/class-post-columns.php:117
+#: includes/replace-variables/class-post-variables.php:81
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "SEO Title"
 msgstr "Judul SEO"
 
-#: includes/admin/class-post-columns.php:139
+#: includes/admin/class-post-columns.php:114
 msgid "SEO Details"
 msgstr "Detail SEO"
 
@@ -6926,23 +7644,15 @@ msgstr "Skor SEO: Buruk"
 msgid "SEO Score: Good"
 msgstr "Skor SEO: Bagus"
 
-#: includes/admin/class-post-columns.php:122
-#: includes/admin/class-post-columns.php:204
-#: includes/admin/class-post-columns.php:225
-#: includes/admin/class-post-columns.php:276
-#: includes/admin/class-post-columns.php:296
-#: includes/admin/class-post-columns.php:309
+#: includes/admin/class-post-columns.php:179
+#: includes/admin/class-post-columns.php:200
+#: includes/admin/class-post-columns.php:251
+#: includes/admin/class-post-columns.php:271
+#: includes/admin/class-post-columns.php:284
 #: includes/modules/redirections/class-form.php:51
+#: assets/admin/js/post-list.js:1
 msgid "Cancel"
 msgstr "Batal"
-
-#: includes/admin/class-post-columns.php:121
-msgid "Save All Edits"
-msgstr "Simpan Semua Perubahan"
-
-#: includes/admin/class-post-columns.php:120
-msgid "Bulk Edit This Field"
-msgstr "Edit Massal Bidang Ini"
 
 #: includes/admin/views/import-export/import-export-panel.php:59
 #: includes/modules/role-manager/class-capability-manager.php:58
@@ -6951,13 +7661,13 @@ msgstr "Edit Massal Bidang Ini"
 msgid "Sitemap Settings"
 msgstr "Pengaturan Peta Situs"
 
-#: includes/admin/class-option-center.php:107
+#: includes/admin/class-option-center.php:106
 #: includes/admin/views/import-export/import-export-panel.php:57
 #: includes/modules/role-manager/class-capability-manager.php:57
 msgid "General Settings"
 msgstr "Pengaturan Umum"
 
-#: includes/admin/class-admin-header.php:79
+#: includes/admin/class-admin-header.php:81
 msgid "Search Options"
 msgstr "Pilihan pencarian"
 
@@ -6975,102 +7685,101 @@ msgstr "Tingkat Lanjut"
 msgid "General"
 msgstr "Umum"
 
-#: includes/admin/metabox/class-metabox.php:277
+#: includes/admin/metabox/class-metabox.php:256
 msgid "We can't show any link suggestions for this post. Try selecting categories and tags for this post, and mark other posts as Pillar Content to make them show up here."
 msgstr "Kami tidak dapat menampilkan saran tautan apa pun untuk posting ini. Coba pilih kategori dan tag untuk posting ini, dan tandai posting lain sebagai Konten Pilar untuk membuatnya muncul di sini."
 
-#: includes/admin/metabox/class-metabox.php:268
+#: includes/admin/metabox/class-metabox.php:247
 msgid "Click on the button to copy URL or insert link in content. You can also drag and drop links in the post content."
 msgstr "Klik pada tombol untuk menyalin URL atau menyisipkan tautan ke dalam konten. Anda juga dapat menarik dan melepaskan tautan dalam konten posting."
 
-#: includes/admin/metabox/class-metabox.php:257
+#: includes/admin/metabox/class-metabox.php:236
 #: includes/settings/titles/post-types.php:273
 msgid "Link Suggestions"
 msgstr "Saran Tautan"
 
-#. Plugin Name of the plugin
 #: includes/admin/class-admin-bar-menu.php:173
-#: includes/admin/class-admin-menu.php:87
+#: includes/admin/class-admin-menu.php:90
 #: includes/admin/class-registration.php:213
-#: includes/admin/metabox/class-metabox.php:341
+#: includes/admin/metabox/class-metabox.php:320
 msgid "Rank Math SEO"
 msgstr "Rank Math SEO"
 
-#: includes/admin/metabox/class-post-screen.php:132
+#: includes/admin/metabox/class-post-screen.php:131
 msgid "The featured image should be at least 200 by 200 pixels to be picked up by Facebook and other social media sites."
 msgstr "Gambar yang ditampilkan harus setidaknya 200 x 200 piksel untuk diambil oleh Facebook dan situs media sosial lainnya."
 
-#: includes/admin/class-import-export.php:367
+#: includes/admin/class-import-export.php:366
 msgid "No settings found to be imported."
 msgstr "Tidak ditemukan pengaturan yang diimpor."
 
-#: includes/admin/class-import-export.php:363
+#: includes/admin/class-import-export.php:362
 msgid "Settings successfully imported. Your old configuration has been saved as a backup."
 msgstr "Pengaturan berhasil diimpor. Konfigurasi lama Anda telah disimpan sebagai cadangan."
 
-#: includes/admin/class-import-export.php:388
-#: includes/admin/class-import-export.php:393
+#: includes/admin/class-import-export.php:387
+#: includes/admin/class-import-export.php:392
 msgid "Settings could not be imported:"
 msgstr "Pengaturan tidak dapat diimpor:"
 
-#: includes/admin/class-import-export.php:283
+#: includes/admin/class-import-export.php:282
 msgid "Backup restored successfully."
 msgstr "Cadangan berhasil dipulihkan."
 
-#: includes/admin/class-import-export.php:280
+#: includes/admin/class-import-export.php:279
 msgid "Backup does not exist."
 msgstr "Cadangan tidak ada."
 
-#: includes/admin/class-import-export.php:276
+#: includes/admin/class-import-export.php:275
 msgid "No backup key found to restore."
 msgstr "Tidak ditemukan kunci cadangan untuk dipulihkan."
 
-#: includes/admin/class-import-export.php:264
+#: includes/admin/class-import-export.php:263
 msgid "Backup successfully deleted."
 msgstr "Cadangan berhasil dihapus."
 
-#: includes/admin/class-import-export.php:260
+#: includes/admin/class-import-export.php:259
 msgid "No backup key found to delete."
 msgstr "Tidak ditemukan kunci cadangan untuk dihapus."
 
-#: includes/admin/class-import-export.php:246
+#: includes/admin/class-import-export.php:245
 msgid "Backup created successfully."
 msgstr "Cadangan berhasil dibuat."
 
 #. translators: Backup formatted date
 #. translators: Snapshot formatted date
-#: includes/admin/class-import-export.php:245
+#: includes/admin/class-import-export.php:244
 #: includes/admin/views/import-export/backup-panel.php:28
 msgid "Backup: %s"
 msgstr "Cadangan: %s"
 
-#: includes/admin/class-import-export.php:238
+#: includes/admin/class-import-export.php:237
 msgid "Unable to create backup this time."
 msgstr "Tidak dapat membuat cadangan saat ini."
 
-#: includes/admin/class-import-export.php:218
+#: includes/admin/class-import-export.php:217
 msgid "Action not allowed."
 msgstr "Tindakan tidak diizinkan."
 
 #. translators: Plugin name
-#: includes/admin/class-import-export.php:206
+#: includes/admin/class-import-export.php:205
 msgid "Cleanup of %s data failed."
 msgstr "Pembersihan data %s gagal."
 
 #. translators: Plugin name
-#: includes/admin/class-import-export.php:202
+#: includes/admin/class-import-export.php:201
 msgid "Cleanup of %s data successfully done."
 msgstr "Pembersihan %s data berhasil dilakukan."
 
-#: includes/admin/class-import-export.php:154
+#: includes/admin/class-import-export.php:153
 msgid "Are you sure you want to delete this backup?"
 msgstr "Apakah Anda yakin ingin menghapus cadangan ini?"
 
-#: includes/admin/class-import-export.php:153
+#: includes/admin/class-import-export.php:152
 msgid "Are you sure you want to restore this backup? Your current configuration will be overwritten."
 msgstr "Apakah Anda yakin ingin mengembalikan cadangan ini? Konfigurasi Anda saat ini akan ditimpa."
 
-#: includes/admin/class-import-export.php:148
+#: includes/admin/class-import-export.php:147
 #: includes/admin/class-setup-wizard.php:297
 msgid "Are you sure you want to import settings into Rank Math? Don't worry, your current configuration will be saved as a backup."
 msgstr "Apakah Anda yakin ingin mengimpor pengaturan ke Rank Math? Jangan khawatir, konfigurasi Anda saat ini akan disimpan sebagai cadangan."
@@ -7084,15 +7793,15 @@ msgstr "Hidup"
 msgid "Off"
 msgstr "Mati"
 
-#: includes/admin/class-admin.php:318
+#: includes/admin/class-admin.php:339
 msgid "Insert Link in Content"
 msgstr "Sisipkan Tautan dalam Konten"
 
-#: includes/admin/class-admin.php:317
+#: includes/admin/class-admin.php:338
 msgid "Copy Link URL to Clipboard"
 msgstr "Salin URL Tautan ke Papan Klip"
 
-#: includes/admin/class-admin.php:117
+#: includes/admin/class-admin.php:121
 msgid "The canonical URL you entered does not seem to be a valid URL. Please double check it in the SEO meta box &raquo; Advanced tab."
 msgstr "URL kanonis yang Anda masukkan tampaknya bukan URL yang valid. Harap periksa dua kali di tab kotak meta SEO &raquo; Tingkat Lanjut."
 
@@ -7116,29 +7825,29 @@ msgstr "Pertolongan"
 msgid "Modules"
 msgstr "Modul"
 
-#: includes/admin/class-admin.php:73
+#: includes/admin/class-admin.php:77
 msgid "Facebook profile URL"
 msgstr "URL Profil Facebook"
 
-#: includes/admin/class-admin.php:72
+#: includes/admin/class-admin.php:76
 msgid "Twitter username (without @)"
 msgstr "Nama pengguna Twitter (tanpa @)"
 
 #: includes/admin/class-admin-bar-menu.php:183
 #: includes/admin/class-admin-bar-menu.php:185
 #: includes/admin/class-admin-breadcrumbs.php:32
-#: includes/admin/class-admin-menu.php:100
-#: includes/modules/version-control/class-version-control.php:236
+#: includes/admin/class-admin-menu.php:106
+#: includes/modules/version-control/class-version-control.php:235
 #: includes/modules/analytics/assets/js/stats.js:1
 msgid "Dashboard"
 msgstr "Dasbor"
 
-#: includes/admin/class-admin-menu.php:110
+#: includes/admin/class-admin-menu.php:116
 msgid "Help &amp; Support"
 msgstr "Pertolongan &amp; Dukungan"
 
 #. Author of the plugin
-#: includes/admin/class-admin-menu.php:60
+#: rank-math.php includes/admin/class-admin-menu.php:62
 #: includes/admin/class-post-filters.php:168
 #: includes/admin/class-registration.php:212 includes/class-cmb2.php:177
 #: includes/modules/analytics/views/email-reports/header.php:38
@@ -7193,15 +7902,7 @@ msgstr "Sisipkan/edit tautan"
 msgid "%1$s is a&hellip;"
 msgstr "%1$s adalah sebuah&hellip;"
 
-#: includes/admin/class-serp-preview.php:271
-msgid "Calories: "
-msgstr "Kalori: "
-
-#: includes/admin/class-serp-preview.php:270
-msgid "Price range: "
-msgstr "Kisaran harga: "
-
-#: includes/admin/class-post-columns.php:171
+#: includes/admin/class-post-columns.php:146
 msgid "Alternative Text"
 msgstr "Teks alternatif"
 
@@ -7209,14 +7910,9 @@ msgstr "Teks alternatif"
 msgid "Articles noindexed"
 msgstr "Artikel tidak diindeks"
 
-#. translators: total reviews
-#: includes/admin/class-serp-preview.php:280
-msgid "%s reviews"
-msgstr "pratinjau %s"
-
 #: includes/admin/class-admin-dashboard-nav.php:111
 #: includes/admin/class-setup-wizard.php:261
-#: includes/admin/class-setup-wizard.php:262 rank-math.php:427
-#: rank-math.php:432
+#: includes/admin/class-setup-wizard.php:262 rank-math.php:431
+#: rank-math.php:436
 msgid "Setup Wizard"
 msgstr "Panduan Pengaturan"

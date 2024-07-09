@@ -1,0 +1,1 @@
+<input type="email" value="<?php echo $model['default'][0]; ?>" <?php echo $model['field_attributes']; ?> />

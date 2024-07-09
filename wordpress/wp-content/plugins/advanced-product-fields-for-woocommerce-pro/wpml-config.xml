@@ -1,0 +1,5 @@
+<wpml-config>
+    <admin-texts>
+        <key name="wapf_settings_upload_msg"/>
+    </admin-texts>
+</wpml-config>

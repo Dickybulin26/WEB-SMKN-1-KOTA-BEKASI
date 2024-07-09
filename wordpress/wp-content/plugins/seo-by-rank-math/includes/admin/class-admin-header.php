@@ -12,7 +12,7 @@ namespace RankMath\Admin;
 
 use RankMath\Helper;
 use RankMath\KB;
-use MyThemeShop\Helpers\Param;
+use RankMath\Helpers\Param;
 
 defined( 'ABSPATH' ) || exit;
 
@@ -47,6 +47,8 @@ class Admin_Header {
 			</h1>
 			<?php $this->get_search_options(); ?>
 			<?php $this->get_mode_selector(); ?>
+
+			<?php do_action( 'rank_math/before_help_link' ); ?>
 			<a href="<?php echo esc_url( $this->get_help_link() ); ?>" title="<?php esc_attr_e( 'Rank Math Knowledge Base', 'rank-math' ); ?>" target="_blank" class="button rank-math-help"><i class="dashicons dashicons-editor-help"></i></a>
 		</div>
 		<?php
@@ -114,13 +116,14 @@ class Admin_Header {
 	 */
 	private function get_help_link() {
 		$links = [
-			'import-export-settings' => 'import_export' === Param::get( 'view' ),
-			'version-control'        => 'version_control' === Param::get( 'view' ) || 'rank-math-status' === Param::get( 'page' ),
-			'general-settings'       => 'rank-math-options-general' === Param::get( 'page' ),
-			'titles-meta'            => 'rank-math-options-titles' === Param::get( 'page' ),
-			'sitemap-general'        => 'rank-math-options-sitemap' === Param::get( 'page' ),
-			'role-manager'           => 'rank-math-role-manager' === Param::get( 'page' ),
-			'seo-analysis'           => 'rank-math-seo-analysis' === Param::get( 'page' ),
+			'import-export-settings'     => 'import_export' === Param::get( 'view' ),
+			'version-control'            => 'version_control' === Param::get( 'view' ) || 'rank-math-status' === Param::get( 'page' ),
+			'general-settings'           => 'rank-math-options-general' === Param::get( 'page' ),
+			'titles-meta'                => 'rank-math-options-titles' === Param::get( 'page' ),
+			'sitemap-general'            => 'rank-math-options-sitemap' === Param::get( 'page' ),
+			'role-manager'               => 'rank-math-role-manager' === Param::get( 'page' ),
+			'seo-analysis'               => 'rank-math-seo-analysis' === Param::get( 'page' ),
+			'content-ai-restore-credits' => 'rank-math-content-ai-page' === Param::get( 'page' ),
 		];
 
 		$link = KB::get( 'knowledgebase', 'RM Header KB Icon' );

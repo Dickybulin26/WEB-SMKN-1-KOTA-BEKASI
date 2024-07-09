@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-11-22 17:24+0530\n"
+"PO-Revision-Date: 2023-11-22 17:31+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: class-tgm-plugin-activation.php\n"
+
+#: abc-pricing-table.php:32 include/add-new-pricing.php:89 include/add-new-pricing.php:833
+msgid "Pricing"
+msgstr "Preisgestaltung"
+
+#: abc-pricing-table.php:87
+msgid "Shortcode"
+msgstr "Kurzcode"
+
+#: abc-pricing-table.php:123
+msgid "Our Plugins"
+msgstr "Unsere Plugins"
+
+#: abc-pricing-table.php:128 abc-pricing-table.php:129 abc-pricing-table.php:130
+#: abc-pricing-table.php:131 abc-pricing-table.php:145
+msgid "Pricing Table"
+msgstr "Preistabelle"
+
+#: abc-pricing-table.php:132 abc-pricing-table.php:133 abc-pricing-table.php:165
+#: include/add-new-pricing.php:31
+msgid "Add Pricing Table"
+msgstr "Preistabelle hinzufügen"
+
+#: abc-pricing-table.php:134
+msgid "New Pricing Table"
+msgstr "Neue Preistabelle"
+
+#: abc-pricing-table.php:135
+msgid "Edit Pricing Table"
+msgstr "Preistabelle bearbeiten"
+
+#: abc-pricing-table.php:136
+msgid "View Pricing Table"
+msgstr "Preistabelle ansehen"
+
+#: abc-pricing-table.php:137
+msgid "All Pricing Table"
+msgstr "Alle Preistabellen"
+
+#: abc-pricing-table.php:138
+msgid "Search Pricing Table"
+msgstr "Preistabelle suchen"
+
+#: abc-pricing-table.php:139
+msgid "Parent Pricing Table"
+msgstr "Übergeordnete Preistabelle"
+
+#: abc-pricing-table.php:140
+msgid "No Pricing Table"
+msgstr "Keine Preistabelle"
+
+#: abc-pricing-table.php:141
+msgid "No Pricing Table found in Trash"
+msgstr "Keine Preistabelle im Papierkorb gefunden"
+
+#: abc-pricing-table.php:146
+msgid "Description"
+msgstr "Beschreibung"
+
+#: abc-pricing-table.php:166
+msgid "Upgrade Pricing Table Pro"
+msgstr "Preistabelle Pro aktualisieren"
+
+#: abc-pricing-table.php:167
+msgid "Rate Our Plugin"
+msgstr "Bewerten Sie unser Plugin"
+
+#: featured-plugins/featured-plugins.php:95
+#, php-format
+msgid "%s rating"
+msgstr "%s Bewertung"
+
+#: featured-plugins/featured-plugins.php:110
+msgid "Get More Free WordPress Plugin From A WP Life"
+msgstr "Erhalten Sie mehr kostenlose WordPress-Plugins von A WP Life"
+
+#: featured-plugins/featured-plugins.php:161
+msgid "More Details"
+msgstr "Mehr Details"
+
+#: featured-plugins/featured-plugins.php:169
+msgid "Install Now"
+msgstr "Jetzt installieren"
+
+#: featured-plugins/featured-plugins.php:175
+msgid "Update Now"
+msgstr "Jetzt aktualisieren"
+
+#: featured-plugins/featured-plugins.php:219
+msgid "By"
+msgstr "Von"
+
+#: featured-plugins/featured-plugins.php:250
+msgid "Last Updated:"
+msgstr "Zuletzt aktualisiert:"
+
+#: include/add-new-pricing.php:34
+msgid "Template Design"
+msgstr "Vorlagendesign"
+
+#: include/add-new-pricing.php:37
+msgid "Config"
+msgstr "Konfiguration"
+
+#: include/add-new-pricing.php:40 include/add-new-pricing.php:397
+msgid "Color Settings"
+msgstr "Farbeinstellungen"
+
+#: include/add-new-pricing.php:43 include/add-new-pricing.php:537
+msgid "Featured Color Settings"
+msgstr "Hervorgehobene Farbeinstellungen"
+
+#: include/add-new-pricing.php:46
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: include/add-new-pricing.php:54
+msgid "Click On Add Column To Add New Table"
+msgstr "Klicken Sie auf Spalte hinzufügen, um eine neue Tabelle hinzuzufügen"
+
+#: include/add-new-pricing.php:55
+msgid "ADD COLUMN"
+msgstr "SPALTE HINZUFÜGEN"
+
+#: include/add-new-pricing.php:56
+msgid "GET SHORTCODE"
+msgstr "KURZCODE ERHALTEN"
+
+#: include/add-new-pricing.php:58
+msgid "Note:[Features] Type cross for (cross) icon"
+msgstr "Hinweis: [Features] Geben Sie Kreuz für (Kreuz) Symbol ein"
+
+#: include/add-new-pricing.php:58
+msgid "and type (right) for right icon! "
+msgstr "und geben Sie (rechts) für das rechte Symbol ein!"
+
+#: include/add-new-pricing.php:80 include/add-new-pricing.php:824
+msgid "Yes"
+msgstr "Ja"
+
+#: include/add-new-pricing.php:82 include/add-new-pricing.php:826
+msgid "No"
+msgstr "Nein"
+
+#: include/add-new-pricing.php:85 include/add-new-pricing.php:829
+msgid "Name"
+msgstr "Name"
+
+#: include/add-new-pricing.php:92 include/add-new-pricing.php:836
+msgid "Pricing Plan"
+msgstr "Preisplan"
+
+#: include/add-new-pricing.php:95 include/add-new-pricing.php:839
+msgid "Pricing Features"
+msgstr "Preismerkmale"
+
+#: include/add-new-pricing.php:97 include/add-new-pricing.php:842
+msgid "Button Text"
+msgstr "Schaltflächentext"
+
+#: include/add-new-pricing.php:100 include/add-new-pricing.php:845
+msgid "Button Url"
+msgstr "Schaltflächen-URL"
+
+#: include/add-new-pricing.php:113
+msgid "Select Template Design"
+msgstr "Vorlagendesign auswählen"
+
+#: include/add-new-pricing.php:176
+msgid "Template & Icon Settings"
+msgstr "Vorlagen- & Symbol-Einstellungen"
+
+#: include/add-new-pricing.php:181 include/add-new-pricing.php:182
+msgid "Select Currency Icon."
+msgstr "Währungssymbol auswählen."
+
+#: include/add-new-pricing.php:200
+msgid "United States dollar ( $ )"
+msgstr "US-Dollar ( $ )"
+
+#: include/add-new-pricing.php:206
+msgid "Euro ( € )"
+msgstr "Euro ( € )"
+
+#: include/add-new-pricing.php:212
+msgid "Japanese yen ( ¥ )"
+msgstr "Japanischer Yen ( ¥ )"
+
+#: include/add-new-pricing.php:218
+msgid "Swiss franc ( Fr )"
+msgstr "Schweizer Franken ( Fr )"
+
+#: include/add-new-pricing.php:224
+msgid "Indian rupee ( INR )"
+msgstr "Indische Rupie ( INR )"
+
+#: include/add-new-pricing.php:230
+msgid "Brazilian real ( R$ )"
+msgstr "Brasilianischer Real ( R$ )"
+
+#: include/add-new-pricing.php:236
+msgid "Israeli new shekel ( NIS )"
+msgstr "Israelischer Neuer Schekel ( NIS )"
+
+#: include/add-new-pricing.php:242
+msgid "Czech koruna ( Kc )"
+msgstr "Tschechische Krone ( Kc )"
+
+#: include/add-new-pricing.php:248
+msgid "Malaysian ringgit ( RM )"
+msgstr "Malaysischer Ringgit ( RM )"
+
+#: include/add-new-pricing.php:254
+msgid "Philippine peso ( PHP )"
+msgstr "Philippinischer Peso ( PHP )"
+
+#: include/add-new-pricing.php:260
+msgid "New Taiwan dollar ( NT$ )"
+msgstr "Neuer Taiwan-Dollar ( NT$ )"
+
+#: include/add-new-pricing.php:266
+msgid "Thai baht ( THB )"
+msgstr "Thailändischer Baht ( THB )"
+
+#: include/add-new-pricing.php:272
+msgid "Turkish lira ( t )"
+msgstr "Türkische Lira ( t )"
+
+#: include/add-new-pricing.php:278
+msgid "No Currency"
+msgstr "Keine Währung"
+
+#: include/add-new-pricing.php:287
+msgid "Columns Settings"
+msgstr "Spalteneinstellungen"
+
+#: include/add-new-pricing.php:288
+msgid "Pricing Columns Per Row."
+msgstr "Preisspalten pro Reihe."
+
+#: include/add-new-pricing.php:306
+msgid "Columns 4"
+msgstr "4 Spalten"
+
+#: include/add-new-pricing.php:312
+msgid "Columns 3"
+msgstr "3 Spalten"
+
+#: include/add-new-pricing.php:318
+msgid "Columns 2"
+msgstr "2 Spalten"
+
+#: include/add-new-pricing.php:324
+msgid "Columns 1"
+msgstr "1 Spalte"
+
+#: include/add-new-pricing.php:333
+msgid "Heading Font Size"
+msgstr "Schriftgröße der Überschrift"
+
+#: include/add-new-pricing.php:334
+msgid "Pricing Heading Name Font Size."
+msgstr "Schriftgröße des Preistabellen-Überschriftsnamens."
+
+#: include/add-new-pricing.php:347
+msgid "Feature Font Size"
+msgstr "Schriftgröße der Funktionen"
+
+#: include/add-new-pricing.php:348
+msgid "Pricing Table [Features] Font Size."
+msgstr "Schriftgröße der Preistabelle [Funktionen]."
+
+#: include/add-new-pricing.php:361
+msgid "Button Text Font Size"
+msgstr "Schriftgröße des Schaltflächentextes"
+
+#: include/add-new-pricing.php:362
+msgid "Pricing Button Text Font Size."
+msgstr "Schriftgröße des Preistabellen-Schaltflächentextes."
+
+#: include/add-new-pricing.php:376
+msgid "Icon Settings"
+msgstr "Symbol-Einstellungen"
+
+#: include/add-new-pricing.php:377
+msgid "Select Pricing Header Icon "
+msgstr "Preistabellen-Kopfzeilen-Symbol auswählen"
+
+#: include/add-new-pricing.php:402 include/add-new-pricing.php:542
+msgid "Heading Text Color"
+msgstr "Farbe des Überschriftstextes"
+
+#: include/add-new-pricing.php:419 include/add-new-pricing.php:580
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: include/add-new-pricing.php:439 include/add-new-pricing.php:559
+msgid "Button Color"
+msgstr "Schaltflächenfarbe"
+
+#: include/add-new-pricing.php:456 include/add-new-pricing.php:635
+msgid "Button Hover Color"
+msgstr "Schaltflächen-Hover-Farbe"
+
+#: include/add-new-pricing.php:477 include/add-new-pricing.php:617
+msgid "Background Hover Color"
+msgstr "Hintergrund-Hover-Farbe"
+
+#: include/add-new-pricing.php:494 include/add-new-pricing.php:597
+msgid "Button Text Color"
+msgstr "Schaltflächentextfarbe"
+
+#: include/add-new-pricing.php:513 include/add-new-pricing.php:655
+msgid "Features Text Color"
+msgstr "Farbe des Funktionstextes"
+
+#: include/add-new-pricing.php:523 include/add-new-pricing.php:665
+msgid "Icon Color"
+msgstr "Symbolfarbe"
+
+#: include/add-new-pricing.php:676
+msgid "Custom Css"
+msgstr "Benutzerdefiniertes CSS"
+
+#: include/add-new-pricing.php:681
+msgid "Apply own css on Pricing Table and dont use style tag"
+msgstr "Eigenes CSS auf die Preistabelle anwenden und kein Style-Tag verwenden"
+
+#: include/add-new-pricing.php:707
+msgid "Copy the shortcode below and paste it wherever you want your pricing table to appear"
+msgstr ""
+"Kopieren Sie den untenstehenden Shortcode und fügen Sie ihn dort ein, wo Ihre Preistabelle "
+"erscheinen soll"
+
+#: include/add-new-pricing.php:716
+msgid "Close"
+msgstr "Schließen"
