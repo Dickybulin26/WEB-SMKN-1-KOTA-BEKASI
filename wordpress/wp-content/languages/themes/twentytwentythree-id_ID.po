@@ -50,7 +50,7 @@ msgid "System Font"
 msgstr "Font Sistem"
 
 #. Translators: WordPress link.
-#: patterns/footer-default.php:19
+#: patterns/footer-default.php:20
 msgid "Proudly powered by %s"
 msgstr "Dengan bangga dipersembahkan oleh %s"
 
@@ -112,17 +112,17 @@ msgctxt "Template part name"
 msgid "Post Meta"
 msgstr "Meta Artikel"
 
-#: patterns/post-meta.php:28
+#: patterns/post-meta.php:29
 msgctxt "Verb to explain the publication status of a post"
 msgid "Posted"
 msgstr "Diterbitkan"
 
-#: patterns/post-meta.php:48
+#: patterns/post-meta.php:49
 msgctxt "Preposition to show the relationship between the post and its author"
 msgid "by"
 msgstr "oleh"
 
-#: patterns/post-meta.php:36
+#: patterns/post-meta.php:37
 msgctxt "Preposition to show the relationship between the post and its categories"
 msgid "in"
 msgstr "dalam"
@@ -244,7 +244,7 @@ msgid "the WordPress team"
 msgstr "Tim WordPress"
 
 #. Author URI of the theme
-#: style.css patterns/footer-default.php:20
+#: style.css patterns/footer-default.php:21
 #, gp-priority: low
 msgid "https://wordpress.org"
 msgstr "https://id.wordpress.org"

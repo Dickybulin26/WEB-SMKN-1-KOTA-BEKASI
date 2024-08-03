@@ -3180,6 +3180,9 @@ footer {
   }
 
 }
+.post-template-default{
+  font-size: 200;
+}
 
 /* .page-content{
   font-size: 1.1rem;
@@ -3189,29 +3192,3 @@ footer {
   gap: 2rem;
 } */
 
-
-
-.post-template-default p {
-  font-size: 1.1rem;
-  line-height: 2rem;
-  text-align: justify;
-  display: grid;
-  gap: 2rem;
-  padding: 1rem;
-}
-
-.post-template-default{
-  margin-top: 5rem;
-}
-
-.post-template-default .page-content .wp-block-image {
-  margin-top: 4rem;
-}
-
-.post-template-default .page-content .wp-block-media-text__media {
-  margin-left: 2rem;
-}
-
-.wp-block-media-text{
-  margin-bottom: 10rem;
-}

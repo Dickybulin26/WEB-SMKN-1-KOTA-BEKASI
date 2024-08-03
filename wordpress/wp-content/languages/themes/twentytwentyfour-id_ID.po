@@ -43,8 +43,8 @@ msgstr "Halaman"
 
 #. Author URI of the theme
 #. Translators: WordPress link.
-#: style.css patterns/footer-centered-logo-nav.php:21
-#: patterns/footer-colophon-3-col.php:90 patterns/footer.php:116
+#: style.css patterns/footer-centered-logo-nav.php:22
+#: patterns/footer-colophon-3-col.php:91 patterns/footer.php:117
 msgid "https://wordpress.org"
 msgstr "https://id.wordpress.org"
 
@@ -68,7 +68,7 @@ msgctxt "Template part name"
 msgid "Post Meta"
 msgstr "Meta Artikel"
 
-#: patterns/cta-content-image-on-right.php:40
+#: patterns/cta-content-image-on-right.php:41
 msgctxt "Button text of this section"
 msgid "Download app"
 msgstr "Unduh aplikasi"
@@ -78,43 +78,43 @@ msgctxt "Pattern title"
 msgid "Project description"
 msgstr "Deskripsi proyek"
 
-#: patterns/banner-hero.php:36
+#: patterns/banner-hero.php:37
 msgctxt "Button text of the hero section"
 msgid "About us"
 msgstr "Tentang kami"
 
-#: patterns/banner-hero.php:17
+#: patterns/banner-hero.php:18
 msgctxt "Heading of the hero section"
 msgid "A commitment to innovation and sustainability"
 msgstr "Sebuah komitmen pada inovasi dan keberlanjutan"
 
-#: patterns/cta-pricing.php:86
+#: patterns/cta-pricing.php:87
 msgctxt "Button text for the first pricing level"
 msgid "Subscribe"
 msgstr "Berlangganan"
 
-#: patterns/cta-pricing.php:71 patterns/cta-pricing.php:130
+#: patterns/cta-pricing.php:72 patterns/cta-pricing.php:131
 msgctxt "Feature for pricing level"
 msgid "Exclusive access to the <em>Études</em> app for iOS and Android."
 msgstr "Akses eksklusif ke aplikasi <em>Études</em> untuk iOS dan Android"
 
-#: patterns/cta-pricing.php:61 patterns/cta-pricing.php:122
-#: patterns/cta-pricing.php:180
+#: patterns/cta-pricing.php:62 patterns/cta-pricing.php:123
+#: patterns/cta-pricing.php:181
 msgctxt "Feature for pricing level"
 msgid "Weekly print edition."
 msgstr "Edisi cetak mingguan."
 
-#: patterns/cta-pricing.php:52
+#: patterns/cta-pricing.php:53
 msgctxt "Feature for pricing level"
 msgid "Access to 5 exclusive <em>Études Articles</em> per month."
 msgstr "Akses pada 5 <em>Artikel Études</em> eksklusif setiap bulan."
 
-#: patterns/cta-pricing.php:41
+#: patterns/cta-pricing.php:42
 msgctxt "Sample price for the first pricing level"
 msgid "$0"
 msgstr "$0"
 
-#: patterns/cta-pricing.php:36
+#: patterns/cta-pricing.php:37
 msgctxt "Sample heading for the first pricing level"
 msgid "Free"
 msgstr "Gratis"
@@ -124,17 +124,17 @@ msgctxt "Pattern title"
 msgid "Pricing"
 msgstr "Harga"
 
-#: patterns/cta-content-image-on-right.php:46
+#: patterns/cta-content-image-on-right.php:47
 msgctxt "Button text of this section"
 msgid "How it works"
 msgstr "Bagaimana cara kerjanya"
 
-#: patterns/cta-pricing.php:21
+#: patterns/cta-pricing.php:22
 msgctxt "Sample description for a pricing table"
 msgid "We offer flexible options, which you can adapt to the different needs of each project."
 msgstr "Kami menawarkan pilihan fleksibel yang dapat Anda sesuaikan dengan kebutuhan proyek yang berbeda."
 
-#: patterns/cta-pricing.php:17
+#: patterns/cta-pricing.php:18
 msgctxt "Sample heading for pricing pattern"
 msgid "Our Services"
 msgstr "Layanan Kami"
@@ -276,17 +276,17 @@ msgctxt "Color name"
 msgid "Base"
 msgstr "Dasar"
 
-#: patterns/text-title-left-image-right.php:34
+#: patterns/text-title-left-image-right.php:35
 msgctxt "Call to Action button text"
 msgid "About us"
 msgstr "Tentang kami"
 
-#: patterns/text-title-left-image-right.php:27
+#: patterns/text-title-left-image-right.php:28
 msgctxt "Description for the About pattern"
 msgid "Leaving an indelible mark on the landscape of tomorrow."
 msgstr "Meninggalkan jejak yang tak terhapus pada lanskap hari esok."
 
-#: patterns/text-title-left-image-right.php:20
+#: patterns/text-title-left-image-right.php:21
 msgctxt "Headline for the About pattern"
 msgid "Études offers comprehensive consulting, management, design, and research solutions. Every architectural endeavor is an opportunity to shape the future."
 msgstr "Études menawarkan solusi konsultasi, manajemen, desain, dan riset yang komprehensif. Setiap usaha arsitektural adalah sebuah peluang untuk membentuk masa depan."
@@ -296,17 +296,17 @@ msgctxt "Pattern title"
 msgid "Title text and button on left with image on right"
 msgstr "Teks judul dan tombol di sebelah kiri dengan gambar di sebelah kanan"
 
-#: patterns/text-project-details.php:26
+#: patterns/text-project-details.php:27
 msgctxt "Descriptive title for the feature area"
 msgid "With meticulous attention to detail and a commitment to excellence, we create spaces that inspire, elevate, and enrich the lives of those who inhabit them."
 msgstr "Dengan perhatian cermat terhadap detail dan komitmen terhadap keunggulan, kami menciptakan ruang yang menginspirasi, meningkatkan, dan memperkaya kehidupan orang-orang yang menghuninya."
 
-#: patterns/text-project-details.php:17
+#: patterns/text-project-details.php:18
 msgctxt "Title text for the feature area"
 msgid "The revitalized art gallery is set to redefine cultural landscape."
 msgstr "Galeri seni yang telah dipulihkan ini diatur untuk mendefinisikan ulang lanskap budaya."
 
-#: patterns/text-project-details.php:34 patterns/text-project-details.php:42
+#: patterns/text-project-details.php:35 patterns/text-project-details.php:43
 msgctxt "Descriptive text for the feature area"
 msgid "The revitalized Art Gallery is set to redefine the cultural landscape of Toronto, serving as a nexus of artistic expression, community engagement, and architectural marvel. The expansion and renovation project pay homage to the Art Gallery's rich history while embracing the future, ensuring that the gallery remains a beacon of inspiration."
 msgstr "Galeri Seni yang telah dipulihkan ini diatur untuk mendefinisikan ulang lanskap budaya Toronto, yang berfungsi sebagai titik perpaduan antara ekspresi artistik, keterlibatan komunitas, dan keajaiban arsitektural. Proyek perluasan dan renovasi ini menghormati sejarah kaya Galeri Seni seraya merangkul masa depan, memastikan bahwa galeri tetap menjadi mercusuar inspirasi."
@@ -316,85 +316,85 @@ msgctxt "Pattern title"
 msgid "Project details"
 msgstr "Detail proyek"
 
-#: patterns/text-feature-grid-3-col.php:111
+#: patterns/text-feature-grid-3-col.php:112
 msgctxt "Sample content"
 msgid "Experience the fusion of imagination and expertise with Études Architectural Solutions."
 msgstr "Rasakan perpaduan antara imajinasi dan keahlian dengan Solusi Arsitektur Études."
 
-#: patterns/text-feature-grid-3-col.php:107
+#: patterns/text-feature-grid-3-col.php:108
 msgctxt "Sample heading"
 msgid "Architectural Solutions"
 msgstr "Solusi Arsitektur"
 
-#: patterns/text-feature-grid-3-col.php:95
+#: patterns/text-feature-grid-3-col.php:96
 msgctxt "Sample feature heading"
 msgid "Project Management"
 msgstr "Manajemen Proyek"
 
-#: patterns/text-feature-grid-3-col.php:83
+#: patterns/text-feature-grid-3-col.php:84
 msgctxt "Sample feature heading"
 msgid "Consulting"
 msgstr "Konsultasi"
 
-#: patterns/text-feature-grid-3-col.php:62
+#: patterns/text-feature-grid-3-col.php:63
 msgctxt "Sample feature heading"
 msgid "App Access"
 msgstr "Akses Aplikasi"
 
-#: patterns/text-feature-grid-3-col.php:50
+#: patterns/text-feature-grid-3-col.php:51
 msgctxt "Sample feature heading"
 msgid "Continuous Support"
 msgstr "Dukungan Berkelanjutan"
 
 #. Translators: About text placeholder
-#: patterns/text-centered-statement-small.php:22
+#: patterns/text-centered-statement-small.php:23
 msgid "I write about finance, management and economy, my book “%1$s” is out now."
 msgstr "Saya menulis tentang keuangan, manajemen, dan ekonomi, buku saya \"%1$s\" kini sudah tersedia."
 
 #. Translators: About link placeholder
-#: patterns/text-centered-statement-small.php:19
+#: patterns/text-centered-statement-small.php:20
 msgid "Money Studies"
 msgstr "Studi Keuangan"
 
-#: patterns/text-alternating-images.php:104
+#: patterns/text-alternating-images.php:105
 msgctxt "Sample list item"
 msgid "Exclusive access to design insights."
 msgstr "Akses ekslusif ke wawasan desain."
 
-#: patterns/text-alternating-images.php:100
+#: patterns/text-alternating-images.php:101
 msgctxt "Sample list item"
 msgid "Case studies that celebrate architecture."
 msgstr "Studi kasus yang merayakan arsitektur."
 
-#: patterns/text-alternating-images.php:96
+#: patterns/text-alternating-images.php:97
 msgctxt "Sample list item"
 msgid "A world of thought-provoking articles."
 msgstr "Dunia artikel yang menggugah pikiran."
 
-#: patterns/text-alternating-images.php:90
+#: patterns/text-alternating-images.php:91
 msgctxt "Sample heading"
 msgid "Études Newsletter"
 msgstr "Nawala Études"
 
-#: patterns/text-alternating-images.php:81
+#: patterns/text-alternating-images.php:82
 msgid "Windows of a building in Nuremberg, Germany"
 msgstr "Jendela dari sebuah gedung di Nuremberg, Jerman"
 
-#: patterns/text-alternating-images.php:63
+#: patterns/text-alternating-images.php:64
 msgid "Tourist taking photo of a building"
 msgstr "Turis mengambil foto sebuah gedung"
 
-#: patterns/text-alternating-images.php:36
+#: patterns/text-alternating-images.php:37
 msgctxt "Sample list heading"
 msgid "Études Architect App"
 msgstr "Aplikasi Arsitek Études"
 
-#: patterns/text-alternating-images.php:22
+#: patterns/text-alternating-images.php:23
 msgctxt "Sample subheading content"
 msgid "Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers."
 msgstr "Suite layanan profesional kami yang komprehensif melayani beragam klien, mulai dari pemilik rumah hingga pengembang komersial."
 
-#: patterns/text-alternating-images.php:18
+#: patterns/text-alternating-images.php:19
 msgctxt "Sample heading content"
 msgid "An array of resources"
 msgstr "Jajaran sumber daya"
