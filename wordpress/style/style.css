@@ -945,19 +945,23 @@ header {
   right: 0;
   transform: translateX(0);
 }
-
 .logo-company {
-  margin: 5rem auto 5rem;
+  margin: 5rem auto;
   display: flex;
-  flex-wrap: wrap;
   gap: 5rem;
-  justify-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden; /* Sembunyikan elemen di luar container */
+  white-space: nowrap; /* Hindari wrapping ke baris baru */
+  position: relative;
 }
 
 .logo-company img {
-  height: 2vw;
-  max-height: 2rem;
+  width: 5rem;
+  height: 4vw;
+  max-height: 5rem;
 }
+
 
 /* -----PENGUMUMAN-AND-AGENDA----- */
 

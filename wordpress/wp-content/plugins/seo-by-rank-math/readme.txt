@@ -5,7 +5,7 @@ Tags: seo, sitemap, google search console, schema, redirection, WordPress SEO
 Tested up to: 6.6
 Requires at least: 6.3
 Requires PHP: 7.4
-Stable tag: 1.0.224
+Stable tag: 1.0.229
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -583,14 +583,16 @@ Please drop us an email at support@rankmath.com and we would be more than happy 
 
 == Changelog ==
 
-= 1.0.224 [July 24, 2024] =
-- Added: Support for Arabic language in [Content AI](https://rankmath.com/kb/configure-content-ai-global-settings/#languages)
-- Improved: Added hover state to SEO score buttons in the WordPress Editor toolbar for better accessibility
-- Improved: Prevented autoloading of plugin-specific options
-- Fixed: Incorrect use of the [Sitemap item filter](https://rankmath.com/kb/filters-hooks-api-developer/#filter-sitemap-item) in the [HTML sitemap](https://rankmath.com/kb/html-sitemap/)
-- Fixed: [Content AI test](https://rankmath.com/kb/score-100-in-tests/#used-content-ai) was being incorrectly marked as passed
-- Fixed: Update button state in the Elementor editor was not changing after making changes to the [Schema](https://rankmath.com/blog/elementor-seo/#add-schema-markup)
-- Fixed: [Bulk editing](https://rankmath.com/kb/bulk-editing-in-rank-math/) was affecting the page loading speed on some setups
+= 1.0.229 [Oct 03, 2024] =
+- Added: New filter to [modify localized JSON data](https://rankmath.com/kb/filters-hooks-api-developer/#modify-json-data) added to the frontend
+- Added: [New filter](https://rankmath.com/kb/filters-hooks-api-developer/#remove-lock-modified-date) to remove the [Lock Modified Date option](https://rankmath.com/kb/prevent-modified-date-from-being-updated/)
+- Added: GTIN property from the WooCommerce GTIN field is now included in the [Product Schema](https://rankmath.com/kb/woocommerce-product-schema/)
+- Improved: Strengthened the security of the plugin's [Import Redirections](https://rankmath.com/kb/import-export-settings/#importing-your-settings) and Update User's SEO Data features to prevent potential exploitation by users with Administrator-level access. Thanks to Leo for revealing it responsibly
+- Fixed: Pagination issue in the [Rest of the Keywords section](https://rankmath.com/kb/analytics/#rest-of-the-keywords) in Analytics
+- Fixed: [Time to Read](https://rankmath.com/kb/slack-enhanced-sharing/) was not functioning properly on non-English sites
+- Fixed: Left arrow key was not working correctly in the text editor of the Avia Builder when the [Content AI](https://rankmath.com/content-ai/) module was enabled
+- Fixed: Missing SEO Metabox for taxonomies created using the PODS plugin
+- Fixed: [UI issue in the Instant Indexing History tab](https://rankmath.com/kb/how-to-use-indexnow/#history) when submitting long URLs
 
 
 Full changelog can be found here - **[Rank Math changelog](https://rankmath.com/changelog/?utm_source=Plugin&utm_medium=Changelog&utm_campaign=WP)**

@@ -19,3 +19,122 @@
 [03-Aug-2024 04:28:23 UTC] PHP Warning:  translations_api(): Terjadi galat tak terduga. Mungkin ada yang salah dengan WordPress.org atau konfigurasi server ini. Jika masalah berlanjut, silakan coba <a href="https://wordpress.org/support/forums/">forum dukungan</a>. (WordPress tidak bisa membuat sambungan aman ke WordPress.org. Silakan hubungi administrator server Anda.) in F:\Dicky\laragon\www\wordpress\wp-includes\functions.php on line 6085
 [03-Aug-2024 04:28:35 UTC] PHP Warning:  translations_api(): Terjadi galat tak terduga. Mungkin ada yang salah dengan WordPress.org atau konfigurasi server ini. Jika masalah berlanjut, silakan coba <a href="https://wordpress.org/support/forums/">forum dukungan</a>. (WordPress tidak bisa membuat sambungan aman ke WordPress.org. Silakan hubungi administrator server Anda.) in F:\Dicky\laragon\www\wordpress\wp-includes\functions.php on line 6085
 [03-Aug-2024 04:43:51 UTC] PHP Warning:  Attempt to read property "title" on null in F:\Dicky\laragon\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Oct-2024 05:27:39 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[02-Oct-2024 05:48:58 UTC] PHP Warning:  Undefined variable $pengumuman in C:\laragon\www\wordpress\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(292) : eval()'d code on line 38
+[02-Oct-2024 23:54:12 UTC] Automatic updates starting...
+[02-Oct-2024 23:54:24 UTC] PHP Warning:  wp_update_plugins(): Terjadi galat tak terduga. Mungkin ada yang salah dengan WordPress.org atau konfigurasi server ini. Jika masalah berlanjut, silakan coba <a href="https://wordpress.org/support/forums/">forum dukungan</a>. (WordPress tidak bisa membuat sambungan aman ke WordPress.org. Silakan hubungi administrator server Anda.) in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[02-Oct-2024 23:54:54 UTC]   Automatic plugin updates starting...
+[02-Oct-2024 23:54:54 UTC]     Upgrading plugin 'seo-by-rank-math'...
+[02-Oct-2024 23:59:56 UTC]     Plugin 'seo-by-rank-math' has been upgraded.
+[02-Oct-2024 23:59:56 UTC]     'seo-by-rank-math/rank-math.php' is inactive and will not be checked for fatal errors.
+[02-Oct-2024 23:59:56 UTC]     Upgrading plugin 'wordfence'...
+[03-Oct-2024 00:04:00 UTC] PHP Warning:  translations_api(): Terjadi galat tak terduga. Mungkin ada yang salah dengan WordPress.org atau konfigurasi server ini. Jika masalah berlanjut, silakan coba <a href="https://wordpress.org/support/forums/">forum dukungan</a>. (WordPress tidak bisa membuat sambungan aman ke WordPress.org. Silakan hubungi administrator server Anda.) in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:04:57 UTC]     Plugin 'wordfence' has been upgraded.
+[03-Oct-2024 00:04:57 UTC]     'wordfence/wordfence.php' is inactive and will not be checked for fatal errors.
+[03-Oct-2024 00:04:57 UTC]     Upgrading plugin 'wordpress-seo'...
+[03-Oct-2024 00:05:27 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:09:57 UTC]     Plugin 'wordpress-seo' has been upgraded.
+[03-Oct-2024 00:09:57 UTC]     'wordpress-seo/wp-seo.php' is inactive and will not be checked for fatal errors.
+[03-Oct-2024 00:09:57 UTC]   Automatic plugin updates complete.
+[03-Oct-2024 00:09:57 UTC]   Automatic theme updates starting...
+[03-Oct-2024 00:09:57 UTC]   Automatic theme updates complete.
+[03-Oct-2024 00:09:57 UTC] Automatic updates complete.
+[03-Oct-2024 00:10:07 UTC] PHP Warning:  wp_version_check(): Terjadi galat tak terduga. Mungkin ada yang salah dengan WordPress.org atau konfigurasi server ini. Jika masalah berlanjut, silakan coba <a href="https://wordpress.org/support/forums/">forum dukungan</a>. (WordPress tidak bisa membuat sambungan aman ke WordPress.org. Silakan hubungi administrator server Anda.) in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:10:51 UTC] PHP Warning:  wp_update_plugins(): Terjadi galat tak terduga. Mungkin ada yang salah dengan WordPress.org atau konfigurasi server ini. Jika masalah berlanjut, silakan coba <a href="https://wordpress.org/support/forums/">forum dukungan</a>. (WordPress tidak bisa membuat sambungan aman ke WordPress.org. Silakan hubungi administrator server Anda.) in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:23:12 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:23:25 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:23:36 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:23:49 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:23:49 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:41:42 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:41:42 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:41:59 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:41:59 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:42:44 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:42:44 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:43:36 UTC] Automatic updates starting...
+[03-Oct-2024 00:43:36 UTC]   Automatic plugin updates starting...
+[03-Oct-2024 00:43:36 UTC]     Upgrading plugin 'seo-by-rank-math'...
+[03-Oct-2024 00:45:04 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:45:04 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:45:21 UTC]     Plugin 'seo-by-rank-math' has been upgraded.
+[03-Oct-2024 00:45:21 UTC]     'seo-by-rank-math/rank-math.php' is inactive and will not be checked for fatal errors.
+[03-Oct-2024 00:45:21 UTC]     Upgrading plugin 'wordfence'...
+[03-Oct-2024 00:45:31 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:45:31 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:47:07 UTC]     Plugin 'wordfence' has been upgraded.
+[03-Oct-2024 00:47:07 UTC]     'wordfence/wordfence.php' is inactive and will not be checked for fatal errors.
+[03-Oct-2024 00:47:07 UTC]     Upgrading plugin 'wordpress-seo'...
+[03-Oct-2024 00:47:19 UTC]     Plugin 'wordpress-seo' has been upgraded.
+[03-Oct-2024 00:47:19 UTC]     'wordpress-seo/wp-seo.php' is inactive and will not be checked for fatal errors.
+[03-Oct-2024 00:47:19 UTC]   Automatic plugin updates complete.
+[03-Oct-2024 00:47:19 UTC]   Automatic theme updates starting...
+[03-Oct-2024 00:47:22 UTC]   Automatic theme updates complete.
+[03-Oct-2024 00:47:22 UTC] Automatic updates complete.
+[03-Oct-2024 00:52:36 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in C:\laragon\www\wordpress\wp-includes\Requests\src\Transport\Curl.php on line 205
+[03-Oct-2024 00:54:13 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:54:20 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:56:18 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 00:56:18 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 01:05:48 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 01:05:48 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 01:08:50 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 01:08:50 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 01:27:49 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[03-Oct-2024 01:27:49 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 02:51:13 UTC] Automatic updates starting...
+[04-Oct-2024 02:51:15 UTC]   Automatic plugin updates starting...
+[04-Oct-2024 02:51:15 UTC]     Upgrading plugin 'seo-by-rank-math'...
+[04-Oct-2024 02:52:51 UTC]     Plugin 'seo-by-rank-math' has been upgraded.
+[04-Oct-2024 02:52:51 UTC]     'seo-by-rank-math/rank-math.php' is inactive and will not be checked for fatal errors.
+[04-Oct-2024 02:52:51 UTC]     Upgrading plugin 'wordpress-seo'...
+[04-Oct-2024 02:54:17 UTC]     Plugin 'wordpress-seo' has been upgraded.
+[04-Oct-2024 02:54:17 UTC]     'wordpress-seo/wp-seo.php' is inactive and will not be checked for fatal errors.
+[04-Oct-2024 02:54:18 UTC]   Automatic plugin updates complete.
+[04-Oct-2024 02:54:18 UTC]   Automatic theme updates starting...
+[04-Oct-2024 02:54:18 UTC]   Automatic theme updates complete.
+[04-Oct-2024 02:54:18 UTC] Automatic updates complete.
+[04-Oct-2024 03:11:21 UTC] PHP Deprecated:  Fungsi the_block_template_skip_link <strong>tidak berlaku lagi</strong> sejak versi 6.4.0! Gunakan wp_enqueue_block_template_skip_link() sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 03:19:19 UTC] PHP Deprecated:  Berkas Tema tanpa footer.php <strong>tidak digunakan lagi</strong> sejak versi 3.0.0 dan tidak tersedia penggantinya. Harap sertakan templat footer.php dalam tema Anda. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 03:20:00 UTC] PHP Deprecated:  Berkas Tema tanpa footer.php <strong>tidak digunakan lagi</strong> sejak versi 3.0.0 dan tidak tersedia penggantinya. Harap sertakan templat footer.php dalam tema Anda. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 03:50:19 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 03:50:19 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 03:50:34 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 03:50:35 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 03:51:42 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 03:51:42 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 03:58:09 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 03:58:09 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:12:33 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:12:33 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:12:46 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:12:46 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:19:58 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:19:58 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:20:11 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:20:11 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:20:56 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:20:56 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:21:43 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:21:43 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:23:24 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:23:24 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:23:41 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:23:41 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:25:58 UTC] PHP Deprecated:  Fungsi get_the_author_ID <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan get_the_author_meta('ID') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 04:25:58 UTC] PHP Deprecated:  Fungsi the_author_nickname <strong>tidak berlaku lagi</strong> sejak versi 2.8.0! Gunakan the_author_meta('nickname') sebagai penggantinya. in C:\laragon\www\wordpress\wp-includes\functions.php on line 6085
+[04-Oct-2024 18:54:35 UTC] Automatic updates starting...
+[04-Oct-2024 18:54:35 UTC]   Automatic plugin updates starting...
+[04-Oct-2024 18:54:35 UTC]   Automatic plugin updates complete.
+[04-Oct-2024 18:54:35 UTC]   Automatic theme updates starting...
+[04-Oct-2024 18:54:36 UTC]   Automatic theme updates complete.
+[04-Oct-2024 18:54:36 UTC] Automatic updates complete.
+[14-Oct-2024 04:00:47 UTC] Automatic updates starting...
+[14-Oct-2024 04:00:50 UTC]   Automatic plugin updates starting...
+[14-Oct-2024 04:00:50 UTC]     Upgrading plugin 'wordpress-seo'...
+[14-Oct-2024 04:01:37 UTC]     Plugin 'wordpress-seo' has been upgraded.
+[14-Oct-2024 04:01:37 UTC]     'wordpress-seo/wp-seo.php' is inactive and will not be checked for fatal errors.
+[14-Oct-2024 04:01:37 UTC]   Automatic plugin updates complete.
+[14-Oct-2024 04:01:37 UTC]   Automatic theme updates starting...
+[14-Oct-2024 04:01:37 UTC]   Automatic theme updates complete.
+[14-Oct-2024 04:01:37 UTC] Automatic updates complete.

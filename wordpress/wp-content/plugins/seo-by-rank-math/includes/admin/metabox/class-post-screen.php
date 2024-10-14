@@ -137,6 +137,7 @@ class Post_Screen implements IScreen {
 			'frontEndScore'          => Frontend_SEO_Score::show_on(),
 			'postName'               => get_post_field( 'post_name', get_post() ),
 			'permalinkFormat'        => $this->get_permalink_format(),
+			'showLockModifiedDate'   => Editor::can_add_lock_modified_date(),
 			'assessor'               => [
 				'focusKeywordLink' => admin_url( 'edit.php?focus_keyword=%focus_keyword%&post_type=%post_type%' ),
 				'hasTOCPlugin'     => $this->has_toc_plugin(),
@@ -159,6 +160,7 @@ class Post_Screen implements IScreen {
 			'titleTemplate'       => Helper::get_settings( "titles.pt_{$post->post_type}_title", '%title% %sep% %sitename%' ),
 			'descriptionTemplate' => Helper::get_settings( "titles.pt_{$post->post_type}_description", '' ),
 			'showScoreFrontend'   => ! Helper::get_post_meta( 'dont_show_seo_score', $this->get_object_id() ),
+			'lockModifiedDate'    => ! empty( Helper::get_post_meta( 'lock_modified_date', $this->get_object_id() ) ),
 		];
 	}
 

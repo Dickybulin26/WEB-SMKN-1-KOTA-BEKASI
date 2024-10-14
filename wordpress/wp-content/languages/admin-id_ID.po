@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.6.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-07-20 02:17:38+0000\n"
+"PO-Revision-Date: 2024-10-03 09:36:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,6 +36,235 @@ msgstr "1"
 msgctxt "default GMT offset or timezone string"
 msgid "0"
 msgstr "0"
+
+#: wp-admin/includes/class-wp-debug-data.php:1678
+msgid "The directory does not exist."
+msgstr "Direktori tidak ada."
+
+#: wp-admin/update-core.php:1048
+msgid "<a href=\"https://developer.wordpress.org/advanced-administration/wordpress/common-errors/\">Common Errors</a>"
+msgstr "<a href=\"https://developer.wordpress.org/advanced-administration/wordpress/common-errors/\">Galat Umum</a>"
+
+#: wp-admin/theme-editor.php:54
+msgid "<a href=\"https://developer.wordpress.org/advanced-administration/wordpress/edit-files/\">Documentation on Editing Files</a>"
+msgstr "<a href=\"https://developer.wordpress.org/advanced-administration/wordpress/edit-files/\">Dokumentasi tentang Penyuntingan Berkas</a>"
+
+#: wp-admin/plugin-editor.php:151
+msgid "<a href=\"https://developer.wordpress.org/advanced-administration/plugins/editor-screen/\">Documentation on Editing Plugins</a>"
+msgstr "<a href=\"https://developer.wordpress.org/advanced-administration/plugins/editor-screen/\">Dokumentasi tentang Penyuntingan Plugin</a>"
+
+#: wp-admin/options.php:330
+msgid "https://developer.wordpress.org/plugins/settings/settings-api/"
+msgstr "https://developer.wordpress.org/plugins/settings/settings-api/"
+
+#. translators: 1: The option/setting, 2: Documentation URL.
+#: wp-admin/options.php:328
+msgid "The %1$s setting is unregistered. Unregistered settings are deprecated. See <a href=\"%2$s\">documentation on the Settings API</a>."
+msgstr "Pengaturan %1$s tak terdaftar. Pengaturan yang tak terdaftar sudah usang. Lihat<a href=\"%2$s\">dokumentasi tentang Mengatur API</a>."
+
+#: wp-admin/options-writing.php:228 wp-admin/options-writing.php:242
+msgid "https://developer.wordpress.org/advanced-administration/wordpress/update-services/"
+msgstr "https://developer.wordpress.org/advanced-administration/wordpress/update-services/"
+
+#: wp-admin/options-reading.php:35 wp-admin/options-reading.php:200
+msgid "https://developer.wordpress.org/advanced-administration/wordpress/feeds/"
+msgstr "https://developer.wordpress.org/advanced-administration/wordpress/feeds/"
+
+#: wp-admin/options-permalink.php:64
+msgid "<a href=\"https://developer.wordpress.org/advanced-administration/server/web-server/nginx/\">Documentation on Nginx configuration</a>."
+msgstr "<a href=\"https://developer.wordpress.org/advanced-administration/server/web-server/nginx/\">Dokumentasi tentang konfigurasi Nginx</a>."
+
+#: wp-admin/options-general.php:35 wp-admin/options-general.php:238
+msgid "https://developer.wordpress.org/advanced-administration/server/wordpress-in-directory/"
+msgstr "https://developer.wordpress.org/advanced-administration/server/wordpress-in-directory/"
+
+#: wp-admin/includes/ms.php:1172 wp-admin/network/site-new.php:32
+#: wp-admin/network/sites.php:44
+msgid "<a href=\"https://developer.wordpress.org/advanced-administration/multisite/admin/#network-admin-sites-screen\">Documentation on Site Management</a>"
+msgstr "<a href=\"https://developer.wordpress.org/advanced-administration/multisite/admin/#network-admin-sites-screen\">Dokumentasi tentang Manajemen Situs</a>"
+
+#. translators: xfn (friendship relation): http://gmpg.org/xfn
+#. translators: xfn (geographical relation): http://gmpg.org/xfn
+#. translators: xfn (family relation): http://gmpg.org/xfn
+#: wp-admin/includes/meta-boxes.php:1357 wp-admin/includes/meta-boxes.php:1408
+#: wp-admin/includes/meta-boxes.php:1437
+msgctxt "Type of relation"
+msgid "none"
+msgstr "tidak ada"
+
+#: wp-admin/includes/file.php:1158
+msgid "No URL Provided."
+msgstr "URL Tidak Diberikan."
+
+#: wp-admin/includes/file.php:329 wp-admin/options-permalink.php:468
+#: wp-admin/options-permalink.php:500 wp-admin/options-permalink.php:536
+#: wp-admin/plugin-editor.php:326 wp-admin/setup-config.php:487
+#: wp-admin/theme-editor.php:362
+msgid "https://developer.wordpress.org/advanced-administration/server/file-permissions/"
+msgstr "https://developer.wordpress.org/advanced-administration/server/file-permissions/"
+
+#: wp-admin/includes/class-wp-upgrader.php:199
+msgid "Package not available."
+msgstr "Paket tidak tersedia."
+
+#: wp-admin/includes/class-wp-site-health.php:2775
+msgid "Autoloaded options"
+msgstr "Opsi-opsi yang dimuat otomatis"
+
+#: wp-admin/includes/class-wp-site-health.php:2676
+msgid "More info about optimizing autoloaded options"
+msgstr "Info selengkapnya tentang optimalisasi opsi-opsi yang dimuat otomatis"
+
+#: wp-admin/includes/class-wp-site-health.php:2675
+msgid "https://developer.wordpress.org/advanced-administration/performance/optimization/#autoloaded-options"
+msgstr "https://developer.wordpress.org/advanced-administration/performance/optimization/#autoloaded-options"
+
+#. translators: 1: Number of autoloaded options, 2: Autoloaded options size.
+#: wp-admin/includes/class-wp-site-health.php:2658
+msgid "Your site has %1$s autoloaded options (size: %2$s) in the options table, which could cause your site to be slow. You can review the options being autoloaded in your database and remove any options that are no longer needed by your site."
+msgstr "Situs Anda memiliki %1$s opsi yang dimuat otomatis (ukuran: %2$s) dalam tabel opsi, yang bisa menyebabkan situs Anda lambat. Anda bisa meninjau opsi-opsi yang dimuat otomatis dalam basis data Anda dan menghapus opsi-opsi yang tak lagi diperlukan bagi situs Anda."
+
+#: wp-admin/includes/class-wp-site-health.php:2655
+msgid "Autoloaded options could affect performance"
+msgstr "Opsi-opsi yang dimuat otomatis bisa mempengaruhi kinerja"
+
+#. translators: 1: Number of autoloaded options, 2: Autoloaded options size.
+#: wp-admin/includes/class-wp-site-health.php:2633
+msgid "Your site has %1$s autoloaded options (size: %2$s) in the options table, which is acceptable."
+msgstr "Situs Anda memiliki %1$s opsi-opsi yang dimuat otomatis (ukuran: %2$s) dalam tabel opsi, artinya tidak ada masalah."
+
+#: wp-admin/includes/class-wp-site-health.php:2625
+msgid "Autoloaded options are acceptable"
+msgstr "Opsi-opsi yang dimuat otomatis cukup bisa diterima"
+
+#: wp-admin/includes/class-wp-site-health.php:2622
+msgid "Autoloaded options are configuration settings for plugins and themes that are automatically loaded with every page load in WordPress. Having too many autoloaded options can slow down your site."
+msgstr "Opsi yang dimuat otomatis adalah pengaturan konfigurasi untuk plugin dan tema yang otomatis dimuat seiring pemuatan laman WordPress. Terlalu banyak opsi yang dimuat otomatis akan melambatkan situs Anda."
+
+#. translators: Localized Support reference.
+#: wp-admin/includes/class-wp-site-health.php:2510
+msgid "https://developer.wordpress.org/advanced-administration/performance/optimization/#persistent-object-cache"
+msgstr "https://developer.wordpress.org/advanced-administration/performance/optimization/#persistent-object-cache"
+
+#: wp-admin/includes/class-wp-site-health.php:2401
+msgid "https://developer.wordpress.org/advanced-administration/performance/optimization/#caching"
+msgstr "https://developer.wordpress.org/advanced-administration/performance/optimization/#caching"
+
+#: wp-admin/includes/class-wp-debug-data.php:497
+msgid "Fonts directory size"
+msgstr "Ukuran direktori font."
+
+#: wp-admin/includes/class-wp-debug-data.php:493
+msgid "Fonts directory location"
+msgstr "Lokasi direktori font"
+
+#: wp-admin/includes/class-wp-debug-data.php:382
+msgid "The fonts directory"
+msgstr "Direktori font"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:1331
+msgid "The following plugins failed to update. If there was a fatal error in the update, the previously installed version has been restored."
+msgstr "Plugin-plugin ini gagal diperbarui. Jika ada galat fatal dalam pembaruan, versi yang terinstal sebelumnya telah dikembalikan."
+
+#. translators: %s: The plugin's slug.
+#: wp-admin/includes/class-wp-automatic-updater.php:593
+msgid "The update for '%s' contained a fatal error. The previously installed version has been restored."
+msgstr "Pembaruan untuk '%s' memuat galat fatal. Versi yang terinstal sebelumnya telah dikembalikan."
+
+#. translators: %s: The plugin's slug.
+#: wp-admin/includes/class-wp-automatic-updater.php:582
+msgid "The update for '%s' contained a fatal error. The previously installed version could not be restored."
+msgstr "Pembaruan untuk '%s' memuat galat fatal. Versi yang terinstal sebelumnya tak bisa dikembalikan."
+
+#: wp-admin/includes/class-plugin-installer-skin.php:302
+#: wp-admin/includes/class-plugin-installer-skin.php:308
+#: wp-admin/includes/class-theme-installer-skin.php:337
+#: wp-admin/includes/class-theme-installer-skin.php:343
+#: wp-admin/update-core.php:261
+msgid "https://developer.wordpress.org/advanced-administration/security/backup/"
+msgstr "https://developer.wordpress.org/advanced-administration/security/backup/"
+
+#: wp-admin/export-personal-data.php:59
+msgid "If you are a plugin author, you can learn more about <a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-exporter-to-your-plugin/\">how to add the Personal Data Exporter to a plugin</a>."
+msgstr "Jika Anda seorang pembuat plugin, Anda bisa mempelajari lebih lanjut tentang <a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-exporter-to-your-plugin/\">cara menambahkan Pengekspor Data Personal ke dalam plugin</a>."
+
+#: wp-admin/erase-personal-data.php:59
+msgid "If you are a plugin author, you can learn more about <a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-eraser-to-your-plugin/\">how to add the Personal Data Eraser to a plugin</a>."
+msgstr "Jika Anda pembuat plugin, Anda bisa mempelajari lebih lanjut tentang <a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-eraser-to-your-plugin/\">cara menambahkan Penghapus Data Personal ke dalam plugin</a>."
+
+#: wp-admin/about.php:212
+msgid "See everything new"
+msgstr "Lihat semua yang baru"
+
+#: wp-admin/about.php:212
+msgid "https://wordpress.org/download/releases/6-6/"
+msgstr "https://wordpress.org/download/releases/6-6/"
+
+#: wp-admin/about.php:208
+msgid "For a comprehensive overview of all the new features and enhancements in WordPress 6.6, please visit the feature-showcase website."
+msgstr "Untuk ikhtisar komprehensif dari seluruh fitur baru dan peningkatan dalam WordPress 6.6, sila kunjungi situs galeri fitur."
+
+#: wp-admin/about.php:206
+msgid "And much more"
+msgstr "Dan lebih banyak lagi"
+
+#: wp-admin/about.php:199
+msgid "55+ accessibility fixes and enhancements focus on foundational aspects of the WordPress experience, particularly the data views component powering the new site editing experience and areas like the Inserter that provide a key way of interacting with blocks and patterns."
+msgstr "55+ perbaikan dan penyempurnaan aksesibilitas berfokus pada aspek dasar pengalaman WordPress, khususnya komponen tampilan data yang mendukung pengalaman pengeditan situs baru dan area-area seperti Inserter yang menyediakan cara utama untuk berinteraksi dengan blok dan pola."
+
+#. translators: %1$s: code-formatted "WP_Theme_JSON", %2$s: code-formatted
+#. "data-wp-on-async", %%: escaped percent sign, leave as %%.
+#: wp-admin/about.php:184
+msgid "WordPress 6.6 includes important updates like removing redundant %1$s calls, disabling autoload for large options, eliminating unnecessary polyfill dependencies, lazy loading post embeds, introducing the %2$s directive, and a 33%% reduction in template loading time in the editor."
+msgstr "WordPress 6.6 mencakup pembaruan-pembaruan penting seperti penghapusan pemanggilan %1$s yang berulang, penonaktifan autoload untuk opsi besar, menghilangkan dependensi polyfill yang tidak perlu, lazy loading untuk sematan pos, pengenalan direktif %2$s, dan pengurangan waktu pemuatan templat di editor sebesar 33%%."
+
+#: wp-admin/about.php:161
+msgid "Allow specific pieces of content to be customized in each instance of a synced pattern while keeping a consistent style for all instances, simplifying future updates. Currently, you can set overrides for Heading, Paragraph, Button, and Image blocks."
+msgstr "Memungkinkan bagian konten tertentu untuk disesuaikan dalam setiap instance dari pola tersinkron sambil mempertahankan style yang konsisten untuk semua instance, sehingga memudahkan pembaruan mendatang. Saat ini, Anda dapat menetapkan penggantian pada blok Judul, Paragraf, Tombol, dan Gambar."
+
+#: wp-admin/about.php:161
+msgid "Add the ability to customize content in synced patterns."
+msgstr "Tambahkan kemampuan menyuaikan konten dalam pola tersinkron"
+
+#: wp-admin/about.php:144
+msgid "Enjoy the ease of plugin auto-updates with the safety of rollbacks if anything goes wrong, improving your site&#8217;s security while minimizing potential downtime."
+msgstr "Nikmati kemudahan pembaruan otomatis plugin dengan keamanan pemulihan jika terjadi kesalahan, meningkatkan keamanan situs Anda sambil meminimalkan potensi gangguan."
+
+#: wp-admin/about.php:144
+msgid "Auto-update your plugins with peace of mind."
+msgstr "Perbarui otomatis plugin-plugin Anda dengan hati yang tenang."
+
+#: wp-admin/about.php:143
+msgid "Rollbacks for plugin auto-updates"
+msgstr "Pengembalian atas pembaruan otomatis plugin"
+
+#: wp-admin/about.php:137
+msgid "See all of your pages and a preview of any selected page before you edit via a new side-by-side layout in the Site Editor."
+msgstr "Lihat semua halaman Anda dan pratinjau halaman yang dipilih sebelum Anda mengedit melalui tata letak berdampingan di Editor Situs."
+
+#: wp-admin/about.php:137
+msgid "Simplify your workflow with a new layout built for pages."
+msgstr "Sederhanakan alur kerja Anda dengan tata letak baru yang dibangun untuk laman"
+
+#: wp-admin/about.php:136
+msgid "Quick previews for pages"
+msgstr "Pratinjau cepat untuk laman"
+
+#: wp-admin/about.php:120
+msgid "Block theme authors can create unlimited individual color or font sets to offer more specific design options within the same theme. These sets provide more contained design possibilities, allowing for customization without changing the site&#8217;s broader styling, beyond color or typography settings."
+msgstr "Penyusun tema blok dapat membuat warna individu atau set jenis huruf tak terbatas untuk menawarkan lebih banyak pilihan desain spesifik dalam tema yang sama. Set ini menyediakan kemungkinan desain yang lebih terarah, memungkinkan kustomisasi tanpa mengubah pengaturan keseluruhan situs, selain dari pengaturan warna atau tipografi."
+
+#: wp-admin/about.php:120
+msgid "Add more design options to any block theme."
+msgstr "Tambahkan lebih banyak opsi desain untuk semua tema blok"
+
+#: wp-admin/about.php:119
+msgid "Color palettes & font sets"
+msgstr "Palet warna dan set font"
+
+#: wp-admin/about.php:112
+msgid "Create and deploy beautiful and coherent design elements across your sites with WordPress 6.6. A new rollback option for auto-updating plugins gives you control, flexibility, and peace of mind."
+msgstr "Buat dan terapkan elemen desain yang indah dan koheren di seluruh situs Anda dengan WordPress 6.6. Opsi pembatalan pembaruan pada plugin yang diperbarui secara otomatis, akan memberikan Anda kontrol, fleksibilitas, dan ketenangan pikiran."
 
 #: wp-admin/menu.php:209
 msgctxt "patterns menu item"
@@ -176,11 +405,11 @@ msgstr "Instal Sekarang"
 msgid "Created by a worldwide team of passionate individuals"
 msgstr "Diciptakan oleh tim dari individu-individu yang amat berkomitmen dari berbagai penjuru dunia."
 
-#: wp-admin/about.php:173
+#: wp-admin/about.php:198
 msgid "Accessibility improvements"
 msgstr "Peningkatan aksesibilitas"
 
-#: wp-admin/about.php:154
+#: wp-admin/about.php:179
 msgid "Performance updates"
 msgstr "Pembaruan kinerja"
 
@@ -253,12 +482,12 @@ msgid "When using Bulk Edit, you can change the metadata (categories, author, et
 msgstr "Saat menggunakan Pengeditan Massal, Anda dapat mengubah metadata (kategori, penulis, dll.) untuk semua pos yang dipilih sekaligus. Untuk menghapus pos dari grup, cukup klik tombol %s<span class=\"screen-reader-text\">hapus</span> di samping namanya pada area Edit Massal yang muncul."
 
 #. translators: 1: WordPress Release Notes link, 2: WordPress version number.
-#: wp-admin/about.php:252
+#: wp-admin/about.php:277
 msgid "<a href=\"%1$s\">Read the WordPress %2$s Release Notes</a> for information on installation, enhancements, fixed issues, release contributors, learning resources, and the list of file changes."
 msgstr "<a href=\"%1$s\">Baca Catatan Rilis %2$s WordPress</a> untuk informasi tentang instalasi, peningkatan, kendala yang diperbaiki, kontributor rilis, sumber belajar, dan daftar perubahan file."
 
 #. translators: 1: WordPress Field Guide link, 2: WordPress version number.
-#: wp-admin/about.php:233
+#: wp-admin/about.php:258
 msgid "Explore the <a href=\"%1$s\">WordPress %2$s Field Guide</a>. Learn about the changes in this release with detailed developer notes to help you build with WordPress."
 msgstr "Jelajahi <a href=\"%1$s\">Field Guide WordPress %2$s</a>. Pelajari tentang perubahan dalam rilis ini dengan catatan pengembang terperinci untuk membantu Anda membangun dengan WordPress."
 
@@ -279,7 +508,7 @@ msgid "Your WordPress version is %1$s, however the new plugin version requires %
 msgstr "Versi WordPress Anda adalah %1$s, namun versi plugin baru membutuhkan %2$s."
 
 #. translators: %s: WordPress version.
-#: wp-admin/about.php:66
+#: wp-admin/about.php:66 wp-admin/about.php:91
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -746,7 +975,7 @@ msgid "Be the future of WordPress"
 msgstr "Jadilah masa depan WordPress"
 
 #. translators: 1: Learn WordPress link, 2: Workshops link.
-#: wp-admin/about.php:212
+#: wp-admin/about.php:237
 msgid "<a href=\"%1$s\">Learn WordPress</a> is a free resource for new and experienced WordPress users. Learn is stocked with how-to videos on using various features in WordPress, <a href=\"%2$s\">interactive workshops</a> for exploring topics in-depth, and lesson plans for diving deep into specific areas of WordPress."
 msgstr "<a href=\"%1$s\">Belajar WordPress</a> adalah sumber daya gratis untuk pengguna WordPress pemula maupun ahli. Belajar WordPress dilengkapi video-video tentang cara menggunakan berbagai fitur di WordPress, <a href=\"%2$s\">workshop interaktif</a> untuk mempelajari topik-topik lebih mendalam, dan rencana pembelajaran untuk mempelajari topik-topik khusus seputar WordPress lebih jauh lagi."
 
@@ -886,17 +1115,17 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/keyboard-shortcuts
 msgid "<a href=\"https://wordpress.org/documentation/article/understand-comment-spam/\">Documentation on Comment Spam</a>"
 msgstr "<a href=\"https://wordpress.org/documentation/article/understand-comment-spam/\">Dokumentasi Komentar Spam</a>"
 
-#: wp-admin/customize.php:255
+#: wp-admin/customize.php:257
 msgid "<a href=\"https://wordpress.org/documentation/article/customizer/\">Documentation on Customizer</a>"
 msgstr "<a href=\"https://wordpress.org/documentation/article/customizer/\">Dokumentasi Pengedit Situs</a>"
 
 #. translators: The localized WordPress download URL.
-#: wp-admin/about.php:338
+#: wp-admin/about.php:363
 msgid "https://wordpress.org/download/"
 msgstr "https://id.wordpress.org/download/"
 
 #. translators: %s: The major version of WordPress for this branch.
-#: wp-admin/about.php:335
+#: wp-admin/about.php:360
 msgid "This is the final release of WordPress %s"
 msgstr "Inilah rilis terakhir WordPress %s"
 
@@ -1223,21 +1452,21 @@ msgid "Reach out to WordPress Core developers to ensure you'll never have this p
 msgstr "Hubungi developer WordPress Core untuk memastikan Anda tidak akan pernah mendapati kendala ini lagi."
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:332
+#: wp-admin/about.php:357
 msgid "Important! Your version of WordPress (%1$s) will stop receiving security updates in the near future. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "Penting! Versi WordPress Anda (%1$s) tidak akan menerima pembaruan keamanan selanjutnya. Agar situs Anda tetap aman, mohon <a href=\"%2$s\">perbarui WordPress Anda ke versi terbaru</a>."
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:329
+#: wp-admin/about.php:354
 msgid "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "Penting! Versi WordPress Anda (%1$s) tidak lagi didukung, sehingga situs Anda tidak akan menerima pembaruan sistem keamanan. Untuk membuat situs Anda tetap aman, mohon <a href=\"%2$s\">perbarui WordPress Anda ke versi terbaru</a>."
 
-#: wp-admin/about.php:234
+#: wp-admin/about.php:259
 msgid "https://make.wordpress.org/core/wordpress-6-6-field-guide/"
 msgstr "https://make.wordpress.org/core/wordpress-6-6-field-guide/"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:203
+#: wp-admin/about.php:228
 msgid "Learn more about WordPress %s"
 msgstr "Pelajari lebih lanjut tentang WordPress %s"
 
@@ -2145,7 +2374,7 @@ msgstr "Tambahkan Kata Sandi Aplikasi Baru"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "Wajib untuk membuat Kata Sandi Aplikasi, tetapi tidak untuk memperbarui pengguna."
 
-#: wp-admin/about.php:273
+#: wp-admin/about.php:298
 msgid "Go to Updates"
 msgstr "Pergi ke pembaruan"
 
@@ -2754,7 +2983,7 @@ msgstr "Pembaruan otomatis dapat diaktifkan atau dinonaktifkan untuk versi utama
 msgid "<strong>Important:</strong> Before updating, please <a href=\"%1$s\">back up your database and files</a>. For help with updates, visit the <a href=\"%2$s\">Updating WordPress</a> documentation page."
 msgstr "<strong>Penting:</strong> Sebelum memperbarui, harap <a href=\"%1$s\"> cadangkan basis data dan berkas Anda</a>. Untuk bantuan dengan pembaruan, kunjungi laman dokumentasi <a href=\"%2$s\">Memperbarui WordPress</a>."
 
-#: wp-admin/customize.php:201 wp-admin/theme-install.php:433
+#: wp-admin/customize.php:203 wp-admin/theme-install.php:433
 #: wp-admin/theme-install.php:495 wp-admin/themes.php:631
 #: wp-admin/themes.php:1000 wp-admin/themes.php:1238
 msgctxt "theme"
@@ -3467,6 +3696,10 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/tools-screen/\">Do
 msgid "This page allows direct access to your site settings. You can break things here. Please be cautious!"
 msgstr "Laman ini memungkinkan akses langsung ke pengaturan situs Anda. Pengaturan sebelumnya berpotensi terganggu. Harap berhati-hati!"
 
+#: wp-admin/edit-form-advanced.php:380
+msgid "<strong>Format</strong> &mdash; Post Formats designate how your theme will display a specific post. For example, you could have a <em>standard</em> blog post with a title and paragraphs, or a short <em>aside</em> that omits the title and contains a short text blurb. Your theme could enable all or some of 10 possible formats. <a href=\"https://developer.wordpress.org/advanced-administration/wordpress/post-formats/#supported-formats\">Learn more about each post format</a>."
+msgstr "<strong>Format</strong> &mdash; Format Artikel menunjukkan bagaimana tema Anda akan menampilkan artikel tertentu. Sebagai contoh, Anda bisa membuat sebuah artikel blog <em>standar</em> dengan sebuah judul dan beberapa paragraf, atau sebuah <em>catatan</em> pendek tanpa judul dan hanya memiliki teks uraian pendek. Tema Anda dapat mengaktifkan semua atau hanya sebagian saja dari 10 jenis format. <a href=\"https://developer.wordpress.org/advanced-administration/wordpress/post-formats/#supported-formats\">Pelajari lebih lanjut tentang masing-masing format artikel</a>."
+
 #: wp-admin/edit-form-advanced.php:337
 msgid "<a href=\"https://wordpress.org/documentation/article/pages-screen/\">Documentation on Editing Pages</a>"
 msgstr "<a href=\"https://wordpress.org/documentation/article/pages-screen/\">Dokumentasi tentang Penyuntingan Laman</a>"
@@ -4163,15 +4396,15 @@ msgstr "Plugin ini gagal dimuat dengan sempurna dan dijeda selama mode pemulihan
 msgid "Go to the Themes screen"
 msgstr "Kunjungi panel Tema"
 
-#: wp-admin/includes/class-wp-debug-data.php:1734
+#: wp-admin/includes/class-wp-debug-data.php:1746
 msgid "Total size is not available. Some errors were encountered when determining the size of your installation."
 msgstr "Total ukuran tidak tersedia. Beberapa eror terjadi saat mendapatkan ukuran instalasi Anda."
 
-#: wp-admin/includes/class-wp-debug-data.php:1683
+#: wp-admin/includes/class-wp-debug-data.php:1695
 msgid "The size cannot be calculated. The directory is not accessible. Usually caused by invalid permissions."
 msgstr "Ukuran tidak dapat dihitung. Direktori tidak dapat diakses. Biasanya disebabkan oleh izin akses yang tidak valid."
 
-#: wp-admin/includes/class-wp-debug-data.php:1690
+#: wp-admin/includes/class-wp-debug-data.php:1702
 msgid "The directory size calculation has timed out. Usually caused by a very large number of sub-directories and files."
 msgstr "Penghitungan ukuran direktori telah kehabisan waktu.  Biasanya disebabkan oleh jumlah sub-direktori dan file yang sangat besar."
 
@@ -4884,7 +5117,7 @@ msgstr "Nomor versi ImageMagick"
 #: wp-admin/includes/class-wp-debug-data.php:521
 #: wp-admin/includes/class-wp-debug-data.php:543
 #: wp-admin/includes/class-wp-debug-data.php:560
-#: wp-admin/includes/class-wp-debug-data.php:1718 wp-admin/includes/ms.php:803
+#: wp-admin/includes/class-wp-debug-data.php:1730 wp-admin/includes/ms.php:803
 msgid "Not available"
 msgstr "Tidak tersedia"
 
@@ -5308,7 +5541,7 @@ msgstr "Plugin ini tidak berfungsi dengan versi WordPress dan PHP Anda."
 
 #. translators: %s: WordPress version number.
 #. translators: %s: WordPress version.
-#: wp-admin/about.php:255 wp-admin/includes/update.php:324
+#: wp-admin/about.php:280 wp-admin/includes/update.php:324
 #: wp-admin/index.php:119 wp-admin/install.php:249 wp-admin/update-core.php:94
 #: wp-admin/upgrade.php:81
 msgid "https://wordpress.org/documentation/wordpress-version/version-%s/"
@@ -6713,7 +6946,7 @@ msgstr "Maaf, Anda tidak diizinkan menghapus pengguna."
 msgid "Sorry, you are not allowed to create users."
 msgstr "Maaf, Anda tidak diizinkan membuat pengguna."
 
-#: wp-admin/customize.php:270
+#: wp-admin/customize.php:272
 msgctxt "short (~12 characters) label for hide controls button"
 msgid "Hide Controls"
 msgstr "Tutup Kontrol"
@@ -6787,7 +7020,7 @@ msgstr "Maaf, Anda tidak diizinkan melampirkan berkas ke pos ini."
 msgid "https://wordpress.org/plugins/"
 msgstr "https://wordpress.org/plugins/"
 
-#: wp-admin/customize.php:250
+#: wp-admin/customize.php:252
 msgid "The Customizer allows you to preview changes to your site before publishing them. You can navigate to different pages on your site within the preview. Edit shortcuts are shown for some editable elements. The Customizer is intended for use with non-block themes."
 msgstr "Customizer memungkinkan Anda mempratinjau perubahan di situs Anda sebelum memublikasikannya. Anda dapat berpindah ke laman lainnya di situs Anda saat mempratinjau. Menu pintasan Edit terdapat di beberapa elemen yang dapat diedit. Customizer dapat digunakan bersamaan dengan tema non-blok."
 
@@ -7157,7 +7390,7 @@ msgid "You can filter the list of posts by post status using the text links abov
 msgstr "Anda bisa menyaring daftar pos berdasarkan status pos menggunakan tautan teks di atas daftar pos untuk hanya menampilkan pos-pos dengan status tertentu. Tampilan bawaan adalah menampilkan semua pos."
 
 #. translators: Hidden accessibility text.
-#: wp-admin/customize.php:215
+#: wp-admin/customize.php:217
 msgid "Close the Customizer and go back to the previous page"
 msgstr "Tutup Customizer dan kembali ke laman sebelumnya"
 
@@ -7612,7 +7845,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Saat ini diletakkan di: %s)"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:303
+#: wp-admin/about.php:328
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Versi %s</strong> mengatasi sebuah masalah keamanan."
 
@@ -7624,15 +7857,15 @@ msgstr "https://en.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Foto Profil"
 
-#: wp-admin/about.php:300
+#: wp-admin/about.php:46 wp-admin/about.php:325
 msgid "Maintenance and Security Releases"
 msgstr "Rilis Pemeliharaan dan Keamanan"
 
-#: wp-admin/about.php:297
+#: wp-admin/about.php:322
 msgid "Security Releases"
 msgstr "Rilis Keamanan"
 
-#: wp-admin/about.php:294
+#: wp-admin/about.php:319
 msgid "Maintenance Releases"
 msgstr "Rilis Pemeliharaan"
 
@@ -7668,6 +7901,11 @@ msgstr "Tidak perlu khawatir jika proses pembuatan file otomatis gagal disebabka
 #: wp-admin/options-media.php:143
 msgid "Default is %s"
 msgstr "Bawaannya adalah %s"
+
+#. translators: 1: .po, 2: .mo, 3: .l10n.php
+#: wp-admin/includes/class-language-pack-upgrader.php:359
+msgid "The language pack is missing either the %1$s, %2$s, or %3$s files."
+msgstr "Paket bahasa ini tidak memiliki berkas %1$s, %2$s, atau %3$s."
 
 #. translators: %s: style.css
 #: wp-admin/includes/class-theme-upgrader.php:613
@@ -9768,7 +10006,7 @@ msgstr "Paket ini tidak memiliki berkas apapun."
 msgid "To navigate between revisions, <strong>drag the slider handle left or right</strong> or <strong>use the Previous or Next buttons</strong>."
 msgstr "Untuk menelusuri revisi-revisi, <strong>tarik tuas slider ke kanan atau ke kiri</strong> atau <strong>klik tombol Sebelumnya atau Berikutnya</strong>."
 
-#: wp-admin/customize.php:153 wp-admin/includes/class-wp-debug-data.php:453
+#: wp-admin/customize.php:155 wp-admin/includes/class-wp-debug-data.php:453
 #: wp-admin/includes/dashboard.php:1172
 msgid "Loading&hellip;"
 msgstr "Memuat&hellip;"
@@ -10964,13 +11202,13 @@ msgstr "Tampilkan Baris Perkakas ketika mengunjungi situs"
 
 #. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:63 wp-admin/about.php:326
+#: wp-admin/about.php:63 wp-admin/about.php:88 wp-admin/about.php:351
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Untuk informasi lebih lanjut, lihatlah <a href=\"%s\">catatan rilis</a>."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:320
+#: wp-admin/about.php:345
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Versi %1$s</strong> memperbaiki beberapa masalah keamanan dan %2$s bug."
@@ -10978,33 +11216,33 @@ msgstr[1] "<strong>Versi %1$s</strong> memperbaiki beberapa masalah keamanan dan
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:314
+#: wp-admin/about.php:339
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Versi %1$s</strong> telah memperbaiki masalah keamanan dan memperbaiki %2$s bug."
 msgstr[1] "<strong>Versi %1$s</strong> telah memperbaiki masalah keamanan dan memperbaiki %2$s bug."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:51 wp-admin/about.php:308
+#: wp-admin/about.php:51 wp-admin/about.php:76 wp-admin/about.php:333
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Versi %1$s</strong> mengatasi %2$s bug."
 msgstr[1] "<strong>Versi %1$s</strong> mengatasi %2$s bug."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:305
+#: wp-admin/about.php:330
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Versi %s</strong> mengatasi sejumlah isu keamanan."
 
-#: wp-admin/about.php:46 wp-admin/about.php:299
+#: wp-admin/about.php:324
 msgid "Maintenance and Security Release"
 msgstr "Rilis Perawatan dan Perbaikan Keamanan"
 
-#: wp-admin/about.php:296
+#: wp-admin/about.php:321
 msgid "Security Release"
 msgstr "Rilis Perbaikan Keamanan"
 
-#: wp-admin/about.php:293
+#: wp-admin/about.php:318
 msgid "Maintenance Release"
 msgstr "Rilis Perawatan"
 
@@ -11278,15 +11516,15 @@ msgid "Because this is a multisite installation, you may add accounts that alrea
 msgstr "Karena ini adalah instalasi multi-situs, Anda dapat menambahkan akun-akun yang telah ada pada Jaringan dengan menyebutkan sebuah nama pengguna atau email, dan mendefinisikan sebuah peran. Untuk pilihan lebih lanjut, seperti menentukan kata sandi, Anda haruslah seorang Administrator Jaringan dan gunakan taut layangan di bawah nama pengguna yang telah ada untuk Menyunting riwayat pengguna tersebut di bawah Admin Jaringan > Semua Pengguna."
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:81
+#: wp-admin/about.php:106
 msgid "Welcome to WordPress %s"
 msgstr "Selamat Datang di WordPress %s"
 
-#: wp-admin/about.php:280
+#: wp-admin/about.php:305
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Pergi ke Dasbor &rarr; Beranda"
 
-#: wp-admin/about.php:273
+#: wp-admin/about.php:298
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "Pergi ke Dasbor &rarr; Pembaruan"
 
@@ -12256,6 +12494,10 @@ msgstr "Jika Anda memilih selain Bawaan, jalur URL umum Anda dengan tag struktur
 msgid "If you want to remove the widget but save its setting for possible future use, just drag it into the Inactive Widgets area. You can add them back anytime from there. This is especially helpful when you switch to a theme with fewer or different widget areas."
 msgstr "Jika Anda ingin menyingkirkan widget namun menyimpan pengaturannya untuk digunakan di kemudian hari, seret widget tersebut ke area Widgets Nonaktif. Anda dapat menambahkannya kembali kapan saja dari sana. Hal ini sangat berguna ketika Anda menukar ke tema dengan daerah widget yang lebih sedikit atau berbeda."
 
+#: wp-admin/users.php:36
+msgid "To add a new user for your site, click the Add New User button at the top of the screen or Add New User in the Users menu section."
+msgstr "Untuk menambahkan pengguna baru ke situs Anda, klik tombol Tambah Pengguna Baru di bagian atas layar atau Tambah Pengguna Baru di bagian menu Pengguna."
+
 #: wp-admin/options-media.php:20
 msgid "You can set maximum sizes for images inserted into your written content; you can also insert an image as Full Size."
 msgstr "Anda dapat menyetel ukuran maksimum untuk gambar yang disisipkan ke dalam konten tertulis Anda; Anda juga dapat menyisipkan gambar Ukuran Penuh."
@@ -13021,7 +13263,7 @@ msgstr "Pembaruan WordPress "
 msgid "Edit menu item"
 msgstr "Edit item menu"
 
-#: wp-admin/about.php:280
+#: wp-admin/about.php:305
 msgid "Go to Dashboard"
 msgstr "Kunjungi Dasbor"
 

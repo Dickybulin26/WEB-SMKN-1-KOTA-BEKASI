@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/x-icon" href="http://localhost/wp-smkn1-web/wordpress/wp-content/uploads/2023/09/smkn-1-kota-bekasi.png">
     <link rel="icon" type="image/x-icon" href="http://localhost/wordpress/wp-content/uploads/2023/08/smkn-1-kota-bekasi.png">
+    <?php wp_head(); ?>
 </head>
 <style src="<?php echo get_theme_file_uri('style.css'); ?>"></style>
 
